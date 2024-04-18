@@ -1,2 +1,7 @@
-# Arma-3-Mods
-Collection of Arma 3 modification config and pbos.
+## Arma 3 Modifications
+Collection of Arma 3 modifications config and pbo files.
+
+Arma 3 Local Mod Folder Structure:
+@mod_name/addons/mod_name.pbo
+
+Pack the cpp & hpp files into pbo inside the addons folder

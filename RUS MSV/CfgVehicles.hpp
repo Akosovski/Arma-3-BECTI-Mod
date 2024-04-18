@@ -176,8 +176,9 @@ class CfgVehicles {
         };
     };
 
+// ----------------------------------------------------------------
 
-    class rifleman_ak12 : rhs_msv_emr_rifleman_OCimport_02 {
+    class ru_msv_rifleman_ak12 : rhs_msv_emr_rifleman_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -217,7 +218,7 @@ class CfgVehicles {
 
     };
 
-    class rifleman_ak74m : rifleman_ak12 {
+    class ru_msv_rifleman_ak74m : ru_msv_rifleman_ak12 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -255,7 +256,7 @@ class CfgVehicles {
 
     };
 
-    class rifleman_akm : rifleman_ak74m {
+    class ru_msv_rifleman_akm : ru_msv_rifleman_ak74m {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -293,7 +294,7 @@ class CfgVehicles {
 
     };
 
-    class sergeant : rifleman_akm {
+    class ru_msv_sergeant : ru_msv_rifleman_akm {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -331,7 +332,7 @@ class CfgVehicles {
 
     };
 
-    class crewman : sergeant {
+    class ru_msv_crewman : ru_msv_sergeant {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -369,7 +370,7 @@ class CfgVehicles {
 
     };
 
-    class tank_crewman : crewman {
+    class ru_msv_tank_crewman : ru_msv_crewman {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -407,7 +408,7 @@ class CfgVehicles {
 
     };
 
-    class efreitor : sergeant {
+    class ru_msv_efreitor : ru_msv_sergeant {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -445,7 +446,7 @@ class CfgVehicles {
 
     };
 
-    class machinegunner : efreitor {
+    class ru_msv_machinegunner : ru_msv_efreitor {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -485,7 +486,7 @@ class CfgVehicles {
 
     };
 
-    class marksman : machinegunner {
+    class ru_msv_marksman : ru_msv_machinegunner {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -523,7 +524,7 @@ class CfgVehicles {
 
     };
 
-    class engineer : efreitor {
+    class ru_msv_engineer : ru_msv_efreitor {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -563,7 +564,7 @@ class CfgVehicles {
 
     };
 
-    class medic : efreitor {
+    class ru_msv_medic : ru_msv_efreitor {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -603,7 +604,7 @@ class CfgVehicles {
 
     };
 
-    class grenadier_rpg : rifleman_akm {
+    class ru_msv_grenadier_rpg : ru_msv_rifleman_akm {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -643,7 +644,7 @@ class CfgVehicles {
 
     };
 
-    class aa_specialist : grenadier_rpg {
+    class ru_msv_aa_specialist : ru_msv_grenadier_rpg {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -681,7 +682,7 @@ class CfgVehicles {
 
     };
 
-    class at_specialist : aa_specialist {
+    class ru_msv_at_specialist : ru_msv_aa_specialist {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -721,7 +722,7 @@ class CfgVehicles {
 
     };
 
-    class officer : efreitor {
+    class ru_msv_officer : ru_msv_efreitor {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -759,7 +760,7 @@ class CfgVehicles {
 
     };
 
-    class worker : officer {
+    class ru_msv_worker : ru_msv_officer {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -797,7 +798,7 @@ class CfgVehicles {
 
     };
 
-    class btr80a : rhs_btr80a_msv_OCimport_02 {
+    class ru_msv_btr80a : rhs_btr80a_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -838,7 +839,7 @@ class CfgVehicles {
 
     };
 
-    class btr70 : rhs_btr70_msv_OCimport_02 {
+    class ru_msv_btr70 : rhs_btr70_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -878,7 +879,7 @@ class CfgVehicles {
 
     };
 
-    class t72b_1989 : rhs_t72bc_tv_OCimport_02 {
+    class ru_msv_t72b_1989 : rhs_t72bc_tv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -908,7 +909,7 @@ class CfgVehicles {
 
     };
 
-    class t72b3_2012 : rhs_t72bd_tv_OCimport_02 {
+    class ru_msv_t72b3_2012 : rhs_t72bd_tv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -938,7 +939,7 @@ class CfgVehicles {
 
     };
 
-    class t80u : rhs_t80u_OCimport_02 {
+    class ru_msv_t80u : rhs_t80u_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -968,7 +969,7 @@ class CfgVehicles {
 
     };
 
-    class t80um : rhs_t80um_OCimport_02 {
+    class ru_msv_t80um : rhs_t80um_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -998,7 +999,7 @@ class CfgVehicles {
 
     };
 
-    class t90_1992 : rhs_t90_tv_OCimport_02 {
+    class ru_msv_t90_1992 : rhs_t90_tv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1028,7 +1029,7 @@ class CfgVehicles {
 
     };
 
-    class t90a_2006 : rhs_t90a_tv_OCimport_02 {
+    class ru_msv_t90a_2006 : rhs_t90a_tv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1058,7 +1059,7 @@ class CfgVehicles {
 
     };
 
-    class t90sm : rhs_t90sm_tv_OCimport_02 {
+    class ru_msv_t90sm : rhs_t90sm_tv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1088,7 +1089,7 @@ class CfgVehicles {
 
     };
 
-    class bmp1 : rhs_bmp1_msv_OCimport_02 {
+    class ru_msv_bmp1 : rhs_bmp1_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1129,7 +1130,7 @@ class CfgVehicles {
 
     };
 
-    class bmp2 : rhs_bmp2_msv_OCimport_02 {
+    class ru_msv_bmp2 : rhs_bmp2_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1169,7 +1170,7 @@ class CfgVehicles {
 
     };
 
-    class bmp3 : rhs_bmp3_late_msv_OCimport_02 {
+    class ru_msv_bmp3 : rhs_bmp3_late_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1201,7 +1202,7 @@ class CfgVehicles {
 
     };
 
-    class bmp3_vesna : rhs_bmp3mera_msv_OCimport_02 {
+    class ru_msv_bmp3_vesna : rhs_bmp3mera_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
