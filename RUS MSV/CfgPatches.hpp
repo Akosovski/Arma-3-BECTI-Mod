@@ -1,5 +1,5 @@
 class CfgPatches {
-    class AKO_RU_MSV_ {
+    class AKO_RU_MSV {
         units[] = {
             "ru_msv_rifleman_ak12",
             "ru_msv_rifleman_ak74m",
@@ -29,7 +29,22 @@ class CfgPatches {
             "ru_msv_bmp1",
             "ru_msv_bmp2",
             "ru_msv_bmp3",
-            "ru_msv_bmp3_vesna"
+            "ru_msv_bmp3_vesna",
+            "ru_msv_uaz",
+            "ru_msv_uaz_open",
+            "ru_msv_gaz_normal",
+            "ru_msv_gaz_armed",
+            "ru_msv_gaz_unarmed",
+            "ru_msv_ural_normal",
+            "ru_msv_ural_flatbed",
+            "ru_msv_ural_open",
+            "ru_msv_ural_open_flatbed",
+            "ru_msv_ural_fuel",
+            "ru_msv_ural_ammo",
+            "ru_msv_ural_aa",
+            "ru_msv_bm21",
+            "ru_msv_2s1",
+            "ru_msv_2s3m1"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -74,7 +89,21 @@ class CfgPatches {
             "rhs_c_sprut",
             "rhs_c_t14",
             "rhs_c_t15",
-            "rhs_c_tanks"
+            "rhs_c_tanks",
+            "rhs_c_a2port_car",
+            "A3_Soft_F_Offroad_01",
+            "rhs_c_cars",
+            "A3_Soft_F_MRAP_02",
+            "A3_Soft_F_Beta_Truck_01",
+            "A3_Soft_F_Beta_Truck_02",
+            "A3_Soft_F_Gamma_Truck_01",
+            "A3_Soft_F_Gamma_Van_01",
+            "A3_Soft_F_EPC_Truck_03",
+            "A3_Soft_F_Orange_Van_02",
+            "rhs_c_zil131",
+            "rhs_c_kamaz",
+            "rhs_c_kraz255",
+            "rhs_c_rva"
         };
         author = "Akosovski";
         authors[] = {"Akosovski"};

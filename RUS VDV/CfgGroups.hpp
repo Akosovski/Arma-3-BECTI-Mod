@@ -7,8 +7,8 @@
 class CfgGroups {
     class EAST {
 
-        class AKO_RU_MSV {
-            name = "Ako's Russia (MSV)";
+        class AKO_RU_VDV {
+            name = "Ako's Russia (VDV)";
 
             class Infantry {
                 name = "Infantry";

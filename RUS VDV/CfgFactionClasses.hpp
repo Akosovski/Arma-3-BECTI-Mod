@@ -5,11 +5,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class AKO_RU_MSV {
-        displayName = "Ako's Russia (MSV)";
+    class AKO_RU_VDV {
+        displayName = "Ako's Russia (VDV)";
         side = 0;
-        flag = "\a3\UI_F_Enoch\Data\CfgMarkers\Russia_CA.paa";
-        icon = "\a3\UI_F_Enoch\Data\CfgMarkers\Russia_CA.paa";
+        flag = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_vdv_CO.paa";
+        icon = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_vdv_CO.paa";
         priority = 0;
     };
 };
