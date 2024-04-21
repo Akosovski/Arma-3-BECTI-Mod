@@ -16,12 +16,12 @@ class CfgGroups {
             };
 
             class SpecOps {
-                name = "Special Forces";
+                name = "SpecOps";
 
             };
 
             class Motorized {
-                name = "Motorized Infantry";
+                name = "Motorized";
 
             };
 
@@ -31,17 +31,17 @@ class CfgGroups {
             };
 
             class Support {
-                name = "Support Infantry";
+                name = "Support";
 
             };
 
             class Mechanized {
-                name = "Mechanized Infantry";
+                name = "Mechanized";
 
             };
 
             class Armored {
-                name = "Armor";
+                name = "Armored";
 
             };
 
