@@ -531,6 +531,10 @@ _p = _p        + [5];
 _i = _i        + ["rhs_tr8_periscope_pip"];
 _u = _u        + [0];
 _p = _p        + [5]; 
+
+_i = _i        + ["rangefinder"];
+_u = _u        + [1];
+_p = _p        + [10]; 
  
 // --- Face Wear ---
  
@@ -859,11 +863,67 @@ _i = _i        + ["rhs_altyn_novisor"];
 _u = _u        + [2];
 _p = _p        + [15]; 
 
+_i = _i        + ["rhs_stsh81"];
+_u = _u        + [2];
+_p = _p        + [15]; 
+
+_i = _i        + ["rhs_zsh7a_mike_green"];
+_u = _u        + [1];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_zsh7a_mike_green_alt"];
+_u = _u        + [1];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_zsh7a"];
+_u = _u        + [1];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_zsh7a_alt"];
+_u = _u        + [1];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_6b48"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_tsh4"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_tsh4_ess"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_tsh4_ess_bala"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
 _i = _i        + ["rhs_beanie_green"];
 _u = _u        + [0];
 _p = _p        + [5]; 
 
-_i = _i        + ["rhs_beanie"];
+_i = _i        + ["rhs_fieldcap_digi"];
+_u = _u        + [0];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_fieldcap_digi2"];
+_u = _u        + [0];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_Booniehat_digi"];
+_u = _u        + [0];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_ushanka"];
+_u = _u        + [0];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_vkpo_cap"];
+_u = _u        + [0];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_vkpo_cap_alt"];
 _u = _u        + [0];
 _p = _p        + [5]; 
 
