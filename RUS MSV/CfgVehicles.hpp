@@ -9,6 +9,10 @@ class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
 
+    class RHS_Ural_Repair_MSV_01;
+    class RHS_Ural_Repair_MSV_01_OCimport_01 : RHS_Ural_Repair_MSV_01 { scope = 0; class EventHandlers; };
+    class RHS_Ural_Repair_MSV_01_OCimport_02 : RHS_Ural_Repair_MSV_01_OCimport_01 { scope = 0; class EventHandlers; };
+
     class rhs_msv_emr_rifleman;
     class rhs_msv_emr_rifleman_OCimport_01 : rhs_msv_emr_rifleman { scope = 0; class EventHandlers; };
     class rhs_msv_emr_rifleman_OCimport_02 : rhs_msv_emr_rifleman_OCimport_01 { class EventHandlers; };
@@ -299,6 +303,30 @@ class CfgVehicles {
         };
     };
 
+
+    class ru_msv_ural_repair : RHS_Ural_Repair_MSV_01_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV Ural-4320 (Repair)";
+        side = 0;
+        faction = "AKO_RU_MSV";
+        crew = "rhs_msv_driver";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
 
     class ru_msv_rifleman_ak12 : rhs_msv_emr_rifleman_OCimport_02 {
         author = "Akosovski";
@@ -1362,7 +1390,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV UAZ-3151";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
 
@@ -1386,7 +1414,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV UAZ-3151 (Open)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1419,7 +1447,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV GAZ-233011";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "rhs_msv_driver_armored";
 
         class Turrets : Turrets {
@@ -1449,7 +1477,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV GAZ-233014";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "rhs_msv_driver_armored";
 
         class Turrets : Turrets {
@@ -1479,7 +1507,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV GAZ-233114";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "rhs_msv_driver_armored";
 
         class Turrets : Turrets {
@@ -1508,7 +1536,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1538,7 +1566,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (Flatbed)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
 
@@ -1562,7 +1590,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (Open)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1594,7 +1622,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (Open/Flatbed)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
 
@@ -1618,7 +1646,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (Fuel)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
 
@@ -1642,7 +1670,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (Ammo)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
 
@@ -1666,7 +1694,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (ZU-23-2)";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1698,7 +1726,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV BM-21 Grad";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1727,7 +1755,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV 2S1";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1757,7 +1785,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV 2S3M1";
         side = 0;
-        faction = "AKO_RU_MSV";
+        faction = "ako_ru_msv";
         crew = "";
 
         class Turrets : Turrets {

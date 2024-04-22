@@ -7,7 +7,7 @@
 class CfgGroups {
     class Indep {
 
-        class AL_ADF {
+        class AKO_AL_ADF {
             name = "Ako's Altis (ADF)";
 
             class Infantry {

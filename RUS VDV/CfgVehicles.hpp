@@ -173,6 +173,19 @@ class CfgVehicles {
         };
     };
 
+    class rhs_mi28n_vvsc;
+    class rhs_mi28n_vvsc_OCimport_01 : rhs_mi28n_vvsc { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_mi28n_vvsc_OCimport_02 : rhs_mi28n_vvsc_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class RHS_Ural_Repair_MSV_01;
+    class RHS_Ural_Repair_MSV_01_OCimport_01 : RHS_Ural_Repair_MSV_01 { scope = 0; class EventHandlers; };
+    class RHS_Ural_Repair_MSV_01_OCimport_02 : RHS_Ural_Repair_MSV_01_OCimport_01 { scope = 0; class EventHandlers; };
+
 
     class ru_vdv_sergeant : rhs_vdv_rifleman_OCimport_02 {
         author = "Akosovski";
@@ -1020,7 +1033,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "VDV Mi-24V";
         side = 0;
-        faction = "AKO_RU_VDV";
+        faction = "ako_ru_vdv";
         crew = "";
 
         class Turrets : Turrets {
@@ -1029,6 +1042,35 @@ class CfgVehicles {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_mi28n : rhs_mi28n_vvsc_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV Mi-28N";
+        side = 0;
+        faction = "AKO_RU_VDV";
+        crew = "rhs_pilot_combat_heli";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
         };
 
 

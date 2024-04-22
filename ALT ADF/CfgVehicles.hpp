@@ -137,7 +137,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Sergeant";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -175,7 +175,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Rifleman";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -213,7 +213,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Officer";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -251,7 +251,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF AA Specialist";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -291,7 +291,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF AT Specialist";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -331,7 +331,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Corporal";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -371,7 +371,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Auto Rifleman";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -411,7 +411,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Crewman";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -449,7 +449,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF EOD Specialist";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -489,7 +489,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Engineer";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -529,7 +529,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Medic";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -569,7 +569,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Machine Gunner";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -609,7 +609,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF Marksman";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
 
         identityTypes[] = {"Head_Euro","LanguageCZ"};
 
@@ -649,7 +649,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF T-72B";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_crew";
 
         class Turrets : Turrets {
@@ -678,7 +678,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF T-80U";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_crew";
 
         class Turrets : Turrets {
@@ -707,7 +707,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF GAZ-66 (AA)";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_rifleman";
 
         class Turrets : Turrets {
@@ -738,7 +738,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF UAZ-3151 (DShKM)";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_rifleman";
 
         class Turrets : Turrets {
@@ -768,7 +768,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF UAZ-3151 (AGS-30)";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_rifleman";
 
         class Turrets : Turrets {
@@ -798,7 +798,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF UAZ-3151 (SPG-9)";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_rifleman";
 
         class Turrets : Turrets {
@@ -828,7 +828,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF BTR-70";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_crew";
 
         class Turrets : Turrets {
@@ -867,7 +867,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF BMP-2";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_crew";
 
         class Turrets : Turrets {
@@ -906,7 +906,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ADF BMP-1";
         side = 2;
-        faction = "al_adf";
+        faction = "AKO_AL_ADF";
         crew = "rhsgref_cdf_reg_crew";
 
         class Turrets : Turrets {

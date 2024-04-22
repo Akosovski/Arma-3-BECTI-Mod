@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class AL_ADF {
+    class AKO_AL_ADF {
         displayName = "Ako's Altis (ADF)";
         side = 2;
         flag = "\A3\ui_f\data\map\markers\flags\Altis_ca.paa";
