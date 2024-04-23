@@ -95,6 +95,38 @@ _i = _i        + ["CUP_arifle_AK74M_railed_afg"];
 _u = _u        + [1];
 _p = _p        + [30];
 
+_i = _i        + ["CUP_arifle_AK103"];
+_u = _u        + [0];
+_p = _p        + [20];
+
+_i = _i        + ["CUP_arifle_AK103_railed"];
+_u = _u        + [1];
+_p = _p        + [20];
+
+_i = _i        + ["CUP_arifle_AK103_GL"];
+_u = _u        + [0];
+_p = _p        + [25];
+
+_i = _i        + ["CUP_arifle_AK103_GL_railed"];
+_u = _u        + [1];
+_p = _p        + [25];
+
+_i = _i        + ["CUP_arifle_AK104"];
+_u = _u        + [1];
+_p = _p        + [25];
+
+_i = _i        + ["CUP_arifle_AK104_railed"];
+_u = _u        + [2];
+_p = _p        + [30];
+
+_i = _i        + ["CUP_arifle_AK105"];
+_u = _u        + [1];
+_p = _p        + [25];
+
+_i = _i        + ["CUP_arifle_AK105_railed"];
+_u = _u        + [1];
+_p = _p        + [30];
+
 _i = _i        + ["CUP_arifle_AK12_black"];
 _u = _u        + [1];
 _p = _p        + [30];
@@ -111,6 +143,22 @@ _i = _i        + ["CUP_arifle_AK12_GP34_black"];
 _u = _u        + [1];
 _p = _p        + [40];
 
+_i = _i        + ["CUP_arifle_AK15_black"];
+_u = _u        + [1];
+_p = _p        + [30];
+
+_i = _i        + ["CUP_arifle_AK15_AFG_black"];
+_u = _u        + [2];
+_p = _p        + [35];
+
+_i = _i        + ["CUP_arifle_AK15_VG_black"];
+_u = _u        + [2];
+_p = _p        + [35];
+
+_i = _i        + ["CUP_arifle_AK15_GP34_black"];
+_u = _u        + [1];
+_p = _p        + [40];
+
 _i = _i        + ["CUP_arifle_AS_VAL"];
 _u = _u        + [2];
 _p = _p        + [40];
@@ -118,6 +166,18 @@ _p = _p        + [40];
 _i = _i        + ["CUP_arifle_AS_VAL_VFG"];
 _u = _u        + [3];
 _p = _p        + [45];
+
+_i = _i        + ["CUP_arifle_OTS14_GROZA_762_Grip"];
+_u = _u        + [3];
+_p = _p        + [40];
+
+_i = _i        + ["CUP_arifle_OTS14_GROZA_762_GL"];
+_u = _u        + [3];
+_p = _p        + [45];
+
+_i = _i        + ["CUP_arifle_AS_VAL"];
+_u = _u        + [3];
+_p = _p        + [40];
  
 _i = _i        + ["CUP_lmg_PKM"];
 _u = _u        + [1];
@@ -142,6 +202,14 @@ _p = _p        + [55];
 _i = _i        + ["CUP_arifle_RPK74M_railed"];
 _u = _u        + [3];
 _p = _p        + [65];
+
+_i = _i        + ["CUP_sgun_Saiga12K"];
+_u = _u        + [2];
+_p = _p        + [35];
+
+_i = _i        + ["CUP_sgun_Saiga12K_top_rail"];
+_u = _u        + [3];
+_p = _p        + [40];
  
 // --- Launchers ---
  
@@ -248,8 +316,8 @@ _p = _p        + [7];
 // --- Magazines / Munitions ---
 
 _i = _i        + ["rhs_mag_9k38_rocket"];
-_u = _u        + [0];
-_p = _p        + [20];
+_u = _u        + [2];
+_p = _p        + [30];
  
 _i = _i        + ["rhs_rpg7_PG7V_mag"];
 _u = _u        + [0];
@@ -262,22 +330,22 @@ _p = _p        + [10];
 _i = _i        + ["rhs_rpg7_PG7VR_mag"];
 _u = _u        + [0];
 _p = _p        + [10];
- 
-_i = _i        + ["rhs_rpg7_OG7V_mag"];
-_u = _u        + [0];
-_p = _p        + [8];
- 
+
 _i = _i        + ["rhs_rpg7_TBG7V_mag"];
 _u = _u        + [0];
 _p = _p        + [10];
  
+_i = _i        + ["rhs_rpg7_OG7V_mag"];
+_u = _u        + [1];
+_p = _p        + [8];
+ 
 _i = _i        + ["rhs_rpg7_type69_airburst_mag"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
 
 _i = _i        + ["Vorona_HEAT"];
-_u = _u        + [0];
-_p = _p        + [20];
+_u = _u        + [2];
+_p = _p        + [25];
 
 _i = _i        + ["CUP_30Rnd_545x39_AK74M_M"];
 _u = _u        + [0];
@@ -296,7 +364,11 @@ _u = _u        + [1];
 _p = _p        + [3];
  
 _i = _i        + ["CUP_30Rnd_545x39_AK12_M"];
-_u = _u        + [0];
+_u = _u        + [1];
+_p = _p        + [3];
+
+_i = _i        + ["CUP_30Rnd_762x39_AK15_M"];
+_u = _u        + [1];
 _p = _p        + [3];
 
 _i = _i        + ["CUP_30Rnd_762x39_AK47_bakelite_M"];
@@ -312,31 +384,55 @@ _u = _u        + [0];
 _p = _p        + [3];
  
 _i = _i        + ["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [5];
 
 _i = _i        + ["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Red_M"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [5];
 
 _i = _i        + ["CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [4];
 
 _i = _i        + ["CUP_10Rnd_762x54_SVD_M"];
 _u = _u        + [1];
 _p = _p        + [2];
 
+_i = _i        + ["CUP_5Rnd_B_Saiga12_Slug"];
+_u = _u        + [2];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_5Rnd_B_Saiga12_Buck_00"];
+_u = _u        + [2];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_5Rnd_B_Saiga12_HE"];
+_u = _u        + [2];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_12Rnd_B_Saiga12_Slug"];
+_u = _u        + [3];
+_p = _p        + [5];
+
+_i = _i        + ["CUP_12Rnd_B_Saiga12_Buck_00"];
+_u = _u        + [3];
+_p = _p        + [5];
+
+_i = _i        + ["CUP_12Rnd_B_Saiga12_HE"];
+_u = _u        + [3];
+_p = _p        + [5];
+
 _i = _i        + ["CUP_30Rnd_9x39_SP5_VIKHR_M"];
-_u = _u        + [0];
+_u = _u        + [3];
 _p = _p        + [4];
 
 _i = _i        + ["CUP_20Rnd_9x39_SP5_VSS_M"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [3];
 
 _i = _i        + ["CUP_10Rnd_9x39_SP5_VSS_M"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [2];
 
 _i = _i        + ["CUP_16Rnd_9x19_cz75"];
@@ -350,35 +446,60 @@ _p = _p        + [2];
 _i = _i        + ["CUP_8Rnd_762x25_TT"];
 _u = _u        + [0];
 _p = _p        + [2];
+
+_i = _i        + ["CUP_1Rnd_HE_GP25_M"];
+_u = _u        + [0];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_1Rnd_SMOKE_GP25_M"];
+_u = _u        + [0];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_1Rnd_SmokeRed_GP25_M"];
+_u = _u        + [0];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_1Rnd_SmokeGreen_GP25_M"];
+_u = _u        + [0];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_1Rnd_FlareGreen_GP25_M"];
+_u = _u        + [1];
+_p = _p        + [2];
+
+_i = _i        + ["CUP_1Rnd_FlareRed_GP25_M"];
+_u = _u        + [1];
+_p = _p        + [2];
  
-//Uniforms
+ 
+// --- Uniforms ---
  
 _i = _i        + ["rhs_uniform_emr_patchless"];
 _u = _u        + [0];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_vkpo"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_vkpo_gloves"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_6sh122_v1"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_6sh122_gloves_v1"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_6sh122_v2"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_6sh122_gloves_v2"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [10];
  
 _i = _i        + ["rhs_uniform_gorka_r_g_gloves"];
@@ -398,14 +519,10 @@ _u = _u        + [2];
 _p = _p        + [15];
  
 _i = _i        + ["rhs_uniform_df15_tan"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
  
 // --- Backpacks ---
-
-_i = _i        + ["rhs_rd54_vest_emr1"];
-_u = _u        + [0];
-_p = _p        + [10];
 
 _i = _i        + ["rhs_rd54_emr1"];
 _u = _u        + [0];
@@ -444,7 +561,7 @@ _u = _u        + [0];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_d6_Parachute_backpack"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
  
 _i = _i        + ["RHS_Podnos_Bipod_Bag"];
