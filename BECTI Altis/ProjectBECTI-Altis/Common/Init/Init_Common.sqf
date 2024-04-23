@@ -159,6 +159,6 @@ missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 	["rhsusf_lwh_helmet_marpatwd_headset_blk",""],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-	[["rhs_weap_ak74m",["rhs_acc_dtk","","","rhs_acc_pkas"],["rhs_30Rnd_545x39_7N22_AK"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_vkpo_gloves",["firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_mag_rgo","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
-	["rhs_6b47_6B50","rhs_facewear_6m2_1"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["CUP_arifle_ak74m_GL",["rhs_acc_dtk","","","rhs_acc_pkas"],["CUP_30Rnd_545x39_AK74_plum_M"]],["",[],[""]],["",[],[]]],
+	[["rhs_uniform_emr_patchless",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M"]],["",[""]]],
+	["rhs_6b7_1m_emr_ess","rhs_facewear_6m2_1"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];

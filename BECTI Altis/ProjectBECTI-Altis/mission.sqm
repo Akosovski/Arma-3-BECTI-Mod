@@ -285,7 +285,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=689;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -360,7 +360,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=242;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=-0.00018882751;
 				};
 			};
@@ -395,7 +395,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=243;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.00061130524;
 				};
 			};
@@ -430,7 +430,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=244;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.0001373291;
 				};
 			};
@@ -465,7 +465,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=245;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=3.8146973e-006;
 				};
 			};
@@ -500,7 +500,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=246;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=9.5367432e-007;
 				};
 			};
@@ -535,7 +535,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=247;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.0005106926;
 				};
 			};
@@ -570,7 +570,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=248;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.00050497055;
 				};
 			};
@@ -605,7 +605,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=249;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=3.8146973e-006;
 				};
 			};
@@ -640,7 +640,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=250;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.17740154;
 				};
 			};
@@ -675,7 +675,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=251;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=5.7220459e-006;
 				};
 			};
@@ -710,7 +710,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=252;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=6.6757202e-006;
 				};
 			};
@@ -745,7 +745,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=253;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.00019645691;
 				};
 			};
@@ -780,7 +780,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=254;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=3.8146973e-006;
 				};
 			};
@@ -815,7 +815,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=255;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=2.8610229e-006;
 				};
 			};
@@ -850,7 +850,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=256;
-					type="rhs_vdv_sergeant";
+					type="ru_msv_sergeant";
 					atlOffset=0.00051116943;
 				};
 			};
