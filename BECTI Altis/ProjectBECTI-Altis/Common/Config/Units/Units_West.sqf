@@ -295,15 +295,6 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_m1152a1_rsv'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [220];
-_t = _t + [20];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
-
 _c = _c + ['us_usmc_m1151a1'];
 _p = _p + [''];
 _n = _n + [''];
@@ -578,6 +569,15 @@ _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-fueltruck"];
 
 //--- Support Vehicles Ammo ---
+
+_c = _c + ['us_usmc_m1152a1_rsv'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [250];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-ammotruck"];
 
 _c = _c + ['us_usmc_m977a4_ammo'];
 _p = _p + [''];

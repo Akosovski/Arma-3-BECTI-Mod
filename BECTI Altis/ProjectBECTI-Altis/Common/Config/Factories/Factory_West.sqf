@@ -65,7 +65,6 @@ _u = _u		+ ["us_usmc_m1151a1"];
 _u = _u		+ ["us_usmc_m1151a1_m240"];
 _u = _u		+ ["us_usmc_m1151a1_m2"];
 _u = _u		+ ["us_usmc_m1151a1_mk19"];
-_u = _u		+ ["us_usmc_m1152a1_rsv"];
 _u = _u		+ ["us_usmc_m1126_m2"];
 _u = _u		+ ["us_usmc_m1126_mk19"];
 _u = _u		+ ["us_usmc_m1134_aa"];
@@ -113,6 +112,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["us_usmc_m977a4_ammo"];
 _u = _u		+ ["us_usmc_m113a3_ammo"];
+_u = _u		+ ["us_usmc_m1152a1_rsv"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
