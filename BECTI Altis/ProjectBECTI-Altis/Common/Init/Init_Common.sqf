@@ -154,8 +154,8 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 //--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-	[["rhs_weap_m4a1_carryhandle",["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_grip3","rhsusf_acc_ACOG_RMR"],["rhs_mag_30Rnd_556x45_M855A1_Stanag"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_FROG01_wd",["firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
+	[["JCA_arifle_M4A1_black_F",["","rhsusf_acc_anpeq15_bk","","rhsusf_acc_ACOG_RMR"],["30Rnd_556x45_Stanag"]],["",[],[""]],["",[],[]]],
+	[["rhs_uniform_FROG01_wd",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
 	["rhsusf_lwh_helmet_marpatwd_headset_blk",""],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [

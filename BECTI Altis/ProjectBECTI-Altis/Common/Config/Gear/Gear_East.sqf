@@ -45,6 +45,7 @@ _i = _i		+ ["Laserbatteries"];
 _u = _u		+ [3];
 _p = _p		+ [30];
 
+
 // --- Rifles ---
 
 _i = _i        + ["CUP_arifle_AKM_early"];
@@ -559,6 +560,8 @@ _p = _p        + [10];
 _i = _i        + ["rhs_d6_Parachute_backpack"];
 _u = _u        + [1];
 _p = _p        + [10];
+
+//--- Weapon Backpacks ---
  
 _i = _i        + ["RHS_Podnos_Bipod_Bag"];
 _u = _u        + [1];
@@ -628,20 +631,6 @@ _i = _i        + ["RHS_NSV_Gun_Bag"];
 _u = _u        + [1];
 _p = _p        + [30]; 
  
-// --- Misc NVG and Binos ---
- 
-_i = _i        + ["rhs_1PN138"];
-_u = _u        + [0];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_pdu4"];
-_u = _u        + [0];
-_p = _p        + [10]; 
-
-_i = _i        + ["rangefinder"];
-_u = _u        + [1];
-_p = _p        + [10]; 
- 
 // --- Face Wear ---
  
 _i = _i        + ["rhs_facewear_6m2_1"];
@@ -652,7 +641,19 @@ _i = _i        + ["rhs_facewear_6m2"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
-_i = _i        + ["rhs_scarf"];
+_i = _i        + ["g_Bandanna_khk"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["g_Bandanna_blk"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["g_Bandanna_oli"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["g_Bandanna_tan"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
@@ -664,12 +665,7 @@ _i = _i        + ["rhs_balaclava1_olive"];
 _u = _u        + [0];
 _p = _p        + [3];
  
-// --- Grenades Throwables Consumables ---
- 
- 
-_i = _i        + ["FirstAidKit"];
-_u = _u        + [0];
-_p = _p        + [3]; 
+// --- Grenades Throwables ---
 
 _i = _i        + ["rhs_mag_nspd"];
 _u = _u        + [0];
@@ -746,24 +742,24 @@ _u = _u        + [0];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6b13_EMR"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6b13_EMR_6sh92"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6b13_EMR_6sh92_radio"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_6b13_EMR_6sh92_vog"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6b13_EMR_6sh92_headset_mapcase"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_u = _u        + [1];
+_p = _p        + [10]; t
 
 _i = _i        + ["rhs_6sh117_nco"];
 _u = _u        + [3];
@@ -798,23 +794,23 @@ _u = _u        + [3];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6sh92_digi"];
-_u = _u        + [1];
+_u = _u        + [2];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6sh92_digi_headset"];
-_u = _u        + [1];
+_u = _u        + [2];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_6sh92_digi_radio"];
-_u = _u        + [1];
+_u = _u        + [2];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6sh92_digi_vog"];
-_u = _u        + [1];
+_u = _u        + [2];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6sh92_digi_vog_headset"];
-_u = _u        + [1];
+_u = _u        + [2];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_vydra_3m"];
@@ -828,10 +824,12 @@ _p = _p        + [10];
 _i = _i        + ["rhs_vest_commander"];
 _u = _u        + [0];
 _p = _p        + [10]; 
- 
+
+_i = _i        + ["V_TacVestIR_blk"];
+_u = _u        + [1];
+_p = _p        + [10]; 
 
 // --- Helmets ---
- 
 
 _i = _i        + ["rhs_6b47"];
 _u = _u        + [2];
@@ -1022,7 +1020,15 @@ _u = _u        + [2];
 _p = _p        + [5]; 
 
 
-//--- Items ---
+// --- Misc NVG and Binos ---
+ 
+_i = _i     + ["CUP_NVG_1PN138"];
+_u = _u     + [0];
+_p = _p     + [10]; 
+
+_i = _i     + ["rhs_pdu4"];
+_u = _u     + [0];
+_p = _p     + [10]; 
 
 _i = _i		+ ["Binocular"];
 _u = _u		+ [0];
@@ -1032,9 +1038,9 @@ _i = _i		+ ["Rangefinder"];
 _u = _u		+ [1];
 _p = _p		+ [35];
 
-_i = _i		+ ["Laserdesignator_02"];
+_i = _i		+ ["Laserdesignator_03"];
 _u = _u		+ [3];
-_p = _p		+ [250];
+_p = _p		+ [150];
 
 _i = _i		+ ["ItemGPS"];
 _u = _u		+ [0];
@@ -1056,21 +1062,22 @@ _i = _i		+ ["itemwatch"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+_i = _i		+ ["Minedetector"];
+_u = _u		+ [0];
+_p = _p		+ [25];
+
+_i = _i     + ["FirstAidKit"];
+_u = _u     + [0];
+_p = _p     + [3]; 
+
 _i = _i		+ ["Toolkit"];
 _u = _u		+ [0];
 _p = _p		+ [100];
-
-_i = _i		+ ["FirstAidKit"];
-_u = _u		+ [0];
-_p = _p		+ [50];
 
 _i = _i		+ ["Medikit"];
 _u = _u		+ [0];
 _p = _p		+ [100];
 
-_i = _i		+ ["Minedetector"];
-_u = _u		+ [0];
-_p = _p		+ [25];
 
 //--- ADDONS
 if (isClass(configFile >> "CfgPatches" >> "ace_main")) then 

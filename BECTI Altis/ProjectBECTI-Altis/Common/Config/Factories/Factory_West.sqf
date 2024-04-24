@@ -2,154 +2,118 @@ private ["_side", "_u"];
 
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Commander", _side], "rhsusf_usmc_marpat_wd_officer"];
-missionNamespace setVariable [format["CTI_%1_Worker", _side], "rhsusf_usmc_marpat_wd_crewman"];
+missionNamespace setVariable [format["CTI_%1_Commander", _side], "us_usmc_officer"];
+missionNamespace setVariable [format["CTI_%1_Worker", _side], "us_usmc_worker"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_diver_f"];
-missionNamespace setVariable [format["CTI_%1_Soldier", _side], "rhsusf_usmc_marpat_wd_rifleman"];
-missionNamespace setVariable [format["CTI_%1_Crew", _side], "rhsusf_usmc_marpat_wd_crewman"];
-missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhsusf_usmc_marpat_wd_helipilot"];
+missionNamespace setVariable [format["CTI_%1_Soldier", _side], "us_usmc_rifleman_m4a1"];
+missionNamespace setVariable [format["CTI_%1_Crew", _side], "us_usmc_crewman"];
+missionNamespace setVariable [format["CTI_%1_Pilot", _side], "us_usmc_heli_pilot"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
 missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["rhsusf_M1151_mk19crows_usmc_wd", [
-		["rhs_weap_m4a1_carryhandle", 2], ["30Rnd_556x45_Stanag", 50],
-		["rhs_weap_m4a1_carryhandle_pmag", 1], ["rhs_weap_M136", 8],
+	["us_usmc_m1151a1_crows_m2", [
+		["JCA_arifle_M4A1_black_F", 3], ["30Rnd_556x45_Stanag", 30], 
+		["rhsusf_acc_ACOG3", 3],
+		["rhs_weap_M136", 8],
 		["HandGrenade", 20], 
-		["firstaidkit", 20],
-		["optic_MRCO", 1],
-		["acc_flashlight", 5],
-		["optic_Holosight", 2]
+		["firstaidkit", 20]
 	]], 
-	["rhsusf_M1151_m2crows_usmc_wd", [
-		["rhs_weap_m4a1_carryhandle", 2], ["30Rnd_556x45_Stanag", 50],
-		["rhs_weap_m4a1_carryhandle_pmag", 1], ["rhs_weap_M136", 3],
-		["HandGrenade", 10], 
-		["firstaidkit", 20],
-		["optic_MRCO", 1]
+	["us_usmc_m1151a1_crows_mk19", [
+		["JCA_arifle_M4A1_black_F", 3], ["30Rnd_556x45_Stanag", 30], 
+		["rhsusf_acc_ACOG3", 3],
+		["rhs_weap_M136", 8],
+		["HandGrenade", 20], 
+		["firstaidkit", 20]
 	]]
 ]];
 
 //--- Units - Barracks
-_u 			= ["rhsusf_usmc_marpat_wd_rifleman"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_rifleman_m4"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_rifleman_law"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_riflemanat"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_smaw"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_grenadier"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_autorifleman"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_autorifleman_m249"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_machinegunner"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_squadleader"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_teamleader"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_javelin"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_javelin_assistant"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_stinger"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_marksman"];
-_u = _u		+ ["rhsusf_navy_marpat_wd_medic"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_engineer"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_fso"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_sniper"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_sniper_m110"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_sniper_m107"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_officer"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_helicrew"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_helipilot"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_crewman"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_combatcrewman"];
-_u = _u		+ ["rhsusf_usmc_marpat_wd_explosives"];
-_u = _u		+ ["rhsusf_airforce_jetpilot"];
-_u = _u		+ ["rhsusf_socom_marsoc_teamchief"];
-_u = _u		+ ["rhsusf_socom_marsoc_cso"];
-_u = _u		+ ["rhsusf_socom_marsoc_cso_cqb"];
-_u = _u		+ ["rhsusf_socom_marsoc_cso_mk17"];
-_u = _u		+ ["rhsusf_socom_marsoc_sarc"];
-_u = _u		+ ["rhsusf_socom_marsoc_cso_mechanic"];
-_u = _u		+ ["rhsusf_socom_marsoc_marksman"];
-_u = _u		+ ["rhsusf_socom_marsoc_jtac"];
+_u 			= ["us_usmc_rifleman_m4a1"];
+_u = _u		+ ["us_usmc_rifleman_m16"];
+_u = _u		+ ["us_usmc_rifleman_at"];
+_u = _u		+ ["us_usmc_missileman"];
+_u = _u		+ ["us_usmc_autorifleman_m249"];
+_u = _u		+ ["us_usmc_machinegunner"];
+_u = _u		+ ["us_usmc_sergeant"];
+_u = _u		+ ["us_usmc_lance_corporal"];
+_u = _u		+ ["us_usmc_aa_specialist"];
+_u = _u		+ ["us_usmc_marksman"];
+_u = _u		+ ["us_usmc_corpsman"];
+_u = _u		+ ["us_usmc_engineer"];
+_u = _u		+ ["us_usmc_sniper"];
+_u = _u		+ ["us_usmc_officer"];
+_u = _u		+ ["us_usmc_crewman"];
+_u = _u		+ ["us_usmc_heli_pilot"];
+_u = _u		+ ["us_usmc_jet_pilot"];
+_u = _u		+ ["us_usmc_marsoc_chief"];
+_u = _u		+ ["us_usmc_marsoc_m4a4"];
+_u = _u		+ ["us_usmc_marsoc_mk16"];
+_u = _u		+ ["us_usmc_marsoc_mk17"];
+_u = _u		+ ["us_usmc_marsoc_m249"];
+_u = _u		+ ["us_usmc_marsoc_eglm"];
+_u = _u		+ ["us_usmc_marsoc_marksman"];
+_u = _u		+ ["us_usmc_marsoc_eod"];
+_u = _u		+ ["us_usmc_marsoc_heli_pilot"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
-_u 			= ["B_Quadbike_01_F"];
-_u = _u		+ ["rhsusf_m1025_w_m2"];
-_u = _u		+ ["rhsusf_m1025_w_mk19"];
-_u = _u		+ ["rhsusf_m1045_w_s"];
-_u = _u		+ ["rhsusf_m1151_m2crows_usmc_wd"];
-_u = _u		+ ["rhsusf_m1151_mk19crows_usmc_wd"];
-_u = _u		+ ["rhsusf_m998_w_2dr_fulltop"];
-_u = _u		+ ["rhsusf_m998_w_2dr_halftop"];
-_u = _u		+ ["rhsusf_m998_w_2dr"];
-_u = _u		+ ["rhsusf_m998_w_4dr_fulltop"];
-_u = _u		+ ["rhsusf_m998_w_4dr_halftop"];
-_u = _u		+ ["rhsusf_m998_w_4dr"];
-_u = _u		+ ["rhsusf_m1232_usarmy_wd"];
-_u = _u		+ ["rhsusf_m1232_M2_usarmy_wd"];
-_u = _u		+ ["rhsusf_m1232_MK19_usarmy_wd"];
-_u = _u		+ ["rhsusf_m1237_M2_usarmy_wd"];
-_u = _u		+ ["rhsusf_m1237_MK19_usarmy_wd"];
-_u = _u		+ ["rhsusf_M1078A1P2_wd_fmtv_usarmy"];
-_u = _u		+ ["rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy"];
-_u = _u		+ ["rhsusf_M1078A1P2_wd_open_fmtv_usarmy"];
+_u 			= ["us_usmc_m1123"];
+_u = _u		+ ["us_usmc_m1123_half"];
+_u = _u		+ ["us_usmc_m1123_open"];
+_u = _u		+ ["us_usmc_m1151a1"];
+_u = _u		+ ["us_usmc_m1151a1_m240"];
+_u = _u		+ ["us_usmc_m1151a1_m2"];
+_u = _u		+ ["us_usmc_m1151a1_mk19"];
+_u = _u		+ ["us_usmc_m1152a1_rsv"];
+_u = _u		+ ["us_usmc_m1126_m2"];
+_u = _u		+ ["us_usmc_m1126_mk19"];
+_u = _u		+ ["us_usmc_m1134_aa"];
+_u = _u		+ ["us_usmc_m1078a1"];
+_u = _u		+ ["us_usmc_m1078a1_flatbed"];
+_u = _u		+ ["us_usmc_m977a4"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
-
-_u  		= ["rhsusf_m113_usarmy"];
-_u = _u		+ ["rhsusf_m113_usarmy_unarmed"];
-_u = _u		+ ["rhsusf_m113_usarmy_M240"];
-_u = _u		+ ["rhsusf_m113_usarmy_MK19"];
-_u = _u		+ ["RHS_M2A2_wd"];
-_u = _u		+ ["RHS_M2A3_wd"];
-_u = _u		+ ["RHS_M2A2_BUSKI_wd"];
-_u = _u		+ ["RHS_M2A3_BUSKI_wd"];
-_u = _u		+ ["RHS_M2A3_BUSKIII_wd"];
-_u = _u		+ ["rhsusf_m1a1fep_wd"];
-_u = _u 	+ ["rhsusf_m1a2sep1wd_usarmy"];
-_u = _u 	+ ["rhsusf_m1a2sep1tuksiwd_usarmy"];
-_u = _u 	+ ["rhsusf_m1a2sep1tuksiiwd_usarmy"];
-_u = _u 	+ ["rhsusf_m1a2sep2wd_usarmy"];
-_u = _u		+ ["rhsusf_m109_usarmy"];
-_u = _u		+ ["rhsusf_M142_usarmy_WD"];
+_u  		= ["us_usmc_m142"];
+_u = _u		+ ["us_usmc_m113a3_unarmed"];
+_u = _u		+ ["us_usmc_m113a3_m2"];
+_u = _u		+ ["us_usmc_m113a3_mk19"];
+_u = _u		+ ["us_usmc_m2a3"];
+_u = _u		+ ["us_usmc_m2a3_b1"];
+_u = _u		+ ["us_usmc_m2a3_b2"];
+_u = _u		+ ["us_usmc_m6a2_aa"];
+_u = _u		+ ["us_usmc_m1a1fep"];
+_u = _u 	+ ["us_usmc_m1a2sepv1_t1"];
+_u = _u 	+ ["us_usmc_m1a2sepv1_t2"];
+_u = _u 	+ ["us_usmc_m1a2sepv2"];
+_u = _u		+ ["us_usmc_m109a6"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ["RHS_UH60M"];
-_u = _u		+ ["RHS_UH60M_MEV"];
-_u = _u		+ ["RHS_UH60M_MEV2"];
-_u = _u		+ ["RHS_UH1Y_UNARMED"];
-_u = _u		+ ["RHS_UH1Y_FFAR"];
-_u = _u		+ ["RHS_UH1Y"];
-_u = _u		+ ["RHS_AH1Z_wd"];
-_u = _u		+ ["RHS_MELB_H6M"];
-_u = _u		+ ["RHS_MELB_MH6M"];
-_u = _u		+ ["RHS_MELB_AH6M_L"];
-_u = _u		+ ["RHS_MELB_AH6M_M"];
-_u = _u		+ ["RHS_MELB_AH6M_H"];
-_u = _u		+ ["RHS_CH_47F"];
-_u = _u		+ ["RHS_AH64D_AA"];
-_u = _u		+ ["RHS_AH64D_noradar_AA"];
-_u = _u		+ ["RHS_AH64D_CS"];
-_u = _u		+ ["RHS_AH64D_noradar_CS"];
-_u = _u		+ ["RHS_AH64D_GS"];
-_u = _u		+ ["RHS_AH64D_noradar_GS"];
-_u = _u		+ ["RHS_AH64D"];
-_u = _u		+ ["RHS_AH64D_noradar"];
-_u = _u		+ ["RHS_A10"];
-_u = _u		+ ["RHS_A10_AT"];
+_u 			= ["us_usmc_uh1y_unarmed"];
+_u = _u		+ ["us_usmc_uh1y_rocket"];
+_u = _u		+ ["us_usmc_uh1y_armed"];
+_u = _u		+ ["us_usmc_uh60m"];
+_u = _u		+ ["us_usmc_uh60m_ews"];
+_u = _u		+ ["us_usmc_ah1z"];
+_u = _u		+ ["us_usmc_ch53e"];
+_u = _u		+ ["us_usmc_oh6m"];
+_u = _u		+ ["us_usmc_mh6m"];
+_u = _u		+ ["us_usmc_ah6m"];
+_u = _u		+ ["us_usmc_ch47f"];
+_u = _u		+ ["us_usaf_ah64d"];
 _u = _u		+ ["RHSGREF_A29B_HIDF"];
-_u = _u		+ ["RHSUSF_f22"];
-_u = _u		+ ["RHS_C130J"];
+_u = _u		+ ["us_usaf_a10a"];
+_u = _u		+ ["us_usaf_f22a"];
+_u = _u		+ ["us_usaf_c130j"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
-_u 			= ["rhsusf_M977A4_REPAIR_usarmy_wd"];
-_u = _u		+ ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd"];
-_u = _u		+ ["rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd"];
-_u = _u		+ ["rhsusf_M978A4_usarmy_wd"];
-_u = _u		+ ["rhsusf_M978A4_BKIT_usarmy_wd"];
+_u 			= ["us_usmc_m977a4_repair"];
+_u = _u		+ ["us_usmc_m977a4_fuel"];
 _u = _u		+ ["CTI_Salvager_West"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
-_u 			= ["rhsusf_M977A4_AMMO_usarmy_wd"];
-_u = _u		+ ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd"];
-_u = _u		+ ["rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd"];
+_u 			= ["us_usmc_m977a4_ammo"];
+_u = _u		+ ["us_usmc_m113a3_ammo"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
@@ -164,8 +128,8 @@ _u = _u		+ ["C_SUV_01_F"];
 _u = _u		+ ["C_Van_01_transport_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
-	_u = _u		+ ["rhsusf_usmc_marpat_wd_engineer"];
-	_u = _u		+ ["rhsusf_usmc_marpat_wd_stinger"];
-    _u = _u		+ ["rhsusf_usmc_marpat_wd_smaw"];
+	_u = _u		+ ["us_usmc_engineer"];
+	_u = _u		+ ["us_usmc_rifleman_m4a1"];
+    _u = _u		+ ["us_usmc_missileman"];
 };
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_DEPOT], _u];

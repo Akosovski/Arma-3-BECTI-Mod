@@ -13,13 +13,13 @@ missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "O_UAV_AI"];
 missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["rhs_tigr_sts_msv", [
+	["ru_msv_gaz_armed", [
 		["CUP_arifle_ak74m", 4], ["CUP_30Rnd_545x39_AK74M_M", 40],
 		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 16], 
 		["rhs_mag_rgo", 20], 
 		["firstaidkit", 20]
 	]], 
-	["rhs_tigr_sts_msv", [
+	["ru_msv_gaz_armed", [
 		["CUP_arifle_ak74m", 4], ["CUP_30Rnd_545x39_AK74M_M", 40],
 		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 16], 
 		["rhs_mag_rgo", 20], 
@@ -41,6 +41,9 @@ _u = _u		+ ["ru_msv_sergeant"];
 _u = _u		+ ["ru_msv_at_specialist"];
 _u = _u		+ ["ru_msv_aa_specialist"];
 _u = _u		+ ["ru_msv_officer"];
+_u = _u		+ ["ru_msv_crewman"];
+_u = _u		+ ["ru_msv_tank_crewman"];
+_u = _u		+ ["ru_vdv_crewman"];
 _u = _u		+ ["ru_vdv_rifleman_ak12"];
 _u = _u		+ ["ru_vdv_rifleman_ak74m"];
 _u = _u		+ ["ru_vdv_rifleman_asval"];
@@ -51,15 +54,10 @@ _u = _u		+ ["ru_vdv_autorifleman"];
 _u = _u		+ ["ru_vdv_machinegunner"];
 _u = _u		+ ["ru_vdv_heli_pilot"];
 _u = _u		+ ["ru_vdv_jet_pilot"];
-_u = _u		+ ["ru_vdv_crewman"];
-_u = _u		+ ["ru_msv_crewman"];
-_u = _u		+ ["ru_msv_tank_crewman"];
-
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
-_u 			= ["O_Quadbike_01_F"];
-_u = _u		+ ["ru_msv_uaz"];
+_u 			= ["ru_msv_uaz"];
 _u = _u		+ ["ru_msv_uaz_open"];
 _u = _u		+ ["ru_msv_gaz_unarmed"];
 _u = _u		+ ["ru_msv_gaz_normal"];

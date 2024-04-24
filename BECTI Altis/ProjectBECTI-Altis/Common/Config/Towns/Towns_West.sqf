@@ -1,25 +1,25 @@
 with missionNamespace do {
 	//--- Infantry
-	WEST_SOLDIER = ["rhsusf_usmc_marpat_wd_rifleman", 1];
-	WEST_SOLDIER_AA = ["rhsusf_usmc_marpat_wd_stinger", 1];
-	WEST_SOLDIER_AR = ["rhsusf_usmc_marpat_wd_autorifleman_m249", 1];
-	WEST_SOLDIER_AT = ["rhsusf_usmc_marpat_wd_riflemanat", 1];
-	WEST_SOLDIER_CREW = ["rhsusf_usmc_marpat_wd_crewman", 1];
-	WEST_SOLDIER_LAT = ["rhsusf_usmc_marpat_wd_riflemanat", 1];
-	WEST_SOLDIER_HAT = ["rhsusf_usmc_marpat_wd_javelin", 1];
-	WEST_SOLDIER_ENGINEER = ["rhsusf_usmc_marpat_wd_engineer", 1];
-	WEST_SOLDIER_GL = ["rhsusf_usmc_marpat_wd_grenadier", 1];
-	WEST_SOLDIER_MEDIC = ["rhsusf_usmc_marpat_wd_jfo", 1];
-	WEST_SOLDIER_PILOT = ["rhsusf_airforce_pilot", 1];
-	WEST_SOLDIER_SQUADLEADER = ["rhsusf_usmc_marpat_wd_squadleader", 1];
-	WEST_SOLDIER_SNIPER = ["rhsusf_usmc_marpat_wd_sniper", 1];
-	WEST_SOLDIER_MARKSMAN = ["rhsusf_usmc_marpat_wd_marksman", 1];
-	WEST_SOLDIER_TEAMLEADER = ["rhsusf_usmc_marpat_wd_teamleader", 1];
-	WEST_SOLDIER_HEAVYGUNNER = ["rhsusf_usmc_marpat_wd_machinegunner", 1];
+	WEST_SOLDIER = ["us_usmc_rifleman_m4a1", 1];
+	WEST_SOLDIER_AA = ["us_usmc_aa_specialist", 1];
+	WEST_SOLDIER_AR = ["us_usmc_autorifleman_m249", 1];
+	WEST_SOLDIER_AT = ["us_usmc_rifleman_at", 1];
+	WEST_SOLDIER_CREW = ["us_usmc_crewman", 1];
+	WEST_SOLDIER_LAT = ["us_usmc_rifleman_at", 1];
+	WEST_SOLDIER_HAT = ["us_usmc_missileman", 1];
+	WEST_SOLDIER_ENGINEER = ["us_usmc_engineer", 1];
+	WEST_SOLDIER_GL = ["us_usmc_lance_corporal", 1];
+	WEST_SOLDIER_MEDIC = ["us_usmc_corpsman", 1];
+	WEST_SOLDIER_PILOT = ["us_usmc_heli_pilot", 1];
+	WEST_SOLDIER_SQUADLEADER = ["us_usmc_sergeant", 1];
+	WEST_SOLDIER_SNIPER = ["us_usmc_sniper", 1];
+	WEST_SOLDIER_MARKSMAN = ["us_usmc_marksman", 1];
+	WEST_SOLDIER_TEAMLEADER = ["us_usmc_lance_corporal", 1];
+	WEST_SOLDIER_HEAVYGUNNER = ["us_usmc_machinegunner", 1];
 	
 	//--- Vehicles
-	WEST_MOTORIZED_MG = ["rhsusf_m1232_M2_usarmy_wd", 2];
-	WEST_MOTORIZED_GL = ["rhsusf_m1232_MK19_usarmy_wd", 2];
+	WEST_MOTORIZED_MG = ["us_usmc_m1151a1_crows_m2", 2];
+	WEST_MOTORIZED_GL = ["us_usmc_m1151a1_crows_mk19", 2];
 
 	//--- Infantry - Mixed
 	WEST_SOLDIERS_MG_LIGHT = [WEST_SOLDIER_AR];
@@ -33,10 +33,10 @@ with missionNamespace do {
 	WEST_SOLDIERS_MARKSMEN = [WEST_SOLDIER_MARKSMAN];
 
 	//--- Vehicles
-	WEST_VEHICLE_AA = [["RHS_M2A2_BUSKI_wd", 1]];
-	WEST_VEHICLE_APC = [["RHS_M2A2_BUSKI_wd", 2], ["rhsusf_m113_usarmy", 2]];
-	WEST_VEHICLE_ARMORED_HEAVY = [["rhsusf_m1a2sep2wd_usarmy", 2]];
-	WEST_VEHICLE_ARMORED_LIGHT = [["rhsusf_m1a2sep1tuksiwd_usarmy", 2]];
+	WEST_VEHICLE_AA = [["us_usmc_m6a2_aa", 1]];
+	WEST_VEHICLE_APC = [["us_usmc_m2a3_b1", 2], ["us_usmc_m113a3_m2", 2]];
+	WEST_VEHICLE_ARMORED_HEAVY = [["us_usmc_m1a2sepv1_t2", 2]];
+	WEST_VEHICLE_ARMORED_LIGHT = [["us_usmc_m1a1fep", 2]];
 	WEST_VEHICLE_MOTORIZED = [WEST_MOTORIZED_MG, WEST_MOTORIZED_GL, WEST_MOTORIZED_MG];
 
 	//--- Vehicles - Mixed
