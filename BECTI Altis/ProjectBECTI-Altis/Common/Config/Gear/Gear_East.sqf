@@ -468,7 +468,6 @@ _i = _i        + ["CUP_1Rnd_FlareRed_GP25_M"];
 _u = _u        + [1];
 _p = _p        + [2];
  
- 
 // --- Uniforms ---
  
 _i = _i        + ["rhs_uniform_emr_patchless"];
@@ -759,7 +758,7 @@ _p = _p        + [10];
 
 _i = _i        + ["rhs_6b13_EMR_6sh92_headset_mapcase"];
 _u = _u        + [1];
-_p = _p        + [10]; t
+_p = _p        + [10];
 
 _i = _i        + ["rhs_6sh117_nco"];
 _u = _u        + [3];
@@ -1022,61 +1021,61 @@ _p = _p        + [5];
 
 // --- Misc NVG and Binos ---
  
-_i = _i     + ["CUP_NVG_1PN138"];
-_u = _u     + [0];
-_p = _p     + [10]; 
+_i = _i         + ["CUP_NVG_1PN138"];
+_u = _u         + [0];
+_p = _p         + [10]; 
 
-_i = _i     + ["rhs_pdu4"];
-_u = _u     + [0];
-_p = _p     + [10]; 
+_i = _i         + ["rhs_pdu4"];
+_u = _u         + [0];
+_p = _p         + [10]; 
 
-_i = _i		+ ["Binocular"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_i = _i		    + ["Binocular"];
+_u = _u		    + [0];
+_p = _p		    + [10];
 
-_i = _i		+ ["Rangefinder"];
-_u = _u		+ [1];
-_p = _p		+ [35];
+_i = _i		    + ["Rangefinder"];
+_u = _u		    + [1];
+_p = _p		    + [35];
 
-_i = _i		+ ["Laserdesignator_03"];
-_u = _u		+ [3];
-_p = _p		+ [150];
+_i = _i		    + ["Laserdesignator_03"];
+_u = _u		    + [3];
+_p = _p		    + [150];
 
-_i = _i		+ ["ItemGPS"];
-_u = _u		+ [0];
-_p = _p		+ [25];
+_i = _i		    + ["ItemGPS"];
+_u = _u		    + [0];
+_p = _p		    + [25];
 
-_i = _i		+ ["ItemMap"];
-_u = _u		+ [0];
-_p = _p		+ [5];
+_i = _i		    + ["ItemMap"];
+_u = _u		    + [0];
+_p = _p		    + [5];
 
-_i = _i		+ ["itemradio"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_i = _i		    + ["itemradio"];
+_u = _u		    + [0];
+_p = _p		    + [10];
 
-_i = _i		+ ["itemcompass"];
-_u = _u		+ [0];
-_p = _p		+ [5];
+_i = _i		    + ["itemcompass"];
+_u = _u		    + [0];
+_p = _p		    + [5];
 
-_i = _i		+ ["itemwatch"];
-_u = _u		+ [0];
-_p = _p		+ [5];
+_i = _i		    + ["itemwatch"];
+_u = _u		    + [0];
+_p = _p		    + [5];
 
-_i = _i		+ ["Minedetector"];
-_u = _u		+ [0];
-_p = _p		+ [25];
+_i = _i		    + ["Minedetector"];
+_u = _u		    + [0];
+_p = _p		    + [25];
 
-_i = _i     + ["FirstAidKit"];
-_u = _u     + [0];
-_p = _p     + [3]; 
+_i = _i         + ["FirstAidKit"];
+_u = _u         + [0];
+_p = _p         + [3]; 
 
-_i = _i		+ ["Toolkit"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_i = _i		    + ["Toolkit"];
+_u = _u		    + [0];
+_p = _p		    + [100];
 
-_i = _i		+ ["Medikit"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_i = _i		    + ["Medikit"];
+_u = _u		    + [0];
+_p = _p		    + [100];
 
 
 //--- ADDONS

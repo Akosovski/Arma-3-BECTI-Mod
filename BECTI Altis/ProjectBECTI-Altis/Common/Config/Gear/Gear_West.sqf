@@ -337,7 +337,7 @@ _p = _p		+ [3];
 
 _i = _i		+ ["UGL_FlareWhite_F"];
 _u = _u		+ [0];
-_p = _p		+ [3];=
+_p = _p		+ [3];
 
 //--- Normal Grenades & Smoke ---
 

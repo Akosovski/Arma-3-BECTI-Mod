@@ -155,10 +155,10 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 	[["JCA_arifle_M4A1_black_F",["","rhsusf_acc_anpeq15_bk","","rhsusf_acc_ACOG_RMR"],["30Rnd_556x45_Stanag"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_FROG01_wd",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
+	[["rhs_uniform_FROG01_wd",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
 	["rhsusf_lwh_helmet_marpatwd_headset_blk",""],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 	[["CUP_arifle_ak74m_GL",["rhs_acc_dtk","","","rhs_acc_pkas"],["CUP_30Rnd_545x39_AK74_plum_M"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_emr_patchless",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M"]],["",[""]]],
+	[["rhs_uniform_emr_patchless",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M"]],["",[""]]],
 	["rhs_6b7_1m_emr_ess","rhs_facewear_6m2_1"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];

@@ -10,7 +10,7 @@ missionNamespace setVariable [format["CTI_%1_Soldier", _side], "us_usmc_rifleman
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "us_usmc_crewman"];
 missionNamespace setVariable [format["CTI_%1_Pilot", _side], "us_usmc_heli_pilot"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
-missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
+missionNamespace setVariable [format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
 	["us_usmc_m1151a1_crows_m2", [
@@ -101,7 +101,6 @@ _u = _u		+ ["us_usmc_mh6m"];
 _u = _u		+ ["us_usmc_ah6m"];
 _u = _u		+ ["us_usmc_ch47f"];
 _u = _u		+ ["us_usaf_ah64d"];
-_u = _u		+ ["RHSGREF_A29B_HIDF"];
 _u = _u		+ ["us_usaf_a10a"];
 _u = _u		+ ["us_usaf_f22a"];
 _u = _u		+ ["us_usaf_c130j"];

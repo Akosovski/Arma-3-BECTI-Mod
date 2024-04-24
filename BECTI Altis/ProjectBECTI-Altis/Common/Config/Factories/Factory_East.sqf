@@ -10,7 +10,7 @@ missionNamespace setVariable [format["CTI_%1_Soldier", _side], "ru_msv_rifleman_
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "ru_msv_crewman"];
 missionNamespace setVariable [format["CTI_%1_Pilot", _side], "ru_msv_heli_pilot"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "O_UAV_AI"];
-missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
+missionNamespace setVariable [format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
 	["ru_msv_gaz_armed", [
