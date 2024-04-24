@@ -133,7 +133,7 @@ _u = _u		+ ["C_Van_01_transport_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
 	_u = _u		+ ["ru_msv_efreitor"];
-	_u = _u		+ ["ru_msv_rifleman_ak74m"];
+	_u = _u		+ ["ru_msv_machinegunner"];
 	_u = _u		+ ["ru_msv_grenadier_rpg"];
 };
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_DEPOT], _u];

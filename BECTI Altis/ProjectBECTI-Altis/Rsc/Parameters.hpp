@@ -21,7 +21,7 @@ class Params {
 		title = "AI: Team Size (AI)";
 		values[] = {2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,35,40,45,50,60,70,80,90,100};
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
-		default = 16;
+		default = 10;
 	};
 	class CTI_AI_PLAYER_TEAMS_GROUPSIZE {
 		title = "AI: Team Size (Player)";
@@ -81,13 +81,13 @@ class Params {
 		title = "BASE: Start-up Placement";
 		values[] = {1000,2000,4000,6000,10000};
 		texts[] = {"1KM","2 KM","4 KM","6 KM","10 KM"};
-		default = 6000;
+		default = 2000;
 	};
 	class CTI_BASE_WORKERS_LIMIT {
 		title = "BASE: Worker Limit";
 		values[] = {5,10,15,20};
 		texts[] = {"5","10","15","20"};
-		default = 10;
+		default = 5;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
