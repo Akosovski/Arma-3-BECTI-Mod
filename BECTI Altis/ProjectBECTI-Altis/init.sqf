@@ -103,7 +103,7 @@ if (CTI_IsClient && !CTI_IsHeadless) then {
 	execVM "Client\Init\Init_Client.sqf";
 };
 //--- Add the briefing (notes).
-[] ExecVM "briefing.sqf";
+// [] ExecVM "briefing.sqf";
 
 //--- Headless client execution
 if (CTI_IsHeadless) then {
