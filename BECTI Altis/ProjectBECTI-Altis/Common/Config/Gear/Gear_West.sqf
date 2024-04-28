@@ -25,7 +25,7 @@ _i = _i		+ ["JCA_arifle_M4A1_black_F"];
 _u = _u		+ [0];
 _p = _p		+ [35];
 
-_i = _i		+ ["JCA_arifle_M4A4_GL_black_F"];
+_i = _i		+ ["JCA_arifle_M4A1_GL_black_F"];
 _u = _u		+ [0];
 _p = _p		+ [35];
 
@@ -90,15 +90,15 @@ _u = _u		+ [0];
 _p = _p		+ [35];
 
 _i = _i		+ ["CUP_lmg_m249_E2"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [40];
 
 _i = _i		+ ["CUP_lmg_m249_pip1"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [45];
 
 _i = _i		+ ["CUP_lmg_m249_para"];
-_u = _u		+ [2];
+_u = _u		+ [3];
 _p = _p		+ [45];
 
 _i = _i		+ ["CUP_lmg_m240"];
@@ -411,6 +411,29 @@ _i = _i		+ ["rhs_weap_fgm148"];
 _u = _u		+ [3];
 _p = _p		+ [300];
 
+//--- Backpacks ---
+
+_i = _i		+ ["rhsusf_assault_eagleaiii_coy"];
+_u = _u		+ [0];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_falconii_coy"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_falconii"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhssaf_kitbag_smb"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsgref_hidf_alicepack"];
+_u = _u		+ [0];
+_p = _p		+ [25];
+
+
 //--- Uniforms ---
 
 _i = _i		+ ["rhs_uniform_FROG01_wd"];
@@ -425,15 +448,11 @@ _i = _i		+ ["U_B_PilotCoveralls"];
 _u = _u		+ [1];
 _p = _p		+ [15];
 
-_i = _i		+ ["rhs_uniform_g3_aor2"];
+_i = _i		+ ["rhs_uniform_g3_m81"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
 _i = _i		+ ["rhs_uniform_g3_blk"];
-_u = _u		+ [3];
-_p = _p		+ [10];
-
-_i = _i		+ ["rhs_uniform_g3_m81"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
@@ -445,7 +464,7 @@ _i = _i		+ ["rhs_uniform_g3_rgr"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
-_i = _i		+ ["rhs_uniform_g3_tan"];
+_i = _i		+ ["rhs_uniform_g3_aor2"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
@@ -559,66 +578,6 @@ _p = _p + [20];
 _i = _i + ["rhsusf_plateframe_teamleader"];
 _u = _u + [1];
 _p = _p + [20];
-
-//--- Backpacks ---
-
-_i = _i		+ ["rhsusf_assault_eagleaiii_coy"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["rhsusf_falconii_coy"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["rhsusf_falconii"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["rhssaf_kitbag_smb"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["rhsgref_hidf_alicepack"];
-_u = _u		+ [0];
-_p = _p		+ [25];
-
-//--- Weapon Backpacks ---
-
-_i = _i		+ ["RHS_M2_Gun_Bag"];
-_u = _u		+ [1];
-_p = _p		+ [100];
-
-_i = _i		+ ["RHS_M2_Tripod_Bag"];
-_u = _u		+ [1];
-_p = _p		+ [50];
-
-_i = _i		+ ["rhs_M252_Gun_Bag"];
-_u = _u		+ [1];
-_p = _p		+ [100];
-
-_i = _i		+ ["rhs_M252_Bipod_Bag"];
-_u = _u		+ [1];
-_p = _p		+ [50];
-
-_i = _i		+ ["RHS_M2_MiniTripod_Bag"];
-_u = _u		+ [1];
-_p = _p		+ [50];
-
-_i = _i		+ ["RHS_Mk19_Gun_Bag"];
-_u = _u		+ [2];
-_p = _p		+ [100];
-
-_i = _i		+ ["RHS_Mk19_Tripod_Bag"];
-_u = _u		+ [2];
-_p = _p		+ [50];
-
-_i = _i		+ ["rhs_Tow_Gun_Bag"];
-_u = _u		+ [2];
-_p = _p		+ [100];
-
-_i = _i		+ ["rhs_TOW_Tripod_Bag"];
-_u = _u		+ [2];
-_p = _p		+ [50];
 
 //--- Glasses ---
 
@@ -832,6 +791,43 @@ _i = _i		+ ["rhs_Booniehat2_marpatwd"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
+//--- Weapon Backpacks ---
+
+_i = _i		+ ["RHS_M2_Gun_Bag"];
+_u = _u		+ [1];
+_p = _p		+ [100];
+
+_i = _i		+ ["RHS_M2_Tripod_Bag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["rhs_M252_Gun_Bag"];
+_u = _u		+ [1];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_M252_Bipod_Bag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["RHS_M2_MiniTripod_Bag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["RHS_Mk19_Gun_Bag"];
+_u = _u		+ [2];
+_p = _p		+ [100];
+
+_i = _i		+ ["RHS_Mk19_Tripod_Bag"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+_i = _i		+ ["rhs_Tow_Gun_Bag"];
+_u = _u		+ [2];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_TOW_Tripod_Bag"];
+_u = _u		+ [2];
+_p = _p		+ [50];
 
 //--- Accessories / Optics ---
 

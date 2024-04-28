@@ -313,7 +313,7 @@ _o = _o + [550];
 _t = _t + [20];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + ["service-medic"];
+_s = _s + [""];
 
 _c = _c + ['ru_msv_ural_normal'];
 _p = _p + [''];
