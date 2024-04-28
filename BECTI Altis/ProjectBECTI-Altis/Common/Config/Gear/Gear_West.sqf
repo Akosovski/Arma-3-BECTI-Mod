@@ -433,6 +433,9 @@ _i = _i		+ ["rhsgref_hidf_alicepack"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["b_parachute"];
+_u = _u		+ [0];
+_p = _p		+ [25];
 
 //--- Uniforms ---
 

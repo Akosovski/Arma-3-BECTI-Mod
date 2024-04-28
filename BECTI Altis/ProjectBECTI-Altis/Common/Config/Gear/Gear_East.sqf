@@ -487,7 +487,7 @@ _u = _u        + [0];
 _p = _p        + [10];
  
 _i = _i        + ["rhs_assault_umbts_engineer"];
-_u = _u        + [0];
+_u = _u        + [1];
 _p = _p        + [10];
  
 _i = _i        + ["rhs_medic_bag"];
@@ -499,13 +499,16 @@ _u = _u        + [0];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_tortila_emr"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_tortila_olive"];
-_u = _u        + [0];
+_u = _u        + [2];
 _p = _p        + [10];
 
+_i = _i		    + ["b_parachute"];
+_u = _u		    + [0];
+_p = _p		    + [25];
 
 // --- Uniforms ---
  
@@ -721,35 +724,23 @@ _u = _u        + [3];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6sh92_digi"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6sh92_digi_headset"];
-_u = _u        + [2];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_6sh92_digi_radio"];
-_u = _u        + [2];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6sh92_digi_vog"];
-_u = _u        + [2];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_6sh92_digi_vog_headset"];
-_u = _u        + [2];
-_p = _p        + [10]; 
+_i = _i        + ["rhs_6sh92_digi_headset"];
+_u = _u        + [1];
+_p = _p        + [10];
 
-_i = _i        + ["rhs_vydra_3m"];
+_i = _i        + ["rhs_6sh92_digi_radio"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_vest_pistol_holster"];
-_u = _u        + [0];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_vest_commander"];
-_u = _u        + [0];
+_i = _i        + ["rhs_6sh92_digi_vog_headset"];
+_u = _u        + [1];
 _p = _p        + [10]; 
 
 // --- Helmets ---
