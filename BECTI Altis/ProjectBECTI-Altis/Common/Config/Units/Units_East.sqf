@@ -12,6 +12,15 @@ _s = []; //--- Script
 
 // ---------- MSV Infantry ------------
 
+_c = _c + ['ru_msv_driver'];
+_p = _p + [''];
+_n = _n + ['MSV Driver'];
+_o = _o + [140];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['ru_msv_rifleman_ak74m'];
 _p = _p + [''];
 _n = _n + ['MSV Rifleman (AK-74M)'];
@@ -42,7 +51,25 @@ _s = _s + [""];
 _c = _c + ['ru_msv_grenadier_rpg'];
 _p = _p + [''];
 _n = _n + ['MSV Grenadier (RPG-7V2)'];
+_o = _o + [210];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_msv_grenadier_gp25'];
+_p = _p + [''];
+_n = _n + ['MSV Grenadier (GP-25)'];
 _o = _o + [200];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_msv_grenadier_gp34'];
+_p = _p + [''];
+_n = _n + ['MSV Grenadier (GP-34)'];
+_o = _o + [220];
 _t = _t + [5];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -304,6 +331,24 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['ru_msv_brdm'];
+_p = _p + [''];
+_n = _n + ['MSV BRDM-2'];
+_o = _o + [450];
+_t = _t + [15];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['ru_msv_brdm_at'];
+_p = _p + [''];
+_n = _n + ['MSV BRDM-2 (AT)'];
+_o = _o + [550];
+_t = _t + [15];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
 // ---------- Trucks ------------
 
 _c = _c + ['ru_msv_ural_aa'];
@@ -348,6 +393,24 @@ _n = _n + [''];
 _o = _o + [330];
 _t = _t + [20];
 _u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["service-medic"];
+
+_c = _c + ['ru_vdv_kamaz'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [420];
+_t = _t + [20];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["service-medic"];
+
+_c = _c + ['ru_vdv_kamaz_open'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [400];
+_t = _t + [20];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
@@ -535,7 +598,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
-// ---------- Support Vehicles ------------
+// ---------- Support Vehicles (Repair) ------------
 
 _c = _c + ['ru_msv_ural_repair'];
 _p = _p + [''];
@@ -546,32 +609,32 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-repairtruck"];
 
-_c = _c + ['ru_msv_ural_ammo'];
+_c = _c + ['ru_msv_salvager'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [520];
-_t = _t + [20];
+_o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
+_t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-repairtruck"];
 
 _c = _c + ['CTI_Salvager_East'];
 _p = _p + [''];
-_n = _n + ['Salvage Truck'];
+_n = _n + ['MSV Salvage Truck'];
 _o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
-_t = _t + [25];
+_t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [["ru_msv_ural_ammo","salvager"]];
+_s = _s + [["ru_msv_salvager","salvager"]];
 
 _c = _c + ['CTI_Salvager_Independent_East'];
 _p = _p + [''];
-_n = _n + ['Salvage Truck'];
+_n = _n + ['MSV Salvager'];
 _o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
-_t = _t + [25];
+_t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [["ru_msv_ural_ammo","salvager-independent"]];
+_s = _s + [["ru_msv_salvager","salvager-independent"]];
 
 _c = _c + ['ru_msv_ural_fuel'];
 _p = _p + [''];
@@ -582,10 +645,21 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-fueltruck"];
 
+// ---------- Support Vehicles (Ammo) ------------
+
 _c = _c + ['ru_msv_ural_ammo'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [450];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-ammotruck"];
+
+_c = _c + ['ru_vdv_kamaz_ammo'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [550];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];

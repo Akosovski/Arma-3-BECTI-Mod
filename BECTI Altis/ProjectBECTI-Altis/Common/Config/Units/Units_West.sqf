@@ -39,6 +39,24 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['us_usmc_grenadier_m16a4'];
+_p = _p + [''];
+_n = _n + ['USMC Grenadier (M16A4)'];
+_o = _o + [200];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_usmc_grenadier_m4a1'];
+_p = _p + [''];
+_n = _n + ['USMC Grenadier (M4A1)'];
+_o = _o + [200];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['us_usmc_autorifleman_m249'];
 _p = _p + [''];
 _n = _n + ['USMC Auto Rifleman (M249)'];
@@ -93,9 +111,18 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['us_usmc_at_specialist'];
+_p = _p + [''];
+_n = _n + ['USMC AT Specialist (MAAWS)'];
+_o = _o + [390];
+_t = _t + [5];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['us_usmc_missileman'];
 _p = _p + [''];
-_n = _n + ['USMC AT Missileman (MAAWS)'];
+_n = _n + ['USMC AT Missileman (SMAW)'];
 _o = _o + [350];
 _t = _t + [5];
 _u = _u + [1];
@@ -243,6 +270,15 @@ _c = _c + ['us_usmc_marsoc_eglm'];
 _p = _p + [''];
 _n = _n + ['MARSOC Operator (EGLM)'];
 _o = _o + [330];
+_t = _t + [5];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_usmc_marsoc_m136'];
+_p = _p + [''];
+_n = _n + ['MARSOC Operator (M136)'];
+_o = _o + [350];
 _t = _t + [5];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -410,7 +446,6 @@ _s = _s + ["service-medic"];
 
 //--- APC / Artillery ---
 
-
 _c = _c + ['us_usmc_m113a3_unarmed'];
 _p = _p + [''];
 _n = _n + [''];
@@ -541,23 +576,32 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-repairtruck"];
 
+_c = _c + ['us_usmc_salvager'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
 _c = _c + ['CTI_Salvager_West'];
 _p = _p + [''];
-_n = _n + ['Salvage Truck'];
+_n = _n + ['USMC Salvage Truck'];
 _o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
 _t = _t + [450];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [["B_Truck_01_box_F","salvager"]];
+_s = _s + [["us_usmc_salvager","salvager"]];
 
 _c = _c + ['CTI_Salvager_Independent_West'];
 _p = _p + [''];
-_n = _n + ['Salvager'];
+_n = _n + ['USMC Salvager'];
 _o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [["B_Truck_01_box_F","salvager-independent"]];
+_s = _s + [["us_usmc_salvager","salvager-independent"]];
 
 _c = _c + ['us_usmc_m977a4_fuel'];
 _p = _p + [''];
@@ -570,7 +614,7 @@ _s = _s + ["service-fueltruck"];
 
 //--- Support Vehicles Ammo ---
 
-_c = _c + ['us_usmc_m1152a1_rsv'];
+_c = _c + ['us_usmc_m1152a1_ammo'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [250];
@@ -662,6 +706,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
 
+_c = _c + ['us_usmc_uh80'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [16000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + ["service-medic"];
+
 _c = _c + ['us_usmc_ch47f'];
 _p = _p + [''];
 _n = _n + [''];
@@ -704,15 +757,6 @@ _n = _n + [''];
 _o = _o + [15000];
 _t = _t + [35];
 _u = _u + [1];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
-_c = _c + ['RHSGREF_A29B_HIDF'];
-_p = _p + [''];
-_n = _n + ['USAF A-29B'];
-_o = _o + [18000];
-_t = _t + [35];
-_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 

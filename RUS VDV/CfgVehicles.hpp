@@ -182,9 +182,38 @@ class CfgVehicles {
         };
     };
 
-    class RHS_Ural_Repair_MSV_01;
-    class RHS_Ural_Repair_MSV_01_OCimport_01 : RHS_Ural_Repair_MSV_01 { scope = 0; class EventHandlers; };
-    class RHS_Ural_Repair_MSV_01_OCimport_02 : RHS_Ural_Repair_MSV_01_OCimport_01 { scope = 0; class EventHandlers; };
+    class rhs_kamaz5350_vdv;
+    class rhs_kamaz5350_vdv_OCimport_01 : rhs_kamaz5350_vdv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_kamaz5350_vdv_OCimport_02 : rhs_kamaz5350_vdv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+        };
+    };
+
+    class rhs_kamaz5350_ammo_vdv;
+    class rhs_kamaz5350_ammo_vdv_OCimport_01 : rhs_kamaz5350_ammo_vdv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_kamaz5350_ammo_vdv_OCimport_02 : rhs_kamaz5350_ammo_vdv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CargoTurret_03;
+        };
+    };
+
+    class rhs_kamaz5350_open_vdv;
+    class rhs_kamaz5350_open_vdv_OCimport_01 : rhs_kamaz5350_open_vdv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_kamaz5350_open_vdv_OCimport_02 : rhs_kamaz5350_open_vdv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+        };
+    };
 
 
     class ru_vdv_sergeant : rhs_vdv_rifleman_OCimport_02 {
@@ -208,7 +237,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_black","","rhs_acc_perst1ik_ris","rhs_acc_rakursPM",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_vkpo_gloves",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"rhs_mag_rgo",5,1},{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_30Rnd_545x39_AK12_M",9,30}}},{},"rhs_6b47_ess","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_black","","rhs_acc_perst1ik_ris","rhs_acc_rakursPM",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_vkpo_gloves",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"rhs_mag_rgo",5,1},{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_30Rnd_545x39_AK12_M",9,30}}},{},"rhs_6b47_ess","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -547,16 +576,18 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_df15_tan";
 
-        linkedItems[] = {"rhs_vydra_3m","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhs_vydra_3m","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhs_6sh92_digi_headset","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6sh92_digi_headset","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AKS74U","Rangefinder"};
-        respawnWeapons[] = {"CUP_arifle_AKS74U","Rangefinder"};
+        weapons[] = {"CUP_arifle_AKS74U","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AKS74U","Binocular"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"rhs_vydra_3m",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{},"rhs_zsh7a_alt","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        backpack = "B_Parachute";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"rhs_6sh92_digi_headset",{{"FirstAidKit",4},{"CUP_30Rnd_545x39_AK74M_M",4,30},{"rhs_mag_rgo",4,1}}},{"B_Parachute",{}},"rhs_zsh7a_alt","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -618,11 +649,11 @@ class CfgVehicles {
         displayName = "VDV BMD-1";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CommanderOptics1 : CommanderOptics1 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_crewman"; };
+            class CommanderOptics1 : CommanderOptics1 { gunnerType = "ru_vdv_crewman"; };
             class GPMGTurretBMD1 : GPMGTurretBMD1 { gunnerType = ""; };
             class LeftBack1 : LeftBack1 { gunnerType = ""; };
             class RightBack1 : RightBack1 { gunnerType = ""; };
@@ -659,11 +690,11 @@ class CfgVehicles {
         displayName = "VDV BMD-2";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CommanderOptics1 : CommanderOptics1 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_crewman"; };
+            class CommanderOptics1 : CommanderOptics1 { gunnerType = "ru_vdv_crewman"; };
             class GPMGTurretBMD1 : GPMGTurretBMD1 { gunnerType = ""; };
             class LeftBack1 : LeftBack1 { gunnerType = ""; };
             class RightBack1 : RightBack1 { gunnerType = ""; };
@@ -700,10 +731,10 @@ class CfgVehicles {
         displayName = "VDV BMD-4";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_crewman"; };
             class GPMGTurret1 : GPMGTurret1 { gunnerType = ""; };
             class LeftBack : LeftBack { gunnerType = ""; };
             class RightBack : RightBack { gunnerType = ""; };
@@ -734,10 +765,10 @@ class CfgVehicles {
         displayName = "VDV BMD-4M (A)";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_crewman"; };
             class GPMGTurret1 : GPMGTurret1 { gunnerType = ""; };
             class GPMGTurret2 : GPMGTurret2 { gunnerType = ""; };
             class RightBack : RightBack { gunnerType = ""; };
@@ -768,10 +799,10 @@ class CfgVehicles {
         displayName = "VDV Ka-60";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
         };
 
 
@@ -798,10 +829,10 @@ class CfgVehicles {
         displayName = "VDV Ka-52";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_heli_pilot"; };
         };
 
 
@@ -827,10 +858,10 @@ class CfgVehicles {
         displayName = "VDV Mi-8T";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -860,12 +891,12 @@ class CfgVehicles {
         displayName = "VDV Mi-8MT";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class BackTurret : BackTurret { gunnerType = "ru_vdv_heli_pilot"; };
         };
 
 
@@ -892,13 +923,13 @@ class CfgVehicles {
         displayName = "VDV Mi-8MTV-3";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class SideTurret : SideTurret { gunnerType = ""; };
-            class BackTurret : BackTurret { gunnerType = ""; };
-            class FrontTurret : FrontTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class SideTurret : SideTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class BackTurret : BackTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class FrontTurret : FrontTurret { gunnerType = "ru_vdv_heli_pilot"; };
         };
 
 
@@ -925,7 +956,7 @@ class CfgVehicles {
         displayName = "VDV MiG-29SM";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_jet_pilot";
 
 
         class EventHandlers : EventHandlers {
@@ -949,7 +980,7 @@ class CfgVehicles {
         displayName = "VDV Su-25";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_jet_pilot";
 
 
         class EventHandlers : EventHandlers {
@@ -974,7 +1005,7 @@ class CfgVehicles {
         displayName = "VDV T-50 (2013)";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_jet_pilot";
 
 
         class EventHandlers : EventHandlers {
@@ -998,16 +1029,16 @@ class CfgVehicles {
         displayName = "VDV Tu-95MS6 Bear";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_jet_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class MainTurret2 : MainTurret2 { gunnerType = ""; };
-            class MainTurret3 : MainTurret3 { gunnerType = ""; };
-            class MainTurret4 : MainTurret4 { gunnerType = ""; };
-            class MainTurret5 : MainTurret5 { gunnerType = ""; };
-            class RearTurret : RearTurret { gunnerType = ""; };
-            class MainTurret6 : MainTurret6 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_jet_pilot"; };
+            class MainTurret2 : MainTurret2 { gunnerType = "ru_vdv_jet_pilot"; };
+            class MainTurret3 : MainTurret3 { gunnerType = "ru_vdv_jet_pilot"; };
+            class MainTurret4 : MainTurret4 { gunnerType = "ru_vdv_jet_pilot"; };
+            class MainTurret5 : MainTurret5 { gunnerType = "ru_vdv_jet_pilot"; };
+            class RearTurret : RearTurret { gunnerType = "ru_vdv_jet_pilot"; };
+            class MainTurret6 : MainTurret6 { gunnerType = "ru_vdv_jet_pilot"; };
         };
 
 
@@ -1034,10 +1065,10 @@ class CfgVehicles {
         displayName = "VDV Mi-24V";
         side = 0;
         faction = "ako_ru_vdv";
-        crew = "";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1066,11 +1097,104 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "VDV Mi-28N";
         side = 0;
-        faction = "AKO_RU_VDV";
-        crew = "rhs_pilot_combat_heli";
+        faction = "ako_ru_vdv";
+        crew = "ru_vdv_heli_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_heli_pilot"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_kamaz : rhs_kamaz5350_vdv_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV KamAZ-5350";
+        side = 0;
+        faction = "ako_ru_vdv";
+        crew = "ru_vdv_rifleman_ak74m";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_kamaz_ammo : rhs_kamaz5350_ammo_vdv_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV KamAZ-5350 (Ammo)";
+        side = 0;
+        faction = "ako_ru_vdv";
+        crew = "ru_vdv_rifleman_ak74m";
+
+        class Turrets : Turrets {
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_kamaz_open : rhs_kamaz5350_open_vdv_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV KamAZ-5350 (Open)";
+        side = 0;
+        faction = "ako_ru_vdv";
+        crew = "ru_vdv_rifleman_ak74m";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
         };
 
 

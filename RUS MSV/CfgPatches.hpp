@@ -45,7 +45,13 @@ class CfgPatches {
             "ru_msv_ural_aa",
             "ru_msv_bm21",
             "ru_msv_2s1",
-            "ru_msv_2s3m1"
+            "ru_msv_2s3m1",
+            "ru_msv_grenadier_gp25",
+            "ru_msv_grenadier_gp34",
+            "ru_msv_driver",
+            "ru_msv_brdm",
+            "ru_msv_brdm_at",
+            "ru_msv_salvager"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -74,7 +80,6 @@ class CfgPatches {
             "A3_Soft_F_Exp_Offroad_02",
             "A3_Data_F",
             "A3_Data_F_ParticleEffects",
-            "babe_int_EHs",
             "A3_Armor_F_Beta",
             "A3_Data_F_Curator",
             "cba_xeh",
@@ -84,7 +89,6 @@ class CfgPatches {
             "rhsgref_c_troops",
             "rhssaf_c_troops",
             "A3_Sounds_F",
-            "msd_overshoulder",
             "A3_Sounds_F_Exp",
             "A3_Air_F_Heli",
             "rhs_c_btr",

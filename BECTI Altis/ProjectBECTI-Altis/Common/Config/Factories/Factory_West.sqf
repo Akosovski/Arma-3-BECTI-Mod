@@ -12,33 +12,37 @@ missionNamespace setVariable [format["CTI_%1_Pilot", _side], "us_usmc_heli_pilot
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
 missionNamespace setVariable [format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
 
-missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["us_usmc_m1151a1_crows_m2", [
-		["JCA_arifle_M4A1_black_F", 3], ["30Rnd_556x45_Stanag", 30], 
-		["rhsusf_acc_ACOG3", 3],
-		["rhs_weap_M136", 8],
-		["HandGrenade", 20], 
-		["firstaidkit", 20]
-	]], 
-	["us_usmc_m1151a1_crows_mk19", [
-		["JCA_arifle_M4A1_black_F", 3], ["30Rnd_556x45_Stanag", 30], 
-		["rhsusf_acc_ACOG3", 3],
-		["rhs_weap_M136", 8],
-		["HandGrenade", 20], 
-		["firstaidkit", 20]
-	]]
-]];
+// Startup Vehicles may bug the AI (not moving after capturing a town)
+// missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+// 	["us_usmc_m1151a1_crows_m2", [
+// 		["JCA_arifle_M4A1_black_F", 3], ["30Rnd_556x45_Stanag", 30], 
+// 		["rhsusf_acc_ACOG3", 3],
+// 		["rhs_weap_M136", 8],
+// 		["HandGrenade", 20], 
+// 		["firstaidkit", 20]
+// 	]], 
+// 	["us_usmc_m1151a1_crows_mk19", [
+// 		["JCA_arifle_M4A1_black_F", 3], ["30Rnd_556x45_Stanag", 30], 
+// 		["rhsusf_acc_ACOG3", 3],
+// 		["rhs_weap_M136", 8],
+// 		["HandGrenade", 20], 
+// 		["firstaidkit", 20]
+// 	]]
+// ]];
 
 //--- Units - Barracks
 _u 			= ["us_usmc_rifleman_m4a1"];
 _u = _u		+ ["us_usmc_rifleman_m16"];
 _u = _u		+ ["us_usmc_rifleman_at"];
+_u = _u		+ ["us_usmc_grenadier_m16a4"];
+_u = _u		+ ["us_usmc_grenadier_m4a1"];
 _u = _u		+ ["us_usmc_missileman"];
 _u = _u		+ ["us_usmc_autorifleman_m249"];
 _u = _u		+ ["us_usmc_machinegunner"];
 _u = _u		+ ["us_usmc_sergeant"];
 _u = _u		+ ["us_usmc_lance_corporal"];
 _u = _u		+ ["us_usmc_aa_specialist"];
+_u = _u		+ ["us_usmc_at_specialist"];
 _u = _u		+ ["us_usmc_marksman"];
 _u = _u		+ ["us_usmc_corpsman"];
 _u = _u		+ ["us_usmc_engineer"];
@@ -53,6 +57,7 @@ _u = _u		+ ["us_usmc_marsoc_mk16"];
 _u = _u		+ ["us_usmc_marsoc_mk17"];
 _u = _u		+ ["us_usmc_marsoc_m249"];
 _u = _u		+ ["us_usmc_marsoc_eglm"];
+_u = _u		+ ["us_usmc_marsoc_m136"];
 _u = _u		+ ["us_usmc_marsoc_marksman"];
 _u = _u		+ ["us_usmc_marsoc_eod"];
 _u = _u		+ ["us_usmc_marsoc_heli_pilot"];
@@ -93,6 +98,7 @@ _u = _u		+ ["us_usmc_uh1y_rocket"];
 _u = _u		+ ["us_usmc_uh1y_armed"];
 _u = _u		+ ["us_usmc_uh60m"];
 _u = _u		+ ["us_usmc_uh60m_ews"];
+_u = _u		+ ["us_usmc_uh80"];
 _u = _u		+ ["us_usmc_ah1z"];
 _u = _u		+ ["us_usmc_ch53e"];
 _u = _u		+ ["us_usmc_oh6m"];
@@ -105,14 +111,14 @@ _u = _u		+ ["us_usaf_f22a"];
 _u = _u		+ ["us_usaf_c130j"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
-_u 			= ["us_usmc_m977a4_repair"];
+_u 			= ["CTI_Salvager_West"];
 _u = _u		+ ["us_usmc_m977a4_fuel"];
-_u = _u		+ ["CTI_Salvager_West"];
+_u = _u		+ ["us_usmc_m977a4_repair"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["us_usmc_m977a4_ammo"];
 _u = _u		+ ["us_usmc_m113a3_ammo"];
-_u = _u		+ ["us_usmc_m1152a1_rsv"];
+_u = _u		+ ["us_usmc_m1152a1_ammo"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
@@ -128,6 +134,7 @@ _u = _u		+ ["C_Van_01_transport_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
 	_u = _u		+ ["us_usmc_engineer"];
+	_u = _u		+ ["us_usmc_corpsman"];
 	_u = _u		+ ["us_usmc_machinegunner"];
     _u = _u		+ ["us_usmc_missileman"];
 };

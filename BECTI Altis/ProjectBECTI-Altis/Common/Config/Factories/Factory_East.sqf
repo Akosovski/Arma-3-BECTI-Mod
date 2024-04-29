@@ -12,25 +12,28 @@ missionNamespace setVariable [format["CTI_%1_Pilot", _side], "ru_msv_heli_pilot"
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "O_UAV_AI"];
 missionNamespace setVariable [format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
 
-missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["ru_msv_gaz_armed", [
-		["CUP_arifle_ak74m", 4], ["CUP_30Rnd_545x39_AK74M_M", 40],
-		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 16], 
-		["rhs_mag_rgo", 20], 
-		["firstaidkit", 20]
-	]], 
-	["ru_msv_gaz_armed", [
-		["CUP_arifle_ak74m", 4], ["CUP_30Rnd_545x39_AK74M_M", 40],
-		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 16], 
-		["rhs_mag_rgo", 20], 
-		["firstaidkit", 20]
-	]]
-]];
+// Startup Vehicles may bug the AI (not moving after capturing a town)
+// missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+// 	["ru_msv_gaz_armed", [
+// 		["CUP_arifle_ak74m", 4], ["CUP_30Rnd_545x39_AK74M_M", 40],
+// 		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 16], 
+// 		["rhs_mag_rgo", 20], 
+// 		["firstaidkit", 20]
+// 	]], 
+// 	["ru_msv_gaz_armed", [
+// 		["CUP_arifle_ak74m", 4], ["CUP_30Rnd_545x39_AK74M_M", 40],
+// 		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 16], 
+// 		["rhs_mag_rgo", 20], 
+// 		["firstaidkit", 20]
+// 	]]
+// ]];
 
 //--- Units - Barracks
 _u 			= ["ru_msv_rifleman_ak74m"];
 _u = _u		+ ["ru_msv_rifleman_ak12"];
 _u = _u		+ ["ru_msv_rifleman_akm"];
+_u = _u		+ ["ru_msv_grenadier_gp25"];
+_u = _u		+ ["ru_msv_grenadier_gp34"];
 _u = _u		+ ["ru_msv_grenadier_rpg"];
 _u = _u		+ ["ru_msv_efreitor"];
 _u = _u		+ ["ru_msv_medic"];
@@ -40,6 +43,7 @@ _u = _u		+ ["ru_msv_marksman"];
 _u = _u		+ ["ru_msv_sergeant"];
 _u = _u		+ ["ru_msv_at_specialist"];
 _u = _u		+ ["ru_msv_aa_specialist"];
+_u = _u		+ ["ru_msv_driver"];
 _u = _u		+ ["ru_msv_officer"];
 _u = _u		+ ["ru_msv_crewman"];
 _u = _u		+ ["ru_msv_tank_crewman"];
@@ -67,6 +71,10 @@ _u = _u		+ ["ru_msv_ural_flatbed"];
 _u = _u		+ ["ru_msv_ural_open"];
 _u = _u		+ ["ru_msv_ural_open_flatbed"];
 _u = _u		+ ["ru_msv_ural_aa"];
+_u = _u		+ ["ru_vdv_kamaz"];
+_u = _u		+ ["ru_vdv_kamaz_open"];
+_u = _u		+ ["ru_msv_brdm"];
+_u = _u		+ ["ru_msv_brdm_at"];
 _u = _u		+ ["ru_msv_btr70"]; 
 _u = _u		+ ["ru_msv_btr80a"]; 
 _u = _u		+ ["ru_msv_bmp1"];
@@ -114,6 +122,7 @@ _u = _u		+ ["ru_msv_ural_fuel"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["ru_msv_ural_ammo"];
+_u = _u		+ ["ru_vdv_kamaz_ammo"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
@@ -134,6 +143,7 @@ if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
 	_u = _u		+ ["ru_msv_efreitor"];
 	_u = _u		+ ["ru_msv_machinegunner"];
+	_u = _u		+ ["ru_msv_medic"];
 	_u = _u		+ ["ru_msv_grenadier_rpg"];
 };
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_DEPOT], _u];

@@ -13,6 +13,17 @@ class CfgVehicles {
     class rhsusf_usmc_marpat_wd_squadleader_OCimport_01 : rhsusf_usmc_marpat_wd_squadleader { scope = 0; class EventHandlers; };
     class rhsusf_usmc_marpat_wd_squadleader_OCimport_02 : rhsusf_usmc_marpat_wd_squadleader_OCimport_01 { class EventHandlers; };
 
+    class B_Heli_Transport_01_F;
+    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_F_OCimport_02 : B_Heli_Transport_01_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class MainTurret;
+            class RightDoorGun;
+        };
+    };
+
     class RHS_A10;
     class RHS_A10_OCimport_01 : RHS_A10 { scope = 0; class EventHandlers; };
     class RHS_A10_OCimport_02 : RHS_A10_OCimport_01 { scope = 0; class EventHandlers; };
@@ -488,6 +499,10 @@ class CfgVehicles {
         };
     };
 
+    class B_Truck_01_box_F;
+    class B_Truck_01_box_F_OCimport_01 : B_Truck_01_box_F { scope = 0; class EventHandlers; };
+    class B_Truck_01_box_F_OCimport_02 : B_Truck_01_box_F_OCimport_01 { scope = 0; class EventHandlers; };
+
 
     class us_usmc_sergeant : rhsusf_usmc_marpat_wd_squadleader_OCimport_02 {
         author = "Akosovski";
@@ -504,8 +519,8 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_spc_squadleader","rhsusf_lwh_helmet_marpatwd_headset_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_spc_squadleader","rhsusf_lwh_helmet_marpatwd_headset_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_black_F"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
+        weapons[] = {"JCA_arifle_M4A1_black_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","Rangefinder"};
 
         magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
@@ -961,7 +976,7 @@ class CfgVehicles {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "USMC Missileman (MAAWS)";
+        displayName = "USMC Missileman (SMAW)";
         side = 1;
         faction = "ako_us_usmc";
 
@@ -969,18 +984,18 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_FROG01_wd";
 
-        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatwd_headset_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatwd_headset_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws"};
+        weapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_smaw","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_smaw","Rangefinder"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
+        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_smaw_HEDP","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_smaw_HEDP","30Rnd_556x45_Stanag"};
 
-        backpack = "rhsusf_assault_eagleaiii_coy";
+        backpack = "rhsusf_falconii_coy";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"rhs_mag_maaws_HEAT",1},{},""},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_coy",{{"rhs_mag_maaws_HEAT",2,1}}},"rhsusf_lwh_helmet_marpatwd_ess","",{"","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_smaw","","","rhs_weap_optic_smaw",{"rhs_mag_smaw_HEDP",1},{"rhs_mag_smaw_SR",5},""},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_falconii_coy",{{"rhs_mag_smaw_HEDP",1,1},{"30Rnd_556x45_Stanag",3,30}}},"rhsusf_lwh_helmet_marpatwd_headset_blk","rhs_googles_clear",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1343,35 +1358,28 @@ class CfgVehicles {
 
     };
 
-    class us_usmc_marsoc_m4a4 : us_usmc_rifleman_m4a1 {
+    class us_usmc_uh80 : B_Heli_Transport_01_F_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MARSOC Operator (M4A4)";
+        displayName = "USMC UH-80";
         side = 1;
         faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
-        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "B_helicrew_F"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "B_helicrew_F"; };
+        };
 
-        uniformClass = "rhs_uniform_g3_m81";
-
-        linkedItems[] = {"rhsusf_mbav_rifleman","rhsusf_mich_bare_norotos_alt_semi","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
-        respawnlinkedItems[] = {"rhsusf_mbav_rifleman","rhsusf_mich_bare_norotos_alt_semi","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
-
-        weapons[] = {"JCA_arifle_M4A4_AFG_black_F"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_black_F"};
-
-        magazines[] = {"JCA_30Rnd_556x45_Green_PMAG","JCA_30Rnd_556x45_Green_PMAG"};
-        respawnMagazines[] = {"JCA_30Rnd_556x45_Green_PMAG","JCA_30Rnd_556x45_Green_PMAG"};
-
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_black_F","","rhsusf_acc_anpeq15_bk_light","rhsusf_acc_su230_mrds",{"JCA_30Rnd_556x45_Green_PMAG",30},{},""},{},{},{"rhs_uniform_g3_m81",{{"FirstAidKit",5}}},{"rhsusf_mbav_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"JCA_30Rnd_556x45_Green_PMAG",10,30}}},{},"rhsusf_mich_bare_norotos_alt_semi","rhs_googles_clear",{"","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1381,7 +1389,7 @@ class CfgVehicles {
 
     };
 
-    class us_usmc_marsoc_mk16 : us_usmc_marsoc_m4a4 {
+    class us_usmc_marsoc_mk16 : us_usmc_rifleman_m4a1 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1497,7 +1505,7 @@ class CfgVehicles {
 
     };
 
-    class us_usmc_marsoc_eglm : us_usmc_marsoc_m4a4 {
+    class us_usmc_marsoc_eglm : us_usmc_rifleman_m4a1 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1541,8 +1549,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USAF A-10A";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_airforce_jetpilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_jet_pilot";
 
 
         class EventHandlers : EventHandlers {
@@ -1565,11 +1573,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USAF AH-64D";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_ah64_pilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
         };
 
 
@@ -1594,8 +1602,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USAF F-22A";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_airforce_jetpilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_jet_pilot";
 
 
         class EventHandlers : EventHandlers {
@@ -1618,11 +1626,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USAF C-130J";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_airforce_pilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_jet_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_jet_pilot"; };
         };
 
 
@@ -1647,13 +1655,13 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC CH-47F";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class RightDoorGun : RightDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_usmc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -1680,12 +1688,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC CH-53E";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class GAU21 : GAU21 { gunnerType = "rhsusf_usmc_marpat_wd_helicrew"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class GAU21 : GAU21 { gunnerType = "us_usmc_heli_pilot"; };
         };
 
 
@@ -1710,11 +1718,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC AH-1Z";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
         };
 
 
@@ -1739,11 +1747,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC UH-1Y (Unarmed)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1776,11 +1784,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC UH-1Y (Rocket)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1813,13 +1821,13 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC UH-1Y (Rocket + MG)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class RightDoorGun : RightDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_marsoc_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_usmc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1850,13 +1858,13 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC UH-60M";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "rhsusf_army_ucp_helicrew"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "rhsusf_army_ucp_helicrew"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_usmc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1885,11 +1893,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC UH-60M (EWS)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1918,11 +1926,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MARSOC AH-6M";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_marsoc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_marsoc_heli_pilot"; };
         };
 
 
@@ -1947,11 +1955,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MARSOC MH-6M";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_marsoc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_marsoc_heli_pilot"; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
@@ -1982,11 +1990,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MARSOC OH-6M";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_helipilot";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_marsoc_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_usmc_marsoc_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2013,8 +2021,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M142 HIMARS";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_combatcrewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2043,11 +2051,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M109A6";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2072,11 +2080,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M2A3";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2101,11 +2109,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M2A3 (BUSK I)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2130,11 +2138,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M2A3 (BUSK II)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2159,11 +2167,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1A1FEP";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2188,11 +2196,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1A2SEPv1 (TUSK I)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_combatcrewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2217,11 +2225,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1A2SEPv1 (TUSK II)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_combatcrewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2246,11 +2254,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1A2SEPv2";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_combatcrewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2275,11 +2283,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M6A2 (AA)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2304,8 +2312,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M977A4";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -2328,8 +2336,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M977A4 (Ammo)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -2352,8 +2360,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M977A4 (Repair)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -2376,8 +2384,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M977A4 (Fuel)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -2400,8 +2408,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1078A1";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2430,8 +2438,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1078A1 (Flatbed)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -2454,8 +2462,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1123 (Half)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_rifleman_m4";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2484,8 +2492,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1123 (Open)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_rifleman_m4";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2515,8 +2523,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1123";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_usmc_marpat_wd_rifleman_m4";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2545,12 +2553,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1126 (M2)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_rifleman_m4";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "us_usmc_crewman"; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
         };
@@ -2577,12 +2585,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1126 (Mk19)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_rifleman_m4";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "us_usmc_crewman"; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
         };
@@ -2609,14 +2617,14 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1134 (AA)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_rifleman_m4";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "us_usmc_crewman"; };
             class Turret_Weapon : Turret_Weapon { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = "us_usmc_crewman"; };
         };
 
 
@@ -2641,11 +2649,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M113A3 (Ammo)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
             class MainTurret_In : MainTurret_In { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -2673,11 +2681,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M113A3 (M2)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
             class MainTurret_In : MainTurret_In { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -2705,11 +2713,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M113A3 (Mk19)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
             class MainTurret_In : MainTurret_In { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -2737,8 +2745,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M113A3 (Unarmed)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_crewman";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
             class MainTurret_In : MainTurret_In { gunnerType = ""; };
@@ -2768,8 +2776,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1151A1";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
@@ -2797,11 +2805,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1151A1 (CROWS/M2)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class CROWS_Turret : CROWS_Turret { gunnerType = ""; };
+            class CROWS_Turret : CROWS_Turret { gunnerType = "us_usmc_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -2827,11 +2835,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1151A1 (CROWS/Mk19)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class CROWS_Turret : CROWS_Turret { gunnerType = ""; };
+            class CROWS_Turret : CROWS_Turret { gunnerType = "us_usmc_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -2857,11 +2865,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1151A1 (M2)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = ""; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_usmc_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -2887,11 +2895,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1151A1 (M240)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = ""; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_usmc_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -2917,11 +2925,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "USMC M1151A1 (Mk19)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = ""; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_usmc_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -2941,14 +2949,52 @@ class CfgVehicles {
 
     };
 
-    class us_usmc_m1152a1_rsv : rhsusf_m1152_rsv_usarmy_wd_OCimport_02 {
+    class us_usmc_marsoc_m4a4 : us_usmc_rifleman_m4a1 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "USMC M1152A1 RSV";
+        displayName = "MARSOC Operator (M4A4)";
         side = 1;
-        faction = "AKO_US_USMC";
-        crew = "rhsusf_army_ucp_driver_armored";
+        faction = "ako_us_usmc";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_g3_m81";
+
+        linkedItems[] = {"rhsusf_mbav_rifleman","rhsusf_mich_bare_norotos_arc_alt_tan_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+        respawnlinkedItems[] = {"rhsusf_mbav_rifleman","rhsusf_mich_bare_norotos_arc_alt_tan_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+
+        weapons[] = {"JCA_arifle_M4A4_AFG_black_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_black_F"};
+
+        magazines[] = {"JCA_30Rnd_556x45_Green_PMAG","JCA_30Rnd_556x45_Green_PMAG"};
+        respawnMagazines[] = {"JCA_30Rnd_556x45_Green_PMAG","JCA_30Rnd_556x45_Green_PMAG"};
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_black_F","","rhsusf_acc_anpeq15_bk_light","rhsusf_acc_su230_mrds",{"JCA_30Rnd_556x45_Green_PMAG",30},{},""},{},{},{"rhs_uniform_g3_m81",{{"FirstAidKit",5}}},{"rhsusf_mbav_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"JCA_30Rnd_556x45_Green_PMAG",10,30}}},{},"rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhs_googles_clear",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_m1152a1_ammo : rhsusf_m1152_rsv_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC M1152A1 (Ammo)";
+        side = 1;
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
@@ -2961,6 +3007,186 @@ class CfgVehicles {
 
             class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_marsoc_m136 : us_usmc_rifleman_at {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MARSOC Operator (M136)";
+        side = 1;
+        faction = "ako_us_usmc";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_g3_m81";
+
+        linkedItems[] = {"rhsusf_mbav_rifleman","rhsusf_mich_bare_norotos_arc_semi_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+        respawnlinkedItems[] = {"rhsusf_mbav_rifleman","rhsusf_mich_bare_norotos_arc_semi_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+
+        weapons[] = {"JCA_arifle_M4A4_AFG_black_F","rhs_weap_M136_hedp","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_black_F","rhs_weap_M136_hedp","Rangefinder"};
+
+        magazines[] = {"JCA_30Rnd_556x45_Green_PMAG","JCA_30Rnd_556x45_Green_PMAG"};
+        respawnMagazines[] = {"JCA_30Rnd_556x45_Green_PMAG","JCA_30Rnd_556x45_Green_PMAG"};
+
+        backpack = "rhsusf_falconii_coy";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_black_F","","rhsusf_acc_anpeq15_bk_light","rhsusf_acc_su230_mrds",{"JCA_30Rnd_556x45_Green_PMAG",30},{},""},{"rhs_weap_M136_hedp","","","",{},{},""},{},{"rhs_uniform_g3_m81",{{"FirstAidKit",5}}},{"rhsusf_mbav_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"JCA_30Rnd_556x45_Green_PMAG",10,30}}},{"rhsusf_falconii_coy",{{{"rhs_weap_M136_hedp","","","",{},{},""},1}}},"rhsusf_mich_bare_norotos_arc_semi_headset","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_at_specialist : us_usmc_aa_specialist {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC AT Specialist";
+        side = 1;
+        faction = "ako_us_usmc";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_wd";
+
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws","Rangefinder"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
+
+        backpack = "rhsusf_assault_eagleaiii_coy";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"rhs_mag_maaws_HEAT",1},{},""},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_coy",{{"rhs_mag_maaws_HEAT",2,1}}},"rhsusf_lwh_helmet_marpatwd_ess","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_salvager : B_Truck_01_box_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC Salvager";
+        side = 1;
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_grenadier_m16a4 : us_usmc_rifleman_m16 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC Grenadier (M16A4)";
+        side = 1;
+        faction = "ako_us_usmc";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_wd";
+
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_M16A4_GL"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_GL"};
+
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL","","rhsusf_acc_anpeq15_bk_light","rhsusf_acc_ACOG3",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HE_M203",1},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_1Rnd_HE_M203",3,1}}},{},"rhsusf_lwh_helmet_marpatwd_blk_ess","rhs_googles_clear",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_grenadier_m4a1 : us_usmc_rifleman_m4a1 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC Grenadier (M4A1)";
+        side = 1;
+        faction = "ako_us_usmc";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_wd";
+
+        linkedItems[] = {"rhsusf_spc_teamleader","rhsusf_lwh_helmet_marpatwd_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_teamleader","rhsusf_lwh_helmet_marpatwd_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_GL_black_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_GL_black_F","Rangefinder"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell"};
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_GL_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{"1Rnd_HE_Grenade_shell",1},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_teamleader",{{"rhs_mag_m67",2,1},{"1Rnd_HE_Grenade_shell",15,1},{"30Rnd_556x45_Stanag",10,30}}},{},"rhsusf_lwh_helmet_marpatwd_headset","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };

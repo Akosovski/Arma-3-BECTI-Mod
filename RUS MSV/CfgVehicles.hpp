@@ -303,6 +303,36 @@ class CfgVehicles {
         };
     };
 
+    class rhsgref_BRDM2_msv;
+    class rhsgref_BRDM2_msv_OCimport_01 : rhsgref_BRDM2_msv { scope = 0; class EventHandlers; class Turrets; };
+    class rhsgref_BRDM2_msv_OCimport_02 : rhsgref_BRDM2_msv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CommanderOptics;
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+        };
+    };
+
+    class rhsgref_BRDM2_ATGM_msv;
+    class rhsgref_BRDM2_ATGM_msv_OCimport_01 : rhsgref_BRDM2_ATGM_msv { scope = 0; class EventHandlers; class Turrets; };
+    class rhsgref_BRDM2_ATGM_msv_OCimport_02 : rhsgref_BRDM2_ATGM_msv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+        };
+    };
+
 
     class ru_msv_ural_repair : RHS_Ural_Repair_MSV_01_OCimport_02 {
         author = "Akosovski";
@@ -310,8 +340,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MSV Ural-4320 (Repair)";
         side = 0;
-        faction = "AKO_RU_MSV";
-        crew = "rhs_msv_driver";
+        faction = "ako_ru_msv";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
@@ -758,7 +788,7 @@ class CfgVehicles {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MSV Grenadier RPG";
+        displayName = "MSV Grenadier (RPG-7V2)";
         side = 0;
         faction = "ako_ru_msv";
 
@@ -955,11 +985,11 @@ class CfgVehicles {
         displayName = "MSV BTR-80A";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CommanderOptics : CommanderOptics { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "ru_msv_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -996,11 +1026,11 @@ class CfgVehicles {
         displayName = "MSV BTR-70";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class CommanderOptics : CommanderOptics { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "ru_msv_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1036,10 +1066,10 @@ class CfgVehicles {
         displayName = "MSV T-72B (1989)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1066,10 +1096,10 @@ class CfgVehicles {
         displayName = "MSV T-72B3 (2012)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1096,10 +1126,10 @@ class CfgVehicles {
         displayName = "MSV T-80U";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1126,10 +1156,10 @@ class CfgVehicles {
         displayName = "MSV T-80UM";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1156,10 +1186,10 @@ class CfgVehicles {
         displayName = "MSV T-90 (1992)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1186,10 +1216,10 @@ class CfgVehicles {
         displayName = "MSV T-90A (2006)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1216,10 +1246,10 @@ class CfgVehicles {
         displayName = "MSV T-90SM";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1246,11 +1276,11 @@ class CfgVehicles {
         displayName = "MSV BMP-1";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class Com_BMP1 : Com_BMP1 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
+            class Com_BMP1 : Com_BMP1 { gunnerType = "ru_msv_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1287,10 +1317,10 @@ class CfgVehicles {
         displayName = "MSV BMP-2 (1986)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1327,10 +1357,10 @@ class CfgVehicles {
         displayName = "MSV BMP-3";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
             class GPMGTurret1 : GPMGTurret1 { gunnerType = "rhs_msv_rifleman"; };
             class GPMGTurret2 : GPMGTurret2 { gunnerType = "rhs_msv_rifleman"; };
         };
@@ -1359,10 +1389,10 @@ class CfgVehicles {
         displayName = "MSV BMP-3 (Vesna-K/A)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
             class GPMGTurret1 : GPMGTurret1 { gunnerType = "rhs_msv_rifleman"; };
             class GPMGTurret2 : GPMGTurret2 { gunnerType = "rhs_msv_rifleman"; };
         };
@@ -1391,7 +1421,7 @@ class CfgVehicles {
         displayName = "MSV UAZ-3151";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
@@ -1415,7 +1445,7 @@ class CfgVehicles {
         displayName = "MSV UAZ-3151 (Open)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1448,7 +1478,7 @@ class CfgVehicles {
         displayName = "MSV GAZ-233011";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "rhs_msv_driver_armored";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1478,10 +1508,10 @@ class CfgVehicles {
         displayName = "MSV GAZ-233014";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "rhs_msv_driver_armored";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "rhs_msv_grenadier"; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_rifleman_ak74m"; };
             class AGS_Turret : AGS_Turret { gunnerType = "rhs_msv_grenadier"; };
         };
 
@@ -1508,7 +1538,7 @@ class CfgVehicles {
         displayName = "MSV GAZ-233114";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "rhs_msv_driver_armored";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "rhs_msv_machinegunner"; };
@@ -1537,7 +1567,7 @@ class CfgVehicles {
         displayName = "MSV Ural-4320";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1567,7 +1597,7 @@ class CfgVehicles {
         displayName = "MSV Ural-4320 (Flatbed)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
@@ -1591,7 +1621,7 @@ class CfgVehicles {
         displayName = "MSV Ural-4320 (Open)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1623,7 +1653,7 @@ class CfgVehicles {
         displayName = "MSV Ural-4320 (Open/Flatbed)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
@@ -1647,7 +1677,7 @@ class CfgVehicles {
         displayName = "MSV Ural-4320 (Fuel)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
@@ -1671,7 +1701,7 @@ class CfgVehicles {
         displayName = "MSV Ural-4320 (Ammo)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
@@ -1695,11 +1725,11 @@ class CfgVehicles {
         displayName = "MSV Ural-4320 (ZU-23-2)";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_driver";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "rhs_msv_rifleman"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "rhs_msv_sergeant"; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_rifleman_ak74m"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "ru_msv_rifleman_ak74m"; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
         };
@@ -1727,7 +1757,7 @@ class CfgVehicles {
         displayName = "MSV BM-21 Grad";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_rifleman_ak74m";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1756,10 +1786,10 @@ class CfgVehicles {
         displayName = "MSV 2S1";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
 
@@ -1786,12 +1816,224 @@ class CfgVehicles {
         displayName = "MSV 2S3M1";
         side = 0;
         faction = "ako_ru_msv";
-        crew = "";
+        crew = "ru_msv_tank_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
         };
 
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_grenadier_gp25 : ru_msv_rifleman_ak74m {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV Grenadier (GP-25)";
+        side = 0;
+        faction = "ako_ru_msv";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_emr_patchless";
+
+        linkedItems[] = {"rhs_6b45_grn","rhs_6b7_1m_emr_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6b45_grn","rhs_6b7_1m_emr_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_GL"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_GL"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30},{"CUP_1Rnd_HE_GP25_M",10,1}}},{},"rhs_6b7_1m_emr_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_grenadier_gp34 : ru_msv_rifleman_ak12 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV Grenadier (GP-34)";
+        side = 0;
+        faction = "ako_ru_msv";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_emr_patchless";
+
+        linkedItems[] = {"rhs_6b45_grn","rhs_6b7_1m_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6b45_grn","rhs_6b7_1m_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK12_GP34_black"};
+        respawnWeapons[] = {"CUP_arifle_AK12_GP34_black"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M"};
+
+        backpack = "rhs_rd54_emr1";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_black","","","",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"FirstAidKit",6},{"CUP_30Rnd_545x39_AK12_M",8,30},{"CUP_1Rnd_HE_GP25_M",10,1}}},{"rhs_rd54_emr1",{{"FirstAidKit",5},{"rhs_mag_rgo",3,1}}},"rhs_6b7_1m_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_driver : ru_msv_crewman {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV Driver";
+        side = 0;
+        faction = "ako_ru_msv";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_emr_patchless";
+
+        linkedItems[] = {"rhs_6sh92_digi","rhs_fieldcap_digi","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6sh92_digi","rhs_fieldcap_digi","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AKM_Early"};
+        respawnWeapons[] = {"CUP_arifle_AKM_Early"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_bakelite_M","CUP_30Rnd_762x39_AK47_bakelite_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_bakelite_M","CUP_30Rnd_762x39_AK47_bakelite_M"};
+
+        backpack = "rhs_sidor";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM_Early","","","",{"CUP_30Rnd_762x39_AK47_bakelite_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6sh92_digi",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_762x39_AK47_bakelite_M",7,30}}},{"rhs_sidor",{}},"rhs_fieldcap_digi","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_brdm : rhsgref_BRDM2_msv_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV BRDM-2";
+        side = 0;
+        faction = "ako_ru_msv";
+        crew = "ru_msv_crewman";
+
+        class Turrets : Turrets {
+            class CommanderOptics : CommanderOptics { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_brdm_at : rhsgref_BRDM2_ATGM_msv_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV BRDM-2 (AT)";
+        side = 0;
+        faction = "ako_ru_msv";
+        crew = "ru_msv_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "ru_msv_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_salvager : ru_msv_ural_repair {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV Salvager";
+        side = 0;
+        faction = "AKO_RU_MSV";
+        crew = "ru_msv_driver";
 
 
         class EventHandlers : EventHandlers {
