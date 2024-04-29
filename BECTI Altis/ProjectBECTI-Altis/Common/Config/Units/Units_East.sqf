@@ -44,7 +44,7 @@ _p = _p + [''];
 _n = _n + ['MSV Rifleman (AK-12)'];
 _o = _o + [180];
 _t = _t + [5];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -71,7 +71,7 @@ _p = _p + [''];
 _n = _n + ['MSV Grenadier (GP-34)'];
 _o = _o + [220];
 _t = _t + [5];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 

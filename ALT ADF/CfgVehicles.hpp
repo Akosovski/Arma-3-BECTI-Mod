@@ -143,8 +143,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36K_AG36"};
         respawnWeapons[] = {"CUP_arifle_G36K_AG36"};
@@ -152,7 +152,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_G36","CUP_1Rnd_HE_M203","CUP_30Rnd_556x45_G36","CUP_1Rnd_HE_M203"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_1Rnd_HE_M203","CUP_30Rnd_556x45_G36","CUP_1Rnd_HE_M203"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K_AG36","","","CUP_optic_G36DualOptics",{"CUP_30Rnd_556x45_G36",30},{"CUP_1Rnd_HE_M203",1},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_nco",{{"CUP_30Rnd_556x45_G36",7,30},{"CUP_1Rnd_HE_M203",6,1}}},{},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K_AG36","","","CUP_optic_G36DualOptics",{"CUP_30Rnd_556x45_G36",30},{"CUP_1Rnd_HE_M203",1},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_nco",{{"CUP_30Rnd_556x45_G36",7,30},{"CUP_1Rnd_HE_M203",6,1}}},{},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -181,8 +181,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36K_KSK_VFG"};
         respawnWeapons[] = {"CUP_arifle_G36K_KSK_VFG"};
@@ -190,7 +190,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K_KSK_VFG","","rhsusf_acc_anpeq15side_bk","CUP_optic_Aimpoint_5000",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_rifleman",{{"CUP_30Rnd_556x45_G36",12,30}}},{},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K_KSK_VFG","","rhsusf_acc_anpeq15side_bk","CUP_optic_Aimpoint_5000",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_rifleman",{{"CUP_30Rnd_556x45_G36",12,30}}},{},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -219,8 +219,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_officer","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_officer","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_officer","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_officer","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36K_RIS"};
         respawnWeapons[] = {"CUP_arifle_G36K_RIS"};
@@ -228,7 +228,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K_RIS","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_officer",{{"CUP_30Rnd_556x45_G36",7,30}}},{},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K_RIS","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_officer",{{"CUP_30Rnd_556x45_G36",7,30}}},{},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -257,8 +257,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36C","rhs_weap_igla"};
         respawnWeapons[] = {"CUP_arifle_G36C","rhs_weap_igla"};
@@ -268,7 +268,7 @@ class CfgVehicles {
 
         backpack = "rhs_sidor";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki",{{"CUP_30Rnd_556x45_G36",10,30}}},{"rhs_sidor",{{"rhs_mag_9k38_rocket",1,1}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain",{{"CUP_30Rnd_556x45_G36",10,30}}},{"rhs_sidor",{{"rhs_mag_9k38_rocket",1,1}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -297,8 +297,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36C_VFG_Carry","rhs_weap_rpg7"};
         respawnWeapons[] = {"CUP_arifle_G36C_VFG_Carry","rhs_weap_rpg7"};
@@ -308,7 +308,7 @@ class CfgVehicles {
 
         backpack = "rhs_rpg_6b3";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C_VFG_Carry","","","CUP_optic_G36DualOptics",{"CUP_30Rnd_556x45_G36",30},{},""},{"rhs_weap_rpg7","","","",{"rhs_rpg7_PG7VL_mag",1},{},""},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki",{{"CUP_30Rnd_556x45_G36",10,30}}},{"rhs_rpg_6b3",{{"rhs_rpg7_PG7VL_mag",3,1}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C_VFG_Carry","","","CUP_optic_G36DualOptics",{"CUP_30Rnd_556x45_G36",30},{},""},{"rhs_weap_rpg7","","","",{"rhs_rpg7_PG7VL_mag",1},{},""},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain",{{"CUP_30Rnd_556x45_G36",10,30}}},{"rhs_rpg_6b3",{{"rhs_rpg7_PG7VL_mag",3,1}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -337,8 +337,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_nco","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G3A3_ris"};
         respawnWeapons[] = {"CUP_arifle_G3A3_ris"};
@@ -348,7 +348,7 @@ class CfgVehicles {
 
         backpack = "CUP_O_RUS_Patrol_bag_Green";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_ris","","","CUP_optic_Aimpoint_5000",{"CUP_20Rnd_762x51_G3",20},{},"CUP_bipod_G3"},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_nco",{{"CUP_20Rnd_762x51_G3",6,20}}},{"CUP_O_RUS_Patrol_bag_Green",{{"FirstAidKit",5},{"CUP_20Rnd_762x51_G3",10,20}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_ris","","","CUP_optic_Aimpoint_5000",{"CUP_20Rnd_762x51_G3",20},{},"CUP_bipod_G3"},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_nco",{{"CUP_20Rnd_762x51_G3",6,20}}},{"CUP_O_RUS_Patrol_bag_Green",{{"FirstAidKit",5},{"CUP_20Rnd_762x51_G3",10,20}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -377,8 +377,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36A3"};
         respawnWeapons[] = {"CUP_arifle_G36A3"};
@@ -388,7 +388,7 @@ class CfgVehicles {
 
         backpack = "rhssaf_kitbag_smb";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A3","","rhsusf_acc_anpeq15side_bk","CUP_optic_CompM4",{"CUP_100Rnd_556x45_BetaCMag",100},{},"CUP_Bipod_G36"},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki",{{"CUP_100Rnd_556x45_BetaCMag",4,100}}},{"rhssaf_kitbag_smb",{{"FirstAidKit",6},{"CUP_100Rnd_556x45_BetaCMag",5,100}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A3","","rhsusf_acc_anpeq15side_bk","CUP_optic_CompM4",{"CUP_100Rnd_556x45_BetaCMag",100},{},"CUP_Bipod_G36"},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain",{{"CUP_100Rnd_556x45_BetaCMag",4,100}}},{"rhssaf_kitbag_smb",{{"FirstAidKit",6},{"CUP_100Rnd_556x45_BetaCMag",5,100}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -417,8 +417,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki","H_HelmetCrew_I","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki","H_HelmetCrew_I","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain","H_HelmetCrew_I","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain","H_HelmetCrew_I","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36C"};
         respawnWeapons[] = {"CUP_arifle_G36C"};
@@ -426,7 +426,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki",{{"CUP_30Rnd_556x45_G36",10,30}}},{},"H_HelmetCrew_I","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain",{{"CUP_30Rnd_556x45_G36",10,30}}},{},"H_HelmetCrew_I","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -455,8 +455,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_rifleman","rhssaf_bandana_smb","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_rifleman","rhssaf_bandana_smb","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_rifleman","rhssaf_bandana_smb","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_rifleman","rhssaf_bandana_smb","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36KA3_grip"};
         respawnWeapons[] = {"CUP_arifle_G36KA3_grip"};
@@ -466,7 +466,7 @@ class CfgVehicles {
 
         backpack = "CUP_O_RUS_Patrol_bag_Green";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36KA3_grip","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_rifleman",{{"CUP_30Rnd_556x45_G36",7,30}}},{"CUP_O_RUS_Patrol_bag_Green",{{"SatchelCharge_Remote_Mag",1,1},{"DemoCharge_Remote_Mag",3,1}}},"rhssaf_bandana_smb","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36KA3_grip","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_rifleman",{{"CUP_30Rnd_556x45_G36",7,30}}},{"CUP_O_RUS_Patrol_bag_Green",{{"SatchelCharge_Remote_Mag",1,1},{"DemoCharge_Remote_Mag",3,1}}},"rhssaf_bandana_smb","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -495,8 +495,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_rifleman","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36C"};
         respawnWeapons[] = {"CUP_arifle_G36C"};
@@ -506,7 +506,7 @@ class CfgVehicles {
 
         backpack = "CUP_O_RUS_Patrol_bag_Green";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_Aimpoint_5000",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_rifleman",{{"FirstAidKit",5},{"CUP_30Rnd_556x45_G36",7,30}}},{"CUP_O_RUS_Patrol_bag_Green",{{"FirstAidKit",3},{"ToolKit",2}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_Aimpoint_5000",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_rifleman",{{"FirstAidKit",5},{"CUP_30Rnd_556x45_G36",7,30}}},{"CUP_O_RUS_Patrol_bag_Green",{{"FirstAidKit",3},{"ToolKit",2}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -535,8 +535,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_medic","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_medic","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_medic","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_medic","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_G36C"};
         respawnWeapons[] = {"CUP_arifle_G36C"};
@@ -546,7 +546,7 @@ class CfgVehicles {
 
         backpack = "CUP_O_RUS_Patrol_bag_Green";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_Aimpoint_5000",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_medic",{{"FirstAidKit",5},{"CUP_30Rnd_556x45_G36",10,30}}},{"CUP_O_RUS_Patrol_bag_Green",{{"Medikit",2},{"FirstAidKit",5}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","CUP_optic_Aimpoint_5000",{"CUP_30Rnd_556x45_G36",30},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_medic",{{"FirstAidKit",5},{"CUP_30Rnd_556x45_G36",10,30}}},{"CUP_O_RUS_Patrol_bag_Green",{{"Medikit",2},{"FirstAidKit",5}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -575,8 +575,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_lmg_M60E4"};
         respawnWeapons[] = {"CUP_lmg_M60E4"};
@@ -586,7 +586,7 @@ class CfgVehicles {
 
         backpack = "CUP_O_RUS_Patrol_bag_Green";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M60E4","","","CUP_optic_Aimpoint_5000",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki",{{"FirstAidKit",4},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100}}},{"CUP_O_RUS_Patrol_bag_Green",{{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",6,100}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M60E4","","","CUP_optic_Aimpoint_5000",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain",{{"FirstAidKit",4},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100}}},{"CUP_O_RUS_Patrol_bag_Green",{{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",6,100}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_khk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -615,8 +615,8 @@ class CfgVehicles {
 
         uniformClass = "rhsgref_uniform_altis_lizard";
 
-        linkedItems[] = {"rhsgref_6b23_khaki_sniper","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsgref_6b23_khaki_sniper","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsgref_6b23_ttsko_mountain_sniper","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsgref_6b23_ttsko_mountain_sniper","rhsgref_helmet_pasgt_altis_lizard","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_srifle_M14_DMR"};
         respawnWeapons[] = {"CUP_srifle_M14_DMR"};
@@ -626,7 +626,7 @@ class CfgVehicles {
 
         backpack = "CUP_O_RUS_Patrol_bag_Green";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14_DMR","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L_BLK"},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_khaki_sniper",{{"CUP_20Rnd_762x51_DMR",5,20}}},{"CUP_O_RUS_Patrol_bag_Green",{{"CUP_20Rnd_762x51_DMR",10,20}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14_DMR","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L_BLK"},{},{},{"rhsgref_uniform_altis_lizard",{{"FirstAidKit",5}}},{"rhsgref_6b23_ttsko_mountain_sniper",{{"CUP_20Rnd_762x51_DMR",5,20}}},{"CUP_O_RUS_Patrol_bag_Green",{{"CUP_20Rnd_762x51_DMR",10,20}}},"rhsgref_helmet_pasgt_altis_lizard","G_Bandanna_blk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

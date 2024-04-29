@@ -506,6 +506,10 @@ _i = _i        + ["rhs_tortila_olive"];
 _u = _u        + [2];
 _p = _p        + [10];
 
+_i = _i		    + ["b_Kitbag_sgg"];
+_u = _u		    + [1];
+_p = _p		    + [25];
+
 _i = _i		    + ["b_parachute"];
 _u = _u		    + [0];
 _p = _p		    + [25];

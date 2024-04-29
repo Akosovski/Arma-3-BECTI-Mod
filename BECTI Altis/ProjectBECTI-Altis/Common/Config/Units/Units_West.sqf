@@ -14,7 +14,7 @@ _s = []; //--- Script
 
 _c = _c + ['us_usmc_rifleman_m16'];
 _p = _p + [''];
-_n = _n + ['USMC Rifleman (M16)'];
+_n = _n + ['USMC Rifleman (M16A4)'];
 _o = _o + [150];
 _t = _t + [5];
 _u = _u + [0];
@@ -23,7 +23,7 @@ _s = _s + [""];
 
 _c = _c + ['us_usmc_rifleman_m4a1'];
 _p = _p + [''];
-_n = _n + ['USMC Rifleman (M4)'];
+_n = _n + ['USMC Rifleman (M4A1)'];
 _o = _o + [150];
 _t = _t + [5];
 _u = _u + [0];
