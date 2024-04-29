@@ -75,7 +75,7 @@ class Params {
 		title = "BASE: Start Near towns";
 		values[] = {0,1};
 		texts[] = {"No","Yes"};//{"Disabled","Enabled"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Start-up Placement";
@@ -91,9 +91,9 @@ class Params {
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
-		values[] = {30,60,90,120,160,190};
-		texts[] = {"30 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 30;
+		values[] = {10,60,90,120,160,190};
+		texts[] = {"10 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
+		default = 10;
 	};
 	class CTI_ECONOMY_CURRENCY_SYSTEM {
 		title = "INCOME: Currency";
@@ -115,9 +115,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_EAST {
 		title = "INCOME: Starting Supply (East)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,25000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S25000"};
-		default = 25000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,30000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S30000"};
+		default = 30000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
@@ -133,9 +133,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_WEST {
 		title = "INCOME: Starting Supply (West)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,25000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S25000"};
-		default = 25000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,30000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S30000"};
+		default = 30000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
@@ -185,7 +185,7 @@ class Params {
 		title = "RESPAWN: Camps";
 		values[] = {0,1,2,3};
 		texts[] = {"Disabled","Classic","Nearby Camps","Occupation Only"};
-		default = 3;
+		default = 2;
 	};
 	class CTI_RESPAWN_CAMPS_RULE_MODE {
 		title = "RESPAWN: Enemy near";
@@ -317,7 +317,7 @@ class Params {
 		title = "UNITS: Show Map Infantry";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_UNITS_FATIGUE {
 		title = "UNITS: Fatigue";
@@ -327,9 +327,9 @@ class Params {
 	};
 	class CTI_VEHICLES_EMPTY_TIMEOUT {
 		title = "UNITS: Vehicles Reycling Delay";
-		values[] = {60,120,180,240,300,600,1200,1800,2400,3000,3600};
-		texts[] = {"1 Minute","2 Minutes","3 Minutes","4 Minutes","5 Minutes","10 Minutes","20 Minutes","30 Minutes","40 Minutes","50 Minutes","1 Hour"};
-		default = 3600;
+		values[] = {60,120,180,240,300,600,1200,1800,2400,3000,10800};
+		texts[] = {"1 Minute","2 Minutes","3 Minutes","4 Minutes","5 Minutes","10 Minutes","20 Minutes","30 Minutes","40 Minutes","50 Minutes","3 Hours"};
+		default = 10800;
 	};
 	class CTI_GRAPHICS_TG_MAX {
 		title = "VISUAL: Terrain Grid";

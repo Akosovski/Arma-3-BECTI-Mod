@@ -4,19 +4,19 @@ respawnDelay = 1;
 respawnDialog = false;
 
 // --- Corpse timer.
-corpseLimit = 30; // Default: 15
-corpseRemovalMinTime = 240; // seconds. Default: 10
+corpseLimit = 45; // Default: 15
+corpseRemovalMinTime = 600; // seconds. Default: 10
 corpseRemovalMaxTime = 3600; // seconds. Default: 3600
 
 //--- Require briefing.html to show up.
-onLoadName = "BECTI RHS USA-RUSA Altis";
-briefingName = "BECTI RHS USA-RUSA Altis";
+onLoadName = "BECTI RHS USA-RUS Altis";
+briefingName = "BECTI RHS USA-RUS Altis";
 onLoadMission = "Battle Against Players and AI for control of the Map.";
 overviewText = "Battle Against Players and AI for control of the Map.";
 
 //--- ArmA 3 Specifics
-dev = "Fisher, Boivie, Original by: Sari, Benny";
-author = "Fisher, Boivie";
+dev = "Akosovski, Fisher, Boivie, Original by: Sari, Benny";
+author = "Akosovski, Fisher, Boivie";
 
 // overviewPicture
 overviewPicture = "Rsc\Pictures\missionSplash.paa";
