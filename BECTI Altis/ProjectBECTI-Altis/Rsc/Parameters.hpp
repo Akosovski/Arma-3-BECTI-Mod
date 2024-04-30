@@ -14,7 +14,7 @@ class Params {
 	class CTI_AI_TEAMS_ENABLED {
 		title = "AI: Teams";
 		values[] = {0,1,2,3,4};
-		texts[] = {"Disabled", "1/4 Slots", "1/2 Slots", "3/4 Slots", "All Slots"};
+		texts[] = {"Disabled", "1/3 Slots", "1/2 Slots", "3/4 Slots", "All Slots"};
 		default = 1;
 	};
 	class CTI_AI_TEAMS_GROUPSIZE {
@@ -29,12 +29,12 @@ class Params {
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
 		default = 90;
 	};
-	//class CTI_ARTILLERY_SETUP {
-	//	title = "ARTILLERY: Setup";
-	//	values[] = {-2,-1,0,1,2,3};
-	//	texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
-	//	default = 1;
-	//};
+	class CTI_ARTILLERY_SETUP {
+		title = "ARTILLERY: Setup";
+		values[] = {-2,-1,0,1,2,3};
+		texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
+		default = -1;
+	};
 	class CTI_BASE_AREA_MAX {
 		title = "BASE: Areas Limit";
 		values[] = {0,1,2,3};
@@ -75,13 +75,13 @@ class Params {
 		title = "BASE: Start Near towns";
 		values[] = {0,1};
 		texts[] = {"No","Yes"};//{"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Start-up Placement";
 		values[] = {1000,2000,4000,6000,10000};
 		texts[] = {"1KM","2 KM","4 KM","6 KM","10 KM"};
-		default = 2000;
+		default = 6000;
 	};
 	class CTI_BASE_WORKERS_LIMIT {
 		title = "BASE: Worker Limit";
@@ -91,9 +91,9 @@ class Params {
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
-		values[] = {10,60,90,120,160,190};
-		texts[] = {"10 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 10;
+		values[] = {12,60,90,120,160,190};
+		texts[] = {"12 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
+		default = 12;
 	};
 	class CTI_ECONOMY_CURRENCY_SYSTEM {
 		title = "INCOME: Currency";
@@ -311,7 +311,7 @@ class Params {
 		title = "Units: Independent Salvager Limit";
 		values[] = {1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"1","2","3","4","5","6","7","8","9","10"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_MARKERS_INFANTRY {
 		title = "UNITS: Show Map Infantry";

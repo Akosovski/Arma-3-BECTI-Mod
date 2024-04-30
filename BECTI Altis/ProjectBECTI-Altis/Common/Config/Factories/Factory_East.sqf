@@ -131,19 +131,20 @@ _u = _u		+ ["O_Boat_Armed_01_hmg_F"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
-_u 			= ["C_Offroad_01_F"];
+_u 			= ["ru_msv_uaz"];
+_u = _u		+ ["ru_msv_gaz_normal"];
+_u = _u		+ ["ru_msv_ural_normal"];
 _u = _u		+ ["C_Quadbike_01_F"];
-_u = _u		+ ["C_Offroad_02_unarmed_F"];
-_u = _u		+ ["C_Hatchback_01_F"];
-_u = _u		+ ["C_Hatchback_01_sport_F"];
-_u = _u		+ ["C_SUV_01_F"];
-_u = _u		+ ["C_Van_01_transport_F"];
-
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
+	_u = _u		+ ["ru_msv_rifleman_ak12"];
+	_u = _u		+ ["ru_msv_rifleman_akm"];
+	_u = _u		+ ["ru_msv_grenadier_gp25"];
+	_u = _u		+ ["ru_msv_grenadier_gp34"];
+	_u = _u		+ ["ru_msv_grenadier_rpg"];
 	_u = _u		+ ["ru_msv_efreitor"];
 	_u = _u		+ ["ru_msv_machinegunner"];
 	_u = _u		+ ["ru_msv_medic"];
-	_u = _u		+ ["ru_msv_grenadier_rpg"];
+	_u = _u		+ ["ru_msv_engineer"];
 };
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_DEPOT], _u];

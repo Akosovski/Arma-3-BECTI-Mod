@@ -125,17 +125,19 @@ _u 			= ["B_Boat_Transport_01_F"];
 _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
-_u 			= ["C_Quadbike_01_F"];
-_u = _u		+ ["C_Offroad_01_F"];
-_u = _u		+ ["C_Offroad_02_unarmed_F"];
-_u = _u		+ ["C_Hatchback_01_F"];
-_u = _u		+ ["C_SUV_01_F"];
-_u = _u		+ ["C_Van_01_transport_F"];
+_u 			= ["us_usmc_m1123"];
+_u = _u		+ ["us_usmc_m1078a1"];
+_u = _u		+ ["C_Quadbike_01_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
-	_u = _u		+ ["us_usmc_engineer"];
-	_u = _u		+ ["us_usmc_corpsman"];
+	_u = _u		+ ["us_usmc_rifleman_m16"];
+	_u = _u		+ ["us_usmc_rifleman_at"];
+	_u = _u		+ ["us_usmc_grenadier_m16a4"];
+	_u = _u		+ ["us_usmc_grenadier_m4a1"];
+	_u = _u		+ ["us_usmc_autorifleman_m249"];
 	_u = _u		+ ["us_usmc_machinegunner"];
     _u = _u		+ ["us_usmc_missileman"];
+	_u = _u		+ ["us_usmc_corpsman"];
+	_u = _u		+ ["us_usmc_engineer"];
 };
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_DEPOT], _u];
