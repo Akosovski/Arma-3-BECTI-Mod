@@ -26,12 +26,12 @@ with missionNamespace do {
 	GUER_SOLDIERS_SNIPERS = [GUER_SOLDIER_SNIPER];
 	
 	//--- Vehicles
-	GUER_VEHICLE_AA = ["rhsgref_nat_ural_Zu23","rhsgref_nat_uaz_spg9"];
-	GUER_VEHICLE_APC = ["rhsgref_nat_btr70"];
-	GUER_VEHICLE_ARMORED_HEAVY = ["rhsgref_ins_g_t72bc","rhsgref_nat_uaz_spg9"];
-	GUER_VEHICLE_ARMORED_LIGHT = ["rhsgref_nat_btr70"];
+	GUER_VEHICLE_AA = ["al_adf_gaz66_aa","al_adf_uaz_spg9"];
+	GUER_VEHICLE_APC = ["al_adf_btr70"];
+	GUER_VEHICLE_ARMORED_HEAVY = ["al_adf_t80u","al_adf_bmp1"];
+	GUER_VEHICLE_ARMORED_LIGHT = ["al_adf_bmp2"];
 	// GUER_VEHICLE_MECHANIZED = ["rhsgref_nat_ural_work","rhsgref_nat_uaz_open"];
-	GUER_VEHICLE_MOTORIZED = ["rhsgref_nat_uaz_dshkm","rhsgref_nat_uaz_ags"];
+	GUER_VEHICLE_MOTORIZED = ["al_adf_uaz_dshkm","al_adf_uaz_spg9"];
 
 	//--- Vehicles - Mixed
 	GUER_VEHICLES_AA_LIGHT = GUER_VEHICLE_AA;

@@ -27,14 +27,12 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "AL_ADF",
             "rhsgref_c_troops",
             "A3_Characters_F",
             "rhs_c_troops",
             "rhs_cti_insurgents",
             "rhssaf_c_troops",
             "A3_Sounds_F",
-            "msd_overshoulder",
             "A3_Sounds_F_Exp",
             "A3_Data_F",
             "A3_Data_F_Curator",
@@ -71,7 +69,6 @@ class CfgPatches {
             "rhs_c_a2port_armor",
             "rhssaf_c_vehicles",
             "A3_Data_F_ParticleEffects",
-            "babe_int_EHs",
             "rhs_c_trucks",
             "A3_Soft_F",
             "A3_Soft_F_Beta_Truck_01",

@@ -132,6 +132,80 @@ _s = _s + [""];
 
 // --- Vehicles ---
 
+_c = _c + ['al_adf_btr70'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2500];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['al_adf_bmp1'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [3500];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['al_adf_bmp2'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [4000];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['al_adf_t80u'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [6500];
+_t = _t + [30];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['al_adf_uaz_dshkm'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [950];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['al_adf_uaz_ags30'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [1100];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['al_adf_uaz_spg9'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [1200];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['al_adf_gaz66_aa'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [1600];
+_t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+// --- Unused Vehicles ---
+
 _c = _c + ['rhsgref_nat_ural_work'];
 _p = _p + [''];
 _n = _n + [''];
