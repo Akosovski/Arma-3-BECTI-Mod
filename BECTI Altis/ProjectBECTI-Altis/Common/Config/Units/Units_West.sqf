@@ -13,7 +13,7 @@ _s = []; //--- Script
 //--- Infantry US Marines ---
 
 _c = _c + ['us_usmc_rifleman_m16'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Rifleman (M16A4)'];
 _o = _o + [150];
 _t = _t + [5];
@@ -22,7 +22,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_rifleman_m4a1'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Rifleman (M4A1)'];
 _o = _o + [150];
 _t = _t + [5];
@@ -31,7 +31,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_rifleman_at'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Rifleman (M136)'];
 _o = _o + [180];
 _t = _t + [5];
@@ -40,7 +40,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_grenadier_m16a4'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Grenadier (M16A4)'];
 _o = _o + [200];
 _t = _t + [5];
@@ -49,7 +49,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_grenadier_m4a1'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Grenadier (M4A1)'];
 _o = _o + [200];
 _t = _t + [5];
@@ -58,7 +58,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_autorifleman_m249'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Auto Rifleman (M249)'];
 _o = _o + [220];
 _t = _t + [5];
@@ -67,7 +67,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_officer'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Officer'];
 _o = _o + [200];
 _t = _t + [5];
@@ -76,7 +76,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_sergeant'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Sergeant'];
 _o = _o + [250];
 _t = _t + [5];
@@ -85,7 +85,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_lance_corporal'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Lance Corporal'];
 _o = _o + [220];
 _t = _t + [5];
@@ -94,7 +94,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_corpsman'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Corpsman (Medic)'];
 _o = _o + [190];
 _t = _t + [5];
@@ -103,7 +103,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_aa_specialist'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC AA Specialist (FIM-92F)'];
 _o = _o + [450];
 _t = _t + [5];
@@ -112,7 +112,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_at_specialist'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC AT Specialist (MAAWS)'];
 _o = _o + [390];
 _t = _t + [5];
@@ -121,7 +121,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_missileman'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC AT Missileman (SMAW)'];
 _o = _o + [350];
 _t = _t + [5];
@@ -130,7 +130,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_crewman'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Crewman'];
 _o = _o + [150];
 _t = _t + [5];
@@ -139,7 +139,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_worker'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Worker'];
 _o = _o + [CTI_BASE_WORKERS_PRICE];
 _t = _t + [5];
@@ -148,7 +148,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_heli_pilot'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Helicopter Pilot'];
 _o = _o + [120];
 _t = _t + [5];
@@ -157,7 +157,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_jet_pilot'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Jet Pilot'];
 _o = _o + [150];
 _t = _t + [5];
@@ -166,7 +166,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marksman'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Marksman'];
 _o = _o + [250];
 _t = _t + [5];
@@ -175,7 +175,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_engineer'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Combat Engineer'];
 _o = _o + [250];
 _t = _t + [5];
@@ -184,7 +184,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_machinegunner'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Machine Gunner'];
 _o = _o + [280];
 _t = _t + [5];
@@ -193,7 +193,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_sniper'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Sniper (M107)'];
 _o = _o + [350];
 _t = _t + [5];
@@ -204,7 +204,7 @@ _s = _s + [""];
 //--- Infantry MARSOC ---
 
 _c = _c + ['us_usmc_marsoc_chief'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Chief'];
 _o = _o + [350];
 _t = _t + [5];
@@ -213,7 +213,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_eod'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC EOD Specialist'];
 _o = _o + [330];
 _t = _t + [5];
@@ -222,7 +222,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_marksman'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Marksman'];
 _o = _o + [350];
 _t = _t + [5];
@@ -231,7 +231,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_m4a4'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Operator (M4A4)'];
 _o = _o + [300];
 _t = _t + [5];
@@ -240,7 +240,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_mk16'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Operator (Mk16)'];
 _o = _o + [320];
 _t = _t + [5];
@@ -249,7 +249,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_mk17'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Operator (Mk17)'];
 _o = _o + [320];
 _t = _t + [5];
@@ -258,7 +258,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_m249'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Operator (M249)'];
 _o = _o + [350];
 _t = _t + [5];
@@ -267,7 +267,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_eglm'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Operator (EGLM)'];
 _o = _o + [330];
 _t = _t + [5];
@@ -276,7 +276,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_m136'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Operator (M136)'];
 _o = _o + [350];
 _t = _t + [5];
@@ -285,7 +285,7 @@ _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['us_usmc_marsoc_heli_pilot'];
-_p = _p + [''];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
 _n = _n + ['MARSOC Helicopter Pilot'];
 _o = _o + [300];
 _t = _t + [5];
