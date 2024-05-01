@@ -81,7 +81,11 @@ class CfgPatches {
             "us_usmc_at_specialist",
             "us_usmc_salvager",
             "us_usmc_grenadier_m16a4",
-            "us_usmc_grenadier_m4a1"
+            "us_usmc_grenadier_m4a1",
+            "us_usmc_mortarman_gun",
+            "us_usmc_mortarman_bipod",
+            "us_usmc_m1117",
+            "us_usaf_a29"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -180,7 +184,8 @@ class CfgPatches {
             "rhs_c_btr",
             "rhsgref_c_a2port_armor",
             "rhsusf_c_m11xx",
-            "A3_Soft_F_Exp_Truck_01"
+            "A3_Soft_F_Exp_Truck_01",
+            "rhsusf_c_m1117"
         };
         author = "Akosovski";
         authors[] = {"Akosovski"};

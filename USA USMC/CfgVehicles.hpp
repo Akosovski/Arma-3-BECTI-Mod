@@ -503,6 +503,26 @@ class CfgVehicles {
     class B_Truck_01_box_F_OCimport_01 : B_Truck_01_box_F { scope = 0; class EventHandlers; };
     class B_Truck_01_box_F_OCimport_02 : B_Truck_01_box_F_OCimport_01 { scope = 0; class EventHandlers; };
 
+    class rhsusf_M1117_W;
+    class rhsusf_M1117_W_OCimport_01 : rhsusf_M1117_W { scope = 0; class EventHandlers; class Turrets; };
+    class rhsusf_M1117_W_OCimport_02 : rhsusf_M1117_W_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+            class MainTurret_Out;
+            class MainTurret2_Out;
+        };
+    };
+
+    class RHSGREF_A29B_HIDF;
+    class RHSGREF_A29B_HIDF_OCimport_01 : RHSGREF_A29B_HIDF { scope = 0; class EventHandlers; class Turrets; };
+    class RHSGREF_A29B_HIDF_OCimport_02 : RHSGREF_A29B_HIDF_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
 
     class us_usmc_sergeant : rhsusf_usmc_marpat_wd_squadleader_OCimport_02 {
         author = "Akosovski";
@@ -3187,6 +3207,146 @@ class CfgVehicles {
 
             class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_mortarman_gun : us_usmc_rifleman_m16 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC Mortarman (Gun)";
+        side = 1;
+        faction = "AKO_US_USMC";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_wd";
+
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_M16A4_Grip","Rangefinder"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Grip","Rangefinder"};
+
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+
+        backpack = "rhs_M252_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Grip","","","rhsusf_acc_ACOG3",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"CUP_30Rnd_556x45_Stanag",10,30}}},{"rhs_M252_Gun_Bag",{}},"rhsusf_lwh_helmet_marpatwd","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_mortarman_bipod : us_usmc_rifleman_m4a1 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC Mortarman (Bipod)";
+        side = 1;
+        faction = "AKO_US_USMC";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_wd";
+
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_black_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+
+        backpack = "rhs_M252_Bipod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhs_M252_Bipod_Bag",{}},"rhsusf_lwh_helmet_marpatwd","rhs_googles_clear",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_m1117 : rhsusf_M1117_W_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC M1117 ASV";
+        side = 1;
+        faction = "AKO_US_USMC";
+        crew = "us_usmc_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "rhsusf_army_ucp_grenadier"; };
+            class MainTurret_Out : MainTurret_Out { gunnerType = ""; };
+            class MainTurret2_Out : MainTurret2_Out { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usaf_a29 : RHSGREF_A29B_HIDF_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USAF A-29";
+        side = 1;
+        faction = "AKO_US_USMC";
+        crew = "us_usmc_jet_pilot";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_usmc_jet_pilot"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
