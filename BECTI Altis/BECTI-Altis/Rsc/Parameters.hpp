@@ -9,7 +9,7 @@ class Params {
 		title = "ARTILLERY: Setup";
 		values[] = {-2,-1,0,1,2,3};
 		texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
-		default = -2;
+		default = -1;
 	};
 	class CTI_BASE_HQ_REPAIR {
 		title = "BASE: HQ Repairable";
@@ -21,43 +21,43 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"Disabled","1","2","3","4","5","6","7","8","9","10"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Startup Placement";
 		values[] = {750,2000,3000,4000,5000,6000,7000,8000,9000,10000,12000,15000,20000};
 		texts[] = {"750m","2 KM","3 KM","4 KM","5 KM","6 KM","7 KM","8 KM","9 KM","10 KM","12 KM","15 KM","20 KM"};
-		default = 750;
+		default = 5000;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
-		values[] = {60,90,120,160,190};
-		texts[] = {"01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 60;
+		values[] = {20, 60,90,120,160,190};
+		texts[] = {"20 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
+		default = 20;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = "INCOME: Starting Funds (East Commander)";
 		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,100000};
 		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$100000"};
-		default = 9000;
+		default = 35000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000"};
-		default = 900;
+		default = 3200;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
 		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,100000};
 		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$100000"};
-		default = 9000;
+		default = 35000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000"};
-		default = 900;
+		default = 3200;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
@@ -75,7 +75,7 @@ class Params {
 		title = "RESPAWN: FOB Range";
 		values[] = {500,750,1000,1250,1500,1750,2000};
 		texts[] = {"0.50 KM","0.75 KM","1 KM","1.25 KM","1.5 KM","1.75 KM","2 KM"};
-		default = 500;
+		default = 2000;
 	};
 	class CTI_RESPAWN_MOBILE {
 		title = "RESPAWN: Mobile";
@@ -85,9 +85,9 @@ class Params {
 	};
 	class CTI_RESPAWN_TIMER {
 		title = "RESPAWN: Delay";
-		values[] = {15,20,25,30,35,40,45,50,55,60};
-		texts[] = {"15 Seconds","20 Seconds","25 Seconds","30 Seconds","35 Seconds","40 Seconds","45 Seconds","50 Seconds","55 Seconds","60 Seconds"};
-		default = 15;
+		values[] = {11,20,25,30,35,40,45,50,55,60};
+		texts[] = {"11 Seconds","20 Seconds","25 Seconds","30 Seconds","35 Seconds","40 Seconds","45 Seconds","50 Seconds","55 Seconds","60 Seconds"};
+		default = 11;
 	};
 	class CTI_TOWNS_OCCUPATION {
 		title = "TOWNS: Occupation";

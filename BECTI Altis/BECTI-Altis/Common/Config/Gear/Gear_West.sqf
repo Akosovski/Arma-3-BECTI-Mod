@@ -11,7 +11,7 @@ _p = [];
 _i pushBack "rhs_mine_M19_ammo";
 _u pushBack 1;
 _p pushBack 20;
-/*
+
 _i pushBack "APERSMine_Range_Mag";
 _u pushBack 1;
 _p pushBack 10;
@@ -1208,7 +1208,7 @@ _p pushBack 15;
 _i pushBack "Binocular";
 _u pushBack 0;
 _p pushBack 5;
-*/
+
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
 //--- Templates (Generated on purchase by uncommenting the diag_log in Events_UI_GearMenu.sqf >> "onPurchase").

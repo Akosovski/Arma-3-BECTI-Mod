@@ -11,7 +11,7 @@ _p = [];
 _i pushBack "rhs_mine_tm62m_mag";
 _u pushBack 0;
 _p pushBack 10;
-/*
+
 _i pushBack "rhs_mine_pmn2_mag";
 _u pushBack 1;
 _p pushBack 5;
@@ -1009,7 +1009,7 @@ _p pushBack 15;
 _i pushBack "Binocular";
 _u pushBack 0;
 _p pushBack 5;
-*/
+
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
