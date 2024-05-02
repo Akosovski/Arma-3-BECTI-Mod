@@ -157,8 +157,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="BECTI RHS USA-RUSA ALTIS";
-		overviewText="Orginal BECTI: Benny, Sari RHS Edit by: Fisher";
+		briefingName="BECTI USA-RUS ALTIS";
+		overviewText="Orginal BECTI: Benny & Sari, Edit by: Akosovski";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
