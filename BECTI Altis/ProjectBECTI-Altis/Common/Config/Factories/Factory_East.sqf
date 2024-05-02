@@ -43,6 +43,8 @@ _u = _u		+ ["ru_msv_marksman"];
 _u = _u		+ ["ru_msv_sergeant"];
 _u = _u		+ ["ru_msv_at_specialist"];
 _u = _u		+ ["ru_msv_aa_specialist"];
+_u = _u		+ ["ru_msv_mortarman_gun"];
+_u = _u		+ ["ru_msv_mortarman_bipod"];
 _u = _u		+ ["ru_msv_driver"];
 _u = _u		+ ["ru_msv_officer"];
 _u = _u		+ ["ru_msv_crewman"];
@@ -57,6 +59,7 @@ _u = _u		+ ["ru_vdv_medic"];
 _u = _u		+ ["ru_vdv_autorifleman"];
 _u = _u		+ ["ru_vdv_machinegunner"];
 _u = _u		+ ["ru_vdv_heli_pilot"];
+_u = _u		+ ["ru_vdv_heli_crewman"];
 _u = _u		+ ["ru_vdv_jet_pilot"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
@@ -96,8 +99,6 @@ _u = _u		+ ["ru_msv_t80um"];
 _u = _u		+ ["ru_msv_t90_1992"];
 _u = _u		+ ["ru_msv_t90a_2006"];
 _u = _u		+ ["ru_msv_t90sm"];
-_u = _u		+ ["ru_msv_2s1"];
-_u = _u		+ ["ru_msv_2s3m1"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
@@ -134,6 +135,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 _u 			= ["ru_msv_uaz"];
 _u = _u		+ ["ru_msv_gaz_normal"];
 _u = _u		+ ["ru_msv_ural_normal"];
+_u = _u		+ ["ru_msv_ural_ammo"];
 _u = _u		+ ["C_Quadbike_01_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];

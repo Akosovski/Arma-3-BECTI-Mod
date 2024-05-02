@@ -69,7 +69,7 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {"Disabled","1","2","3","4","5","6"};
-		default = 5;
+		default = 2;
 	};
 	class CTI_BASE_START_TOWN {
 		title = "BASE: Start Near towns";

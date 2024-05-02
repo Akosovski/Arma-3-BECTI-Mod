@@ -34,9 +34,9 @@ with missionNamespace do {
 
 	//--- Vehicles
 	WEST_VEHICLE_AA = [["us_usmc_m6a2_aa", 1]];
-	WEST_VEHICLE_APC = [["us_usmc_m2a3_b1", 2], ["us_usmc_m113a3_m2", 2]];
-	WEST_VEHICLE_ARMORED_HEAVY = [["us_usmc_m1a2sepv1_t2", 2]];
-	WEST_VEHICLE_ARMORED_LIGHT = [["us_usmc_m1a1fep", 2]];
+	WEST_VEHICLE_APC = [["us_usmc_m2a3_b1", 1], ["us_usmc_m113a3_m2", 1]];
+	WEST_VEHICLE_ARMORED_HEAVY = [["us_usmc_m1a2sepv1_t2", 1]];
+	WEST_VEHICLE_ARMORED_LIGHT = [["us_usmc_m1a1fep", 1]];
 	WEST_VEHICLE_MOTORIZED = [WEST_MOTORIZED_MG, WEST_MOTORIZED_GL, WEST_MOTORIZED_MG];
 
 	//--- Vehicles - Mixed

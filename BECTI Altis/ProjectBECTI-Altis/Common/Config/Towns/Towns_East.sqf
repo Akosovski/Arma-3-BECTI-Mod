@@ -35,7 +35,7 @@ with missionNamespace do {
 
 	//--- Vehicles
 	EAST_VEHICLE_AA = [["ru_msv_btr80a", 1]];
-	EAST_VEHICLE_APC = [["ru_msv_bmp2", 2], ["ru_msv_bmp3", 2]];
+	EAST_VEHICLE_APC = [["ru_msv_bmp2", 1], ["ru_msv_bmp1", 1]];
 	EAST_VEHICLE_ARMORED_LIGHT = [["ru_msv_t72b3_2012", 2]];
 	EAST_VEHICLE_MOTORIZED = [EAST_MOTORIZED_MG, EAST_MOTORIZED_GL, EAST_MOTORIZED_MG];
 

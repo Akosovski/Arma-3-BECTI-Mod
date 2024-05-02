@@ -120,6 +120,24 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['us_usmc_mortarman_gun'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
+_n = _n + ['USMC Mortarman (Gun)'];
+_o = _o + [250];
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_usmc_mortarman_bipod'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
+_n = _n + ['USMC Mortarman (Bipod)'];
+_o = _o + [220];
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['us_usmc_missileman'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC AT Missileman (SMAW)'];
@@ -151,6 +169,15 @@ _c = _c + ['us_usmc_heli_pilot'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC Helicopter Pilot'];
 _o = _o + [120];
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_usmc_heli_crewman'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
+_n = _n + ['USMC Helicopter Crew'];
+_o = _o + [110];
 _t = _t + [5];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -508,15 +535,6 @@ _t = _t + [30];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + ["service-medic"];
-
-_c = _c + ['us_usmc_m109a6'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [5000];
-_t = _t + [30];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
 
 _c = _c + ['us_usmc_m142'];
 _p = _p + [''];

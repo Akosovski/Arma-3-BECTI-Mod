@@ -183,12 +183,39 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['ru_msv_mortarman_gun'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
+_n = _n + ['MSV Mortarman (Gun)'];
+_o = _o + [250];
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_msv_mortarman_bipod'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
+_n = _n + ['MSV Mortarman (Bipod)'];
+_o = _o + [220];
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 // ---------- VDV Infantry ------------
 
 _c = _c + ['ru_vdv_heli_pilot'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['VDV Helicopter Pilot'];
 _o = _o + [150];  
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_heli_crewman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Helicopter Crew'];
+_o = _o + [120];  
 _t = _t + [5];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -514,24 +541,6 @@ _n = _n + [''];
 _o = _o + [3000];
 _t = _t + [30];
 _u = _u + [0];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
-_c = _c + ['ru_msv_2s1'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [4500];
-_t = _t + [30];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
-_c = _c + ['ru_msv_2s3m1'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [6500];
-_t = _t + [30];
-_u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 

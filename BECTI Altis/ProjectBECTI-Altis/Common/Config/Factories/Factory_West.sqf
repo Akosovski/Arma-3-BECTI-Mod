@@ -43,6 +43,8 @@ _u = _u		+ ["us_usmc_sergeant"];
 _u = _u		+ ["us_usmc_lance_corporal"];
 _u = _u		+ ["us_usmc_aa_specialist"];
 _u = _u		+ ["us_usmc_at_specialist"];
+_u = _u		+ ["us_usmc_mortarman_gun"];
+_u = _u		+ ["us_usmc_mortarman_bipod"];
 _u = _u		+ ["us_usmc_marksman"];
 _u = _u		+ ["us_usmc_corpsman"];
 _u = _u		+ ["us_usmc_engineer"];
@@ -50,6 +52,7 @@ _u = _u		+ ["us_usmc_sniper"];
 _u = _u		+ ["us_usmc_officer"];
 _u = _u		+ ["us_usmc_crewman"];
 _u = _u		+ ["us_usmc_heli_pilot"];
+_u = _u		+ ["us_usmc_heli_crewman"];
 _u = _u		+ ["us_usmc_jet_pilot"];
 _u = _u		+ ["us_usmc_marsoc_chief"];
 _u = _u		+ ["us_usmc_marsoc_m4a4"];
@@ -90,7 +93,6 @@ _u = _u		+ ["us_usmc_m1a1fep"];
 _u = _u 	+ ["us_usmc_m1a2sepv1_t1"];
 _u = _u 	+ ["us_usmc_m1a2sepv1_t2"];
 _u = _u 	+ ["us_usmc_m1a2sepv2"];
-_u = _u		+ ["us_usmc_m109a6"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
 _u 			= ["us_usmc_uh1y_unarmed"];
@@ -127,6 +129,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
 _u 			= ["us_usmc_m1123"];
 _u = _u		+ ["us_usmc_m1078a1"];
+_u = _u		+ ["us_usmc_m1152a1_ammo"];
 _u = _u		+ ["C_Quadbike_01_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
