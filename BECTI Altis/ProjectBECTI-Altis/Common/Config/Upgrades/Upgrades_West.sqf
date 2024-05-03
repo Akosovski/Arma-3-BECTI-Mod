@@ -74,22 +74,22 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
 	[60], //--- Air CM
 	[10,10,10], //--- Towns Occupation
 	[10,10,10,10], //--- Supply
-	[5,5,5], //--- Gear
+	[5,5,5] //--- Gear
 ]];
 
 if (CTI_IsClient) then {
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 		["Barracks", "Provides reinforcement of USMC Infantry units.<br />Level 1: USMC Basic Infantry<br />Level 2: USMC Upgraded Infantry<br />Level 3: MARSOC Operators"], //--- Barracks
-		["Light Factory", "Provides reinforcement of USMC Light Vehicles.<br />Level 1: USMC Motorized Vehicles & Trucks<br />Level 2: USMC Motorized APC<br />Level 3: USMC Upgraded Motorized APC"], //--- Light
-		["Heavy Factory", "Provides reinforcement of USMC IFV, Tanks & Artillery.<br />Level 1: USMC Basic IFV & Tanks<br />Level 2: USMC Upgraded IFV & Tanks"], //--- Heavy
-		["Aircraft Factory", "Provides reinforcement of USMC & USAF Helicopters & Planes.<br />Level 1: USMC Basic Helicopters<br />Level 2: USMC & USAF Attack Helicopters & Planes<br />Level 3: USAF Upgraded Planes"], //--- Air
-		["Satellite", "Allows the use of the Real-Time satellite camera"], //--- Satellite
-		["Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts"], //--- Air FFAR
-		["Aircraft AT", "Unlocks the Anti Tank Missiles for Aircrafts"], //--- Air AT
-		["Aircraft AA", "Unlocks the Anti Air Missiles for Aircrafts"], //--- Air AA
-		["Aircraft Countermeasures", "Allows Aircraft to deploy countermeasures"], //--- Air CM
-		["Towns Occupation", "Allows spawning of occupation AI to defend friendly towns from attackers.<br />If 'Income: Towns Occupation' is enabled, it also improves income generation in non-occupied towns"], //--- Towns Occupation
-		["Supply", "Increases the rate at which towns increase their SV"], //---Supply
+		["Light Factory", "Provides reinforcement of USMC Light Vehicles.<br />Level 1: USMC Motorized Vehicles and Trucks<br />Level 2: USMC Motorized APC<br />Level 3: USMC Upgraded Motorized APC"], //--- Light
+		["Heavy Factory", "Provides reinforcement of USMC IFV, Tanks and Artillery.<br />Level 1: USMC Basic IFV and Tanks<br />Level 2: USMC Upgraded IFV and Tanks"], //--- Heavy
+		["Aircraft Factory", "Provides reinforcement of USMC and USAF Helicopters and Planes.<br />Level 1: USMC Basic Helicopters<br />Level 2: USMC and USAF Attack Helicopters and Planes<br />Level 3: USAF Upgraded Planes"], //--- Air
+		["Satellite", "Allows the use of the Real-Time satellite camera."], //--- Satellite
+		["Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts."], //--- Air FFAR
+		["Aircraft AT", "Unlocks the Anti Tank Missiles for Aircrafts."], //--- Air AT
+		["Aircraft AA", "Unlocks the Anti Air Missiles for Aircrafts."], //--- Air AA
+		["Aircraft Countermeasures", "Allows Aircraft to deploy countermeasures."], //--- Air CM
+		["Towns Occupation", "Allows spawning of occupation AI to defend friendly towns from attackers. If 'Income: Towns Occupation' is enabled, it also improves income generation in non-occupied towns"], //--- Towns Occupation
+		["Supply", "Increases the rate at which towns increase their SV."], //---Supply
 		["Gear", "Allows the use of better WEST equipment in the Gear Menu.<br />Level 1: Basic Weapons<br />Level 2: Upgraded Weapons<br />Level 3: Specialized Weapons"] //--- Gear
 	]];
 };
