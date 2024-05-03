@@ -63,33 +63,33 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-	[20,20,20], //--- Barracks
-	[30,30,30], //--- Light
-	[30,30], //--- Heavy
-	[40,40], //--- Air
-	[60], //--- Satellite
+	[5,5,5], //--- Barracks
+	[5,5,5], //--- Light
+	[10,10], //--- Heavy
+	[10,10], //--- Air
+	[30], //--- Satellite
 	[90], //--- Air FFAR
 	[90], //--- Air AT
 	[90], //--- Air AA
 	[60], //--- Air CM
-	[30,40,50], //--- Towns Occupation
-	[30,40,45,50], //--- Supply
-	[10,15,20] //--- Gear
+	[10,10,10], //--- Towns Occupation
+	[10,10,10,10], //--- Supply
+	[5,5,5], //--- Gear
 ]];
 
 if (CTI_IsClient) then {
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
-		["Barracks", "Unlock better infantry units"], //--- Barracks
-		["Light Factory", "Unlock better motorized units"], //--- Light
-		["Heavy Factory", "Unlock better armored units"], //--- Heavy
-		["Aircraft Factory", "Unlock better aircraft units"], //--- Air
-		["Satellite", "Allows the use of the satellite camera"], //--- Satellite
+		["Barracks", "Provides reinforcement of MSV Infantry units.<br />Level 1: MSV Basic Infantry<br />Level 2: MSV Upgraded Infantry<br />Level 3: VDV Airborne Infantry"], //--- Barracks
+		["Light Factory", "Provides reinforcement of MSV & VDV Light Vehicles.<br />Level 1: MSV Motorized APC<br />Level 2: MSV & VDV Mechanized IFV<br />Level 3: MSV & VDV Upgraded Mechanized IFV"], //--- Light
+		["Heavy Factory", "Provides reinforcement of MSV Tanks & Artillery.<br />Level 1: MSV Basic Tanks<br />Level 2: MSV Upgraded Tanks"], //--- Heavy
+		["Aircraft Factory", "Provides reinforcement of VDV Helicopters & Planes.<br />Level 1: VDV Basic Helicopters<br />Level 2: VDV Attack Helicopters & Planes<br />Level 3: VDV Upgraded Planes"], //--- Air
+		["Satellite", "Allows the use of the Real-Time satellite camera"], //--- Satellite
 		["Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts"], //--- Air FFAR
 		["Aircraft AT", "Unlocks the Anti Tank Missiles for Aircrafts"], //--- Air AT
 		["Aircraft AA", "Unlocks the Anti Air Missiles for Aircrafts"], //--- Air AA
 		["Aircraft Countermeasures", "Allows Aircraft to deploy countermeasures"], //--- Air CM
 		["Towns Occupation", "Allows spawning of occupation AI to defend friendly towns from attackers.<br />If 'Income: Towns Occupation' is enabled, it also improves income generation in non-occupied towns"], //--- Towns Occupation
 		["Supply", "Increases the rate at which towns increase their SV"], //---Supply
-		["Gear", "Allows the use of better equipment in the Gear Menu"] //--- Gear
+		["Gear", "Allows the use of better EAST equipment in the Gear Menu.<br />Level 1: Basic Weapons<br />Level 2: Upgraded Weapons<br />Level 3: Specialized Weapons"] //--- Gear
 	]];
 };

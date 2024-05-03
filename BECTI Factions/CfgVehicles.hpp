@@ -4594,8 +4594,8 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
-            class MainTurret : MainTurret { gunnerType = "ru_vdv_heli_pilot"; };
-            class BackTurret : BackTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "ru_vdv_heli_crewman"; };
+            class BackTurret : BackTurret { gunnerType = "ru_vdv_heli_crewman"; };
         };
 
 
@@ -4626,9 +4626,9 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
-            class SideTurret : SideTurret { gunnerType = "ru_vdv_heli_pilot"; };
-            class BackTurret : BackTurret { gunnerType = "ru_vdv_heli_pilot"; };
-            class FrontTurret : FrontTurret { gunnerType = "ru_vdv_heli_pilot"; };
+            class SideTurret : SideTurret { gunnerType = "ru_vdv_heli_crewman"; };
+            class BackTurret : BackTurret { gunnerType = "ru_vdv_heli_crewman"; };
+            class FrontTurret : FrontTurret { gunnerType = "ru_vdv_heli_crewman"; };
         };
 
 
