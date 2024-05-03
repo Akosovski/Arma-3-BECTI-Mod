@@ -74,7 +74,7 @@ _v = _v		+ ["Motorized"];
 _t = _t		+ ["Motorized - MRAP"];
 _p = _p		+ [[["us_usmc_m1126_m2", 1], ["us_usmc_m1126_mk19", 1, 95]]];
 _f = _f		+ [CTI_LIGHT];
-_m = _m		+ [4500];
+_m = _m		+ [6500];
 _c = _c		+ ["Motorized"];
 _s = _s		+ [[]];
 
@@ -82,15 +82,15 @@ _v = _v		+ ["Mechanized"];
 _t = _t		+ ["Mechanized - APC"];
 _p = _p		+ [[["us_usmc_m113a3_m2", 1], ["us_usmc_m113a3_mk19", 1, 90], ["us_usmc_m113a3_m2", 1, 90]]];
 _f = _f		+ [CTI_HEAVY];
-_m = _m		+ [5500];
+_m = _m		+ [8500];
 _c = _c		+ ["Mechanized"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["MechanizedHeavy"];
 _t = _t		+ ["Mechanized - IFV"];
-_p = _p		+ [[["us_usmc_m2a3_b1", 1], ["us_usmc_m2a3_b2", 1, 80]]];
+_p = _p		+ [[["us_usmc_m2a3_b1", 1], ["us_usmc_rifleman_m4a1", 2], ["us_usmc_rifleman_m16", 2], ["us_usmc_lance_corporal", 2], ["us_usmc_autorifleman_m249", 2]]];
 _f = _f		+ [CTI_HEAVY];
-_m = _m		+ [7000];
+_m = _m		+ [10000];
 _c = _c		+ ["Mechanized"];
 _s = _s		+ [[]];
 
@@ -98,15 +98,15 @@ _v = _v		+ ["Armored"];
 _t = _t		+ ["Armored - MBT"];
 _p = _p		+ [[["us_usmc_m1a2sepv1_t1", 1], ["us_usmc_m1a2sepv1_t2", 1]]];
 _f = _f		+ [CTI_HEAVY];
-_m = _m		+ [14000];
+_m = _m		+ [20000];
 _c = _c		+ ["Armored"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AntiAir"];
 _t = _t		+ ["Armored - Anti Air"];
-_p = _p		+ [[["us_usmc_m6a2_aa", 2]]];
+_p = _p		+ [[["us_usmc_m6a2_aa", 1]]];
 _f = _f		+ [CTI_HEAVY];
-_m = _m		+ [6000];
+_m = _m		+ [10000];
 _c = _c		+ ["AntiAir"];
 _s = _s		+ [[]];
 
@@ -114,7 +114,7 @@ _v = _v		+ ["HeliAttack"];
 _t = _t		+ ["Heli - Attack"];
 _p = _p		+ [[["us_usmc_ah1z", 1]]];
 _f = _f		+ [CTI_AIR];
-_m = _m		+ [12000];
+_m = _m		+ [20000];
 _c = _c		+ ["Air"];
 _s = _s		+ [[]];
 
@@ -122,7 +122,7 @@ _v = _v		+ ["AirAttack"];
 _t = _t		+ ["Air - Attack"];
 _p = _p		+ [[["us_usaf_a10a", 1]]];
 _f = _f		+ [CTI_AIR];
-_m = _m		+ [22000];
+_m = _m		+ [25000];
 _c = _c		+ ["Air"];
 _s = _s		+ [[]];
 

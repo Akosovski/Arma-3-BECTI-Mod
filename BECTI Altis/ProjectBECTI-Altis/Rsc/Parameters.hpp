@@ -91,9 +91,9 @@ class Params {
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
-		values[] = {12,60,90,120,160,190};
-		texts[] = {"12 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 12;
+		values[] = {20,60,90,120,160,190};
+		texts[] = {"20 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
+		default = 20;
 	};
 	class CTI_ECONOMY_CURRENCY_SYSTEM {
 		title = "INCOME: Currency";
@@ -103,9 +103,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = "INCOME: Starting Funds (East Commander)";
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,150000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$150000"};
-		default = 150000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
+		default = 90000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
@@ -121,9 +121,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,150000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$150000"};
-		default = 150000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
+		default = 90000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
