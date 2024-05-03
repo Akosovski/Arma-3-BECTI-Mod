@@ -66,7 +66,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
 	[5,5,5], //--- Barracks
 	[5,5,5], //--- Light
 	[10,10], //--- Heavy
-	[10,10], //--- Air
+	[10,10,10], //--- Air
 	[30], //--- Satellite
 	[90], //--- Air FFAR
 	[90], //--- Air AT
