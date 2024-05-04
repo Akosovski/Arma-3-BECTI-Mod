@@ -8,7 +8,7 @@ missionNamespace setVariable [format["CTI_%1_Worker", _side], "ru_msv_worker"];
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_diver_F"];
 missionNamespace setVariable [format["CTI_%1_Soldier", _side], "ru_msv_rifleman_ak74m"];
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "ru_msv_crewman"];
-missionNamespace setVariable [format["CTI_%1_Pilot", _side], "ru_msv_heli_pilot"];
+missionNamespace setVariable [format["CTI_%1_Pilot", _side], "ru_vdv_heli_pilot"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "O_UAV_AI"];
 missionNamespace setVariable [format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
 
