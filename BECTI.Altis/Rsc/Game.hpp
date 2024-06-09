@@ -4,9 +4,9 @@ respawnDelay = 1;
 respawnDialog = false;
 
 // --- Corpse timer.
-corpseLimit = 45; // Default: 15
-corpseRemovalMinTime = 600; // seconds. Default: 10
-corpseRemovalMaxTime = 3600; // seconds. Default: 3600
+corpseManagerMode = 1;
+corpseLimit = 0;
+corpseRemovalMinTime = 1200;
 
 //--- Require briefing.html to show up.
 onLoadName = "BECTI USA-RUS Altis";
