@@ -3941,8 +3941,8 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_emr_patchless";
 
-        linkedItems[] = {"rhs_6b45_rifleman","rhs_6b7_1m","ItemMap","I_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b7_1m","ItemMap","I_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhs_6b45_rifleman","rhs_6b7_1m","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b7_1m","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AK74M","Binocular"};
         respawnWeapons[] = {"CUP_arifle_AK74M","Binocular"};
@@ -3950,9 +3950,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        backpack = "I_UAV_01_backpack_F";
+        backpack = "O_UAV_01_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"I_UAV_01_backpack_F",{}},"rhs_6b7_1m","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","I_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"O_Uav_01_backpack_F",{}},"rhs_6b7_1m","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -7797,8 +7797,8 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_FROG01_wd";
 
-        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"JCA_arifle_M4A1_black_F"};
         respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
@@ -7806,9 +7806,9 @@ class CfgVehicles {
         magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        backpack = "O_UAV_01_backpack_F";
+        backpack = "B_UAV_01_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"O_UAV_01_backpack_F",{}},"rhsusf_lwh_helmet_marpatwd_blk_ess","",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_F",{}},"rhsusf_lwh_helmet_marpatwd_blk_ess","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
