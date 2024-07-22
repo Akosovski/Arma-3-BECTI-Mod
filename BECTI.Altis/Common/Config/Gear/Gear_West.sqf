@@ -612,6 +612,30 @@ _i = _i		+ ["rhs_ess_black"];
 _u = _u		+ [0];
 _p = _p		+ [8];
 
+_i = _i     + ["Deg_TB_Tan"];
+_u = _u     + [0];
+_p = _p     + [3];
+
+_i = _i     + ["Deg_TB_UN_Tan"];
+_u = _u     + [0];
+_p = _p     + [3];
+
+_i = _i     + ["Deg_TB_G_Gatorz_Tan"];
+_u = _u     + [0];
+_p = _p     + [3];
+
+_i = _i     + ["Deg_TB_G_Gatorz_UN_Tan"];
+_u = _u     + [0];
+_p = _p     + [3];
+
+_i = _i     + ["JCA_G_AirPurifyingRespirator_03_olive_tinted_F"];
+_u = _u     + [0];
+_p = _p     + [5];
+
+_i = _i     + ["JCA_G_AirPurifyingRespirator_03_black_tinted_F"];
+_u = _u     + [0];
+_p = _p     + [5];
+
 //--- Helmets ---
 
 _i = _i     + ["rhsusf_lwh_helmet_marpatwd"];

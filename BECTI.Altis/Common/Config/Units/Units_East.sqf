@@ -683,7 +683,7 @@ _o = _o + [6500];
 _t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic"];
+_s = _s + ["service-medic", "service-ammotruck"];
 
 _c = _c + ['ru_vdv_mi8t'];
 _p = _p + [''];
@@ -701,7 +701,7 @@ _o = _o + [6500];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic"];
+_s = _s + ["service-medic", "service-ammotruck"];
 
 _c = _c + ['ru_vdv_mi8mtv3'];
 _p = _p + [''];

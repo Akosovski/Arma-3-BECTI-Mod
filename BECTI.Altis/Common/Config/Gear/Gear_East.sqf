@@ -591,6 +591,14 @@ _i = _i        + ["g_Bandanna_tan"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
+_i = _i        + ["g_Balaclava_blk"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["g_Balaclava_oli"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
 _i = _i        + ["rhs_balaclava"];
 _u = _u        + [0];
 _p = _p        + [3]; 
@@ -598,6 +606,30 @@ _p = _p        + [3];
 _i = _i        + ["rhs_balaclava1_olive"];
 _u = _u        + [0];
 _p = _p        + [3];
+
+_i = _i        + ["Deg_TB_Green"];
+_u = _u        + [0];
+_p = _p        + [3];
+
+_i = _i        + ["Deg_TB_UN_Green"];
+_u = _u        + [0];
+_p = _p        + [3];
+
+_i = _i        + ["Deg_TB_G_Gatorz_Green"];
+_u = _u        + [0];
+_p = _p        + [3];
+
+_i = _i        + ["Deg_TB_G_Gatorz_UN_Green"];
+_u = _u        + [0];
+_p = _p        + [3];
+
+_i = _i        + ["JCA_G_AirPurifyingRespirator_03_olive_tinted_F"];
+_u = _u        + [0];
+_p = _p        + [5];
+
+_i = _i        + ["JCA_G_AirPurifyingRespirator_03_black_tinted_F"];
+_u = _u        + [0];
+_p = _p        + [5];
  
 // --- Grenades Throwables ---
 
