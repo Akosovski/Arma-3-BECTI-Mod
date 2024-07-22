@@ -45,6 +45,7 @@ _u = _u		+ ["us_usmc_aa_specialist"];
 _u = _u		+ ["us_usmc_at_specialist"];
 _u = _u		+ ["us_usmc_mortarman_gun"];
 _u = _u		+ ["us_usmc_mortarman_bipod"];
+_u = _u		+ ["us_usmc_uav_operator"];
 _u = _u		+ ["us_usmc_marksman"];
 _u = _u		+ ["us_usmc_corpsman"];
 _u = _u		+ ["us_usmc_engineer"];

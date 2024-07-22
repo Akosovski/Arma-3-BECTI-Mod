@@ -510,6 +510,10 @@ _i = _i		    + ["b_Kitbag_sgg"];
 _u = _u		    + [1];
 _p = _p		    + [25];
 
+_i = _i		    + ["I_UAV_01_backpack_F"];
+_u = _u		    + [1];
+_p = _p		    + [25];
+
 _i = _i		    + ["b_parachute"];
 _u = _u		    + [0];
 _p = _p		    + [25];
@@ -1080,6 +1084,10 @@ _p = _p		    + [5];
 _i = _i		    + ["itemwatch"];
 _u = _u		    + [0];
 _p = _p		    + [5];
+
+_i = _i		    + ["I_UavTerminal"];
+_u = _u		    + [1];
+_p = _p		    + [20];
 
 _i = _i		    + ["Minedetector"];
 _u = _u		    + [0];

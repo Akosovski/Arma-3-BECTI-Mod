@@ -138,6 +138,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['us_usmc_uav_operator'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
+_n = _n + ['USMC UAV Operator'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['us_usmc_missileman'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
 _n = _n + ['USMC AT Missileman (SMAW)'];
@@ -686,7 +695,7 @@ _o = _o + [8200];
 _t = _t + [15];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic", "service-ammotruck"];
+_s = _s + ["service-medic","service-ammotruck"];
 
 _c = _c + ['us_usmc_ah1z'];
 _p = _p + [''];
@@ -704,7 +713,7 @@ _o = _o + [13000];
 _t = _t + [35];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic", "service-ammotruck"];
+_s = _s + ["service-medic","service-ammotruck"];
 
 _c = _c + ['us_usmc_uh60m'];
 _p = _p + [''];
@@ -713,7 +722,7 @@ _o = _o + [10000];
 _t = _t + [35];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic", "service-ammotruck"];
+_s = _s + ["service-medic","service-ammotruck"];
 
 _c = _c + ['us_usmc_uh60m_ews'];
 _p = _p + [''];
@@ -740,7 +749,7 @@ _o = _o + [14000];
 _t = _t + [35];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic"];
+_s = _s + ["service-medic","service-ammotruck"];
 
 _c = _c + ['us_usmc_oh6m'];
 _p = _p + [''];

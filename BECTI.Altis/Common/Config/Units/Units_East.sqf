@@ -201,6 +201,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['ru_msv_uav_operator'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
+_n = _n + ['MSV UAV Operator'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 // ---------- VDV Infantry ------------
 
 _c = _c + ['ru_vdv_heli_pilot'];
@@ -607,6 +616,15 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['ru_msv_t14'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [9300];
+_t = _t + [30];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 // ---------- Support Vehicles (Repair) ------------
 
 _c = _c + ['ru_msv_ural_repair'];
@@ -683,7 +701,7 @@ _o = _o + [6500];
 _t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic", "service-ammotruck"];
+_s = _s + ["service-medic","service-ammotruck"];
 
 _c = _c + ['ru_vdv_mi8t'];
 _p = _p + [''];
@@ -701,7 +719,7 @@ _o = _o + [6500];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic", "service-ammotruck"];
+_s = _s + ["service-medic","service-ammotruck"];
 
 _c = _c + ['ru_vdv_mi8mtv3'];
 _p = _p + [''];

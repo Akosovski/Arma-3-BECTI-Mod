@@ -152,7 +152,8 @@ class CfgPatches {
             "ru_msv_brdm_at",
             "ru_msv_salvager",
             "ru_msv_mortarman_gun",
-            "ru_msv_mortarman_bipod"
+            "ru_msv_mortarman_bipod",
+            "ru_msv_uav_operator"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -443,6 +444,7 @@ class CfgPatches {
             "us_usmc_grenadier_m4a1",
             "us_usmc_mortarman_gun",
             "us_usmc_mortarman_bipod",
+            "us_usmc_uav_terminal",
             "us_usaf_a29"
         };
         weapons[] = {};

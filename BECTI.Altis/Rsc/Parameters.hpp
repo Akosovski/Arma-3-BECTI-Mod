@@ -115,9 +115,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_EAST {
 		title = "INCOME: Starting Supply (East)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,30000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S30000"};
-		default = 30000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,35000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S35000"};
+		default = 35000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
@@ -133,9 +133,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_WEST {
 		title = "INCOME: Starting Supply (West)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,30000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S30000"};
-		default = 30000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,35000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S35000"};
+		default = 35000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";

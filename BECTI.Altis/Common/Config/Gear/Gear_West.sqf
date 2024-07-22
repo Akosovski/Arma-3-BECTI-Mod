@@ -433,6 +433,10 @@ _i = _i		+ ["rhsgref_hidf_alicepack"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["0_UAV_01_backpack_F"];
+_u = _u		+ [1];
+_p = _p		+ [25];
+
 _i = _i		+ ["b_parachute"];
 _u = _u		+ [0];
 _p = _p		+ [25];
@@ -1059,6 +1063,10 @@ _p = _p		+ [1];
 _i = _i		+ ["itemwatch"];
 _u = _u		+ [0];
 _p = _p		+ [1];
+
+_i = _i		+ ["O_UavTerminal"];
+_u = _u		+ [1];
+_p = _p		+ [20];
 
 _i = _i		+ ["FirstAidKit"];
 _u = _u		+ [0];

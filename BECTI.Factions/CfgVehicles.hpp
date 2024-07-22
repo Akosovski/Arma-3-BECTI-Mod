@@ -332,6 +332,26 @@ class CfgVehicles {
         };
     };
 
+    class rhs_t14_tv;
+    class rhs_t14_tv_OCimport_01 : rhs_t14_tv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_t14_tv_OCimport_02 : rhs_t14_tv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+        class rhs_t14_tv_OCimport_03 : rhs_t14_tv_OCimport_02 { 
+        class Turrets : Turrets {
+            class MainTurret : MainTurret {
+                class Turrets : Turrets {
+                    class CommanderOptics;
+                    class CommanderMG;
+                };
+            };
+        };
+    };
+
+
     class rhs_bmp1_msv;
     class rhs_bmp1_msv_OCimport_01 : rhs_bmp1_msv { scope = 0; class EventHandlers; class Turrets; };
     class rhs_bmp1_msv_OCimport_02 : rhs_bmp1_msv_OCimport_01 { 
@@ -3067,6 +3087,38 @@ class CfgVehicles {
 
     };
 
+    class ru_msv_t14 : rhs_t14_tv_OCimport_03 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV T-14 Armata";
+        side = 0;
+        faction = "AKO_RU_MSV";
+        crew = "ru_msv_tank_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics { gunnerType = "ru_msv_tank_crewman"; };
+                    class CommanderMG : CommanderMG { gunnerType = "ru_msv_tank_crewman"; };
+                };
+            };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class ru_msv_bmp1 : rhs_bmp1_msv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
@@ -3861,6 +3913,46 @@ class CfgVehicles {
         backpack = "RHS_Podnos_Bipod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",2},{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"RHS_Podnos_Bipod_Bag",{}},"rhs_6b7_1m_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_uav_operator : ru_msv_efreitor {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV UAV Operator";
+        side = 0;
+        faction = "AKO_RU_MSV";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_emr_patchless";
+
+        linkedItems[] = {"rhs_6b45_rifleman","rhs_6b7_1m","ItemMap","I_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b7_1m","ItemMap","I_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+
+        backpack = "I_UAV_01_backpack_F";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"I_UAV_01_backpack_F",{}},"rhs_6b7_1m","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","I_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -7677,6 +7769,46 @@ class CfgVehicles {
         backpack = "rhs_M252_Bipod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhs_M252_Bipod_Bag",{}},"rhsusf_lwh_helmet_marpatwd","rhs_googles_clear",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_uav_operator : us_usmc_rifleman_m4a1 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC UAV Operator";
+        side = 1;
+        faction = "AKO_US_USMC";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_wd";
+
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_blk_ess","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_black_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+
+        backpack = "O_UAV_01_backpack_F";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"O_UAV_01_backpack_F",{}},"rhsusf_lwh_helmet_marpatwd_blk_ess","",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

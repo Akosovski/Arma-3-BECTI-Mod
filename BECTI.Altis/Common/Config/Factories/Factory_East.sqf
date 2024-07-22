@@ -45,6 +45,7 @@ _u = _u		+ ["ru_msv_at_specialist"];
 _u = _u		+ ["ru_msv_aa_specialist"];
 _u = _u		+ ["ru_msv_mortarman_gun"];
 _u = _u		+ ["ru_msv_mortarman_bipod"];
+_u = _u		+ ["ru_msv_uav_operator"];
 _u = _u		+ ["ru_msv_driver"];
 _u = _u		+ ["ru_msv_officer"];
 _u = _u		+ ["ru_msv_crewman"];
@@ -99,6 +100,7 @@ _u = _u		+ ["ru_msv_t80um"];
 _u = _u		+ ["ru_msv_t90_1992"];
 _u = _u		+ ["ru_msv_t90a_2006"];
 _u = _u		+ ["ru_msv_t90sm"];
+_u = _u		+ ["ru_msv_t14"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
