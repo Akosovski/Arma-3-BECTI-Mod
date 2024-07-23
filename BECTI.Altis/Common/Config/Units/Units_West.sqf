@@ -670,6 +670,24 @@ _s = _s + ["service-ammotruck"];
 
 //--- Vehicles Air ---
 
+_c = _c + ['us_usaf_mq4a'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [500];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [];
+
+_c = _c + ['us_usaf_mq4b'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [500];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [];
+
 _c = _c + ['us_usmc_uh1y_unarmed'];
 _p = _p + [''];
 _n = _n + [''];

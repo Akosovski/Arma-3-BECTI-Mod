@@ -9,10 +9,10 @@ _c = [];
 _s = [];
 
 //--- Commander will assign those orders based on the force and the probability [type, strength, {probability}, {Max per side}]
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryElite", 1, 60, .10]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryElite", 1, 85]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["MotorizedBTR", 1, 75, .12], ["Motorized", 1, 90, .15]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["MechanizedBMP", 1, 35], ["MechanizedBMP", 1], ["Armored", 2]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1], ["HeliAttack", 1, 35]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1], ["HeliAttack", 1, 55]]];
 
 missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["InfantryAT", "InfantryAA"]];
 
@@ -89,6 +89,14 @@ _s = _s		+ [[]];
 _v = _v		+ ["HeliAttack"];
 _t = _t		+ ["Heli - Attack"];
 _p = _p		+ [[["ru_vdv_mi24v", 1]]];
+_f = _f		+ [CTI_AIR];
+_m = _m		+ [20000];
+_c = _c		+ ["Air"];
+_s = _s		+ [[]];
+
+_v = _v		+ ["AirAttack"];
+_t = _t		+ ["Heli - Airborne"];
+_p = _p		+ [[["ru_vdv_mi8mtv3", 1], ["ru_vdv_efreitor", 2], ["ru_vdv_rifleman_ak12", 2], ["ru_vdv_rifleman_ak74m", 2], ["ru_vdv_autorifleman", 1], ["ru_vdv_machinegunner", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [20000];
 _c = _c		+ ["Air"];

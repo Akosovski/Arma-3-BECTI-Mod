@@ -791,6 +791,28 @@ class CfgVehicles {
         };
     };
 
+    class O_UAV_02_dynamicLoadout_F;
+    class O_UAV_02_dynamicLoadout_F_OCimport_01 : O_UAV_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_UAV_02_dynamicLoadout_F_OCimport_02 : O_UAV_02_dynamicLoadout_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class HE_Ababil3_Opfor;
+    class HE_Ababil3_Opfor_OCimport_01 : HE_Ababil3_Opfor { scope = 0; class EventHandlers; class Turrets; };
+    class HE_Ababil3_Opfor_OCimport_02 : HE_Ababil3_Opfor_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class JS_JC_SU35;
+    class JS_JC_SU35_OCimport_01 : JS_JC_SU35 { scope = 0; class EventHandlers; };
+    class JS_JC_SU35_OCimport_02 : JS_JC_SU35_OCimport_01 { scope = 0; class EventHandlers; };
+
     class rhsusf_usmc_marpat_wd_squadleader;
     class rhsusf_usmc_marpat_wd_squadleader_OCimport_01 : rhsusf_usmc_marpat_wd_squadleader { scope = 0; class EventHandlers; };
     class rhsusf_usmc_marpat_wd_squadleader_OCimport_02 : rhsusf_usmc_marpat_wd_squadleader_OCimport_01 { class EventHandlers; };
@@ -1299,6 +1321,24 @@ class CfgVehicles {
     class RHSGREF_A29B_HIDF;
     class RHSGREF_A29B_HIDF_OCimport_01 : RHSGREF_A29B_HIDF { scope = 0; class EventHandlers; class Turrets; };
     class RHSGREF_A29B_HIDF_OCimport_02 : RHSGREF_A29B_HIDF_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class B_UAV_02_dynamicLoadout_F;
+    class B_UAV_02_dynamicLoadout_F_OCimport_01 : B_UAV_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_UAV_02_dynamicLoadout_F_OCimport_02 : B_UAV_02_dynamicLoadout_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class HE_MQ4A_Blufor;
+    class HE_MQ4A_Blufor_OCimport_01 : HE_MQ4A_Blufor { scope = 0; class EventHandlers; class Turrets; };
+    class HE_MQ4A_Blufor_OCimport_02 : HE_MQ4A_Blufor_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
@@ -5004,6 +5044,89 @@ class CfgVehicles {
 
     };
 
+    class ru_vdv_k40a : O_UAV_02_dynamicLoadout_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV K-40A Ababil";
+        side = 0;
+        faction = "AKO_RU_VDV";
+        crew = "O_UAV_AI";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_k40b : HE_Ababil3_Opfor_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV K-40B Kamikaze";
+        side = 0;
+        faction = "AKO_RU_VDV";
+        crew = "O_UAV_AI";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_su35 : JS_JC_SU35_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV Su-35 Flanker";
+        side = 0;
+        faction = "AKO_RU_VDV";
+        crew = "ru_vdv_jet_pilot";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\js_jc_su35\data\Su35_hull_co.paa'];_unit setObjectTextureGlobal [1,'\js_jc_su35\data\Su35_misc_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "RussianAFGreyDigital";
+
+    };
+
     class us_usmc_sergeant : rhsusf_usmc_marpat_wd_squadleader_OCimport_02 {
         author = "Akosovski";
         scope = 2;
@@ -7836,6 +7959,64 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "us_usmc_jet_pilot"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usaf_mq4a : B_UAV_02_dynamicLoadout_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USAF MQ-4A Greyhawk";
+        side = 1;
+        faction = "AKO_US_USMC";
+        crew = "B_UAV_AI";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usaf_mq4b : HE_MQ4A_Blufor_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USAF MQ-4B Kamikaze";
+        side = 1;
+        faction = "AKO_US_USMC";
+        crew = "B_UAV_AI";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
         };
 
 

@@ -79,7 +79,7 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 8]]];
 
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
-_classes = _classes 		+ [["Land_MedicalTent_01_NATO_generic_closed_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_DeconTent_01_NATO_F", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [200];
 _times = _times 			+ [60];
 _placements = _placements 	+ [[180, 15]];
@@ -95,7 +95,7 @@ _helper = _helper			+ [["Land_VR_Target_MRAP_01_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_CONTROLCENTER, "Control Center", "CC"]];
-_classes = _classes 		+ [["Land_BagBunker_Tower_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["rhs_prv13", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [1200];
 _times = _times 			+ [90];
 _placements = _placements 	+ [[180, 20]];
@@ -103,7 +103,7 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
-_classes = _classes 		+ [["Land_Bunker_F", "Land_Cargo40_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo_HQ_V3_F", "Land_Cargo40_military_green_F"]];
 _prices = _prices 			+ [2800];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[180, 25]];
@@ -159,6 +159,12 @@ _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Bunker (Small)"];
 _classes = _classes 		+ ["Land_BagBunker_Small_F"];
+_prices = _prices 			+ [30];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Flag (Russia)"];
+_classes = _classes 		+ ["Flag_US_F"];
 _prices = _prices 			+ [30];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];

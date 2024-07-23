@@ -96,7 +96,9 @@ _u = _u 	+ ["us_usmc_m1a2sepv1_t2"];
 _u = _u 	+ ["us_usmc_m1a2sepv2"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ["us_usmc_uh1y_unarmed"];
+_u 			= ["us_usaf_mq4a"];
+_u = _u		+ ["us_usaf_mq4b"];
+_u = _u		+ ["us_usmc_uh1y_unarmed"];
 _u = _u		+ ["us_usmc_uh1y_rocket"];
 _u = _u		+ ["us_usmc_uh1y_armed"];
 _u = _u		+ ["us_usmc_uh60m"];

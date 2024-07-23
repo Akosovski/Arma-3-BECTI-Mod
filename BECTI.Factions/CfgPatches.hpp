@@ -263,7 +263,10 @@ class CfgPatches {
             "ru_vdv_mi28n",
             "ru_vdv_kamaz",
             "ru_vdv_kamaz_ammo",
-            "ru_vdv_kamaz_open"
+            "ru_vdv_kamaz_open",
+            "ru_vdv_k40a",
+            "ru_vdv_k40b",
+            "ru_vdv_su35"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -321,6 +324,7 @@ class CfgPatches {
             "rhs_c_mig29",
             "A3_Air_F_Beta",
             "A3_Air_F_Gamma_Plane_Fighter_03",
+            "JS_JC_SU35",
             "A3_Air_F_EPC_Plane_CAS_01",
             "A3_Air_F_EPC_Plane_CAS_02",
             "A3_Air_F_Exp_Plane_Civil_01",
@@ -354,7 +358,9 @@ class CfgPatches {
             "rhsusf_c_himars",
             "rhsusf_c_mtvr",
             "A3_Soft_F_Gamma_Hatchback_01",
-            "A3_Soft_F_Exp_Offroad_02"
+            "A3_Soft_F_Exp_Offroad_02",
+            "A3_Drones_F_Air_F_Gamma_UAV_02",
+            "LoiteringMunitionUAVs"
         };
         author = "Akosovski";
         authors[] = {"Akosovski"};
@@ -444,7 +450,9 @@ class CfgPatches {
             "us_usmc_grenadier_m4a1",
             "us_usmc_mortarman_gun",
             "us_usmc_mortarman_bipod",
-            "us_usmc_uav_terminal",
+            "us_usmc_uav_operator",
+            "us_usaf_mq4a",
+            "us_usaf_mq4b",
             "us_usaf_a29"
         };
         weapons[] = {};
@@ -545,7 +553,9 @@ class CfgPatches {
             "rhsgref_c_a2port_armor",
             "rhsusf_c_m11xx",
             "A3_Soft_F_Exp_Truck_01",
-            "rhsusf_c_m1117"
+            "rhsusf_c_m1117",
+            "A3_Drones_F_Air_F_Gamma_UAV_02",
+            "LoiteringMunitionUAVs"
         };
         author = "Akosovski";
         authors[] = {"Akosovski"};

@@ -104,7 +104,9 @@ _u = _u		+ ["ru_msv_t14"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ["ru_vdv_ka60"];
+_u 			= ["ru_vdv_k40a"];
+_u = _u	    + ["ru_vdv_k40b"];
+_u = _u	    + ["ru_vdv_ka60"];
 _u = _u	    + ["ru_vdv_mi8t"];
 _u = _u		+ ["ru_vdv_mi8mt"];
 _u = _u		+ ["ru_vdv_mi8mtv3"];
@@ -113,6 +115,7 @@ _u = _u		+ ["ru_vdv_mi28n"];
 _u = _u		+ ["ru_vdv_ka52"];
 _u = _u		+ ["ru_vdv_su25"];   
 _u = _u		+ ["ru_vdv_mig29sm"];
+_u = _u		+ ["ru_vdv_su35"];
 _u = _u		+ ["ru_vdv_t50_2013"];
 _u = _u		+ ["ru_vdv_tu95ms6"];
 

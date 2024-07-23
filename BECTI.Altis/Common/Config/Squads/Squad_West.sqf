@@ -8,16 +8,16 @@ _m = [];
 _c = [];
 _s = [];
 
-//--- Commander will assign those orders based on the force and the probability [type, strenght, {probability}, {Max per side}]
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryAA", 1, 40, .10], ["InfantryRanged", 1, 60, .05], ["InfantrySniper", 1, 40, .05]]];
+//--- Commander will assign those orders based on the force and the probability [type, strength, {probability}, {Max per side}]
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryAA", 1, 40, .10], ["InfantryElite", 1, 85]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["Motorized", 1, 75, .12],["MotorizedHMWV", 1, 75, .12], ["Mechanized", 1, 90, .15]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["Mechanized", 1, 50], ["AntiAir", 1, 85, .10], ["MechanizedHeavy", 1], ["Armored", 2]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1],["AirAttack", 1, 35]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1],["AirAttack", 1, 55]]];
 
 missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["InfantryAT", "InfantryAA"]];
 
 //--- Those are used by the commander to determine the kind of unit an AI team has
-missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_INFANTRY", _side], ["Infantry", "InfantryAT", "InfantryAA", "InfantryRanged", "InfantrySniper"]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_INFANTRY", _side], ["Infantry", "InfantryAT", "InfantryAA", "InfantryElite"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_LIGHT", _side], ["Motorized"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_HEAVY", _side], ["Mechanized", "MechanizedHeavy", "Armored", "AntiAir"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAttack", "AirAttack"]];
@@ -46,20 +46,12 @@ _m = _m		+ [4000];
 _c = _c		+ ["InfantryAA"];
 _s = _s		+ [[]];
 
-_v = _v		+ ["InfantryRanged"];
-_t = _t		+ ["Infantry - Marksmen"];
-_p = _p		+ [[["us_usmc_marksman", 1], ["us_usmc_rifleman_m16", 1], ["us_usmc_rifleman_m4a1", 1]]];
-_f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [2500];
-_c = _c		+ ["InfantryAdvanced"];
-_s = _s		+ [[]];
-
-_v = _v		+ ["InfantrySniper"];
+_v = _v		+ ["InfantryElite"];
 _t = _t		+ ["Infantry - Elite MARSOC"];
 _p = _p		+ [[["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [5000];
-_c = _c		+ ["InfantryAdvanced"];
+_c = _c		+ ["InfantryElite"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["MotorizedHMWV"];
@@ -119,12 +111,13 @@ _c = _c		+ ["Air"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
-_t = _t		+ ["Air - Attack"];
-_p = _p		+ [[["us_usaf_a10a", 1]]];
+_t = _t		+ ["Heli - Airborne"];
+_p = _p		+ [[["us_usmc_uh1y_armed", 1], ["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
 _f = _f		+ [CTI_AIR];
-_m = _m		+ [25000];
+_m = _m		+ [20000];
 _c = _c		+ ["Air"];
 _s = _s		+ [[]];
+
 
 
 [_side, _v, _t, _p, _f, _m, _c, _s] call compile preprocessFileLineNumbers "Common\Config\Squads\Squads_Set.sqf";

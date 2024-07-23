@@ -694,6 +694,24 @@ _s = _s + ["service-ammotruck"];
 
 // ---------- Air Vehicles ------------
 
+_c = _c + ['ru_vdv_k40a'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [500];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_k40b'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [500];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 _c = _c + ['ru_vdv_ka60'];
 _p = _p + [''];
 _n = _n + [''];
@@ -779,6 +797,15 @@ _c = _c + ['ru_vdv_su25'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [16000];
+_t = _t + [60];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_su35'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [17500];
 _t = _t + [60];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];

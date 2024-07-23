@@ -506,17 +506,17 @@ _i = _i        + ["rhs_tortila_olive"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i		    + ["b_Kitbag_sgg"];
-_u = _u		    + [1];
-_p = _p		    + [25];
+_i = _i		   + ["b_Kitbag_sgg"];
+_u = _u		   + [1];
+_p = _p		   + [25];
 
-_i = _i		    + ["O_UAV_01_backpack_F"];
-_u = _u		    + [1];
-_p = _p		    + [100];
+_i = _i		   + ["O_UAV_01_backpack_F"];
+_u = _u		   + [1];
+_p = _p		   + [100];
 
-_i = _i		    + ["b_parachute"];
-_u = _u		    + [0];
-_p = _p		    + [25];
+_i = _i		   + ["b_parachute"];
+_u = _u		   + [0];
+_p = _p		   + [25];
 
 // --- Uniforms ---
  
@@ -608,22 +608,6 @@ _u = _u        + [0];
 _p = _p        + [3]; 
 
 _i = _i        + ["rhs_balaclava1_olive"];
-_u = _u        + [0];
-_p = _p        + [3];
-
-_i = _i        + ["Deg_TB_Green"];
-_u = _u        + [0];
-_p = _p        + [3];
-
-_i = _i        + ["Deg_TB_UN_Green"];
-_u = _u        + [0];
-_p = _p        + [3];
-
-_i = _i        + ["Deg_TB_G_Gatorz_Green"];
-_u = _u        + [0];
-_p = _p        + [3];
-
-_i = _i        + ["Deg_TB_G_Gatorz_UN_Green"];
 _u = _u        + [0];
 _p = _p        + [3];
 
