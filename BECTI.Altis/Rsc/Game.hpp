@@ -11,8 +11,8 @@ corpseRemovalMinTime = 1200;
 //--- Require briefing.html to show up.
 onLoadName = "BECTI USA-RUS Altis";
 briefingName = "BECTI USA-RUS Altis";
-onLoadMission = "Battle Against Players and AI for control of the Map.";
-overviewText = "Battle Against Players and AI for control of the Map.";
+onLoadMission = "Battle against Players and AI for control of Altis.";
+overviewText = "Battle against Players and AI for control of Altis.";
 
 //--- ArmA 3 Specifics
 dev = "Akosovski, Fisher, Boivie, Original by: Sari & Benny";
