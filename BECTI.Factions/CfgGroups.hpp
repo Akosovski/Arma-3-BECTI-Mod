@@ -62,6 +62,61 @@ class CfgGroups {
 
 
         };
+        class AKO_TA_TLA {
+            name = "Ako's Tanoa (TLA)";
+
+            class Infantry {
+                name = "Infantry";
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
+            };
+
+            class Motorized {
+                name = "Motorized Infantry";
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support Infantry";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized Infantry";
+
+            };
+
+            class Armored {
+                name = "Armor";
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
 
     };
     class EAST {
@@ -176,6 +231,62 @@ class CfgGroups {
 
 
         };
+        class AKO_RU_VMF {
+            name = "Ako's Russia (VMF)";
+
+            class Infantry {
+                name = "Infantry";
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
+            };
+
+            class Motorized {
+                name = "Motorized Infantry";
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support Infantry";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized Infantry";
+
+            };
+
+            class Armored {
+                name = "Armor";
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
+
 
     };
     class WEST {
@@ -215,6 +326,61 @@ class CfgGroups {
 
             class Armored {
                 name = "Armored";
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
+        class AKO_US_RG {
+            name = "Ako's USA (RANGERS)";
+
+            class Infantry {
+                name = "Infantry";
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
+            };
+
+            class Motorized {
+                name = "Motorized Infantry";
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support Infantry";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized Infantry";
+
+            };
+
+            class Armored {
+                name = "Armor";
 
             };
 

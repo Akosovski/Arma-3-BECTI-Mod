@@ -12,6 +12,13 @@ class CfgFactionClasses {
         icon = "\A3\ui_f\data\map\markers\flags\Altis_ca.paa";
         priority = 0;
     };
+    class AKO_TA_TLA {
+        displayName = "Ako's Tanoa (TLA)";
+        side = 2;
+        flag = "\A3\Ui_f\data\Map\Markers\Flags\tanoa_ca.paa";
+        icon = "\A3\Ui_f\data\Map\Markers\Flags\tanoa_ca.paa";
+        priority = 0;
+    };
     class AKO_RU_MSV {
         displayName = "Ako's Russia (MSV)";
         side = 0;
@@ -26,11 +33,25 @@ class CfgFactionClasses {
         icon = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_vdv_CO.paa";
         priority = 0;
     };
+    class AKO_RU_VMF {
+        displayName = "Ako's Russia (VMF)";
+        side = 0;
+        flag = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_vmf_CO.paa";
+        icon = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_vmf_CO.paa";
+        priority = 0;
+    };
     class AKO_US_USMC {
         displayName = "Ako's USA (USMC)";
         side = 1;
         flag = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
         icon = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
+        priority = 0;
+    };
+        class AKO_US_RG {
+        displayName = "Ako's USA (RANGERS)";
+        side = 1;
+        flag = "\rhsusf\addons\rhsusf_main\data\flag_map\flag_us_co.paa";
+        icon = "\rhsusf\addons\rhsusf_main\data\flag_map\flag_us_co.paa";
         priority = 0;
     };
 };
