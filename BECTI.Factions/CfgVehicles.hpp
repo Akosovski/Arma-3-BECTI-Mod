@@ -11557,12 +11557,12 @@ class CfgVehicles {
     // US RANGERS & DEVGRU
 
     class us_rg_rifleman_m4 : rhsusf_army_ocp_arb_squadleader_OCimport_02 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Rifleman (M4A1)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11571,13 +11571,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{},"rhsusf_opscore_mc_cover_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",1},{"rhs_mag_m67",5,1},{"30Rnd_556x45_Stanag",12,30}}},{},"rhsusf_opscore_mc_cover_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11596,12 +11596,12 @@ class CfgVehicles {
     };
 
     class us_rg_sergeant : us_rg_rifleman_m4 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Sergeant";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11610,13 +11610,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136","CUP_hgun_Glock17_blk","Laserdesignator"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136","CUP_hgun_Glock17_blk","Laserdesignator"};
+        weapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136","Laserdesignator"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136","Laserdesignator"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries"};
+        magazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_compm4",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_M136","","","",{},{},""},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Squadleader",{{"30Rnd_556x45_Stanag",11,30},{"CUP_17Rnd_9x19_glock17",4,17},{"rhs_mag_m67",4,1}}},{},"rhsusf_opscore_mc_cover_pelt_cam","rhs_ess_black",{"Laserdesignator","","","",{"Laserbatteries",1},{},""},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_compm4",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_M136","","","",{},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Squadleader",{{"FirstAidKit",2},{"30Rnd_556x45_Stanag",12,30},{"rhs_mag_m67",4,1}}},{},"rhsusf_opscore_mc_cover_pelt_cam","rhs_ess_black",{"Laserdesignator","","","",{"Laserbatteries",1},{},""},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11635,12 +11635,12 @@ class CfgVehicles {
     };
 
     class us_rg_rifleman_mk16 : us_rg_rifleman_m4 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Rifleman (Mk16)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11649,13 +11649,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_Mk16_CQC","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"CUP_arifle_Mk16_CQC","CUP_hgun_Glock17_blk"};
+        weapons[] = {"CUP_arifle_Mk16_CQC"};
+        respawnWeapons[] = {"CUP_arifle_Mk16_CQC"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag_Mk16","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag_Mk16","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16","CUP_30Rnd_556x45_Stanag_Mk16"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16","CUP_30Rnd_556x45_Stanag_Mk16"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk16_CQC","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15side","rhsusf_acc_su230a_mrds_c",{"CUP_30Rnd_556x45_Stanag_Mk16",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"CUP_30Rnd_556x45_Stanag_Mk16",10,30}}},{},"rhsusf_opscore_mc_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk16_CQC","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15side","rhsusf_acc_su230a_mrds_c",{"CUP_30Rnd_556x45_Stanag_Mk16",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",2},{"rhs_mag_m67",4,1},{"CUP_30Rnd_556x45_Stanag_Mk16",12,30}}},{},"rhsusf_opscore_mc_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11674,12 +11674,12 @@ class CfgVehicles {
     };
 
     class us_rg_rifleman_mk17 : us_rg_rifleman_mk16 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Rifleman (Mk17)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11688,13 +11688,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_Mk17_STD_SFG","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"CUP_arifle_Mk17_STD_SFG","CUP_hgun_Glock17_blk"};
+        weapons[] = {"CUP_arifle_Mk17_STD_SFG"};
+        respawnWeapons[] = {"CUP_arifle_Mk17_STD_SFG"};
 
-        magazines[] = {"CUP_20Rnd_762x51_B_SCAR_bkl","CUP_17Rnd_9x19_glock17","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_20Rnd_762x51_B_SCAR_bkl","CUP_17Rnd_9x19_glock17","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_STD_SFG","","rhsusf_acc_anpeq15side","rhsusf_acc_ACOG_RMR",{"CUP_20Rnd_762x51_B_SCAR_bkl",20},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"CUP_20Rnd_762x51_B_SCAR_bkl",7,20}}},{},"rhsusf_opscore_mc_cover_pelt_cam","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_STD_SFG","","rhsusf_acc_anpeq15side","rhsusf_acc_ACOG_RMR",{"CUP_20Rnd_762x51_B_SCAR_bkl",20},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_20Rnd_762x51_B_SCAR_bkl",9,20}}},{},"rhsusf_opscore_mc_cover_pelt_cam","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11713,12 +11713,12 @@ class CfgVehicles {
     };
 
     class us_rg_corporal : us_rg_rifleman_mk17 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Corporal";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11727,13 +11727,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Grenadier","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Grenadier","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_GL_sand_F","rhs_weap_m72a7","CUP_hgun_Glock17_blk","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_GL_sand_F","rhs_weap_m72a7","CUP_hgun_Glock17_blk","Rangefinder"};
+        weapons[] = {"JCA_arifle_M4A4_GL_sand_F","rhs_weap_m72a7","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_GL_sand_F","rhs_weap_m72a7","Rangefinder"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_GL_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{"1Rnd_HE_Grenade_shell",1},""},{"rhs_weap_m72a7","","","",{},{},""},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Grenadier",{{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30},{"1Rnd_HE_Grenade_shell",7,1}}},{},"rhsusf_opscore_mc_cover_pelt","rhs_ess_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_GL_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{"1Rnd_HE_Grenade_shell",1},""},{"rhs_weap_m72a7","","","",{},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Grenadier",{{"30Rnd_556x45_Stanag",11,30},{"1Rnd_HE_Grenade_shell",13,1}}},{},"rhsusf_opscore_mc_cover_pelt","rhs_ess_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11752,12 +11752,12 @@ class CfgVehicles {
     };
 
     class us_rg_auto_rifleman : us_rg_corporal {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Auto Rifleman";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11766,15 +11766,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_SAW","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_SAW","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_lmg_m249_pip2","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"CUP_lmg_m249_pip2","CUP_hgun_Glock17_blk"};
+        weapons[] = {"CUP_lmg_m249_pip2"};
+        respawnWeapons[] = {"CUP_lmg_m249_pip2"};
 
-        magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
+        respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
 
         backpack = "rhsusf_falconii_mc";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip2","","","rhsusf_acc_M2A1",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_SAW",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},{"rhsusf_falconii_mc",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},"rhsusf_opscore_mc_cover_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip2","","","rhsusf_acc_M2A1",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_SAW",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},{"rhsusf_falconii_mc",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},"rhsusf_opscore_mc_cover_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11793,12 +11793,12 @@ class CfgVehicles {
     };
 
     class us_rg_mortarman_gun : us_rg_rifleman_mk17 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Mortarman (Gun)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11807,15 +11807,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
         backpack = "rhs_M252_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{"rhs_M252_Gun_Bag",{}},"rhsusf_opscore_mc","rhs_googles_clear",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhs_M252_Gun_Bag",{}},"rhsusf_opscore_mc","rhs_googles_clear",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11834,12 +11834,12 @@ class CfgVehicles {
     };
 
     class us_rg_mortarman_bipod : us_rg_mortarman_gun {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Mortarman (Bipod)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11848,15 +11848,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
         backpack = "rhs_M252_Bipod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{"rhs_M252_Bipod_Bag",{}},"rhsusf_opscore_mc_cover","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",2},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",12,30}}},{"rhs_M252_Bipod_Bag",{}},"rhsusf_opscore_mc_cover","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11875,12 +11875,12 @@ class CfgVehicles {
     };
 
     class us_rg_officer : us_rg_mortarman_gun {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Officer";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11889,13 +11889,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Repair","rhsusf_patrolcap_ocp","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Repair","rhsusf_patrolcap_ocp","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk","Laserdesignator"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk","Laserdesignator"};
+        weapons[] = {"JCA_arifle_M4A1_short_sand_F","Laserdesignator"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","Laserdesignator"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","Laserbatteries"};
+        magazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Repair",{{"30Rnd_556x45_Stanag",6,30},{"CUP_17Rnd_9x19_glock17",5,17},{"rhs_mag_m67",4,1}}},{},"rhsusf_patrolcap_ocp","G_Aviator",{"Laserdesignator","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Repair",{{"30Rnd_556x45_Stanag",10,30},{"rhs_mag_m67",4,1}}},{},"rhsusf_patrolcap_ocp","G_Aviator",{"Laserdesignator","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11914,12 +11914,12 @@ class CfgVehicles {
     };
 
     class us_rg_medic : us_rg_officer {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Medic";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11928,15 +11928,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Medic","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Medic","rhsusf_opscore_mc_cover_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_falconii_mc";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Medic",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",6,30}}},{"rhsusf_falconii_mc",{{"Medikit",1},{"FirstAidKit",10}}},"rhsusf_opscore_mc_cover_pelt","rhs_googles_clear",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Medic",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_falconii_mc",{{"Medikit",1},{"FirstAidKit",10}}},"rhsusf_opscore_mc_cover_pelt","rhs_googles_clear",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11955,12 +11955,12 @@ class CfgVehicles {
     };
 
     class us_rg_crewman : us_rg_mortarman_gun {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Crewman";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11969,13 +11969,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_cvc_helmet","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_cvc_helmet","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A1_short_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{},"rhsusf_cvc_helmet","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",11,30},{"DemoCharge_Remote_Mag",1,1}}},{},"rhsusf_cvc_helmet","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -11994,12 +11994,12 @@ class CfgVehicles {
     };
 
     class us_rg_engineer : us_rg_corporal {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Engineer";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12008,15 +12008,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Medic","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Medic","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_ocp";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_compm4",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Medic",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",6,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"ToolKit",3}}},"rhsusf_opscore_mc_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_compm4",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Medic",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"ToolKit",3}}},"rhsusf_opscore_mc_pelt","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12035,12 +12035,12 @@ class CfgVehicles {
     };
 
     class us_rg_marksman : us_rg_rifleman_mk16 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Marksman";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12049,13 +12049,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt_nsw","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt_nsw","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_SR10_sand_F","CUP_hgun_Glock17_blk","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_SR10_sand_F","CUP_hgun_Glock17_blk","Rangefinder"};
+        weapons[] = {"JCA_arifle_SR10_sand_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_SR10_sand_F","Rangefinder"};
 
-        magazines[] = {"JCA_20Rnd_762x51_PMAG","CUP_17Rnd_9x19_glock17","JCA_20Rnd_762x51_PMAG","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"JCA_20Rnd_762x51_PMAG","CUP_17Rnd_9x19_glock17","JCA_20Rnd_762x51_PMAG","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"JCA_20Rnd_762x51_PMAG","JCA_20Rnd_762x51_PMAG"};
+        respawnMagazines[] = {"JCA_20Rnd_762x51_PMAG","JCA_20Rnd_762x51_PMAG"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_SR10_sand_F","","rhsusf_acc_wmx_bk","rhsusf_acc_M8541",{"JCA_20Rnd_762x51_PMAG",20},{},"CUP_bipod_Harris_1A2_L_BLK"},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"JCA_20Rnd_762x51_PMAG",8,20}}},{},"rhsusf_opscore_mc_cover_pelt_nsw","rhs_googles_clear",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_SR10_sand_F","","rhsusf_acc_wmx_bk","rhsusf_acc_M8541",{"JCA_20Rnd_762x51_PMAG",20},{},"CUP_bipod_Harris_1A2_L_BLK"},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"JCA_20Rnd_762x51_PMAG",12,20}}},{},"rhsusf_opscore_mc_cover_pelt_nsw","rhs_googles_clear",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12074,12 +12074,12 @@ class CfgVehicles {
     };
 
     class us_rg_machine_gunner : us_rg_mortarman_gun {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Machine Gunner";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12088,15 +12088,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_SAW","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_SAW","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_lmg_M240_B","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"CUP_lmg_M240_B","CUP_hgun_Glock17_blk"};
+        weapons[] = {"CUP_lmg_M240_B"};
+        respawnWeapons[] = {"CUP_lmg_M240_B"};
 
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_17Rnd_9x19_glock17","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_17Rnd_9x19_glock17","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 
         backpack = "rhsusf_falconii_mc";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240_B","","","rhsusf_acc_su230",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_SAW",{{"CUP_17Rnd_9x19_glock17",4,17},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",2,100},{"rhs_mag_m67",4,1}}},{"rhsusf_falconii_mc",{{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",3,100}}},"rhsusf_opscore_mc_pelt","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240_B","","","rhsusf_acc_su230",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_SAW",{{"FirstAidKit",3},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",2,100},{"rhs_mag_m67",4,1}}},{"rhsusf_falconii_mc",{{"FirstAidKit",3},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",3,100}}},"rhsusf_opscore_mc_pelt","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12115,12 +12115,12 @@ class CfgVehicles {
     };
 
     class us_rg_jet_pilot : us_rg_rifleman_mk17 {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Jet Pilot";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12154,12 +12154,12 @@ class CfgVehicles {
     };
 
     class us_rg_helicopter_pilot : us_rg_jet_pilot {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Helicopter Pilot";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12168,13 +12168,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_hgu56p_tan","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_hgu56p_tan","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A1_short_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{},"rhsusf_hgu56p_tan","G_Aviator",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",11,30},{"DemoCharge_Remote_Mag",1,1}}},{},"rhsusf_hgu56p_tan","G_Aviator",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12193,12 +12193,12 @@ class CfgVehicles {
     };
 
     class us_rg_helicopter_crew : us_rg_helicopter_pilot {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Helicopter Crew";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12207,13 +12207,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_hgu56p_mask_tan","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_hgu56p_mask_tan","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A1_short_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{},"rhsusf_hgu56p_mask_tan","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",11,30},{"DemoCharge_Remote_Mag",1,1}}},{},"rhsusf_hgu56p_mask_tan","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12232,12 +12232,12 @@ class CfgVehicles {
     };
 
     class us_rg_worker : us_rg_helicopter_crew {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG Worker";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12271,12 +12271,12 @@ class CfgVehicles {
     };
 
     class us_rg_uav_operator : us_rg_worker {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG UAV Operator";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12285,15 +12285,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_pelt","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_pelt","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
         backpack = "B_UAV_01_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_F",{}},"rhsusf_opscore_mc_pelt","rhs_googles_clear",{},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_F",{}},"rhsusf_opscore_mc_pelt","rhs_googles_clear",{},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12312,12 +12312,12 @@ class CfgVehicles {
     };
 
     class us_rg_aa_specialist : us_rg_uav_operator {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG AA Specialist";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12326,15 +12326,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92","CUP_hgun_Glock17_blk","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92","CUP_hgun_Glock17_blk","Rangefinder"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92","Rangefinder"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","rhs_fim92_mag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_fim92_mag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","rhs_fim92_mag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_fim92_mag","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_ocp";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"rhs_fim92_mag",2,1}}},"rhsusf_opscore_mc_cover_pelt_cam","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",2},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",12,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"rhs_fim92_mag",2,1}}},"rhsusf_opscore_mc_cover_pelt_cam","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12353,12 +12353,12 @@ class CfgVehicles {
     };
 
     class us_rg_at_specialist : us_rg_aa_specialist {
-        author = "Kaga No Kami";
+        author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG AT Specialist";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12367,15 +12367,15 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_opscore_mc_pelt","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_maaws","CUP_hgun_Glock17_blk"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_maaws","CUP_hgun_Glock17_blk"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_maaws"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_maaws"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","MRAWS_HEAT_F","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","MRAWS_HEAT_F","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        magazines[] = {"30Rnd_556x45_Stanag","MRAWS_HEAT_F","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","MRAWS_HEAT_F","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_ocp";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"MRAWS_HEAT_F",1},{},""},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"CUP_17Rnd_9x19_glock17",5,17},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"MRAWS_HEAT_F",4,1}}},"rhsusf_opscore_mc_pelt","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"MRAWS_HEAT_F",1},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",11,30},{"DemoCharge_Remote_Mag",1,1}}},{"rhsusf_assault_eagleaiii_ocp",{{"MRAWS_HEAT_F",4,1}}},"rhsusf_opscore_mc_pelt","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -12399,7 +12399,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Operator (M4A1)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12438,7 +12438,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Operator (Mk16)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12477,7 +12477,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Operator (Mk17)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12516,7 +12516,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Operator (Mk48)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12525,15 +12525,15 @@ class CfgVehicles {
         linkedItems[] = {"V_PlateCarrier2_rgr","rhsusf_opscore_rg_cover_pelt","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"};
         respawnlinkedItems[] = {"V_PlateCarrier2_rgr","rhsusf_opscore_rg_cover_pelt","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"};
 
-        weapons[] = {"CUP_lmg_Mk48_nohg_od","CUP_hgun_Mk23","Rangefinder"};
-        respawnWeapons[] = {"CUP_lmg_Mk48_nohg_od","CUP_hgun_Mk23","Rangefinder"};
+        weapons[] = {"CUP_lmg_Mk48_nohg_od","Rangefinder"};
+        respawnWeapons[] = {"CUP_lmg_Mk48_nohg_od","Rangefinder"};
 
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_12Rnd_45ACP_mk23","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_12Rnd_45ACP_mk23"};
-        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_12Rnd_45ACP_mk23","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_12Rnd_45ACP_mk23"};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 
         backpack = "rhsusf_falconii";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_nohg_od","","rhsusf_acc_wmx_bk","rhsusf_acc_eotech_xps3",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{"CUP_hgun_Mk23","","","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_PlateCarrier2_rgr",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"CUP_12Rnd_45ACP_mk23",1,12},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"rhsusf_falconii",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",3,100},{"CUP_12Rnd_45ACP_mk23",3,12}}},"rhsusf_opscore_rg_cover_pelt","JCA_G_AirPurifyingRespirator_03_olive_clear_F",{"Rangefinder","","","",{},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_nohg_od","","rhsusf_acc_wmx_bk","rhsusf_acc_eotech_xps3",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_PlateCarrier2_rgr",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"rhsusf_falconii",{{"FirstAidKit",3},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",3,100}}},"rhsusf_opscore_rg_cover_pelt","JCA_G_AirPurifyingRespirator_03_olive_clear_F",{"Rangefinder","","","",{},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
 
 
         class EventHandlers : EventHandlers {
@@ -12557,7 +12557,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Operator (SR10)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12566,13 +12566,13 @@ class CfgVehicles {
         linkedItems[] = {"V_PlateCarrier2_rgr","rhsusf_opscore_rg_cover_pelt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"};
         respawnlinkedItems[] = {"V_PlateCarrier2_rgr","rhsusf_opscore_rg_cover_pelt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"};
 
-        weapons[] = {"JCA_arifle_SR10_olive_F","CUP_hgun_Mk23","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_SR10_olive_F","CUP_hgun_Mk23","Rangefinder"};
+        weapons[] = {"JCA_arifle_SR10_olive_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_SR10_olive_F","Rangefinder"};
 
-        magazines[] = {"JCA_20Rnd_762x51_PMAG","CUP_12Rnd_45ACP_mk23","JCA_20Rnd_762x51_PMAG","CUP_12Rnd_45ACP_mk23"};
-        respawnMagazines[] = {"JCA_20Rnd_762x51_PMAG","CUP_12Rnd_45ACP_mk23","JCA_20Rnd_762x51_PMAG","CUP_12Rnd_45ACP_mk23"};
+        magazines[] = {"JCA_20Rnd_762x51_PMAG","JCA_20Rnd_762x51_PMAG"};
+        respawnMagazines[] = {"JCA_20Rnd_762x51_PMAG","JCA_20Rnd_762x51_PMAG"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_SR10_olive_F","","rhsusf_acc_anpeq15_bk","JCA_optic_MRPS_olive",{"JCA_20Rnd_762x51_PMAG",20},{},"JCA_bipod_04_olive"},{},{"CUP_hgun_Mk23","","","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_PlateCarrier2_rgr",{{"CUP_12Rnd_45ACP_mk23",3,12},{"rhs_mag_m67",4,1},{"JCA_20Rnd_762x51_PMAG",9,20}}},{},"rhsusf_opscore_rg_cover_pelt","JCA_G_AirPurifyingRespirator_03_olive_tinted_F",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_SR10_olive_F","","rhsusf_acc_anpeq15_bk","JCA_optic_MRPS_olive",{"JCA_20Rnd_762x51_PMAG",20},{},"JCA_bipod_04_olive"},{},{},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_PlateCarrier2_rgr",{{"rhs_mag_m67",4,1},{"JCA_20Rnd_762x51_PMAG",11,20}}},{},"rhsusf_opscore_rg_cover_pelt","JCA_G_AirPurifyingRespirator_03_olive_tinted_F",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
 
 
         class EventHandlers : EventHandlers {
@@ -12596,7 +12596,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Sniper (AWM)";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12605,13 +12605,13 @@ class CfgVehicles {
         linkedItems[] = {"V_PlateCarrier2_rgr","rhsusf_opscore_fg_pelt_nsw","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"};
         respawnlinkedItems[] = {"V_PlateCarrier2_rgr","rhsusf_opscore_fg_pelt_nsw","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"};
 
-        weapons[] = {"JCA_srifle_AWM_olive_F","CUP_hgun_Mk23","Rangefinder"};
-        respawnWeapons[] = {"JCA_srifle_AWM_olive_F","CUP_hgun_Mk23","Rangefinder"};
+        weapons[] = {"JCA_srifle_AWM_olive_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_srifle_AWM_olive_F","Rangefinder"};
 
-        magazines[] = {"JCA_5Rnd_338LM_Mag","CUP_12Rnd_45ACP_mk23","JCA_5Rnd_338LM_Mag","CUP_12Rnd_45ACP_mk23"};
-        respawnMagazines[] = {"JCA_5Rnd_338LM_Mag","CUP_12Rnd_45ACP_mk23","JCA_5Rnd_338LM_Mag","CUP_12Rnd_45ACP_mk23"};
+        magazines[] = {"JCA_5Rnd_338LM_Mag","JCA_5Rnd_338LM_Mag"};
+        respawnMagazines[] = {"JCA_5Rnd_338LM_Mag","JCA_5Rnd_338LM_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_srifle_AWM_olive_F","","","JCA_optic_HPPO_RAD_olive",{"JCA_5Rnd_338LM_Mag",5},{},"JCA_bipod_AWM_black"},{},{"CUP_hgun_Mk23","","","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_PlateCarrier2_rgr",{{"CUP_12Rnd_45ACP_mk23",3,12},{"rhs_mag_m67",4,1},{"JCA_5Rnd_338LM_Mag",10,5}}},{},"rhsusf_opscore_fg_pelt_nsw","JCA_G_AirPurifyingRespirator_03_olive_clear_F",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_srifle_AWM_olive_F","","","JCA_optic_HPPO_RAD_olive",{"JCA_5Rnd_338LM_Mag",5},{},"JCA_bipod_AWM_black"},{},{},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_PlateCarrier2_rgr",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"JCA_5Rnd_338LM_Mag",10,5}}},{},"rhsusf_opscore_fg_pelt_nsw","JCA_G_AirPurifyingRespirator_03_olive_clear_F",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
 
 
         class EventHandlers : EventHandlers {
@@ -12635,7 +12635,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU UAV Operator";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -12676,7 +12676,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DEVGRU Helicopter Pilot";
         side = 1;
-        faction = "AKO_US_RG";
+        faction = "ako_us_rg";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
