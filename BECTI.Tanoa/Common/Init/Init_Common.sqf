@@ -154,11 +154,11 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 //--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-	[["rhs_weap_m4a1_carryhandle",["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_grip3","rhsusf_acc_ACOG_RMR"],["rhs_mag_30Rnd_556x45_M855A1_Stanag"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_FROG01_wd",["firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
-	["rhsusf_lwh_helmet_marpatwd_headset_blk",""],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["JCA_arifle_M4A4_VFG_sand_F",["rhsusf_acc_SF3P556","rhsusf_acc_anpeq15_bk","","rhsusf_acc_compm4"],["30Rnd_556x45_Stanag"]],["rhs_weap_M136",[],[""]],["",[],[]]],
+	[["rhs_uniform_acu_oefcp",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_iotv_ocp_Teamleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "DemoCharge_Remote_Mag"]],["",[""]]],
+	["rhsusf_opscore_mc_cover_pelt_nsw","rhs_googles_black"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-	[["rhs_weap_ak74m",["rhs_acc_dtk","","","rhs_acc_pkas"],["rhs_30Rnd_545x39_7N22_AK"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_vkpo_gloves",["firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_30Rnd_545x39_7N22_AK","rhs_mag_rgo","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
+	[["CUP_arifle_AK12_GP34_black",["rhs_acc_uuk","rhs_acc_perst1ik_ris","","rhs_acc_1p87"],["CUP_30Rnd_545x39_AK12_M"]],["rhs_weap_rpg26",[],[""]],["",[],[]]],
+	[["rhs_uniform_6sh122_gloves_v2",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"]],["",[""]]],
 	["rhs_6b47_6B50","rhs_facewear_6m2_1"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];

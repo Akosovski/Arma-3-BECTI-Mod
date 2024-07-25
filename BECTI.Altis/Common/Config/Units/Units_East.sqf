@@ -458,7 +458,7 @@ _n = _n + [''];
 _o = _o + [800];
 _t = _t + [15];
 _u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_msv_btr80a'];
@@ -467,7 +467,7 @@ _n = _n + [''];
 _o = _o + [950];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_msv_bmp1'];
@@ -476,7 +476,7 @@ _n = _n + [''];
 _o = _o + [1150];
 _t = _t + [15];
 _u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_msv_bmp2'];
@@ -485,7 +485,7 @@ _n = _n + [''];
 _o = _o + [1400];
 _t = _t + [15];
 _u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_msv_bmp3'];
@@ -494,7 +494,7 @@ _n = _n + [''];
 _o = _o + [1800];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_msv_bmp3_vesna'];
@@ -503,7 +503,7 @@ _n = _n + [''];
 _o = _o + [2200];
 _t = _t + [15];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_vdv_bmd1'];
@@ -512,7 +512,7 @@ _n = _n + [''];
 _o = _o + [1100];
 _t = _t + [15];
 _u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_vdv_bmd2'];
@@ -521,7 +521,7 @@ _n = _n + [''];
 _o = _o + [1450];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_vdv_bmd4'];
@@ -530,7 +530,7 @@ _n = _n + [''];
 _o = _o + [1700];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ['ru_vdv_bmd4m'];
@@ -539,7 +539,7 @@ _n = _n + [''];
 _o = _o + [2000];
 _t = _t + [15];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_HEAVY];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 // ---------- Tanks / Artillery ------------

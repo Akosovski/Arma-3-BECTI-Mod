@@ -4,19 +4,19 @@ respawnDelay = 1;
 respawnDialog = false;
 
 // --- Corpse timer.
-corpseLimit = 30; // Default: 15
-corpseRemovalMinTime = 240; // seconds. Default: 10
-corpseRemovalMaxTime = 3600; // seconds. Default: 3600
+corpseManagerMode = 1;
+corpseLimit = 0;
+corpseRemovalMinTime = 1200;
 
 //--- Require briefing.html to show up.
-onLoadName = "BECTI RHS USA-RUSA Tanoa";
-briefingName = "BECTI RHS USA-RUSA Tanoa";
-onLoadMission = "Battle Against Players and AI for control of the Map.";
-overviewText = "Battle Against Players and AI for control of the Map.";
+onLoadName = "BECTI USA-RUS Tanoa";
+briefingName = "BECTI USA-RUS Tanoa";
+onLoadMission = "Battle against Players and AI for control of Tanoa.";
+overviewText = "Battle against Players and AI for control of Tanoa.";
 
 //--- ArmA 3 Specifics
-dev = "Fisher, Boivie, Original by: Sari, Benny";
-author = "Fisher, Boivie";
+dev = "Akosovski, Fisher, Boivie, Original by: Sari & Benny";
+author = "Akosovski";
 
 // overviewPicture
 overviewPicture = "Rsc\Pictures\missionSplash.paa";

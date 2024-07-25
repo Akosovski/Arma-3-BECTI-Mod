@@ -14,14 +14,14 @@ class Params {
 	class CTI_AI_TEAMS_ENABLED {
 		title = "AI: Teams";
 		values[] = {0,1,2,3,4};
-		texts[] = {"Disabled", "1/4 Slots", "1/2 Slots", "3/4 Slots", "All Slots"};
+		texts[] = {"Disabled", "1/3 Slots", "1/2 Slots", "3/4 Slots", "All Slots"};
 		default = 1;
 	};
 	class CTI_AI_TEAMS_GROUPSIZE {
 		title = "AI: Team Size (AI)";
 		values[] = {2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,35,40,45,50,60,70,80,90,100};
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
-		default = 16;
+		default = 10;
 	};
 	class CTI_AI_PLAYER_TEAMS_GROUPSIZE {
 		title = "AI: Team Size (Player)";
@@ -29,12 +29,12 @@ class Params {
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
 		default = 90;
 	};
-	//class CTI_ARTILLERY_SETUP {
-	//	title = "ARTILLERY: Setup";
-	//	values[] = {-2,-1,0,1,2,3};
-	//	texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
-	//	default = 1;
-	//};
+	class CTI_ARTILLERY_SETUP {
+		title = "ARTILLERY: Setup";
+		values[] = {-2,-1,0,1,2,3};
+		texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
+		default = -1;
+	};
 	class CTI_BASE_AREA_MAX {
 		title = "BASE: Areas Limit";
 		values[] = {0,1,2,3};
@@ -69,7 +69,7 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {"Disabled","1","2","3","4","5","6"};
-		default = 5;
+		default = 2;
 	};
 	class CTI_BASE_START_TOWN {
 		title = "BASE: Start Near towns";
@@ -87,13 +87,13 @@ class Params {
 		title = "BASE: Worker Limit";
 		values[] = {5,10,15,20};
 		texts[] = {"5","10","15","20"};
-		default = 10;
+		default = 5;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
-		values[] = {30,60,90,120,160,190};
-		texts[] = {"30 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 30;
+		values[] = {20,60,90,120,160,190};
+		texts[] = {"20 Seconds","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
+		default = 20;
 	};
 	class CTI_ECONOMY_CURRENCY_SYSTEM {
 		title = "INCOME: Currency";
@@ -103,9 +103,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = "INCOME: Starting Funds (East Commander)";
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,150000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$150000"};
-		default = 150000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
+		default = 90000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
@@ -115,15 +115,15 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_EAST {
 		title = "INCOME: Starting Supply (East)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,25000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S25000"};
-		default = 25000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,35000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S35000"};
+		default = 35000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,150000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$150000"};
-		default = 150000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
+		default = 90000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
@@ -133,9 +133,9 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_WEST {
 		title = "INCOME: Starting Supply (West)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,25000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S25000"};
-		default = 25000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,35000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S35000"};
+		default = 35000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
@@ -185,7 +185,7 @@ class Params {
 		title = "RESPAWN: Camps";
 		values[] = {0,1,2,3};
 		texts[] = {"Disabled","Classic","Nearby Camps","Occupation Only"};
-		default = 3;
+		default = 2;
 	};
 	class CTI_RESPAWN_CAMPS_RULE_MODE {
 		title = "RESPAWN: Enemy near";
@@ -311,13 +311,13 @@ class Params {
 		title = "Units: Independent Salvager Limit";
 		values[] = {1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"1","2","3","4","5","6","7","8","9","10"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_MARKERS_INFANTRY {
 		title = "UNITS: Show Map Infantry";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_UNITS_FATIGUE {
 		title = "UNITS: Fatigue";
@@ -327,9 +327,9 @@ class Params {
 	};
 	class CTI_VEHICLES_EMPTY_TIMEOUT {
 		title = "UNITS: Vehicles Reycling Delay";
-		values[] = {60,120,180,240,300,600,1200,1800,2400,3000,3600};
-		texts[] = {"1 Minute","2 Minutes","3 Minutes","4 Minutes","5 Minutes","10 Minutes","20 Minutes","30 Minutes","40 Minutes","50 Minutes","1 Hour"};
-		default = 3600;
+		values[] = {60,120,180,240,300,600,1200,1800,2400,3000,10800};
+		texts[] = {"1 Minute","2 Minutes","3 Minutes","4 Minutes","5 Minutes","10 Minutes","20 Minutes","30 Minutes","40 Minutes","50 Minutes","3 Hours"};
+		default = 10800;
 	};
 	class CTI_GRAPHICS_TG_MAX {
 		title = "VISUAL: Terrain Grid";

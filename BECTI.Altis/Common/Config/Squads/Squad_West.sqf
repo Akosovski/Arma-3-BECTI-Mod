@@ -11,7 +11,7 @@ _s = [];
 //--- Commander will assign those orders based on the force and the probability [type, strength, {probability}, {Max per side}]
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryAA", 1, 40, .10], ["InfantryElite", 1, 85]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["Motorized", 1, 75, .12],["MotorizedHMWV", 1, 75, .12], ["Mechanized", 1, 90, .15]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["Mechanized", 1, 50], ["AntiAir", 1, 85, .10], ["MechanizedHeavy", 1], ["Armored", 2]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["Mechanized", 1, 50], ["MechanizedHeavy", 1], ["Armored", 2]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1],["AirAttack", 1, 55]]];
 
 missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["InfantryAT", "InfantryAA"]];
@@ -19,12 +19,12 @@ missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["Inf
 //--- Those are used by the commander to determine the kind of unit an AI team has
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_INFANTRY", _side], ["Infantry", "InfantryAT", "InfantryAA", "InfantryElite"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_LIGHT", _side], ["Motorized"]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_HEAVY", _side], ["Mechanized", "MechanizedHeavy", "Armored", "AntiAir"]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_HEAVY", _side], ["Mechanized", "MechanizedHeavy", "Armored"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAttack", "AirAttack"]];
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["us_usmc_rifleman_m4a1", 2], ["us_usmc_rifleman_m16", 2], ["us_usmc_lance_corporal", 2], ["us_usmc_autorifleman_m249", 2], ["us_usmc_sergeant", 2], ["us_usmc_rifleman_at", 2], ["us_usmc_missileman", 1]]];
+_p = _p		+ [[["us_usmc_m1078a1", 1], ["us_usmc_rifleman_m4a1", 2], ["us_usmc_rifleman_m16", 2], ["us_usmc_lance_corporal", 2], ["us_usmc_autorifleman_m249", 2], ["us_usmc_sergeant", 2], ["us_usmc_rifleman_at", 2], ["us_usmc_missileman", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [3500];
 _c = _c		+ ["Infantry"];
@@ -32,7 +32,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAT"];
 _t = _t		+ ["Infantry - AT"];
-_p = _p		+ [[["us_usmc_rifleman_m16", 3], ["us_usmc_missileman", 2], ["us_usmc_rifleman_at", 2]]];
+_p = _p		+ [[["us_usmc_m1078a1", 1], ["us_usmc_rifleman_m16", 3], ["us_usmc_missileman", 2], ["us_usmc_rifleman_at", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [5000];
 _c = _c		+ ["InfantryAT"];
@@ -40,7 +40,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAA"];
 _t = _t		+ ["Infantry - AA"];
-_p = _p		+ [[["us_usmc_aa_specialist", 4], ["us_usmc_lance_corporal", 1], ["us_usmc_rifleman_m4a1", 2]]];
+_p = _p		+ [[["us_usmc_m1078a1", 1], ["us_usmc_aa_specialist", 4], ["us_usmc_lance_corporal", 1], ["us_usmc_rifleman_m4a1", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [4000];
 _c = _c		+ ["InfantryAA"];
@@ -48,7 +48,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryElite"];
 _t = _t		+ ["Infantry - Elite MARSOC"];
-_p = _p		+ [[["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
+_p = _p		+ [[["us_usmc_m1078a1", 1], ["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [5000];
 _c = _c		+ ["InfantryElite"];
@@ -92,14 +92,6 @@ _p = _p		+ [[["us_usmc_m1a2sepv1_t1", 1], ["us_usmc_m1a2sepv1_t2", 1]]];
 _f = _f		+ [CTI_HEAVY];
 _m = _m		+ [20000];
 _c = _c		+ ["Armored"];
-_s = _s		+ [[]];
-
-_v = _v		+ ["AntiAir"];
-_t = _t		+ ["Armored - Anti Air"];
-_p = _p		+ [[["us_usmc_m6a2_aa", 1]]];
-_f = _f		+ [CTI_HEAVY];
-_m = _m		+ [10000];
-_c = _c		+ ["AntiAir"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["HeliAttack"];

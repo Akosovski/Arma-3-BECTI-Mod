@@ -18,18 +18,18 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-	[[300,750],[900,2250],[1800,5500]], //--- Barracks
-	[[800,1600],[1400,4500],[2500,7000]], //--- Light
-	[[2500,5000],[5000,10000],[11000,20000]], //--- Heavy
-	[[6000,10000],[15000,30000]], //--- Air
-	[[30000,250000]], //--- Satellite
+	[[300,750],[900,1250],[1300,1500]], //--- Barracks
+	[[800,1600],[1400,2500],[2700,3000]], //--- Light
+	[[2500,3000],[3500,5000],[5500,7000]], //--- Heavy
+	[[3500,5000],[6500,12000]], //--- Air
+	[[15000,25000]], //--- Satellite
 	[[1500,5000]], //--- Air FFAR
 	[[5000,20000]], //--- Air AT
 	[[7500,30000]], //--- Air AA
 	[[4500,14000]], //--- Air CM
-	[[2000,5000], [8000,20000], [15000,40000]], //--- Towns Occupation
-	[[2500,12500],[5000,27500],[15000,50000],[30000,100000]], //--- Supply
-	[[500,2500],[1500,5000],[2500,10000]] //--- Gear
+	[[2000,2500], [4000,8000], [9000,10000]], //--- Towns Occupation
+	[[2500,5000],[5500,9500],[11000,18000],[20000,30000]], //--- Supply
+	[[500,1500],[1800,2000],[2500,5000]] //--- Gear
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
@@ -63,33 +63,33 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-	[20,40,60], //--- Barracks
-	[30,60,90], //--- Light
-	[50,100], //--- Heavy
-	[90,180], //--- Air
-	[120], //--- Satellite
+	[5,5,5], //--- Barracks
+	[5,5,5], //--- Light
+	[10,10], //--- Heavy
+	[10,10,10], //--- Air
+	[30], //--- Satellite
 	[90], //--- Air FFAR
 	[90], //--- Air AT
 	[90], //--- Air AA
 	[60], //--- Air CM
-	[60, 70, 80], //--- Towns Occupation
-	[60,120,180,240], //--- Supply
-	[20, 40, 60] //--- Gear
+	[10,10,10], //--- Towns Occupation
+	[10,10,10,10], //--- Supply
+	[5,5,5] //--- Gear
 ]];
 
 if (CTI_IsClient) then {
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
-		["Barracks", "Unlock better infantry units"], //--- Barracks
-		["Light Factory", "Unlock better motorized units"], //--- Light
-		["Heavy Factory", "Unlock better armored units"], //--- Heavy
-		["Aircraft Factory", "Unlock better aircraft units"], //--- Air
-		["Satellite", "Allows the use of the satellite camera"], //--- Satellite
-		["Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts"], //--- Air FFAR
-		["Aircraft AT", "Unlocks the Anti Tank Missiles for Aircrafts"], //--- Air AT
-		["Aircraft AA", "Unlocks the Anti Air Missiles for Aircrafts"], //--- Air AA
-		["Aircraft Countermeasures", "Allows Aircraft to deploy countermeasures"], //--- Air CM
-		["Towns Occupation", "Allows spawning of occupation AI to defend friendly towns from attackers.<br />If 'Income: Towns Occupation' is enabled, it also improves income generation in non-occupied towns"], //--- Towns Occupation
-		["Supply", "Increases the rate at which towns increase their SV"], //---Supply
-		["Gear", "Allows the use of better equipment in the Gear Menu"] //--- Gear
+		["Barracks", "Provides reinforcement of US Rangers Infantry units.<br />Level 1: US Rangers Basic Infantry<br />Level 2: US Rangers Upgraded Infantry<br />Level 3: DEVGRU Operators"], //--- Barracks
+		["Light Factory", "Provides reinforcement of USMC Light Vehicles.<br />Level 1: USMC Motorized Vehicles and Trucks<br />Level 2: USMC Motorized APC<br />Level 3: USMC Upgraded Motorized APC"], //--- Light
+		["Heavy Factory", "Provides reinforcement of USMC IFV, Tanks and Artillery.<br />Level 1: USMC Basic IFV and Tanks<br />Level 2: USMC Upgraded IFV and Tanks"], //--- Heavy
+		["Aircraft Factory", "Provides reinforcement of US Rangers, USMC and USAF Helicopters and Planes.<br />Level 1: USMC and US Rangers Basic Helicopters<br />Level 2: USMC and USAF Attack Helicopters and Planes<br />Level 3: USAF Upgraded Planes"], //--- Air
+		["Satellite", "Allows the use of the Real-Time satellite camera."], //--- Satellite
+		["Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts."], //--- Air FFAR
+		["Aircraft AT", "Unlocks the Anti Tank Missiles for Aircrafts."], //--- Air AT
+		["Aircraft AA", "Unlocks the Anti Air Missiles for Aircrafts."], //--- Air AA
+		["Aircraft Countermeasures", "Allows Aircraft to deploy countermeasures."], //--- Air CM
+		["Towns Occupation", "Allows spawning of occupation AI to defend friendly towns from attackers. If 'Income: Towns Occupation' is enabled, it also improves income generation in non-occupied towns"], //--- Towns Occupation
+		["Supply", "Increases the rate at which towns increase their SV."], //---Supply
+		["Gear", "Allows the use of better WEST equipment in the Gear Menu.<br />Level 1: Basic Weapons<br />Level 2: Upgraded Weapons<br />Level 3: Specialized Weapons"] //--- Gear
 	]];
 };

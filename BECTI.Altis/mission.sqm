@@ -80,8 +80,8 @@ class AddonsMetaData
 randomSeed=7728140;
 class ScenarioData
 {
-	overviewText="BECTI RHS USA-RUSA ALTIS";
-	onLoadMission="BECTI RHS USA-RUSA ALTIS";
+	overviewText="BECTI USA-RUS ALTIS";
+	onLoadMission="BECTI USA-RUS ALTIS";
 	respawn=3;
 	respawnDelay=1;
 };
@@ -202,7 +202,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="LIEUTENANT";
+						rank="CAPTAIN";
 						description="Alpha, Squad Leader";
 						isPlayer=1;
 						isPlayable=1;
@@ -280,7 +280,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="LIEUTENANT";
+						rank="CAPTAIN";
 						description="Alpha, Squad Leader";
 						isPlayable=1;
 					};

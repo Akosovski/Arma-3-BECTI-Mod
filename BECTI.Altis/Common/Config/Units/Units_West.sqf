@@ -237,7 +237,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-//--- Infantry MARSOC ---
+//--- MARSOC Operators ---
 
 _c = _c + ['us_usmc_marsoc_chief'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
@@ -833,6 +833,7 @@ _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
 
 //--- Vehicles Naval
+
 _c = _c + ['B_Boat_Transport_01_F'];
 _p = _p + [''];
 _n = _n + [''];
