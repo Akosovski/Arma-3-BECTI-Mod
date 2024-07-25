@@ -858,7 +858,13 @@ class CfgPatches {
             "us_dvg_operator_mk17",
             "us_dvg_operator_mk48",
             "us_dvg_uav_operator",
-            "us_dvg_helicopter_pilot"
+            "us_dvg_helicopter_pilot",
+            "us_rg_uh80",
+            "us_rg_uh60m",
+            "us_rg_uh60m_ews",
+            "us_dvg_ah6m",
+            "us_dvg_mh6m",
+            "us_dvg_oh6m"
         };
         weapons[] = {};
         requiredVersion = 1.62;
