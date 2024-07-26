@@ -11610,13 +11610,13 @@ class CfgVehicles {
         linkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_opscore_mc_cover_pelt_cam","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136","Laserdesignator"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136","Laserdesignator"};
+        weapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_AFG_sand_F","rhs_weap_M136"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_compm4",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_M136","","","",{},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Squadleader",{{"FirstAidKit",2},{"30Rnd_556x45_Stanag",12,30},{"rhs_mag_m67",4,1}}},{},"rhsusf_opscore_mc_cover_pelt_cam","rhs_ess_black",{"Laserdesignator","","","",{"Laserbatteries",1},{},""},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_AFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_compm4",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_M136","","","",{},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Squadleader",{{"FirstAidKit",2},{"30Rnd_556x45_Stanag",12,30},{"rhs_mag_m67",4,1}}},{},"rhsusf_opscore_mc_cover_pelt_cam","rhs_ess_black",{},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

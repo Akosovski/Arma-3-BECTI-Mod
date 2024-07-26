@@ -107,7 +107,7 @@ _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
 _n = _n + ['VMF Medic'];
 _o = _o + [200];
 _t = _t + [3];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -197,7 +197,7 @@ _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
 _n = _n + ['VMF Helicopter Pilot'];
 _o = _o + [200];
 _t = _t + [3];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -206,7 +206,7 @@ _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
 _n = _n + ['VMF Helicopter Crew'];
 _o = _o + [200];
 _t = _t + [3];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -222,25 +222,25 @@ _s = _s + [""];
 // ---------- GRU Spetsnaz Operators ------------
 
 _c = _c + ['ru_vmf_spetsnaz_ak12'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['GRU Spetsnaz Operator (AK-12)'];
 _o = _o + [200];  
 _t = _t + [3];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['ru_vmf_spetsnaz_ak103'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['GRU Spetsnaz Operator (AK-103)'];
 _o = _o + [200];  
 _t = _t + [3];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['ru_vmf_spetsnaz_ak104'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['GRU Spetsnaz Operator (AK-104)'];
 _o = _o + [200];
 _t = _t + [3];
@@ -353,7 +353,7 @@ _s = _s + [""];
 
 _c = _c + ['ru_vmf_ural_aa'];
 _p = _p + [''];
-_n = _n + [''];
+_n = _n + ['VMF Ural-4320 (AA)'];
 _o = _o + [550];
 _t = _t + [10];
 _u = _u + [2];

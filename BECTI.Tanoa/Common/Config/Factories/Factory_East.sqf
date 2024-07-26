@@ -70,7 +70,6 @@ _u = _u	+ ["ru_vmf_gaz_normal"];
 _u = _u	+ ["ru_vmf_gaz_armed"];
 _u = _u	+ ["ru_vmf_gaz_unarmed"];
 _u = _u	+ ["ru_vmf_ural_normal"];
-_u = _u	+ ["ru_vmf_ural_ammo"];
 _u = _u	+ ["ru_vmf_ural_open"];
 _u = _u	+ ["ru_vmf_brdm2"];
 _u = _u	+ ["ru_vmf_brdm2_at"];
