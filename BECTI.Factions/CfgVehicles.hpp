@@ -12903,4 +12903,962 @@ class CfgVehicles {
 
     };
 
+    class us_rg_m142 : rhsusf_M142_usarmy_WD_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M142 HIMARS";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m2a3 : RHS_M2A3_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M2A3";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m2a3_b1 : RHS_M2A3_BUSKI_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M2A3 (BUSK I)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m2a3_b2 : RHS_M2A3_BUSKIII_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M2A3 (BUSK II)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1a1fep : rhsusf_m1a1fep_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1A1FEP";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1a2sepv1_t1 : rhsusf_m1a2sep1tuskiwd_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1A2SEPv1 (TUSK I)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1a2sepv1_t2 : rhsusf_m1a2sep1tuskiiwd_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1A2SEPv1 (TUSK II)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1a2sepv2 : rhsusf_m1a2sep2wd_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1A2SEPv2";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m6a2_aa : RHS_M6_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M6A2 (AA)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m977a4 : rhsusf_M977A4_BKIT_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M977A4";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m977a4_ammo : rhsusf_M977A4_AMMO_BKIT_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M977A4 (Ammo)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m977a4_repair : rhsusf_M977A4_REPAIR_BKIT_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M977A4 (Repair)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m977a4_fuel : rhsusf_M978A4_BKIT_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M977A4 (Fuel)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1078a1 : rhsusf_M1078A1P2_B_WD_fmtv_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1078A1";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1078a1_flatbed : rhsusf_M1078A1P2_B_WD_flatbed_fmtv_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1078A1 (Flatbed)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1123_half : rhsusf_m998_w_s_2dr_halftop_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1123 (Half)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1123_open : rhsusf_m998_w_s_2dr_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1123 (Open)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1123 : rhsusf_m998_w_s_2dr_fulltop_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1123";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1126_m2 : rhsusf_stryker_m1126_m2_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1126 (M2)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "us_rg_crewman"; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1126_mk19 : rhsusf_stryker_m1126_mk19_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1126 (Mk19)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "us_rg_crewman"; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1134_aa : rhsusf_stryker_m1134_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1134 (AA)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "us_rg_crewman"; };
+            class Turret_Weapon : Turret_Weapon { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m113a3_ammo : rhsusf_m113_usarmy_supply_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M113A3 (Ammo)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+            class MainTurret_In : MainTurret_In { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m113a3_m2 : rhsusf_m113_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M113A3 (M2)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+            class MainTurret_In : MainTurret_In { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m113a3_mk19 : rhsusf_m113_usarmy_MK19_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M113A3 (Mk19)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+            class MainTurret_In : MainTurret_In { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m113a3_unarmed : rhsusf_m113_usarmy_unarmed_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M113A3 (Unarmed)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret_In : MainTurret_In { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1151a1 : rhsusf_m1151_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1151A1";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1151a1_crows_m2 : rhsusf_m1151_m2crows_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1151A1 (CROWS/M2)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CROWS_Turret : CROWS_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1151a1_crows_mk19 : rhsusf_m1151_mk19crows_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1151A1 (CROWS/Mk19)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CROWS_Turret : CROWS_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1151a1_m2 : rhsusf_m1151_m2_v2_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1151A1 (M2)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1151a1_m240 : rhsusf_m1151_m240_v2_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1151A1 (M240)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1151a1_mk19 : rhsusf_m1151_mk19_v2_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1151A1 (Mk19)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1152a1_ammo : rhsusf_m1152_rsv_usarmy_wd_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1152A1 (Ammo)";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+        class Turrets : Turrets {
+            class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_salvager : B_Truck_01_box_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG Salvager";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
 };

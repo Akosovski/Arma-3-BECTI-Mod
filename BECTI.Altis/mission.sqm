@@ -495,7 +495,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="CAPTAIN";
 						description="Foxtrot, Squad Leader";
 						isPlayable=1;
 					};
@@ -1015,7 +1015,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="CAPTAIN";
 						description="Foxtrot, Squad Leader";
 						isPlayable=1;
 					};

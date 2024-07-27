@@ -175,10 +175,10 @@ class Mission
 		day=6;
 		hour=12;
 		minute=0;
-		startFogBase=250;
-		forecastFogBase=250;
-		startFogDecay=0.014;
-		forecastFogDecay=0.014;
+		startFogBase=0;
+		forecastFogBase=0;
+		startFogDecay=0;
+		forecastFogDecay=0;
 	};
 	class Entities
 	{
@@ -589,7 +589,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="CAPTAIN";
 						description="Foxtrot, Squad Leader";
 						isPlayable=1;
 					};
@@ -1085,7 +1085,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="CAPTAIN";
 						description="Foxtrot, Squad Leader";
 						isPlayable=1;
 					};
