@@ -116,6 +116,10 @@ _i = _i        + ["CUP_arifle_AKS74U"];
 _u = _u        + [0];
 _p = _p        + [15];
 
+_i = _i        + ["CUP_arifle_AKS74U_railed"];
+_u = _u        + [1];
+_p = _p        + [20];
+
 _i = _i        + ["CUP_arifle_AK74M"];
 _u = _u        + [0];
 _p = _p        + [20];

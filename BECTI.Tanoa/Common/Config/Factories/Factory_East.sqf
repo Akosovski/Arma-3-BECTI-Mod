@@ -93,9 +93,9 @@ _u = _u		+ ["ru_msv_t14"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ["ru_vmf_k40a"];
-_u = _u	    + ["ru_vmf_k40b"];
-_u = _u	    + ["ru_vmf_ka60"];
+// _u 			= ["ru_vmf_k40a"];
+// _u = _u	    + ["ru_vmf_k40b"];
+_u 			= ["ru_vmf_ka60"];
 _u = _u	    + ["ru_vmf_mi8_normal"];
 _u = _u		+ ["ru_vmf_mi8_gunship"];
 _u = _u		+ ["ru_vmf_mi24v"];

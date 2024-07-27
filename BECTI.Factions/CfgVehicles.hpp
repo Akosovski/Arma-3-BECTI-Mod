@@ -7216,7 +7216,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","rhs_acc_okp7_picatinny",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v2",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK74_plum_M",5,30}}},{},"rhs_zsh7a_mike_green","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v2",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK74_plum_M",5,30}}},{},"rhs_zsh7a_mike_green","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -7254,7 +7254,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","rhs_acc_okp7_picatinny",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v2",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK74_plum_M",5,30}}},{},"rhs_zsh7a_mike_green_alt","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v2",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK74_plum_M",5,30}}},{},"rhs_zsh7a_mike_green_alt","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -7294,7 +7294,7 @@ class CfgVehicles {
 
         backpack = "rhs_d6_Parachute_backpack";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","rhs_acc_okp7_picatinny",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"rhs_vydra_3m",{{"FirstAidKit",1}}},{"rhs_d6_Parachute_backpack",{}},"rhs_zsh7a","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"rhs_vydra_3m",{{"FirstAidKit",1}}},{"rhs_d6_Parachute_backpack",{}},"rhs_zsh7a","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

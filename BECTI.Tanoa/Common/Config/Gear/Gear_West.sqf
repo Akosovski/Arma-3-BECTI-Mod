@@ -523,10 +523,6 @@ _i = _i		+ ["rhs_uniform_acu_oefcp"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["rhs_uniform_FROG01_wd"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
 _i = _i		+ ["rhs_uniform_cu_oefcp"];
 _u = _u		+ [1];
 _p = _p		+ [10];
@@ -559,84 +555,39 @@ _i = _i		+ ["rhs_uniform_g3_aor2"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
-
 //--- Vests ---
 
-_i = _i + ["rhsusf_spc"];
+_i = _i + ["rhsusf_iotv_ocp"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_corpsman"];
+_i = _i + ["rhsusf_iotv_ocp_Medic"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_crewman"];
+_i = _i + ["rhsusf_iotv_ocp_Grenadier"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_iar"];
+_i = _i + ["rhsusf_iotv_ocp_Repair"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_light"];
+_i = _i + ["rhsusf_iotv_ocp_Rifleman"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_mg"];
+_i = _i + ["rhsusf_iotv_ocp_SAW"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_marksman"];
+_i = _i + ["rhsusf_iotv_ocp_Squadleader"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [25];
 
-_i = _i + ["rhsusf_spc_patchless"];
+_i = _i + ["rhsusf_iotv_ocp_Teamleader"];
 _u = _u + [0];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_spc_patchless_radio"];
-_u = _u + [0];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_spc_rifleman"];
-_u = _u + [0];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_spc_sniper"];
-_u = _u + [0];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_spc_squadleader"];
-_u = _u + [0];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_spc_teamleader"];
-_u = _u + [0];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_mbav"];
-_u = _u + [2];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_mbav_grenadier"];
-_u = _u + [2];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_mbav_light"];
-_u = _u + [2];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_mbav_mg"];
-_u = _u + [2];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_mbav_medic"];
-_u = _u + [2];
-_p = _p + [20];
-
-_i = _i + ["rhsusf_mbav_rifleman"];
-_u = _u + [2];
-_p = _p + [20];
+_p = _p + [25];
 
 _i = _i + ["rhsusf_plateframe_sapi"];
 _u = _u + [1];
@@ -668,6 +619,30 @@ _p = _p + [20];
 
 _i = _i + ["rhsusf_plateframe_teamleader"];
 _u = _u + [1];
+_p = _p + [20];
+
+_i = _i + ["rhsusf_mbav"];
+_u = _u + [2];
+_p = _p + [20];
+
+_i = _i + ["rhsusf_mbav_grenadier"];
+_u = _u + [2];
+_p = _p + [20];
+
+_i = _i + ["rhsusf_mbav_light"];
+_u = _u + [2];
+_p = _p + [20];
+
+_i = _i + ["rhsusf_mbav_mg"];
+_u = _u + [2];
+_p = _p + [20];
+
+_i = _i + ["rhsusf_mbav_medic"];
+_u = _u + [2];
+_p = _p + [20];
+
+_i = _i + ["rhsusf_mbav_rifleman"];
+_u = _u + [2];
 _p = _p + [20];
 
 //--- Glasses ---
@@ -764,42 +739,6 @@ _p = _p     + [10];
 
 _i = _i     + ["rhsusf_ach_helmet_camo_ocp"];
 _u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd_blk_ess"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd_headset_blk2"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd_headset_blk"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd_headset"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd_ess"];
-_u = _u     + [0];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_lwh_helmet_marpatwd_ess"];
-_u = _u     + [0];
 _p = _p     + [10];
 
 _i = _i     + ["rhsusf_mich_helmet_marpatwd_alt"];
