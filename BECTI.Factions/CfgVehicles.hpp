@@ -12808,6 +12808,39 @@ class CfgVehicles {
 
     };
 
+    class us_rg_ch47f : RHS_CH_47F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG CH-47F";
+        side = 1;
+        faction = "ako_us_usmc";
+        crew = "us_rg_helicopter_pilot";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_usmc_helicopter_crew"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_usmc_helicopter_crew"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class us_dvg_ah6m : RHS_MELB_AH6M_OCimport_02 {
         author = "Akosovski";
         scope = 2;
