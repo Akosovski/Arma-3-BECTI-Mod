@@ -10,3 +10,4 @@ Local Mod Folder Structure:
 - Replace Mission Splash Screen 
 ***@BECTI.Tanoa/Rsc/missionSplash.paa***
 - Optimize Faction Gears
+- Add FPV Kamikaze Drones and UAVs

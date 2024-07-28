@@ -150,13 +150,22 @@ if (_model isKindOf "Man") then {
 	_vehicle = [_model, _position, _direction + getDir _factory, CTI_P_SideID, (_veh_infos select 5), true, true] call CTI_CO_FNC_CreateVehicle;
 	
 	if (_veh_infos select 0 || _veh_infos select 1 || _veh_infos select 2 || _veh_infos select 3) then { //--- Not empty.
-		_crew = switch (true) do { case (_model isKindOf "Tank"): {"Crew"}; case (_model isKindOf "Air"): {"Pilot"}; default {"Soldier"}};
+		_crew = switch (true) do { case (_model isKindOf "Tank"): {"Crew"}; case (_model isKindOf "Plane"): {"Pilot"}; case (_model isKindOf "Helicopter"): {"Pilot"}; default {"Soldier"}};
 		_crew = missionNamespace getVariable format["CTI_%1_%2", CTI_P_SideJoined, _crew];
 		
 		//--- Ultimately if we're dealing with a sub we may want to use divers unless that our current soldiers are free-diving champions
 		if (_model isKindOf "Ship") then {
 			if (getText(configFile >> "CfgVehicles" >> _model >> "simulation") == "submarinex") then { _crew = missionNamespace getVariable format["CTI_%1_Diver", CTI_P_SideJoined] };
 		};
+
+		//--- Set AI Drones to be controlled by UAV AI instead of a pilot
+		// if (_model isKindOf "Air") then {
+		// 	private _simulation = getText(configFile >> "CfgVehicles" >> _model >> "simulation");
+			
+		// 	if (_simulation in ["UAV", "UAVPlane"]) then {
+		// 		_crew = missionNamespace getVariable format["CTI_%1_UAV_AI", CTI_P_SideJoined];
+		// 	};
+		// };
 		
 		if (_veh_infos select 0) then {
 			_unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit;

@@ -89,13 +89,22 @@ if !(_process) exitWith {
 //--- Check if the buyer has enough funds to perform this operation
 _cost = _var_classname select 2;
 if !(_model isKindOf "Man") then { //--- Add the vehicle crew cost if applicable
-	_crew = switch (true) do { case (_model isKindOf "Tank"): {"Crew"}; case (_model isKindOf "Air"): {"Pilot"}; default {"Soldier"}};
+	_crew = switch (true) do { case (_model isKindOf "Tank"): {"Crew"}; case (_model isKindOf "Plane"): {"Pilot"}; case (_model isKindOf "Helicopter"): {"Pilot"}; default {"Soldier"}};
 	_crew = missionNamespace getVariable format["CTI_%1_%2", CTI_P_SideJoined, _crew];
 	
 	//--- Ultimately if we're dealing with a sub we may want to use divers unless that our current soldiers are free-diving champions
 	if (_model isKindOf "Ship") then {
 		if (getText(configFile >> "CfgVehicles" >> _model >> "simulation") == "submarinex") then { _crew = missionNamespace getVariable format["CTI_%1_Diver", CTI_P_SideJoined] };
 	};
+
+	//--- Set AI Drones to be controlled by UAV AI instead of a pilot
+	// if (_model isKindOf "Air") then {
+	// 	private _simulation = getText(configFile >> "CfgVehicles" >> _model >> "simulation");
+		
+	// 	if (_simulation in ["UAV", "UAVPlane"]) then {
+	// 		_crew = missionNamespace getVariable format["CTI_%1_UAV_AI", CTI_P_SideJoined];
+	// 	};
+	// };
 	
 	_var_crew_classname = missionNamespace getVariable _crew;
 	if !(isNil '_var_crew_classname') then {
