@@ -963,16 +963,18 @@
 
         uniformClass = "rhs_uniform_6sh122_gloves_v2";
 
-        linkedItems[] = {"rhs_6b45_grn","rhs_6b47_emr_2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhs_6b45_grn","rhs_6b47_emr_2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhs_6b45_rifleman_2","rhs_6b47_6B50","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6b45_rifleman_2","rhs_6b47_6B50","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AK12_GP34_black","rhs_weap_rpg26"};
-        respawnWeapons[] = {"CUP_arifle_AK12_GP34_black","rhs_weap_rpg26"};
+        weapons[] = {"CUP_arifle_AK12_black"};
+        respawnWeapons[] = {"CUP_arifle_AK12_black"};
 
-        magazines[] = {"CUP_30Rnd_545x39_AK12_M","rhs_VG40TB","rhs_rpg26_mag","CUP_30Rnd_545x39_AK12_M","rhs_VG40TB"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","rhs_VG40TB","rhs_rpg26_mag","CUP_30Rnd_545x39_AK12_M","rhs_VG40TB"};
+        magazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_black","rhs_acc_uuk","","rhs_acc_rakursPM",{"CUP_30Rnd_545x39_AK12_M",30},{"rhs_VG40TB",1},""},{"rhs_weap_rpg26","","","",{"rhs_rpg26_mag",1},{},""},{},{"rhs_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"FirstAidKit",2},{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK12_M",8,30},{"rhs_VG40TB",10,1}}},{},"rhs_6b47_emr_2","rhs_facewear_6m2_1",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        backpack = "O_UAV_01_backpack_F";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_black","rhs_acc_uuk","","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman_2",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"O_UAV_01_backpack_F",{}},"rhs_6b47_6B50","rhs_facewear_6m2_1",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -988,6 +990,7 @@
         ALiVE_orbatCreator_owned = 1;
 
     };
+
 
     class ru_vmf_driver : ru_vmf_rifleman_ak12 {
         author = "Akosovski";

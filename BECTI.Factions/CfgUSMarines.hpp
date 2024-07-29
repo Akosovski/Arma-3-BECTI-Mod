@@ -1607,7 +1607,6 @@
         faction = "ako_us_usmc";
         crew = "us_usmc_jet_pilot";
 
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
