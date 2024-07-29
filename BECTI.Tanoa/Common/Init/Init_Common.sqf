@@ -156,7 +156,7 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 	[["JCA_arifle_M4A4_VFG_sand_F",["rhsusf_acc_SF3P556","rhsusf_acc_anpeq15_bk","","rhsusf_acc_compm4"],["30Rnd_556x45_Stanag"]],["rhs_weap_M136",[],[""]],["",[],[]]],
 	[["rhs_uniform_acu_oefcp",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_iotv_ocp_Teamleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "DemoCharge_Remote_Mag"]],["",[""]]],
-	["rhsusf_opscore_mc_cover_pelt_nsw","rhs_googles_black"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	["TFV_headgear_opscore_cover_mc_peltor_camera","rhs_googles_black"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 	[["CUP_arifle_AK12_GP34_black",["rhs_acc_uuk","rhs_acc_perst1ik_ris","","rhs_acc_1p87"],["CUP_30Rnd_545x39_AK12_M"]],["rhs_weap_rpg26",[],[""]],["",[],[]]],

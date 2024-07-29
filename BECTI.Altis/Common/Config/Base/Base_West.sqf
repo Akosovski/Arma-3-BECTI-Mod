@@ -71,28 +71,28 @@ _specials = [];
 */
 
 _headers = _headers 		+ [[CTI_HQ_DEPLOYED, "HQ", "HQdeployed"]];
-_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
 _prices = _prices 			+ [CTI_BASE_HQ_DEPLOY_COST];
 _times = _times 			+ [1];
 _placements = _placements 	+ [[0, 15]];
 _helper = _helper			+ [[""]];
-_specials = _specials		+ [[["DMG_Reduce", 8]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
-_classes = _classes 		+ [["Land_DeconTent_01_NATO_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [200];
 _times = _times 			+ [60];
 _placements = _placements 	+ [[180, 15]];
 _helper = _helper			+ [["B_Soldier_VR_F", 180]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
-_classes = _classes 		+ [["B_Slingload_01_Repair_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["Land_Cargo_House_V3_F", "Land_Cargo_House_V3_ruins_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [80];
 _placements = _placements 	+ [[90, 20]];
 _helper = _helper			+ [["Land_VR_Target_MRAP_01_F", 270]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_CONTROLCENTER, "Control Center", "CC"]];
 _classes = _classes 		+ [["rhs_prv13", "Land_Cargo20_red_F"]];
@@ -103,44 +103,44 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
-_classes = _classes 		+ [["Land_Cargo_HQ_V3_F", "Land_Cargo40_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo_HQ_V3_F", "Land_Cargo_HQ_V3_ruins_F"]];
 _prices = _prices 			+ [2800];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[180, 25]];
 _helper = _helper			+ [["Land_VR_Target_MBT_01_cannon_F", 270]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
-_classes = _classes 		+ [["Land_Airport_Tower_F", "Land_Cargo40_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo_Tower_V1_F", "Land_Cargo_Tower_V1_ruins_F"]];
 _prices = _prices 			+ [4400];
 _times = _times 			+ [140];
 _placements = _placements 	+ [[90, 25]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];
-_classes = _classes 		+ [["Land_Cargo40_military_green_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_Research_house_V1_F", "Land_Research_house_V1_ruins_F"]];
 _prices = _prices 			+ [200];
 _times = _times 			+ [40];
 _placements = _placements 	+ [[180, 20]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_REPAIR, "Repair Depot", "Repair"]];
-_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["Land_Medevac_House_V1_F", "Land_Medevac_House_V1_ruins_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[180, 20]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
-_classes = _classes 		+ [["Land_Cargo_House_V3_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo_Patrol_V1_F", "Land_Cargo_Patrol_V1_ruins_F"]];
 _prices = _prices 			+ [400];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[180, 25]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
-_specials = _specials		+ [[["DMG_Reduce", 5]]];
+_specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 [_side, _headers, _classes, _prices, _times, _placements, _helper, _specials] call compile preprocessFileLineNumbers "Common\Config\Base\Set_Structures.sqf";
 
@@ -151,9 +151,9 @@ _placements = [];
 _categories = [];
 // Complementaries
 
-_headers = _headers 		+ [["FOB",[["RuinOnDestroyed", "Land_Medevac_house_V1_ruins_F"], ["FOB"],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_fobs")}; (_cpt < CTI_BASE_FOB_MAX) && (call CTI_CL_FNC_IsPlayerCommander || (!(call CTI_CL_FNC_IsPlayerCommander) && CTI_P_TeamsRequests_FOB > 0))}]]]];
-_classes = _classes 		+ ["Land_Medevac_house_V1_F"];
-_prices = _prices 			+ [7500];
+_headers = _headers 		+ [["FOB",[["RuinOnDestroyed", "Land_Research_HQ_ruins_F"], ["FOB"],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_fobs")}; (_cpt < CTI_BASE_FOB_MAX) && (call CTI_CL_FNC_IsPlayerCommander || (!(call CTI_CL_FNC_IsPlayerCommander) && CTI_P_TeamsRequests_FOB > 0))}]]]];
+_classes = _classes 		+ ["Land_Research_HQ_F"];
+_prices = _prices 			+ [3500];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Fortification"];
 

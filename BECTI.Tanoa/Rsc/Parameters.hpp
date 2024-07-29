@@ -57,7 +57,7 @@ class Params {
 		title = "BASE: HQ Deploy Cost";
 		values[] = {100,200,300,400,500,600,700,800,900,1000,1500,2000,2500,3000,3500,4000,5000,6000,7000,8000,9000,10000};
 		texts[] = {"$100","$200","$300","$400","$500","$600","$700","$800","$900","$1000","$1500","$2000","$2500","$3000","$3500","$4000","$5000","$6000","$7000","$8000","$9000","$10000"};
-		default = 1500;
+		default = 5000;
 	};
 	class CTI_BASE_HQ_REPAIR {
 		title = "BASE: HQ Repairable";
@@ -81,7 +81,7 @@ class Params {
 		title = "BASE: Start-up Placement";
 		values[] = {1000,2000,4000,6000,10000};
 		texts[] = {"1KM","2 KM","4 KM","6 KM","10 KM"};
-		default = 6000;
+		default = 10000;
 	};
 	class CTI_BASE_WORKERS_LIMIT {
 		title = "BASE: Worker Limit";
@@ -105,13 +105,13 @@ class Params {
 		title = "INCOME: Starting Funds (East Commander)";
 		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
 		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
-		default = 90000;
+		default = 250000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000,75000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000","$75000"};
-		default = 75000;
+		default = 200000;
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_EAST {
 		title = "INCOME: Starting Supply (East)";
@@ -123,13 +123,13 @@ class Params {
 		title = "INCOME: Starting Funds (West Commander)";
 		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
 		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
-		default = 90000;
+		default = 250000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000,75000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000","$75000"};
-		default = 75000;
+		default = 200000;
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_WEST {
 		title = "INCOME: Starting Supply (West)";
@@ -195,15 +195,15 @@ class Params {
 	};
 	class CTI_RESPAWN_TIMER {
 		title = "RESPAWN: Delay";
-		values[] = {12,20,25,30,35,40,45,50,55,60};
-		texts[] = {"12 Seconds","20 Seconds","25 Seconds","30 Seconds","35 Seconds","40 Seconds","45 Seconds","50 Seconds","55 Seconds","60 Seconds"};
-		default = 12;
+		values[] = {8,20,25,30,35,40,45,50,55,60};
+		texts[] = {"8 Seconds","20 Seconds","25 Seconds","30 Seconds","35 Seconds","40 Seconds","45 Seconds","50 Seconds","55 Seconds","60 Seconds"};
+		default = 8;
 	};
 	class CTI_RESPAWN_PENALTY {
 		title = "RESPAWN: Penalty";
 		values[] = {0,1,2,3,4};
 		texts[] = {"Disabled","Default Gear","Full Gear Price","1/2 Gear Price","1/4 Gear Price"};
-		default = 3;
+		default = 2;
 	};
 	class CTI_RESPAWN_FOB_RANGE {
 		title = "RESPAWN: FOB Range";
@@ -311,7 +311,7 @@ class Params {
 		title = "Units: Independent Salvager Limit";
 		values[] = {1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"1","2","3","4","5","6","7","8","9","10"};
-		default = 1;
+		default = 3;
 	};
 	class CTI_MARKERS_INFANTRY {
 		title = "UNITS: Show Map Infantry";

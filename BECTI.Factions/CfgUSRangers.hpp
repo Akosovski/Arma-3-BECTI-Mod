@@ -1269,10 +1269,10 @@
         displayName = "DEVGRU AH-6M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_dvg_helicopter_pilot";
+        crew = "us_dvg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_dvg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_dvg_heli_pilot"; };
         };
 
 
@@ -1298,10 +1298,10 @@
         displayName = "DEVGRU MH-6M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_dvg_helicopter_pilot";
+        crew = "us_dvg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_dvg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_dvg_heli_pilot"; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
@@ -1333,10 +1333,10 @@
         displayName = "DEVGRU OH-6M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_dvg_helicopter_pilot";
+        crew = "us_dvg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_dvg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_dvg_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
