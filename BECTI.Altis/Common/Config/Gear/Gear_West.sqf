@@ -433,13 +433,21 @@ _i = _i		+ ["rhsgref_hidf_alicepack"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["b_parachute"];
+_u = _u		+ [0];
+_p = _p		+ [25];
+
 _i = _i		+ ["B_UAV_01_backpack_F"];
 _u = _u		+ [1];
 _p = _p		+ [100];
 
-_i = _i		+ ["b_parachute"];
-_u = _u		+ [0];
-_p = _p		+ [25];
+_i = _i		+ ["B_UAV_01_backpack_Custom"];
+_u = _u		+ [1];
+_p = _p		+ [110];
+
+_i = _i		+ ["B_UAV_FPV_backpack_F"];
+_u = _u		+ [1];
+_p = _p		+ [130];
 
 //--- Uniforms ---
 
@@ -803,6 +811,10 @@ _u = _u		+ [2];
 _p = _p		+ [4];
 
 _i = _i		+ ["rhs_Booniehat2_marpatwd"];
+_u = _u		+ [0];
+_p = _p		+ [2];
+
+_i = _i		+ ["rhs_8point_marpatwd"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
