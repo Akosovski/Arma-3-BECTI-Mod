@@ -13,7 +13,7 @@ missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
 missionNamespace setVariable [format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
 
 // missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-// 	["rhsusf_M1151_mk19crows_usmc_wd", [
+// 	["rhsusf_M1151_mk19crows_rg_wd", [
 // 		["rhs_weap_m4a1_carryhandle", 2], ["30Rnd_556x45_Stanag", 50],
 // 		["rhs_weap_m4a1_carryhandle_pmag", 1], ["rhs_weap_M136", 8],
 // 		["HandGrenade", 20], 
@@ -22,7 +22,7 @@ missionNamespace setVariable [format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Fla
 // 		["acc_flashlight", 5],
 // 		["optic_Holosight", 2]
 // 	]], 
-// 	["rhsusf_M1151_m2crows_usmc_wd", [
+// 	["rhsusf_M1151_m2crows_rg_wd", [
 // 		["rhs_weap_m4a1_carryhandle", 2], ["30Rnd_556x45_Stanag", 50],
 // 		["rhs_weap_m4a1_carryhandle_pmag", 1], ["rhs_weap_M136", 3],
 // 		["HandGrenade", 10], 
@@ -61,34 +61,34 @@ _u = _u + ["us_dvg_helicopter_pilot"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
-_u 			= ["us_usmc_m1123"];
-_u = _u		+ ["us_usmc_m1123_half"];
-_u = _u		+ ["us_usmc_m1123_open"];
-_u = _u		+ ["us_usmc_m1151a1"];
-_u = _u		+ ["us_usmc_m1151a1_m240"];
-_u = _u		+ ["us_usmc_m1151a1_m2"];
-_u = _u		+ ["us_usmc_m1151a1_mk19"];
-_u = _u		+ ["us_usmc_m1126_m2"];
-_u = _u		+ ["us_usmc_m1126_mk19"];
-_u = _u		+ ["us_usmc_m1134_aa"];
-_u = _u		+ ["us_usmc_m1078a1"];
-_u = _u		+ ["us_usmc_m1078a1_flatbed"];
-_u = _u		+ ["us_usmc_m977a4"];
+_u 			= ["us_rg_m1123"];
+_u = _u		+ ["us_rg_m1123_half"];
+_u = _u		+ ["us_rg_m1123_open"];
+_u = _u		+ ["us_rg_m1151a1"];
+_u = _u		+ ["us_rg_m1151a1_m240"];
+_u = _u		+ ["us_rg_m1151a1_m2"];
+_u = _u		+ ["us_rg_m1151a1_mk19"];
+_u = _u		+ ["us_rg_m1126_m2"];
+_u = _u		+ ["us_rg_m1126_mk19"];
+_u = _u		+ ["us_rg_m1134_aa"];
+_u = _u		+ ["us_rg_m1078a1"];
+_u = _u		+ ["us_rg_m1078a1_flatbed"];
+_u = _u		+ ["us_rg_m977a4"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 
-_u  		= ["us_usmc_m142"];
-_u = _u		+ ["us_usmc_m113a3_unarmed"];
-_u = _u		+ ["us_usmc_m113a3_m2"];
-_u = _u		+ ["us_usmc_m113a3_mk19"];
-_u = _u		+ ["us_usmc_m2a3"];
-_u = _u		+ ["us_usmc_m2a3_b1"];
-_u = _u		+ ["us_usmc_m2a3_b2"];
-_u = _u		+ ["us_usmc_m6a2_aa"];
-_u = _u		+ ["us_usmc_m1a1fep"];
-_u = _u 	+ ["us_usmc_m1a2sepv1_t1"];
-_u = _u 	+ ["us_usmc_m1a2sepv1_t2"];
-_u = _u 	+ ["us_usmc_m1a2sepv2"];
+_u  		= ["us_rg_m142"];
+_u = _u		+ ["us_rg_m113a3_unarmed"];
+_u = _u		+ ["us_rg_m113a3_m2"];
+_u = _u		+ ["us_rg_m113a3_mk19"];
+_u = _u		+ ["us_rg_m2a3"];
+_u = _u		+ ["us_rg_m2a3_b1"];
+_u = _u		+ ["us_rg_m2a3_b2"];
+_u = _u		+ ["us_rg_m6a2_aa"];
+_u = _u		+ ["us_rg_m1a1fep"];
+_u = _u 	+ ["us_rg_m1a2sepv1_t1"];
+_u = _u 	+ ["us_rg_m1a2sepv1_t2"];
+_u = _u 	+ ["us_rg_m1a2sepv2"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
 _u 			= ["us_usmc_uh1y_unarmed"];
@@ -112,22 +112,22 @@ _u = _u		+ ["us_usaf_c130j"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["CTI_Salvager_West"];
-_u = _u		+ ["us_usmc_m977a4_fuel"];
-_u = _u		+ ["us_usmc_m977a4_repair"];
+_u = _u		+ ["us_rg_m977a4_fuel"];
+_u = _u		+ ["us_rg_m977a4_repair"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
-_u 			= ["us_usmc_m977a4_ammo"];
-_u = _u		+ ["us_usmc_m113a3_ammo"];
-_u = _u		+ ["us_usmc_m1152a1_ammo"];
+_u 			= ["us_rg_m977a4_ammo"];
+_u = _u		+ ["us_rg_m113a3_ammo"];
+_u = _u		+ ["us_rg_m1152a1_ammo"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
 _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
-_u 			= ["us_usmc_m1123"];
-_u = _u		+ ["us_usmc_m1078a1"];
-_u = _u		+ ["us_usmc_m1152a1_ammo"];
+_u 			= ["us_rg_m1123"];
+_u = _u		+ ["us_rg_m1078a1"];
+_u = _u		+ ["us_rg_m1152a1_ammo"];
 _u = _u		+ ["C_Quadbike_01_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];

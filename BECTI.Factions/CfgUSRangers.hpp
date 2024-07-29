@@ -646,7 +646,7 @@
 
     };
 
-    class us_rg_helicopter_crew : us_rg_helicopter_pilot {
+    class us_rg_helicopter_crewman : us_rg_helicopter_pilot {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -685,7 +685,7 @@
 
     };
 
-    class us_rg_worker : us_rg_helicopter_crew {
+    class us_rg_worker : us_rg_helicopter_crewman {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1174,8 +1174,8 @@
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crewman"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crewman"; };
+            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crewmanman"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crewmanman"; };
         };
 
 
@@ -1205,8 +1205,8 @@
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crew"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crew"; };
+            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crewman"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };

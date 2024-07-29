@@ -657,6 +657,10 @@ _i = _i + ["V_CarrierRigKBT_01_Heavy_Olive_F"];
 _u = _u + [3];
 _p = _p + [25];
 
+_i = _i + ["V_CarrierRigKBT_01_light_Olive_F"];
+_u = _u + [3];
+_p = _p + [25];
+
 //--- Glasses ---
 
 _i = _i		+ ["rhs_googles_black"];
