@@ -9,6 +9,28 @@
     class rhsusf_army_ocp_arb_squadleader_OCimport_01 : rhsusf_army_ocp_arb_squadleader { scope = 0; class EventHandlers; };
     class rhsusf_army_ocp_arb_squadleader_OCimport_02 : rhsusf_army_ocp_arb_squadleader_OCimport_01 { class EventHandlers; };
 
+    
+    class JK_B_Heli_Medium_01_Utility_F;
+    class JK_B_Heli_Medium_01_Utility_F_OCimport_01 : JK_B_Heli_Medium_01_Utility_F { scope = 0; class EventHandlers; class Turrets; };
+    class JK_B_Heli_Medium_01_Utility_F_OCimport_02 : JK_B_Heli_Medium_01_Utility_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class FLIRTurret;
+        };
+    };
+
+        class JK_B_Heli_Medium_01_Military_F;
+    class JK_B_Heli_Medium_01_Military_F_OCimport_01 : JK_B_Heli_Medium_01_Military_F { scope = 0; class EventHandlers; class Turrets; };
+    class JK_B_Heli_Medium_01_Military_F_OCimport_02 : JK_B_Heli_Medium_01_Military_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LeftTurret;
+            class RightTurret;
+            class FLIRTurret;
+        };
+    };
 
     class us_rg_rifleman_m4 : rhsusf_army_ocp_arb_squadleader_OCimport_02 {
         author = "Akosovski";
@@ -1160,6 +1182,64 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "CombatPatrol";
+
+    };
+
+    class us_rg_mh146_unarmed : JK_B_Heli_Medium_01_Utility_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG MH-146 (Unarmed)";
+        side = 1;
+        faction = "AKO_US_RG";
+        crew = "us_rg_helicopter_pilot";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class FLIRTurret : FLIRTurret { gunnerType = "us_rg_helicopter_crewman"; };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+        class us_rg_mh146_armed : JK_B_Heli_Medium_01_Military_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG MH-146 (Rocket + MG)";
+        side = 1;
+        faction = "AKO_US_RG";
+        crew = "us_rg_helicopter_pilot";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class LeftTurret : LeftTurret { gunnerType = "us_rg_helicopter_crewman"; };
+            class RightTurret : RightTurret { gunnerType = "us_rg_helicopter_crewman"; };
+            class FLIRTurret : FLIRTurret { gunnerType = ""; };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
 
     };
 

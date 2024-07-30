@@ -1337,6 +1337,73 @@
         faction = "ako_ru_vdv";
         crew = "ru_vdv_jet_pilot";
 
+        class Components {
+            class TransportPylonsComponent {
+
+                class Pylons {
+					class pylon1
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "FIR_KAB500L_P_1rnd_M";
+						priority = 1;
+						maxweight = 500;
+                        turret[] = {}; 		
+						UIposition[] = {0.25,0.10};
+					};		
+                    class pylon2: pylon1
+					{
+						UIposition[] = {0.25,0.5};
+						mirroredMissilePos = 1;
+					};	
+                    class pylon3: pylon1
+					{
+						UIposition[] = {0.25,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon4: pylon1
+					{
+						UIposition[] = {0.15,0.10};
+						mirroredMissilePos = 1;
+					};
+                    class pylon5: pylon1
+					{
+						UIposition[] = {0.15,0.5};
+						mirroredMissilePos = 1;
+					};
+                    class pylon6: pylon1
+					{
+						UIposition[] = {0.15,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon7: pylon1
+					{
+						UIposition[] = {0.5,0.5};
+						mirroredMissilePos = 1;
+					};
+                    class pylon8: pylon1
+					{
+						UIposition[] = {0.5,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon9
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "PylonMissile_1Rnd_BombCluster_02_cap_F";
+						priority = 2;
+						maxweight = 1000;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.0.5};
+					};	
+                    class pylon10: pylon9
+					{
+						UIposition[] = {0.35,0.0};
+						mirroredMissilePos = 1;
+					};
+                    
+				};					
+                
+            };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

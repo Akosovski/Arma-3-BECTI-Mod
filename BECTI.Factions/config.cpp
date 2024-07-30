@@ -723,7 +723,9 @@ class CfgPatches {
             "us_usmc_uav_operator",
             "us_usaf_mq4a",
             "us_usaf_mq4b",
-            "us_usaf_a29"
+            "us_usaf_a29",
+            "us_usaf_f15e",
+            "us_usaf_f16c"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -858,7 +860,7 @@ class CfgPatches {
             "us_dvg_operator_mk17",
             "us_dvg_operator_mk48",
             "us_dvg_uav_operator",
-            "us_dvg_helicopter_pilot",
+            "us_dvg_heli_pilot",
             "us_rg_uh80",
             "us_rg_uh60m",
             "us_rg_uh60m_ews",

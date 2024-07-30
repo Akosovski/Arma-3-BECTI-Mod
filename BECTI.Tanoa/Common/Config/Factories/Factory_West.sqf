@@ -32,7 +32,7 @@ missionNamespace setVariable [format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Fla
 // ]];
 
 //--- Units - Barracks
-_u = ["us_rg_rifleman_m4"];
+_u 		= ["us_rg_rifleman_m4"];
 _u = _u + ["us_rg_rifleman_mk16"];
 _u = _u + ["us_rg_rifleman_mk17"];
 _u = _u + ["us_rg_corporal"];
@@ -91,11 +91,8 @@ _u = _u 	+ ["us_rg_m1a2sepv1_t2"];
 _u = _u 	+ ["us_rg_m1a2sepv2"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ["us_usmc_uh1y_unarmed"];
-_u = _u		+ ["us_usmc_uh1y_rocket"];
-_u = _u		+ ["us_usmc_uh1y_armed"];
-_u = _u		+ ["us_usmc_ah1z"];
-_u = _u		+ ["us_usmc_ch53e"];
+_u 			= ["us_rg_mh146_unarmed"];
+_u = _u		+ ["us_rg_mh146_armed"];
 _u = _u		+ ["us_rg_uh60m"];
 _u = _u		+ ["us_rg_uh60m_ews"];
 _u = _u		+ ["us_rg_uh80"];
@@ -104,7 +101,8 @@ _u = _u		+ ["us_dvg_oh6m"];
 _u = _u		+ ["us_dvg_mh6m"];
 _u = _u		+ ["us_dvg_ah6m"];
 _u = _u		+ ["us_usaf_ah64d"];
-_u = _u		+ ["us_usaf_a10a"];
+_u = _u 	+ ['us_usaf_f16c'];
+_u = _u 	+ ['us_usaf_f15e'];
 _u = _u		+ ["us_usaf_f22a"];
 _u = _u		+ ["us_usaf_c130j"];
 // _u = _u		+ ["us_usaf_mq4a"];

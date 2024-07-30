@@ -21,6 +21,19 @@
         };
     };
 
+    class FIR_F15E_WA_17WPS;
+    class FIR_F15E_WA_17WPS_OCimport_01 : FIR_F15E_WA_17WPS { scope = 0; class EventHandlers; class Turrets; };
+    class FIR_F15E_WA_17WPS_OCimport_02 : FIR_F15E_WA_17WPS_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class FIR_F16C_930458;
+    class FIR_F16C_930458_OCimport_01 : FIR_F16C_930458 { scope = 0; class EventHandlers; };
+    class FIR_F16C_930458_OCimport_02 : FIR_F16C_930458_OCimport_01 { scope = 0; class EventHandlers; };
+
     class RHS_A10;
     class RHS_A10_OCimport_01 : RHS_A10 { scope = 0; class EventHandlers; };
     class RHS_A10_OCimport_02 : RHS_A10_OCimport_01 { scope = 0; class EventHandlers; };
@@ -1620,6 +1633,326 @@
         ALiVE_orbatCreator_owned = 1;
 
     };
+
+    class us_usaf_f15e : FIR_F15E_WA_17WPS_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USAF F-15E";
+        side = 1;
+        faction = "ako_us_usmc";
+        crew = "us_usmc_jet_pilot";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_usmc_jet_pilot"; };
+        };
+
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\FIR_F15\UI\f15cd_dynamic_ca.paa";
+
+                class Pylons {
+					class STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AA_HP","FIR_MISC"};
+						attachment = "FIR_AIM120_P_1rnd_M";
+						priority = 5;
+						maxweight = 300;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.0};
+					};
+					class STA2B: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AA_HP","FIR_MISC"};
+						priority = 4;
+						attachment = "FIR_AIM120_P_1rnd_M";
+						maxweight = 300;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.1};
+					};
+					class STA8B: STA2B
+					{
+						hardpoints[] = {"FIR_F15E_AA_HP","FIR_MISC"};
+						attachment = "FIR_AIM120_P_1rnd_M";
+						maxweight = 300;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.4};
+					};
+					class STA8A: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AA_HP","FIR_MISC"};
+						attachment = "FIR_AIM120_P_1rnd_M";
+						maxweight = 300;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.5};
+					};
+					
+					class LCT4: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 						
+						priority = 3;						
+						maxweight = 1000;
+						UIposition[] = {0.05,0.20};
+					};	
+					class LCT5: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_MISC"};
+						attachment = "FIR_GBU24A_P_1rnd_M";
+                        turret[] = {}; 	
+						priority = 3;						
+						maxweight = 1000;
+						UIposition[] = {0.25,0.20};
+					};									
+					class LCT6: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 	
+						priority = 3;						
+						maxweight = 1000;
+						UIposition[] = {0.45,0.20};
+					};		
+					
+					class LCT1: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+	                    turret[] = {}; 
+						priority = 2;						
+						maxweight = 500;
+						UIposition[] = {0.05,0.15};
+					};	
+					class LCT2: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_CBU105_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 2;						
+						maxweight = 500;
+						UIposition[] = {0.25,0.15};
+					};									
+					class LCT3: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 2;						
+						maxweight = 500;
+						UIposition[] = {0.45,0.15};
+					};								
+					
+					class RCT1: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 3;						
+						maxweight = 1000;
+						UIposition[] = {0.05,0.30};
+					};		
+					class RCT2: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_MISC"};
+						attachment = "FIR_GBU24A_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 3;						
+						maxweight = 1000;
+						UIposition[] = {0.25,0.30};
+					};				
+					class RCT3: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 3;						
+						maxweight = 1000;
+						UIposition[] = {0.45,0.30};
+					};				
+					
+					class RCT4: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 2;						
+						maxweight = 500;
+						UIposition[] = {0.05,0.35};
+					};		
+					class RCT5: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_CBU105_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 2;						
+						maxweight = 500;
+						UIposition[] = {0.25,0.35};
+					};				
+					class RCT6: LCT4
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
+						attachment = "FIR_GBU12_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 2;						
+						maxweight = 500;
+						UIposition[] = {0.45,0.35};
+					};								
+					
+					class STA2: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_AGM_HP","FIR_F15E_MISC_HP","FIR_MISC"};
+						attachment = "FIR_CBU105_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 1;						
+						maxweight = 1000;
+						UIposition[] = {0.20,0.05};
+					};							
+					class STA8: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_AGM_HP","FIR_F15E_MISC_HP","FIR_MISC"};
+						attachment = "FIR_CBU105_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 1;						
+						maxweight = 1000;
+						UIposition[] = {0.20,0.45};
+					};			
+					class STA5: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_MISC_HP","FIR_MISC"};
+						attachment = "FIR_GBU24A_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 1;						
+						maxweight = 1000;
+						UIposition[] = {0.20,0.25};
+					};				
+					class TGPMount: STA2A
+					{
+						hardpoints[] = {"FIR_F15E_TGP_HP","FIR_MISC"};
+						attachment = "FIR_SniperXR_2_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 1;						
+						maxweight = 1000;
+						UIposition[] = {0.45,0.25};
+					};							
+				};					
+                
+            };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usaf_f16c : FIR_F16C_930458_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USAF F-16C";
+        side = 1;
+        faction = "ako_us_usmc";
+        crew = "us_usmc_jet_pilot";
+
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\FIR_F16\UI\f16_dynamic_ca.paa";
+
+                class pylons
+				{
+					class STA1
+					{
+						hardpoints[] = {"FIR_MISC","FIR_F16_AA_HP"};
+						attachment = "FIR_AIM120_P_1rnd_M";
+						priority = 5;
+						maxweight = 300;
+						UIposition[] = {0.35,0.0};
+					};
+					class STA2: STA1
+					{
+						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_AA_HP"};
+						priority = 4;
+						attachment = "FIR_AIM120_P_1rnd_M";
+						maxweight = 500;
+						UIposition[] = {0.345,0.05};
+					};
+					class STA3: STA1
+					{
+						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_Combined_HP"};
+						priority = 3;
+						attachment = "FIR_GBU24A_P_1rnd_M";
+						maxweight = 1050;
+						UIposition[] = {0.34,0.1};
+					};
+					class STA4: STA1
+					{
+						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_AG_HP"};
+						priority = 2;
+						attachment = "FIR_GBU24A_P_1rnd_M";
+						maxweight = 1200;
+						UIposition[] = {0.33,0.2};
+					};
+					class STA5: STA1
+					{
+						hardpoints[] = {"FIR_MISC","FIR_F16_Under_HP"};
+						priority = 1;
+						attachment = "FIR_GEPOD30_P_330rnd_M";
+						maxweight = 1200;
+						UIposition[] = {0.33,0.25};
+					};
+					class STA5A: STA1
+					{
+						hardpoints[] = {"FIR_MISC","FIR_F16_Aux_HP"};
+						UIposition[] = {0.33,0.3};
+						attachment = "FIR_SniperXR_1_P_1rnd_M";
+					};
+					class STA7: STA4
+					{
+						UIposition[] = {0.33,0.35};
+						mirroredMissilePos = 4;
+					};
+					class STA8: STA3
+					{
+						UIposition[] = {0.33,0.40};
+						mirroredMissilePos = 3;
+					};
+					class STA9: STA2
+					{
+						UIposition[] = {0.34,0.45};
+						mirroredMissilePos = 2;
+					};
+					class STA10: STA1
+					{
+						UIposition[] = {0.345,0.5};
+						mirroredMissilePos = 1;
+					};
+				};
+            };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
 
     class us_usaf_ah64d : RHS_AH64D_wd_OCimport_02 {
         author = "Akosovski";
