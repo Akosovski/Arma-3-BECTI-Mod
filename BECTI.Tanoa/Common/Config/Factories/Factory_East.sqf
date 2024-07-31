@@ -44,7 +44,6 @@ _u = _u + ["ru_vmf_officer"];
 _u = _u + ["ru_vmf_at_specialist"];
 _u = _u + ["ru_vmf_aa_specialist"];
 _u = _u + ["ru_vmf_crewman"];
-_u = _u + ["ru_vmf_worker"];
 _u = _u + ["ru_vmf_uav_operator"];
 _u = _u + ["ru_vmf_driver"];
 _u = _u + ["ru_vmf_mortarman_gun"];
