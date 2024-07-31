@@ -20,7 +20,7 @@
         };
     };
 
-        class JK_B_Heli_Medium_01_Military_F;
+    class JK_B_Heli_Medium_01_Military_F;
     class JK_B_Heli_Medium_01_Military_F_OCimport_01 : JK_B_Heli_Medium_01_Military_F { scope = 0; class EventHandlers; class Turrets; };
     class JK_B_Heli_Medium_01_Military_F_OCimport_02 : JK_B_Heli_Medium_01_Military_F_OCimport_01 { 
         class EventHandlers; 
@@ -39,6 +39,7 @@
         displayName = "USRG Rifleman (M4A1)";
         side = 1;
         faction = "ako_us_rg";
+        subCategory = "Infantry";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -602,8 +603,8 @@
 
         uniformClass = "U_B_HeliPilotCoveralls";
 
-        linkedItems[] = {"rhsusf_mbav_light","RHS_jetpilot_usaf","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_mbav_light","RHS_jetpilot_usaf","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
+        linkedItems[] = {"SRU21P_LPU9P_PCU15AP","JHMCS2_MBU12P","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"SRU21P_LPU9P_PCU15AP","JHMCS2_MBU12P","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
         weapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
         respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","CUP_hgun_Glock17_blk"};
@@ -611,23 +612,26 @@
         magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_B_HeliPilotCoveralls",{{"FirstAidKit",5}}},{"rhsusf_mbav_light",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",8,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{},"RHS_jetpilot_usaf","G_Aviator",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        backpack = "B_Parachute";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","rhsusf_acc_SFMB556","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_B_HeliPilotCoveralls",{{"FirstAidKit",5}}},{"SRU21P_LPU9P_PCU15AP",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30},{"CUP_17Rnd_9x19_glock17",1,17}}},{"B_Parachute",{}},"JHMCS2_MBU12P","G_Aviator",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CUP_insignia_75th_ranger'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'BI'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "CUP_insignia_75th_ranger";
+        ALiVE_orbatCreator_insignia = "BI";
 
     };
+
 
     class us_rg_helicopter_pilot : us_rg_jet_pilot {
         author = "Akosovski";

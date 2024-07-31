@@ -724,7 +724,7 @@ class CfgPatches {
             "us_usaf_mq4a",
             "us_usaf_mq4b",
             "us_usaf_a29",
-            "us_usaf_f15e",
+            "us_usaf_f15ex",
             "us_usaf_f16c"
         };
         weapons[] = {};

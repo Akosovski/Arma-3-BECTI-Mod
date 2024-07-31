@@ -83,7 +83,7 @@ _t = _t		+ ["Heli - Attack"];
 _p = _p		+ [[["us_usmc_ah1z", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["HeliAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
@@ -91,7 +91,7 @@ _t = _t		+ ["Heli - Airborne (MARSOC)"];
 _p = _p		+ [[["us_usmc_uh1y_armed", 1], ["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["AirAttack"];
 _s = _s		+ [[]];
 
 

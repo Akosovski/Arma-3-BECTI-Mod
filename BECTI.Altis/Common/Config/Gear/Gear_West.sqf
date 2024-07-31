@@ -594,6 +594,11 @@ _i = _i + ["rhsusf_plateframe_teamleader"];
 _u = _u + [1];
 _p = _p + [20];
 
+_i = _i + ["SRU21P_LPU9P_PCU15AP"];
+_u = _u + [2];
+_p = _p + [25];
+
+
 //--- Glasses ---
 
 _i = _i		+ ["rhs_googles_black"];
@@ -798,7 +803,7 @@ _i = _i		+ ["rhsusf_hgu56p_visor_mask"];
 _u = _u		+ [1];
 _p = _p		+ [7];
 
-_i = _i		+ ["RHS_jetpilot_usaf"];
+_i = _i		+ ["JHMCS2_MBU20P"];
 _u = _u		+ [2];
 _p = _p		+ [7];
 

@@ -892,6 +892,11 @@ _i = _i        + ["rhs_6sh92_digi_vog_headset"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
+_i = _i        + ["CMU33PTan"];
+_u = _u        + [2];
+_p = _p        + [20]; 
+
+
 // --- Helmets ---
 
 _i = _i        + ["rhs_6b47"];

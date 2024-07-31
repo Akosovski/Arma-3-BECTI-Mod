@@ -1196,20 +1196,20 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid"};
 
-        uniformClass = "rhs_uniform_df15_tan";
+        uniformClass = "rhs_uniform_df15";
 
-        linkedItems[] = {"rhs_vydra_3m","rhs_zsh7a","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhs_vydra_3m","rhs_zsh7a","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CMU33PTan","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CMU33PTan","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AKS74U_railed"};
-        respawnWeapons[] = {"CUP_arifle_AKS74U_railed"};
+        weapons[] = {"CUP_arifle_AKS74U_railed","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AKS74U_railed","Binocular"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        backpack = "rhs_d6_Parachute_backpack";
+        backpack = "B_Parachute";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","rhs_acc_uuk","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"rhs_vydra_3m",{{"FirstAidKit",1}}},{"rhs_d6_Parachute_backpack",{}},"rhs_zsh7a","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U_railed","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_df15",{{"FirstAidKit",5}}},{"CMU33PTan",{{"FirstAidKit",4},{"rhs_mag_rgo",2,1},{"CUP_30Rnd_545x39_AK74_plum_M",5,30}}},{"B_Parachute",{}},"rhs_zsh7a_alt","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

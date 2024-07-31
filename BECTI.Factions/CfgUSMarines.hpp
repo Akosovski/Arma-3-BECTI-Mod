@@ -21,18 +21,18 @@
         };
     };
 
-    class FIR_F15E_WA_17WPS;
-    class FIR_F15E_WA_17WPS_OCimport_01 : FIR_F15E_WA_17WPS { scope = 0; class EventHandlers; class Turrets; };
-    class FIR_F15E_WA_17WPS_OCimport_02 : FIR_F15E_WA_17WPS_OCimport_01 { 
+    class FIR_F15EX_ZZ_67FS;
+    class FIR_F15EX_ZZ_67FS_OCimport_01 : FIR_F15EX_ZZ_67FS { scope = 0; class EventHandlers; class Turrets; };
+    class FIR_F15EX_ZZ_67FS_OCimport_02 : FIR_F15EX_ZZ_67FS_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class FIR_F16C_930458;
-    class FIR_F16C_930458_OCimport_01 : FIR_F16C_930458 { scope = 0; class EventHandlers; };
-    class FIR_F16C_930458_OCimport_02 : FIR_F16C_930458_OCimport_01 { scope = 0; class EventHandlers; };
+    class FIR_F16C_WP;
+    class FIR_F16C_WP_OCimport_01 : FIR_F16C_WP { scope = 0; class EventHandlers; };
+    class FIR_F16C_WP_OCimport_02 : FIR_F16C_WP_OCimport_01 { scope = 0; class EventHandlers; };
 
     class RHS_A10;
     class RHS_A10_OCimport_01 : RHS_A10 { scope = 0; class EventHandlers; };
@@ -1244,8 +1244,8 @@
 
         uniformClass = "U_B_HeliPilotCoveralls";
 
-        linkedItems[] = {"rhsusf_mbav_light","RHS_jetpilot_usaf","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_mbav_light","RHS_jetpilot_usaf","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"SRU21P_LPU9P_PCU15AP","JHMCS2_MBU20P","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"SRU21P_LPU9P_PCU15AP","JHMCS2_MBU20P","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"JCA_arifle_M4A1_black_F"};
         respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
@@ -1255,7 +1255,7 @@
 
         backpack = "B_Parachute";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"U_B_HeliPilotCoveralls",{{"FirstAidKit",2}}},{"rhsusf_mbav_light",{{"FirstAidKit",3},{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"B_Parachute",{}},"RHS_jetpilot_usaf","",{"","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"U_B_HeliPilotCoveralls",{{"FirstAidKit",2}}},{"SRU21P_LPU9P_PCU15AP",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"B_Parachute",{}},"JHMCS2_MBU20P","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1269,6 +1269,7 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "BI";
 
     };
 
@@ -1634,11 +1635,11 @@
 
     };
 
-    class us_usaf_f15e : FIR_F15E_WA_17WPS_OCimport_02 {
+    class us_usaf_f15ex : FIR_F15EX_ZZ_67FS_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "USAF F-15E";
+        displayName = "USAF F-15EX";
         side = 1;
         faction = "ako_us_usmc";
         crew = "us_usmc_jet_pilot";
@@ -1690,7 +1691,7 @@
 					class LCT4: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 						
 						priority = 3;						
 						maxweight = 1000;
@@ -1699,7 +1700,7 @@
 					class LCT5: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_MISC"};
-						attachment = "FIR_GBU24A_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 	
 						priority = 3;						
 						maxweight = 1000;
@@ -1708,7 +1709,7 @@
 					class LCT6: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 	
 						priority = 3;						
 						maxweight = 1000;
@@ -1718,7 +1719,7 @@
 					class LCT1: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU54_P_1rnd_M";
 	                    turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1727,7 +1728,7 @@
 					class LCT2: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_CBU105_P_1rnd_M";
+						attachment = "FIR_GBU54_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1736,7 +1737,7 @@
 					class LCT3: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU54_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1746,7 +1747,7 @@
 					class RCT1: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 
 						priority = 3;						
 						maxweight = 1000;
@@ -1755,7 +1756,7 @@
 					class RCT2: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_MISC"};
-						attachment = "FIR_GBU24A_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 
 						priority = 3;						
 						maxweight = 1000;
@@ -1764,7 +1765,7 @@
 					class RCT3: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 
 						priority = 3;						
 						maxweight = 1000;
@@ -1774,7 +1775,7 @@
 					class RCT4: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU54_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1783,7 +1784,7 @@
 					class RCT5: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_CBU105_P_1rnd_M";
+						attachment = "FIR_GBU54_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1792,7 +1793,7 @@
 					class RCT6: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU12_P_1rnd_M";
+						attachment = "FIR_GBU54_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1802,7 +1803,7 @@
 					class STA2: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_AGM_HP","FIR_F15E_MISC_HP","FIR_MISC"};
-						attachment = "FIR_CBU105_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 
 						priority = 1;						
 						maxweight = 1000;
@@ -1811,7 +1812,7 @@
 					class STA8: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_AGM_HP","FIR_F15E_MISC_HP","FIR_MISC"};
-						attachment = "FIR_CBU105_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 
 						priority = 1;						
 						maxweight = 1000;
@@ -1820,20 +1821,29 @@
 					class STA5: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_MISC_HP","FIR_MISC"};
-						attachment = "FIR_GBU24A_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
                         turret[] = {}; 
 						priority = 1;						
 						maxweight = 1000;
 						UIposition[] = {0.20,0.25};
 					};				
-					class TGPMount: STA2A
+                    class STA1: STA2A
 					{
-						hardpoints[] = {"FIR_F15E_TGP_HP","FIR_MISC"};
-						attachment = "FIR_SniperXR_2_P_1rnd_M";
+						hardpoints[] = {"FIR_F15SE_Midwing_HP","FIR_MISC"};
+						attachment = "FIR_GBU54_P_1rnd_M";
                         turret[] = {}; 
-						priority = 1;						
+						priority = 6;						
 						maxweight = 1000;
-						UIposition[] = {0.45,0.25};
+						UIposition[] = {0.6,0.05};
+					};							
+					class STA9: STA2A
+					{
+						hardpoints[] = {"FIR_F15SE_Midwing_HP","FIR_MISC"};
+						attachment = "FIR_GBU54_P_1rnd_M";
+                        turret[] = {}; 
+						priority = 6;						
+						maxweight = 1000;
+						UIposition[] = {0.6,0.45};
 					};							
 				};					
                 
@@ -1854,7 +1864,7 @@
 
     };
 
-    class us_usaf_f16c : FIR_F16C_930458_OCimport_02 {
+    class us_usaf_f16c : FIR_F16C_WP_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1889,7 +1899,7 @@
 					{
 						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_Combined_HP"};
 						priority = 3;
-						attachment = "FIR_GBU24A_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
 						maxweight = 1050;
 						UIposition[] = {0.34,0.1};
 					};
@@ -1897,7 +1907,7 @@
 					{
 						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_AG_HP"};
 						priority = 2;
-						attachment = "FIR_GBU24A_P_1rnd_M";
+						attachment = "FIR_GBU56_P_1rnd_M";
 						maxweight = 1200;
 						UIposition[] = {0.33,0.2};
 					};
@@ -1966,8 +1976,6 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

@@ -633,8 +633,8 @@
 
         uniformClass = "rhs_uniform_df15_tan";
 
-        linkedItems[] = {"rhs_6sh92_digi_headset","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhs_6sh92_digi_headset","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CMU33PTan","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CMU33PTan","rhs_zsh7a_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AKS74U","Binocular"};
         respawnWeapons[] = {"CUP_arifle_AKS74U","Binocular"};
@@ -644,7 +644,7 @@
 
         backpack = "B_Parachute";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"rhs_6sh92_digi_headset",{{"FirstAidKit",4},{"CUP_30Rnd_545x39_AK74M_M",4,30},{"rhs_mag_rgo",4,1}}},{"B_Parachute",{}},"rhs_zsh7a_alt","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_df15_tan",{{"FirstAidKit",5}}},{"CMU33PTan",{{"FirstAidKit",4},{"CUP_30Rnd_545x39_AK74M_M",5,30},{"rhs_mag_rgo",2,1}}},{"B_Parachute",{}},"rhs_zsh7a_alt","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -660,6 +660,7 @@
         ALiVE_orbatCreator_owned = 1;
 
     };
+
 
     class ru_vdv_crewman : ru_vdv_heli_pilot {
         author = "Akosovski";

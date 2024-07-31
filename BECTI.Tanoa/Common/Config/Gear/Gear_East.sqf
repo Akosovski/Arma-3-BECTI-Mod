@@ -624,8 +624,8 @@ _i = _i        + ["rhs_uniform_gorka_1_b"];
 _u = _u        + [2];
 _p = _p        + [15];
  
-_i = _i        + ["rhs_uniform_df15_tan"];
-_u = _u        + [1];
+_i = _i        + ["rhs_uniform_df15"];
+_u = _u        + [2];
 _p = _p        + [10];
 
  
@@ -910,6 +910,10 @@ _p = _p        + [10];
 _i = _i        + ["rhs_6sh92_digi_vog_headset"];
 _u = _u        + [1];
 _p = _p        + [10]; 
+
+_i = _i        + ["CMU33PTan"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
 // --- Helmets ---
 

@@ -83,7 +83,7 @@ _t = _t		+ ["Heli - Attack"];
 _p = _p		+ [[["us_usaf_ah64d", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["HeliAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
@@ -91,7 +91,7 @@ _t = _t		+ ["Heli - Airborne (Rangers)"];
 _p = _p		+ [[["us_rg_uh60m", 1], ["us_rg_sergeant", 1], ["us_rg_rifleman_m4", 3], ["us_rg_rifleman_mk16", 2], ["us_rg_auto_rifleman", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["AirAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttackElite"];
@@ -99,7 +99,7 @@ _t = _t		+ ["Heli - Airborne (DEVGRU)"];
 _p = _p		+ [[["us_rg_mh146_armed", 1], ["us_dvg_operator_m4", 2], ["us_dvg_operator_mk16", 2], ["us_dvg_operator_mk48", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["AirAttackElite"];
 _s = _s		+ [[]];
 
 

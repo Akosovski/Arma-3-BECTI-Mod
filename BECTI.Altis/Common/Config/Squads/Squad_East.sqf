@@ -88,18 +88,18 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["HeliAttack"];
 _t = _t		+ ["Heli - Attack"];
-_p = _p		+ [[["ru_vdv_mi24g", 1]]];
+_p = _p		+ [[["ru_vdv_mi28n", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["HeliAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
 _t = _t		+ ["Heli - Airborne (VDV)"];
-_p = _p		+ [[["ru_vdv_mi8mtv3", 1], ["ru_vdv_efreitor", 2], ["ru_vdv_rifleman_ak12", 2], ["ru_vdv_rifleman_ak74m", 2], ["ru_vdv_autorifleman", 1], ["ru_vdv_machinegunner", 2]]];
+_p = _p		+ [[["ru_vdv_24g", 1], ["ru_vdv_efreitor", 2], ["ru_vdv_rifleman_ak12", 2], ["ru_vdv_rifleman_ak74m", 2], ["ru_vdv_autorifleman", 1], ["ru_vdv_machinegunner", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["AirAttack"];
 _s = _s		+ [[]];
 
 [_side, _v, _t, _p, _f, _m, _c, _s] call compile preprocessFileLineNumbers "Common\Config\Squads\Squads_Set.sqf";

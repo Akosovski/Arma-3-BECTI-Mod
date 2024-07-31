@@ -661,6 +661,10 @@ _i = _i + ["V_CarrierRigKBT_01_light_Olive_F"];
 _u = _u + [3];
 _p = _p + [25];
 
+_i = _i + ["SRU21P_LPU9P_PCU15AP"];
+_u = _u + [2];
+_p = _p + [25];
+
 //--- Glasses ---
 
 _i = _i		+ ["rhs_googles_black"];
@@ -869,7 +873,7 @@ _i = _i		+ ["rhsusf_hgu56p_green"];
 _u = _u		+ [2];
 _p = _p		+ [7];
 
-_i = _i		+ ["RHS_jetpilot_usaf"];
+_i = _i		+ ["JHMCS2_MBU12P"];
 _u = _u		+ [2];
 _p = _p		+ [7];
 

@@ -83,7 +83,7 @@ _t = _t		+ ["Heli - Attack"];
 _p = _p		+ [[["ru_vmf_ka52", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["HeliAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
@@ -91,7 +91,7 @@ _t = _t		+ ["Heli - Airborne (VMF)"];
 _p = _p		+ [[["ru_vmf_mi8_gunship", 1], ["ru_vmf_efreitor", 2], ["ru_vmf_rifleman_ak12", 2], ["ru_vmf_rifleman_ak15", 2], ["ru_vmf_autorifleman", 1], ["ru_vmf_machinegunner", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["AirAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttackElite"];
@@ -99,7 +99,7 @@ _t = _t		+ ["Heli - Airborne (Spetsnaz)"];
 _p = _p		+ [[["ru_vmf_mi24g", 1], ["ru_vmf_spetsnaz_ak12", 3], ["ru_vmf_spetsnaz_ak103", 2], ["ru_vmf_spetsnaz_ak104", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
-_c = _c		+ ["Air"];
+_c = _c		+ ["AirAttackElite"];
 _s = _s		+ [[]];
 
 [_side, _v, _t, _p, _f, _m, _c, _s] call compile preprocessFileLineNumbers "Common\Config\Squads\Squads_Set.sqf";
