@@ -136,7 +136,7 @@ CTI_UI_Purchase_UpdateVehicleIcons = {
 		
 		if (count _textures > 1) then {
 			switch (CTI_P_SideJoined) do {
-				case (WEST): {_removedTextures = ["AAF", "Independent", "OPFOR"]};
+				case (WEST): {_removedTextures = ["AAF", "Independent", "OPFOR", "Hex", "Grey"]};
 				case (EAST): {_removedTextures = ["AAF", "Independent", "BLUFOR", "FIA 1", "FIA 2"]};
 			};
 			

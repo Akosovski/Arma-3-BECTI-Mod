@@ -2376,11 +2376,11 @@
 
     };
 
-    class ru_vmf_mi24v : RHS_Mi24V_vvsc_OCimport_02 {
+    class ru_vmf_g : rhsgref_mi24g_CAS_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "VMF Mi-24V";
+        displayName = "VMF Mi-24G";
         side = 0;
         faction = "ako_ru_vmf";
         crew = "ru_vmf_heli_pilot";
@@ -2399,14 +2399,13 @@
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsafrf\addons\rhs_a2port_air\mi35\data\camo\mi24p_001_camo1_co.paa'];_unit setObjectTextureGlobal [1,'\rhsafrf\addons\rhs_a2port_air\mi35\data\camo\mi24p_002_camo1_co.paa'];_unit setObjectTextureGlobal [2,'rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Camo1";
 
     };
 

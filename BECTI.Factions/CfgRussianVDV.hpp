@@ -157,9 +157,9 @@
         };
     };
 
-    class RHS_Mi24V_vvsc;
-    class RHS_Mi24V_vvsc_OCimport_01 : RHS_Mi24V_vvsc { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_Mi24V_vvsc_OCimport_02 : RHS_Mi24V_vvsc_OCimport_01 { 
+    class rhsgref_mi24g_CAS;
+    class rhsgref_mi24g_CAS_OCimport_01 : rhsgref_mi24g_CAS { scope = 0; class EventHandlers; class Turrets; };
+    class rhsgref_mi24g_CAS_OCimport_02 : rhsgref_mi24g_CAS_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
@@ -1115,11 +1115,11 @@
 
     };
 
-    class ru_vdv_mi24v : RHS_Mi24V_vvsc_OCimport_02 {
+    class ru_vdv_mi24g : rhsgref_mi24g_CAS_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "VDV Mi-24V";
+        displayName = "VDV Mi-24G";
         side = 0;
         faction = "ako_ru_vdv";
         crew = "ru_vdv_heli_pilot";

@@ -9,16 +9,16 @@ _c = [];
 _s = [];
 
 //--- Commander will assign those orders based on the force and the probability [type, strength, {probability}, {Max per side}]
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryAA", 1, 40, .10], ["InfantryElite", 1, 85]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["Motorized", 1, 75, .12],["MotorizedHMWV", 1, 75, .12], ["Mechanized", 1, 90, .15]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["Mechanized", 1, 50], ["MechanizedHeavy", 1], ["Armored", 2]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1],["AirAttack", 1, 55]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2, 55], ["InfantryAT", 1, 55], ["InfantryAA", 1, 40], ["InfantryElite", 1, 85]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["MotorizedHMWV", 1, 45]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["Mechanized", 1, 40], ["MechanizedHeavy", 1, 40], ["Armored", 2, 95]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1, 90],["AirAttack", 2, 95]]];
 
 missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["InfantryAT", "InfantryAA"]];
 
 //--- Those are used by the commander to determine the kind of unit an AI team has
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_INFANTRY", _side], ["Infantry", "InfantryAT", "InfantryAA", "InfantryElite"]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_LIGHT", _side], ["Motorized"]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_LIGHT", _side], ["MotorizedHMWV"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_HEAVY", _side], ["Mechanized", "MechanizedHeavy", "Armored"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAttack", "AirAttack"]];
 
@@ -60,22 +60,6 @@ _p = _p		+ [[["us_usmc_m1151a1_crows_m2", 1], ["us_usmc_m1151a1_crows_mk19", 1]]
 _f = _f		+ [CTI_LIGHT];
 _m = _m		+ [3000];
 _c = _c		+ ["MotorizedHMWV"];
-_s = _s		+ [[]];
-
-_v = _v		+ ["Motorized"];
-_t = _t		+ ["Motorized - MRAP"];
-_p = _p		+ [[["us_usmc_m1126_m2", 1], ["us_usmc_m1126_mk19", 1, 95]]];
-_f = _f		+ [CTI_LIGHT];
-_m = _m		+ [3000];
-_c = _c		+ ["Motorized"];
-_s = _s		+ [[]];
-
-_v = _v		+ ["Mechanized"];
-_t = _t		+ ["Mechanized - APC"];
-_p = _p		+ [[["us_usmc_m113a3_m2", 1], ["us_usmc_m113a3_mk19", 1, 90], ["us_usmc_m113a3_m2", 1, 90]]];
-_f = _f		+ [CTI_HEAVY];
-_m = _m		+ [5000];
-_c = _c		+ ["Mechanized"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["MechanizedHeavy"];

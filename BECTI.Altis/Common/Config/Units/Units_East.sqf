@@ -757,7 +757,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
 
-_c = _c + ['ru_vdv_mi24v'];
+_c = _c + ['ru_vdv_mi24g'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [12500];
