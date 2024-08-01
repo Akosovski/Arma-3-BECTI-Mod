@@ -97,6 +97,7 @@ _u 			= ["ru_vmf_ka60"];
 _u = _u	    + ["ru_vmf_mi8_normal"];
 _u = _u		+ ["ru_vmf_mi8_gunship"];
 _u = _u		+ ["ru_vmf_mi24g"];
+_u = _u	    + ["ru_vmf_ka52"];
 _u = _u		+ ["ru_vmf_mig29sm"];
 _u = _u		+ ["ru_vmf_su35"];
 // _u = _u	    + ["ru_vmf_k40a"];

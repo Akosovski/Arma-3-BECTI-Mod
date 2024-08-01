@@ -2468,7 +2468,7 @@
 
     };
 
-    class ru_vmf_g : rhsgref_mi24g_CAS_OCimport_02 {
+    class ru_vmf_mi24g : rhsgref_mi24g_CAS_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
