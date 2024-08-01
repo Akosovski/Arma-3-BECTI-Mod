@@ -82,13 +82,14 @@ _u = _u	+ ["ru_vmf_bmp2"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 _u 			= ["ru_vmf_bm21"];
+_u = _u		+ ["ru_rva_tochka_he"];
+_u = _u		+ ["ru_rva_tochka_nuke"];
 _u = _u		+ ["ru_vmf_t72b_1989"];
 _u = _u		+ ["ru_vmf_t72b3_2016"];
 _u = _u		+ ["ru_vmf_t80bv"];
 _u = _u		+ ["ru_vmf_t80um"];
 _u = _u		+ ["ru_vmf_t90sa_2004"];
 _u = _u		+ ["ru_vmf_t90sm"];
-_u = _u		+ ["ru_msv_t14"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
@@ -96,7 +97,6 @@ _u 			= ["ru_vmf_ka60"];
 _u = _u	    + ["ru_vmf_mi8_normal"];
 _u = _u		+ ["ru_vmf_mi8_gunship"];
 _u = _u		+ ["ru_vmf_mi24g"];
-_u = _u		+ ["ru_vmf_su25"];
 _u = _u		+ ["ru_vmf_mig29sm"];
 _u = _u		+ ["ru_vmf_su35"];
 // _u = _u	    + ["ru_vmf_k40a"];
@@ -111,6 +111,7 @@ _u = _u		+ ["ru_vmf_ural_fuel"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["ru_vmf_ural_ammo"];
+_u = _u		+ ["ru_vdv_kamaz_ammo"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 

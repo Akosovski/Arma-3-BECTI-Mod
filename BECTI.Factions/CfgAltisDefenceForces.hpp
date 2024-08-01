@@ -670,10 +670,18 @@
         crew = "al_adf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "al_adf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "al_adf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "al_adf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -699,10 +707,18 @@
         crew = "al_adf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "al_adf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "al_adf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "al_adf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

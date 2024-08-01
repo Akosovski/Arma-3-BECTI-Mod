@@ -84,15 +84,15 @@ _u = _u		+ ["ru_msv_btr80a"];
 _u = _u		+ ["ru_msv_bmp1"];
 _u = _u		+ ["ru_msv_bmp2"];
 _u = _u		+ ["ru_msv_bmp3"];
-_u = _u		+ ["ru_msv_bmp3_vesna"];
-_u = _u		+ ["ru_vdv_bmd1"];
-_u = _u		+ ["ru_vdv_bmd2"]; 
+_u = _u		+ ["ru_msv_bmp3_vesna"]; 
 _u = _u		+ ["ru_vdv_bmd4"];
 _u = _u		+ ["ru_vdv_bmd4m"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 _u 			= ["ru_msv_bm21"];
+_u = _u		+ ["ru_rva_tochka_he"];
+_u = _u		+ ["ru_rva_tochka_nuke"];
 _u = _u		+ ["ru_msv_t72b_1989"];
 _u = _u		+ ["ru_msv_t72b3_2012"];
 _u = _u		+ ["ru_msv_t80u"];
@@ -100,7 +100,6 @@ _u = _u		+ ["ru_msv_t80um"];
 _u = _u		+ ["ru_msv_t90_1992"];
 _u = _u		+ ["ru_msv_t90a_2006"];
 _u = _u		+ ["ru_msv_t90sm"];
-_u = _u		+ ["ru_msv_t14"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
@@ -110,14 +109,12 @@ _u = _u		+ ["ru_vdv_mi8mt"];
 _u = _u		+ ["ru_vdv_mi8mtv3"];
 _u = _u		+ ["ru_vdv_mi24g"];
 _u = _u		+ ["ru_vdv_mi28n"];
-_u = _u		+ ["ru_vdv_ka52"];
-_u = _u		+ ["ru_vdv_su25"];   
+_u = _u		+ ["ru_vdv_ka52"]; 
 _u = _u		+ ["ru_vdv_mig29sm"];
 _u = _u		+ ["ru_vdv_su35"];
-_u = _u		+ ["ru_vdv_t50_2013"];
 _u = _u		+ ["ru_vdv_tu95ms6"];
-_u = _u	    + ["ru_vdv_k40a"];
-_u = _u	    + ["ru_vdv_k40b"];
+// _u = _u	    + ["ru_vdv_k40a"];
+// _u = _u	    + ["ru_vdv_k40b"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 

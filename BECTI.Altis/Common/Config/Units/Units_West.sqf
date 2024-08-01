@@ -545,7 +545,16 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + ["service-medic"];
 
-_c = _c + ['us_usmc_m142'];
+_c = _c + ['us_usmc_m142_clus'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5500];
+_t = _t + [30];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['us_usmc_m142_he'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [5500];

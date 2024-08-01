@@ -15,7 +15,7 @@ missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
 
 //--- Commander course of action ["Action", Parameter(s), Condition]
 missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
-	["build-structures", CTI_BARRACKS, {true}],
+["build-structures", CTI_BARRACKS, {true}],
 	["build-structures", CTI_CONTROLCENTER, {true}],
 	["build-structures", CTI_LIGHT, {true}],
 	["build-structures", CTI_HEAVY, {true}],
@@ -29,6 +29,7 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["build-structures", CTI_AMMO, {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 2], {true}],
 	["upgrade", [CTI_UPGRADE_BARRACKS, 2], {true}],
+	["upgrade", [CTI_UPGRADE_AIR, 1], {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 3], {true}],
 	["upgrade", [CTI_UPGRADE_BARRACKS, 3], {true}],
 	["upgrade", [CTI_UPGRADE_LIGHT, 2], {true}],
@@ -36,7 +37,6 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_SUPPLY, 2], {true}],
 	["upgrade", [CTI_UPGRADE_TOWNS, 2], {true}],
 	["upgrade", [CTI_UPGRADE_LIGHT, 3], {true}],
-	["upgrade", [CTI_UPGRADE_AIR, 1], {true}],
 	["upgrade", [CTI_UPGRADE_AIR, 2], {true}],
 	["upgrade", [CTI_UPGRADE_SUPPLY, 3], {true}],
 	["upgrade", [CTI_UPGRADE_HEAVY, 2], {true}],
@@ -167,12 +167,6 @@ _prices = _prices 			+ [30];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-// _headers = _headers 		+ ["Military Cargo Post (Green)"];
-// _classes = _classes 		+ ["Land_Cargo_Patrol_V1_F"];
-// _prices = _prices 			+ [150];
-// _placements = _placements 	+ [[0, 15]];
-// _categories = _categories 	+ ["Fortification"];
-
 _headers = _headers 		+ ["Military Cargo Tower (Green)"];
 _classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
 _prices = _prices 			+ [750];
@@ -183,12 +177,6 @@ _headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruin
 _classes = _classes 		+ ["Land_Shed_Big_F"];
 _prices = _prices 			+ [125];
 _placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["Sandbag Wall (Round)"];
-_classes = _classes 		+ ["Land_BagFence_Round_F"];
-_prices = _prices 			+ [15];
-_placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 // Defenses

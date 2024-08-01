@@ -10,46 +10,6 @@
     class rhs_vdv_rifleman_OCimport_01 : rhs_vdv_rifleman { scope = 0; class EventHandlers; };
     class rhs_vdv_rifleman_OCimport_02 : rhs_vdv_rifleman_OCimport_01 { class EventHandlers; };
 
-    class rhs_bmd1;
-    class rhs_bmd1_OCimport_01 : rhs_bmd1 { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_bmd1_OCimport_02 : rhs_bmd1_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CommanderOptics1;
-            class GPMGTurretBMD1;
-            class LeftBack1;
-            class RightBack1;
-            class MainBack1;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
-    class rhs_bmd2;
-    class rhs_bmd2_OCimport_01 : rhs_bmd2 { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_bmd2_OCimport_02 : rhs_bmd2_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CommanderOptics1;
-            class GPMGTurretBMD1;
-            class LeftBack1;
-            class RightBack1;
-            class MainBack1;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
     class rhs_bmd4_vdv;
     class rhs_bmd4_vdv_OCimport_01 : rhs_bmd4_vdv { scope = 0; class EventHandlers; class Turrets; };
     class rhs_bmd4_vdv_OCimport_02 : rhs_bmd4_vdv_OCimport_01 { 
@@ -130,13 +90,9 @@
         };
     };
 
-    class rhs_mig29sm_vvsc;
-    class rhs_mig29sm_vvsc_OCimport_01 : rhs_mig29sm_vvsc { scope = 0; class EventHandlers; };
-    class rhs_mig29sm_vvsc_OCimport_02 : rhs_mig29sm_vvsc_OCimport_01 { scope = 0; class EventHandlers; };
-
-    class RHS_Su25SM_vvsc;
-    class RHS_Su25SM_vvsc_OCimport_01 : RHS_Su25SM_vvsc { scope = 0; class EventHandlers; };
-    class RHS_Su25SM_vvsc_OCimport_02 : RHS_Su25SM_vvsc_OCimport_01 { scope = 0; class EventHandlers; };
+    class SAFP_mig29sm_OPFOR;
+    class SAFP_mig29sm_OPFOR_OCimport_01 : SAFP_mig29sm_OPFOR { scope = 0; class EventHandlers; };
+    class SAFP_mig29sm_OPFOR_OCimport_02 : SAFP_mig29sm_OPFOR_OCimport_01 { scope = 0; class EventHandlers; };
 
     class RHS_T50_vvs_blueonblue;
     class RHS_T50_vvs_blueonblue_OCimport_01 : RHS_T50_vvs_blueonblue { scope = 0; class EventHandlers; };
@@ -700,88 +656,6 @@
 
     };
 
-    class ru_vdv_bmd1 : rhs_bmd1_OCimport_02 {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "VDV BMD-1";
-        side = 0;
-        faction = "ako_ru_vdv";
-        crew = "ru_vdv_crewman";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vdv_crewman"; };
-            class CommanderOptics1 : CommanderOptics1 { gunnerType = "ru_vdv_crewman"; };
-            class GPMGTurretBMD1 : GPMGTurretBMD1 { gunnerType = ""; };
-            class LeftBack1 : LeftBack1 { gunnerType = ""; };
-            class RightBack1 : RightBack1 { gunnerType = ""; };
-            class MainBack1 : MainBack1 { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_bmd\data\sa_bmd2_01_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_bmd\data\sa_bmd1_02_co.paa'];_unit setObjectTextureGlobal [2,'rhsafrf\addons\rhs_bmd\data\sa_bmd2_03_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "standard";
-
-    };
-
-    class ru_vdv_bmd2 : rhs_bmd2_OCimport_02 {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "VDV BMD-2";
-        side = 0;
-        faction = "ako_ru_vdv";
-        crew = "ru_vdv_crewman";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vdv_crewman"; };
-            class CommanderOptics1 : CommanderOptics1 { gunnerType = "ru_vdv_crewman"; };
-            class GPMGTurretBMD1 : GPMGTurretBMD1 { gunnerType = ""; };
-            class LeftBack1 : LeftBack1 { gunnerType = ""; };
-            class RightBack1 : RightBack1 { gunnerType = ""; };
-            class MainBack1 : MainBack1 { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_bmd\data\sa_bmd2_01_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_bmd\data\sa_bmd2_02_co.paa'];_unit setObjectTextureGlobal [2,'rhsafrf\addons\rhs_bmd\data\sa_bmd2_03_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "standard";
-
-    };
-
     class ru_vdv_bmd4 : rhs_bmd4_vdv_OCimport_02 {
         author = "Akosovski";
         scope = 2;
@@ -798,8 +672,6 @@
             class RightBack : RightBack { gunnerType = ""; };
             class MainFront : MainFront { gunnerType = ""; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -833,8 +705,6 @@
             class LeftBack : LeftBack { gunnerType = ""; };
             class MiddleBack : MiddleBack { gunnerType = ""; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -990,8 +860,6 @@
             class FrontTurret : FrontTurret { gunnerType = "ru_vdv_heli_crewman"; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1007,7 +875,7 @@
 
     };
 
-    class ru_vdv_mig29sm : rhs_mig29sm_vvsc_OCimport_02 {
+    class ru_vdv_mig29sm : SAFP_mig29sm_OPFOR_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1016,6 +884,69 @@
         faction = "ako_ru_vdv";
         crew = "ru_vdv_jet_pilot";
 
+        class Components {
+            class TransportPylonsComponent {
+
+                class Pylons {
+					class pylon1
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "rhs_mag_ub32_bd3_umk2a_s5ko";
+						priority = 1;
+						maxweight = 500;
+                        turret[] = {}; 		
+						UIposition[] = {0.25,0.10};
+					};		
+                    class pylon2: pylon1
+					{
+						UIposition[] = {0.25,0.5};
+						mirroredMissilePos = 1;
+					};	
+                    class pylon3: pylon1
+					{
+						UIposition[] = {0.25,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon4: pylon1
+					{
+						UIposition[] = {0.15,0.10};
+						mirroredMissilePos = 1;
+					};
+                    class pylon5: pylon1
+					{
+						UIposition[] = {0.15,0.5};
+                        attachment = "SAFP_FIR_EGBU12_P_3rnd_M";
+						mirroredMissilePos = 1;
+					};
+                    class pylon6: pylon1
+					{
+						UIposition[] = {0.15,0.0};
+                        attachment = "SAFP_FIR_EGBU12_P_3rnd_M";
+						mirroredMissilePos = 1;
+					};
+                    class pylon7: pylon1
+					{
+						UIposition[] = {0.5,0.5};
+						mirroredMissilePos = 1;
+					};
+                    class pylon8: pylon1
+					{
+						UIposition[] = {0.5,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class cmDispenser
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "SAFP_FIR_1050rnd_CMFlare_Chaff_Magazine";
+						priority = 2;
+						maxweight = 1000;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.0.5};
+					};	   
+				};					
+                
+            };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1031,52 +962,95 @@
 
     };
 
-    class ru_vdv_su25 : RHS_Su25SM_vvsc_OCimport_02 {
+        class ru_vdv_su35 : JS_JC_SU35_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "VDV Su-25";
+        displayName = "VDV Su-35 Flanker";
         side = 0;
         faction = "ako_ru_vdv";
         crew = "ru_vdv_jet_pilot";
 
+        class Components {
+            class TransportPylonsComponent {
+
+                class Pylons {
+					class pylon1
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "FIR_KAB500L_P_1rnd_M";
+						priority = 1;
+						maxweight = 500;
+                        turret[] = {}; 		
+						UIposition[] = {0.25,0.10};
+					};		
+                    class pylon2: pylon1
+					{
+						UIposition[] = {0.25,0.5};
+						mirroredMissilePos = 1;
+					};	
+                    class pylon3: pylon1
+					{
+						UIposition[] = {0.25,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon4: pylon1
+					{
+						UIposition[] = {0.15,0.10};
+						mirroredMissilePos = 1;
+					};
+                    class pylon5: pylon1
+					{
+						UIposition[] = {0.15,0.5};
+						mirroredMissilePos = 1;
+					};
+                    class pylon6: pylon1
+					{
+						UIposition[] = {0.15,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon7: pylon1
+					{
+						UIposition[] = {0.5,0.5};
+						mirroredMissilePos = 1;
+					};
+                    class pylon8: pylon1
+					{
+						UIposition[] = {0.5,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon9
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "FIR_KAB500L_P_1rnd_MF";
+						priority = 2;
+						maxweight = 1000;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.0.5};
+					};	
+                    class pylon10: pylon9
+					{
+						UIposition[] = {0.35,0.0};
+						mirroredMissilePos = 1;
+					};
+                    
+				};					
+                
+            };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsafrf\addons\rhs_a2port_air\su25\data\su25_body1_rus_co.paa'];_unit setObjectTextureGlobal [1,'\rhsafrf\addons\rhs_a2port_air\su25\data\su25_body2_rus_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\js_jc_su35\data\Su35_hull_co.paa'];_unit setObjectTextureGlobal [1,'\js_jc_su35\data\Su35_misc_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Camo";
-
-    };
-
-    class ru_vdv_t50_2013 : RHS_T50_vvs_blueonblue_OCimport_02 {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "VDV T-50 (2013)";
-        side = 0;
-        faction = "ako_ru_vdv";
-        crew = "ru_vdv_jet_pilot";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "RussianAFGreyDigital";
 
     };
 
@@ -1326,97 +1300,5 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class ru_vdv_su35 : JS_JC_SU35_OCimport_02 {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "VDV Su-35 Flanker";
-        side = 0;
-        faction = "ako_ru_vdv";
-        crew = "ru_vdv_jet_pilot";
-
-        class Components {
-            class TransportPylonsComponent {
-
-                class Pylons {
-					class pylon1
-					{
-						hardpoints[] = {"FIR_MISC"};
-						attachment = "FIR_KAB500L_P_1rnd_M";
-						priority = 1;
-						maxweight = 500;
-                        turret[] = {}; 		
-						UIposition[] = {0.25,0.10};
-					};		
-                    class pylon2: pylon1
-					{
-						UIposition[] = {0.25,0.5};
-						mirroredMissilePos = 1;
-					};	
-                    class pylon3: pylon1
-					{
-						UIposition[] = {0.25,0.0};
-						mirroredMissilePos = 1;
-					};
-                    class pylon4: pylon1
-					{
-						UIposition[] = {0.15,0.10};
-						mirroredMissilePos = 1;
-					};
-                    class pylon5: pylon1
-					{
-						UIposition[] = {0.15,0.5};
-						mirroredMissilePos = 1;
-					};
-                    class pylon6: pylon1
-					{
-						UIposition[] = {0.15,0.0};
-						mirroredMissilePos = 1;
-					};
-                    class pylon7: pylon1
-					{
-						UIposition[] = {0.5,0.5};
-						mirroredMissilePos = 1;
-					};
-                    class pylon8: pylon1
-					{
-						UIposition[] = {0.5,0.0};
-						mirroredMissilePos = 1;
-					};
-                    class pylon9
-					{
-						hardpoints[] = {"FIR_MISC"};
-						attachment = "PylonMissile_1Rnd_BombCluster_02_cap_F";
-						priority = 2;
-						maxweight = 1000;
-                        turret[] = {}; 		
-						UIposition[] = {0.35,0.0.5};
-					};	
-                    class pylon10: pylon9
-					{
-						UIposition[] = {0.35,0.0};
-						mirroredMissilePos = 1;
-					};
-                    
-				};					
-                
-            };
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\js_jc_su35\data\Su35_hull_co.paa'];_unit setObjectTextureGlobal [1,'\js_jc_su35\data\Su35_misc_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "RussianAFGreyDigital";
 
     };

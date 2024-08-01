@@ -2410,11 +2410,11 @@
 
     };
 
-    class us_usmc_m142 : rhsusf_M142_usarmy_WD_OCimport_02 {
+    class us_usmc_m142_clus : rhsusf_M142_usarmy_WD_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "USMC M142 HIMARS";
+        displayName = "USMC M142 HIMARS (Cluster)";
         side = 1;
         faction = "ako_us_usmc";
         crew = "us_usmc_rifleman_m4a1";
@@ -2424,7 +2424,73 @@
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
         };
 
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\rhsusf\addons\rhsusf_himars\Pictures\RHS_M142_EDEN_CA.paa";
+                class pylons
+                {
+                    class pylon1
+                    {
+                        hardpoints[]		= {"RHS_HP_MLRS","RHS_HP_GMLRS","RHS_HP_ATACMS"};
+                        priority			= 1;
+                        maxweight			= 2000;
+                        UIposition[]		= {0.45,0.275};
+                        bay					= -1;
+                        attachment			= "rhs_mag_m26a1_6";
+                        turret[] 			= {0};
+                        hitpoint 			= HitLauncher;
+                    };
+                };
+            };
+        };
+        
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_m142_he : rhsusf_M142_usarmy_WD_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC M142 HIMARS (HE)";
+        side = 1;
+        faction = "ako_us_usmc";
+        crew = "us_usmc_rifleman_m4a1";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+        };
+
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\rhsusf\addons\rhsusf_himars\Pictures\RHS_M142_EDEN_CA.paa";
+                class pylons
+                {
+                    class pylon1
+                    {
+                        hardpoints[]		= {"RHS_HP_MLRS","RHS_HP_GMLRS","RHS_HP_ATACMS"};
+                        priority			= 1;
+                        maxweight			= 2000;
+                        UIposition[]		= {0.45,0.275};
+                        bay					= -1;
+                        attachment			= "rhs_mag_m31_6";
+                        turret[] 			= {0};
+                        hitpoint 			= HitLauncher;
+                    };
+                };
+            };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

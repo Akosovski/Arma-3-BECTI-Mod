@@ -109,9 +109,9 @@
         };
     };
 
-    class rhs_bmp1d_vmf;
-    class rhs_bmp1d_vmf_OCimport_01 : rhs_bmp1d_vmf { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_bmp1d_vmf_OCimport_02 : rhs_bmp1d_vmf_OCimport_01 { 
+    class rhs_bmp1k_vmf;
+    class rhs_bmp1k_vmf_OCimport_01 : rhs_bmp1k_vmf { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_bmp1k_vmf_OCimport_02 : rhs_bmp1k_vmf_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
@@ -129,9 +129,9 @@
         };
     };
 
-    class rhs_bmp2d_vmf;
-    class rhs_bmp2d_vmf_OCimport_01 : rhs_bmp2d_vmf { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_bmp2d_vmf_OCimport_02 : rhs_bmp2d_vmf_OCimport_01 { 
+    class rhs_bmp2k_vmf;
+    class rhs_bmp2k_vmf_OCimport_01 : rhs_bmp2k_vmf { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_bmp2k_vmf_OCimport_02 : rhs_bmp2k_vmf_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
@@ -322,12 +322,6 @@
             class FrontTurret;
         };
     };
-
-
-    class rhs_mig29sm_vmf;
-    class rhs_mig29sm_vmf_OCimport_01 : rhs_mig29sm_vmf { scope = 0; class EventHandlers; };
-    class rhs_mig29sm_vmf_OCimport_02 : rhs_mig29sm_vmf_OCimport_01 { scope = 0; class EventHandlers; };
-
 
     class ru_vmf_sergeant : rhs_vmf_recon_sergeant_OCimport_02 {
         author = "Akosovski";
@@ -1557,8 +1551,6 @@
             class Commander_Out : Commander_Out { gunnerType = ""; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1628,7 +1620,64 @@
             class MainTurret : MainTurret { gunnerType = ""; };
         };
 
-
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\rhsafrf\addons\rhs_a2port_car\data\loadouts\RHS_BM21_EDEN_CA.paa";
+                class pylons
+                {
+                    class pylon1
+                    {
+                        hardpoints[]		= {"RHS_HP_BM21"};
+                        priority			= 1;
+                        maxweight			= 200;
+                        UIposition[]		= {0.12,0.1};
+                        bay					= 1;
+                        attachment			= "rhs_mag_9m28f_1";
+                        turret[] 			= {0};
+                        hitpoint 			= HitLauncher;
+                    };
+                    class pylon2: pylon1 	{priority = 2;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.1/2.5)};};
+                    class pylon3: pylon1 	{priority = 3;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.2/2.5)};};
+                    class pylon4: pylon1 	{priority = 4;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.3/2.5)};};
+                    class pylon5: pylon1 	{priority = 5;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.4/2.5)};};
+                    class pylon6: pylon1 	{priority = 6;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.5/2.5)};};
+                    class pylon7: pylon1 	{priority = 7;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.6/2.5)};};
+                    class pylon8: pylon1 	{priority = 8;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.7/2.5)};};
+                    class pylon9: pylon1 	{priority = 9;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.8/2.5)};};
+                    class pylon10: pylon1 	{priority = 10;	UIposition[] = {__EVAL(0.12+0.19*0),__EVAL(0.1+0.9/2.5)};};
+                    class pylon11: pylon1 	{priority = 11;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.0/2.5)};};
+                    class pylon12: pylon1 	{priority = 12;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.1/2.5)};};
+                    class pylon13: pylon1 	{priority = 13;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.2/2.5)};};
+                    class pylon14: pylon1 	{priority = 14;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.3/2.5)};};
+                    class pylon15: pylon1 	{priority = 15;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.4/2.5)};};
+                    class pylon16: pylon1 	{priority = 16;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.5/2.5)};};
+                    class pylon17: pylon1 	{priority = 17;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.6/2.5)};};
+                    class pylon18: pylon1 	{priority = 18;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.7/2.5)};};
+                    class pylon19: pylon1 	{priority = 19;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.8/2.5)};};
+                    class pylon20: pylon1 	{priority = 20;	UIposition[] = {__EVAL(0.12+0.19*1),__EVAL(0.1+0.9/2.5)};};
+                    class pylon21: pylon1 	{priority = 21;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.0/2.5)};};
+                    class pylon22: pylon1 	{priority = 22;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.1/2.5)};};
+                    class pylon23: pylon1 	{priority = 23;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.2/2.5)};};
+                    class pylon24: pylon1 	{priority = 24;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.3/2.5)};};
+                    class pylon25: pylon1 	{priority = 25;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.4/2.5)};};
+                    class pylon26: pylon1 	{priority = 26;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.5/2.5)};};
+                    class pylon27: pylon1 	{priority = 27;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.6/2.5)};};
+                    class pylon28: pylon1 	{priority = 28;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.7/2.5)};};
+                    class pylon29: pylon1 	{priority = 29;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.8/2.5)};};
+                    class pylon30: pylon1 	{priority = 30;	UIposition[] = {__EVAL(0.12+0.19*2),__EVAL(0.1+0.9/2.5)};};
+                    class pylon31: pylon1 	{priority = 31;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.0/2.5)};};
+                    class pylon32: pylon1 	{priority = 32;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.1/2.5)};};
+                    class pylon33: pylon1 	{priority = 33;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.2/2.5)};};
+                    class pylon34: pylon1 	{priority = 34;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.3/2.5)};};
+                    class pylon35: pylon1 	{priority = 35;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.4/2.5)};};
+                    class pylon36: pylon1 	{priority = 36;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.5/2.5)};};
+                    class pylon37: pylon1 	{priority = 37;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.6/2.5)};};
+                    class pylon38: pylon1 	{priority = 38;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.7/2.5)};};
+                    class pylon39: pylon1 	{priority = 39;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.8/2.5)};};
+                    class pylon40: pylon1 	{priority = 40;	UIposition[] = {__EVAL(0.12+0.19*3),__EVAL(0.1+0.9/2.5)};};
+                };
+            };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1734,7 +1783,7 @@
 
     };
 
-    class ru_vmf_bmp1 : rhs_bmp1d_vmf_OCimport_02 {
+    class ru_vmf_bmp1 : rhs_bmp1k_vmf_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -1758,34 +1807,31 @@
             class CargoTurret_10 : CargoTurret_10 { gunnerType = ""; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_bmp\textures\bmp_1_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_bmp\textures\bmp_2_co.paa'];_unit setObjectTextureGlobal [2,'rhsafrf\addons\rhs_bmp\textures\bmp_3_co.paa'];_unit setObjectTextureGlobal [3,'rhsafrf\addons\rhs_bmp\textures\bmp_4_co.paa'];_unit setObjectTextureGlobal [4,'rhsafrf\addons\rhs_bmp\textures\bmp_5_co.paa'];_unit setObjectTextureGlobal [5,'rhsafrf\addons\rhs_bmp\textures\bmp_6_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "standard";
 
     };
 
-    class ru_vmf_bmp2 : rhs_bmp2d_vmf_OCimport_02 {
+    class ru_vmf_bmp2 : rhs_bmp2k_vmf_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "VMF BMP-2";
         side = 0;
         faction = "ako_ru_vmf";
-        crew = "ru_vmf_crewman";
+        crew = "rhs_vmf_flora_crew";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -2090,10 +2136,18 @@
         crew = "ru_vmf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ru_vmf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ru_vmf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2120,10 +2174,18 @@
         crew = "ru_vmf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ru_vmf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ru_vmf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2149,10 +2211,18 @@
         crew = "ru_vmf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ru_vmf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ru_vmf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2178,10 +2248,18 @@
         crew = "rhs_msv_crew";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ru_vmf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ru_vmf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2207,10 +2285,18 @@
         crew = "ru_vmf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ru_vmf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ru_vmf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2236,10 +2322,18 @@
         crew = "ru_vmf_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ru_vmf_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ru_vmf_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ru_vmf_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2269,7 +2363,6 @@
         };
 
 
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2296,7 +2389,6 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "ru_vmf_heli_pilot"; };
         };
-
 
 
         class EventHandlers : EventHandlers {
@@ -2393,8 +2485,6 @@
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2406,31 +2496,6 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class ru_vmf_su25 : RHS_Su25SM_vvsc_OCimport_02 {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "VMF Su-25";
-        side = 0;
-        faction = "ako_ru_vmf";
-        crew = "ru_vmf_jet_pilot";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsafrf\addons\rhs_a2port_air\su25\data\su25_body1_co.paa'];_unit setObjectTextureGlobal [1,'\rhsafrf\addons\rhs_a2port_air\su25\data\su25_body2_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "standard2";
 
     };
 
@@ -2494,7 +2559,7 @@
                     class pylon9
 					{
 						hardpoints[] = {"FIR_MISC"};
-						attachment = "PylonMissile_1Rnd_BombCluster_02_cap_F";
+						attachment = "FIR_KAB500L_P_1rnd_M";
 						priority = 2;
 						maxweight = 1000;
                         turret[] = {}; 		
@@ -2526,7 +2591,7 @@
 
     };
 
-    class ru_vmf_mig29sm : rhs_mig29sm_vmf_OCimport_02 {
+    class ru_vmf_mig29sm : SAFP_mig29sm_OPFOR_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -2535,6 +2600,69 @@
         faction = "ako_ru_vmf";
         crew = "ru_vmf_jet_pilot";
 
+        class Components {
+            class TransportPylonsComponent {
+
+                class Pylons {
+					class pylon1
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "rhs_mag_ub32_bd3_umk2a_s5ko";
+						priority = 1;
+						maxweight = 500;
+                        turret[] = {}; 		
+						UIposition[] = {0.25,0.10};
+					};		
+                    class pylon2: pylon1
+					{
+						UIposition[] = {0.25,0.5};
+						mirroredMissilePos = 1;
+					};	
+                    class pylon3: pylon1
+					{
+						UIposition[] = {0.25,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class pylon4: pylon1
+					{
+						UIposition[] = {0.15,0.10};
+						mirroredMissilePos = 1;
+					};
+                    class pylon5: pylon1
+					{
+						UIposition[] = {0.15,0.5};
+                        attachment = "SAFP_FIR_EGBU12_P_3rnd_M";
+						mirroredMissilePos = 1;
+					};
+                    class pylon6: pylon1
+					{
+						UIposition[] = {0.15,0.0};
+                        attachment = "SAFP_FIR_EGBU12_P_3rnd_M";
+						mirroredMissilePos = 1;
+					};
+                    class pylon7: pylon1
+					{
+						UIposition[] = {0.5,0.5};
+						mirroredMissilePos = 1;
+					};
+                    class pylon8: pylon1
+					{
+						UIposition[] = {0.5,0.0};
+						mirroredMissilePos = 1;
+					};
+                    class cmDispenser
+					{
+						hardpoints[] = {"FIR_MISC"};
+						attachment = "SAFP_FIR_1050rnd_CMFlare_Chaff_Magazine";
+						priority = 2;
+						maxweight = 1000;
+                        turret[] = {}; 		
+						UIposition[] = {0.35,0.0.5};
+					};	   
+				};					
+                
+            };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

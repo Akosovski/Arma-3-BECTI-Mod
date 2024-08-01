@@ -838,9 +838,18 @@
         crew = "ta_tla_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "ta_tla_crewman"; };
+            class MainTurret : MainTurret {
+                gunnerType = "ta_tla_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "ta_tla_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
         };
-
 
 
         class EventHandlers : EventHandlers {

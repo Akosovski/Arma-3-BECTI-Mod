@@ -77,7 +77,8 @@ _u = _u		+ ["us_rg_m977a4"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 
-_u  		= ["us_rg_m142"];
+_u  		= ["us_rg_m142_clus"];
+_u = _u		+ ["us_rg_m142_he"];
 _u = _u		+ ["us_rg_m113a3_unarmed"];
 _u = _u		+ ["us_rg_m113a3_m2"];
 _u = _u		+ ["us_rg_m113a3_mk19"];

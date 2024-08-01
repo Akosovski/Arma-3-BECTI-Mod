@@ -436,6 +436,24 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['ru_rva_tochka_he'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [4000];
+_t = _t + [30];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['ru_rva_tochka_nuke'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [30];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 _c = _c + ['ru_vmf_t72b_1989'];
 _p = _p + [''];
 _n = _n + [''];
@@ -485,15 +503,6 @@ _c = _c + ['ru_vmf_t90sm'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [7500];
-_t = _t + [30];
-_u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
-_c = _c + ['ru_msv_t14'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [9300];
 _t = _t + [30];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
@@ -553,6 +562,15 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [450];
 _t = _t + [10];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-ammotruck"];
+
+_c = _c + ['ru_vdv_kamaz_ammo'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [550];
+_t = _t + [20];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
@@ -617,7 +635,7 @@ _c = _c + ['ru_vmf_ka52'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [15000];
-_t = _t + [50];
+_t = _t + [40];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
@@ -625,18 +643,9 @@ _s = _s + ["service-medic"];
 _c = _c + ['ru_vmf_mig29sm'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [18000];
-_t = _t + [60];
-_u = _u + [2];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
-_c = _c + ['ru_vmf_su25'];
-_p = _p + [''];
-_n = _n + [''];
 _o = _o + [16000];
-_t = _t + [60];
-_u = _u + [2];
+_t = _t + [35];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -644,10 +653,19 @@ _c = _c + ['ru_vmf_su35'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [17500];
-_t = _t + [60];
-_u = _u + [3];
+_t = _t + [35];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
+
+_c = _c + ['ru_vdv_tu95ms6'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [18500];
+_t = _t + [60];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + ["service-medic"];
 
 // ------------- Marines ----------------
 
