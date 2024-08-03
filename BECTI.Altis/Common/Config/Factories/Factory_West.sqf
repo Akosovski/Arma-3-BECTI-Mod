@@ -112,6 +112,7 @@ _u = _u		+ ["us_usmc_ch47f"];
 _u = _u		+ ["us_usaf_ah64d"];
 _u = _u		+ ['us_usaf_f16c'];
 _u = _u		+ ['us_usaf_f15ex'];
+_u = _u 	+ ['us_usaf_f35c'];
 _u = _u		+ ["us_usaf_f22a"];
 _u = _u		+ ["us_usaf_c130j"];
 // _u = _u		+ ["us_usaf_mq4a"];

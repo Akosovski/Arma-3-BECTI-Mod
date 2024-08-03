@@ -34,6 +34,10 @@
     class FIR_F16C_WP_OCimport_01 : FIR_F16C_WP { scope = 0; class EventHandlers; };
     class FIR_F16C_WP_OCimport_02 : FIR_F16C_WP_OCimport_01 { scope = 0; class EventHandlers; };
 
+    class F_35C;
+    class F_35C_OCimport_01 : F_35C { scope = 0; class EventHandlers; };
+    class F_35C_OCimport_02 : F_35C_OCimport_01 { scope = 0; class EventHandlers; };
+
     class RHS_A10;
     class RHS_A10_OCimport_01 : RHS_A10 { scope = 0; class EventHandlers; };
     class RHS_A10_OCimport_02 : RHS_A10_OCimport_01 { scope = 0; class EventHandlers; };
@@ -1960,6 +1964,32 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+
+    class us_usaf_f35c : F_35C_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USAF F-35C";
+        side = 1;
+        faction = "AKO_US_USMC";
+        crew = "us_usmc_jet_pilot";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'F35C\data\liveries\X3.paa'];_unit setObjectTextureGlobal [1,'F35C\data\F_35C_ext_2_co.paa'];_unit setObjectTextureGlobal [2,'F35C\data\F_35C_ext_3_co.paa'];_unit setObjectTextureGlobal [3,''];_unit setObjectTextureGlobal [4,''];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "USSFreedom";
 
     };
 
