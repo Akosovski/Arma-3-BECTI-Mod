@@ -129,11 +129,15 @@ _i = _i		+ ["CUP_srifle_M107_base"];
 _u = _u		+ [2];
 _p = _p		+ [60];
 
-_i = _i		+ ["CUP_smg_MP5A5"];
+_i = _i		+ ["JCA_SMG_MP5_FL_Black_F"];
 _u = _u		+ [1];
 _p = _p		+ [20];
 
-_i = _i		+ ["CUP_smg_MP5A5_Rail"];
+_i = _i		+ ["JCA_SMG_MP5_AFG_Black_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["JCA_SMG_MP5_VFG_Black_F"];
 _u = _u		+ [2];
 _p = _p		+ [25];
 
@@ -245,7 +249,7 @@ _i = _i		+ ["CUP_10Rnd_127x99_M107"];
 _u = _u		+ [2];
 _p = _p		+ [8];
 
-_i = _i		+ ["CUP_30Rnd_9x19_MP5"];
+_i = _i		+ ["JCA_30Rnd_9x21_MP5_Mag"];
 _u = _u		+ [1];
 _p = _p		+ [6];
 
