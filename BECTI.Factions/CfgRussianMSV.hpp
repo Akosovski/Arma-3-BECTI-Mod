@@ -524,7 +524,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{},"rhs_6b7_1m_emr","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{},"rhs_6b7_1m_emr","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -600,7 +600,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","rhs_acc_dtk","","rhs_acc_pkas",{"CUP_30Rnd_545x39_AK74_plum_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"CUP_30Rnd_545x39_AK74_plum_M",8,30},{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",10,1}}},{},"rhs_6b7_1m_emr_ess","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL"."","","rhs_acc_pkas",{"CUP_30Rnd_545x39_AK74_plum_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"CUP_30Rnd_545x39_AK74_plum_M",8,30},{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",10,1}}},{},"rhs_6b7_1m_emr_ess","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -714,7 +714,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","rhs_rpg26_mag","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","rhs_rpg26_mag","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","rhs_acc_perst1ik_ris","rhs_acc_1p63",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"rhs_weap_rpg26","","","",{"rhs_rpg26_mag",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{},"rhs_6b7_1m_emr_ess","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","rhs_acc_perst1ik_ris","rhs_acc_1p63",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"rhs_weap_rpg26","","","",{"rhs_rpg26_mag",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{},"rhs_6b7_1m_emr_ess","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -832,7 +832,7 @@
 
         backpack = "rhs_assault_umbts_engineer_empty";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_assault_umbts_engineer_empty",{{"ToolKit",2}}},"rhs_6b7_1m_emr","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_assault_umbts_engineer_empty",{{"ToolKit",2}}},"rhs_6b7_1m_emr","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -872,7 +872,7 @@
 
         backpack = "rhs_sidor";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_sidor",{{"Medikit",1},{"FirstAidKit",6}}},"rhs_6b7_1m_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_sidor",{{"Medikit",1},{"FirstAidKit",6}}},"rhs_6b7_1m_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -912,7 +912,7 @@
 
         backpack = "rhs_rpg_6b3";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"rhs_weap_rpg7","","","rhs_acc_pgo7v3",{"rhs_rpg7_PG7VL_mag",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_rpg_6b3",{{"rhs_rpg7_PG7VL_mag",2,1},{"rhs_rpg7_OG7V_mag",2,1}}},"rhs_6b7_1m_ess","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"rhs_weap_rpg7","","","rhs_acc_pgo7v3",{"rhs_rpg7_PG7VL_mag",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_rpg_6b3",{{"rhs_rpg7_PG7VL_mag",2,1},{"rhs_rpg7_OG7V_mag",2,1}}},"rhs_6b7_1m_ess","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -952,7 +952,7 @@
 
         backpack = "rhs_tortila_emr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_tortila_emr",{{"rhs_mag_9k38_rocket",3,1},{{"","","","",{},{},""},1}}},"rhs_6b7_1m_olive","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_tortila_emr",{{"rhs_mag_9k38_rocket",3,1},{{"","","","",{},{},""},1}}},"rhs_6b7_1m_olive","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -992,7 +992,7 @@
 
         backpack = "rhs_tortila_emr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"rhs_tortila_emr",{{"Vorona_HEAT",2,1}}},"rhs_6b7_1m_emr_ess","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"rhs_tortila_emr",{{"Vorona_HEAT",2,1}}},"rhs_6b7_1m_emr_ess","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1030,7 +1030,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",4,30}}},{},"rhs_fieldcap_digi2","G_Aviator",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",4,30}}},{},"rhs_fieldcap_digi2","G_Aviator",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2018,7 +2018,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30},{"CUP_1Rnd_HE_GP25_M",10,1}}},{},"rhs_6b7_1m_emr_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_grn",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30},{"CUP_1Rnd_HE_GP25_M",10,1}}},{},"rhs_6b7_1m_emr_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2232,7 +2232,7 @@
 
         backpack = "RHS_Podnos_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",2},{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"RHS_Podnos_Gun_Bag",{}},"rhs_6b7_1m","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",2},{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"RHS_Podnos_Gun_Bag",{}},"rhs_6b7_1m","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2272,7 +2272,7 @@
 
         backpack = "RHS_Podnos_Bipod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",2},{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"RHS_Podnos_Bipod_Bag",{}},"rhs_6b7_1m_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",2},{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"RHS_Podnos_Bipod_Bag",{}},"rhs_6b7_1m_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2312,7 +2312,7 @@
 
         backpack = "O_Uav_01_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","rhs_acc_dtk","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"O_Uav_01_backpack_F",{}},"rhs_6b7_1m","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M"."","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"O_Uav_01_backpack_F",{}},"rhs_6b7_1m","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
