@@ -25,5 +25,5 @@ overviewPicture = "Rsc\Pictures\missionSplash.paa";
 class Header {
 	gameType = CTI;
 	minPlayers = 1;
-	maxPlayers = 32;
+	maxPlayers = 10;
 };

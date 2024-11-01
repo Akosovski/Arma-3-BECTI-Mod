@@ -2,7 +2,7 @@ class Params {
 	class CTI_AI_TEAMS_JIP_PRESERVE {
 		title = "AI: Keep units on JIP";
 		values[] = {0,1};
-		texts[] = {"No","Yes"};//{"Disabled","Enabled"};
+		texts[] = {"No","Yes"};
 		default = 1;
 	};
 	class CTI_AI_COMMANDER_ENABLED {
@@ -14,7 +14,7 @@ class Params {
 	class CTI_AI_TEAMS_ENABLED {
 		title = "AI: Teams";
 		values[] = {0,1,2,3,4};
-		texts[] = {"Disabled", "1/3 Slots", "1/2 Slots", "3/4 Slots", "All Slots"};
+		texts[] = {"Disabled", "3 AI", "5 AI", "10 AI", "All Slots"};
 		default = 1;
 	};
 	class CTI_AI_TEAMS_GROUPSIZE {
@@ -69,7 +69,7 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {"Disabled","1","2","3","4","5","6"};
-		default = 2;
+		default = 5;
 	};
 	class CTI_BASE_START_TOWN {
 		title = "BASE: Start Near towns";
@@ -103,39 +103,39 @@ class Params {
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = "INCOME: Starting Funds (East Commander)";
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
-		default = 250000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,150000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$150000"};
+		default = 150000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000,75000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000","$75000"};
-		default = 200000;
+		default = 75000;
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_EAST {
 		title = "INCOME: Starting Supply (East)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,35000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S35000"};
-		default = 35000;
+		values[] = {1200,2400,3600,4800,6000,7200,8400,10000,35000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S10000","S35000"};
+		default = 10000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,90000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$90000"};
-		default = 250000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,150000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$150000"};
+		default = 150000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000,75000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000","$75000"};
-		default = 200000;
+		default = 75000;
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_WEST {
-		title = "INCOME: Starting Supply (West)";
-		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,35000};
-		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S35000"};
-		default = 35000;
+		title = "INCOME: Starting Supply (East)";
+		values[] = {1200,2400,3600,4800,6000,7200,8400,10000,35000};
+		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S10000","S35000"};
+		default = 10000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
