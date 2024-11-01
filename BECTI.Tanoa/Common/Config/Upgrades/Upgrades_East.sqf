@@ -27,8 +27,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[[5000,20000]], //--- Air AT
 	[[7500,30000]], //--- Air AA
 	[[4500,14000]], //--- Air CM
-	[[1000,1500], [2000,2500], [3000,3500]], //--- Towns Occupation
-	[[2500,5000],[5500,9500],[11000,18000],[20000,30000]], //--- Supply
+	[[1000,100], [2000,200], [3000,300]], //--- Towns Occupation
+	[[2500,5000],[5500,8000],[11000,14000],[20000,25000]], //--- Supply
 	[[500,1500],[1800,2000],[2500,5000]] //--- Gear
 ]];
 
@@ -57,7 +57,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_AIR, 2]], //--- Air AT
 	[[CTI_UPGRADE_AIR, 2]], //--- Air AA
 	[[CTI_UPGRADE_AIR, 1]], //--- Air CM
-	[[CTI_UPGRADE_GEAR,1],[CTI_UPGRADE_GEAR,2],[CTI_UPGRADE_GEAR,3]], //--- Towns Occupation
+	[[],[],[]], //--- Towns Occupation
 	[[],[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3]], //---Supply
 	[[],[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2]] //--- Gear
 ]];
@@ -65,17 +65,18 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
 	[5,5,5], //--- Barracks
 	[5,5,5], //--- Light
-	[10,10], //--- Heavy
-	[10,10,10], //--- Air
+	[5,5], //--- Heavy
+	[5,5,5], //--- Air
 	[30], //--- Satellite
 	[90], //--- Air FFAR
 	[90], //--- Air AT
 	[90], //--- Air AA
 	[60], //--- Air CM
 	[3,3,3], //--- Towns Occupation
-	[10,10,10,10], //--- Supply
+	[5,5,5,5], //--- Supply
 	[5,5,5] //--- Gear
 ]];
+
 
 if (CTI_IsClient) then {
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
