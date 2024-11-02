@@ -3254,7 +3254,7 @@ class CTI_RscCommandMenu {
 			
 			y = "SafeZoneY + (SafezoneH * 3.57)"; //--- Render out
 			
-			text = "Artillery (To be Implemented)";
+			text = "Artillery";
 			action = "['onArtilleryMenuPressed'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_CommandMenu.sqf'";
 		};
 		class CTI_Control_VoteMenu : CTI_Control_Resources {
