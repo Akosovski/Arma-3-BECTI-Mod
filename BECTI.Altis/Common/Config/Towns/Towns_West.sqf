@@ -8,7 +8,7 @@ with missionNamespace do {
 	WEST_SOLDIER_LAT = ["us_usmc_rifleman_at", 1];
 	WEST_SOLDIER_HAT = ["us_usmc_missileman", 1];
 	WEST_SOLDIER_ENGINEER = ["us_usmc_engineer", 1];
-	WEST_SOLDIER_GL = ["us_usmc_lance_corporal", 1];
+	WEST_SOLDIER_GL = ["us_usmc_grenadier_m16a4", 1];
 	WEST_SOLDIER_MEDIC = ["us_usmc_corpsman", 1];
 	WEST_SOLDIER_PILOT = ["us_usmc_heli_pilot", 1];
 	WEST_SOLDIER_SQUADLEADER = ["us_usmc_sergeant", 1];
