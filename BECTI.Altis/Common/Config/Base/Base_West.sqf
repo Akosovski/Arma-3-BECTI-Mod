@@ -25,8 +25,8 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_TOWNS, 2], {true}],
 	["upgrade", [CTI_UPGRADE_TOWNS, 3], {true}],
 	["upgrade", [CTI_UPGRADE_SUPPLY, 1], {true}],
-	["build-structures", CTI_LIGHT, {true}],
 	["build-structures", CTI_HEAVY, {true}],
+	["build-structures", CTI_LIGHT, {true}],
 	["build-structures", CTI_AIR, {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 1], {true}],
 	["upgrade", [CTI_UPGRADE_BARRACKS, 1], {true}],
@@ -81,7 +81,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
 _classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [200];
-_times = _times 			+ [30];
+_times = _times 			+ [20];
 _placements = _placements 	+ [[180, 15]];
 _helper = _helper			+ [["B_Soldier_VR_F", 180]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -89,7 +89,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
 _classes = _classes 		+ [["Land_Cargo_House_V3_F", "Land_Cargo_House_V3_ruins_F"]];
 _prices = _prices 			+ [600];
-_times = _times 			+ [50];
+_times = _times 			+ [30];
 _placements = _placements 	+ [[90, 20]];
 _helper = _helper			+ [["Land_VR_Target_MRAP_01_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -97,7 +97,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_CONTROLCENTER, "Control Center", "CC"]];
 _classes = _classes 		+ [["rhs_prv13", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [1200];
-_times = _times 			+ [10];
+_times = _times 			+ [5];
 _placements = _placements 	+ [[180, 20]];
 _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -105,7 +105,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
 _classes = _classes 		+ [["Land_Cargo_HQ_V3_F", "Land_Cargo_HQ_V3_ruins_F"]];
 _prices = _prices 			+ [2800];
-_times = _times 			+ [60];
+_times = _times 			+ [30];
 _placements = _placements 	+ [[180, 25]];
 _helper = _helper			+ [["Land_VR_Target_MBT_01_cannon_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -113,7 +113,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
 _classes = _classes 		+ [["Land_Airport_Tower_F", "Land_Airport_Tower_ruins_F"]];
 _prices = _prices 			+ [4400];
-_times = _times 			+ [60];
+_times = _times 			+ [30];
 _placements = _placements 	+ [[90, 25]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -121,7 +121,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];
 _classes = _classes 		+ [["Land_Research_house_V1_F", "Land_Research_house_V1_ruins_F"]];
 _prices = _prices 			+ [200];
-_times = _times 			+ [30];
+_times = _times 			+ [20];
 _placements = _placements 	+ [[180, 20]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -129,7 +129,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_REPAIR, "Repair Depot", "Repair"]];
 _classes = _classes 		+ [["Land_Medevac_House_V1_F", "Land_Medevac_House_V1_ruins_F"]];
 _prices = _prices 			+ [600];
-_times = _times 			+ [30];
+_times = _times 			+ [20];
 _placements = _placements 	+ [[180, 20]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
@@ -137,7 +137,7 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];
 _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
 _classes = _classes 		+ [["Land_Cargo_Patrol_V1_F", "Land_Cargo_Patrol_V1_ruins_F"]];
 _prices = _prices 			+ [400];
-_times = _times 			+ [35];
+_times = _times 			+ [25];
 _placements = _placements 	+ [[180, 25]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
