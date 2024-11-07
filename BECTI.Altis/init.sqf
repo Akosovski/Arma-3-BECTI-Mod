@@ -15,6 +15,8 @@ tf_no_auto_long_range_radio = true;
 TF_give_microdagr_to_soldier = false;
 }; 
 
+onMapSingleClick {true};
+
 //--- Initial View Distance and Object View Distance for both clients and server
 setViewDistance 2500;
 setObjectViewDistance 2500;
