@@ -479,7 +479,6 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
-
 //--- APC / Artillery ---
 
 _c = _c + ['us_usmc_m113a3_unarmed'];
@@ -649,6 +648,24 @@ _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-fueltruck"];
 
 //--- Support Vehicles Ammo ---
+
+_c = _c + ['B_CargoNet_01_ammo_F'];
+_p = _p + [''];
+_n = _n + ['USMC Ammo Crate'];
+_o = _o + [100];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-ammotruck"];
+
+_c = _c + ['CargoNet_01_barrels_F'];
+_p = _p + [''];
+_n = _n + ['USMC Fuel Barrels'];
+_o = _o + [100];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-fueltruck"];
 
 _c = _c + ['us_usmc_m1152a1_ammo'];
 _p = _p + [''];
