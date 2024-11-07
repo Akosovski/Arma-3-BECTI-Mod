@@ -1376,7 +1376,8 @@ class Mission
 				class Item0
 				{
 					dataType="Marker";
-					position[]={16884.1,13.829834,10255.401};
+					// position[]={16884.1,13.829834,10255.401}; // Near Ekali
+					position[]={12815.252,11.829834,17401.752}; // Near Altis Intl Airport
 					name="cti-spawn0";
 					type="Empty";
 					id=0;
@@ -1385,7 +1386,8 @@ class Mission
 				class Item1
 				{
 					dataType="Marker";
-					position[]={9092.3076,13.304932,7813.9385};
+					// position[]={9092.3076,13.304932,7813.9385}; // Near Sfaka, Southwest of Vikos
+					position[]={10145.466,12.304932,9984.789}; // West of Vikos
 					name="cti-spawn1";
 					type="Empty";
 					id=1;
@@ -1394,7 +1396,8 @@ class Mission
 				class Item2
 				{
 					dataType="Marker";
-					position[]={12441.507,137.60706,8391.498};
+					// position[]={12441.507,137.60706,8391.498}; // Bottom Center near Vikos
+					position[]={18490.877,10.304932,13309.415}; // Northeast of Pyrgos, Near Dorida
 					name="cti-spawn10";
 					type="Empty";
 					id=10;
@@ -1403,7 +1406,8 @@ class Mission
 				class Item3
 				{
 					dataType="Marker";
-					position[]={24570.314,3.1900001,19213.84};
+					// position[]={24570.314,3.1900001,19213.84}; // Salt Lake, Top
+					position[]={22909.314,3.1900001,16981.781}; // Salt Lake, Bottom
 					name="cti-spawn2";
 					type="Empty";
 					id=2;
@@ -1411,7 +1415,8 @@ class Mission
 				class Item4
 				{
 					dataType="Marker";
-					position[]={13692.049,17.929688,13129.717};
+					//position[]={13692.049,17.929688,13129.717}; // Middle Tiny Island Near Neochori
+					position[]={15531.063,12.929688,20140.373}; // Northeast of Athira
 					name="cti-spawn3";
 					type="Empty";
 					id=3;
@@ -1420,7 +1425,8 @@ class Mission
 				class Item5
 				{
 					dataType="Marker";
-					position[]={27800.682,22.971191,25328.549};
+					// position[]={27800.682,22.971191,25328.549}; // Top Right, Near Molos Airfield
+					position[]={24527.498,11.971191,20036.596}; // Top of Salt Lake, Near Delfinaki
 					name="cti-spawn4";
 					type="Empty";
 					id=4;
@@ -1429,7 +1435,8 @@ class Mission
 				class Item6
 				{
 					dataType="Marker";
-					position[]={27772.744,10.410889,21522.156};
+					// position[]={27772.744,10.410889,21522.156}; // Top Right, Between Molos & Sofia
+					position[]={13592.478,10.410889,20488.47}; // Left of Frini
 					name="cti-spawn5";
 					type="Empty";
 					id=5;
@@ -1438,7 +1445,8 @@ class Mission
 				class Item7
 				{
 					dataType="Marker";
-					position[]={5123.4321,90.160156,19636.883};
+					// position[]={5123.4321,90.160156,19636.883}; // Middle of Nowhere
+					position[]={20830.455,12.160156,13944.753}; // South of Swamp, Near Dorida
 					name="cti-spawn6";
 					type="Empty";
 					id=6;
@@ -1447,7 +1455,8 @@ class Mission
 				class Item8
 				{
 					dataType="Marker";
-					position[]={2745.8225,26.034821,10025.454};
+					// position[]={2745.8225,26.034821,10025.454}; // Below Kavala
+					position[]={16880.219,12.034821,19138.479}; // Near Military Base, Southeast of Agia Triada
 					name="cti-spawn7";
 					type="Empty";
 					id=7;
@@ -1456,16 +1465,18 @@ class Mission
 				class Item9
 				{
 					dataType="Marker";
-					position[]={16944.398,164.60156,21873.141};
+					// position[]={16944.398,164.60156,21873.141}; // Nychi
+					position[]={18957.473,8.60156,8188.371}; // Bottom, West of Panagia
 					name="cti-spawn8";
 					type="Empty";
 					id=8;
 					atlOffset=155.57573;
 				};
-				class Item10
+				class Item10 
 				{
 					dataType="Marker";
-					position[]={8123.1694,296.99805,22531.033};
+					// position[]={8123.1694,296.99805,22531.033}; // Sand Mountain, Top of Map
+					position[]={19420.137,8.99805,18052.488}; // North of Agios Petros
 					name="cti-spawn9";
 					type="Empty";
 					id=9;
@@ -1474,7 +1485,7 @@ class Mission
 				class Item11
 				{
 					dataType="Marker";
-					position[]={14503.728,8.4746895,5864.5596};
+					position[]={14503.728,8.4746895,5864.5596}; // EAST RESPAWN
 					name="CTI_EastRespawn";
 					type="Empty";
 					colorName="ColorRed";
@@ -1485,7 +1496,7 @@ class Mission
 				class Item12
 				{
 					dataType="Marker";
-					position[]={8275.4854,47.67749,25188.439};
+					position[]={8275.4854,47.67749,25188.439}; // WEST RESPAWN
 					name="CTI_WestRespawn";
 					type="Empty";
 					colorName="ColorRed";
@@ -1497,7 +1508,7 @@ class Mission
 				class Item13
 				{
 					dataType="Marker";
-					position[]={8773.8369,177.42749,25185.502};
+					position[]={8773.8369,177.42749,25185.502}; // Prison
 					name="Prison";
 					type="Empty";
 					colorName="ColorPink";
