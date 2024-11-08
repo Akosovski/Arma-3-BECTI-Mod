@@ -649,6 +649,15 @@ _s = _s + ["service-fueltruck"];
 
 //--- Support Vehicles Ammo ---
 
+_c = _c + ['BOX_NATO_AmmoVeh_F'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
+_n = _n + ['USMC Vehicle Ammo Box'];
+_o = _o + [50];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + [""];
+
 _c = _c + ['us_usmc_m1152a1_ammo'];
 _p = _p + [''];
 _n = _n + [''];

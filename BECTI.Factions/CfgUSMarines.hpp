@@ -2329,7 +2329,53 @@
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
         };
 
-
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\rhsusf\addons\rhsusf_a2port_air\data\loadouts\RHS_UH60_ESSS_EDEN_CA.paa";
+				
+				class pylons
+				{
+					class pylon1
+					{
+						hardpoints[]		= {"RHS_HP_Fuel_ARMY_MEV"};
+						priority			= 2;
+						attachment			= "rhs_mag_fueltank_UH60MEV";
+						maxweight			= 1200;
+						UIposition[]		= {0.625,0.42};
+						bay					= -1;
+						hitpoint 			= HitPylon1;
+					};
+					class pylon2 : pylon1
+					{
+						hardpoints[]		= {"RHS_HP_Fuel_ARMY_MEV","RHS_HP_Fuel_ARMY"};
+						UIposition[]		= {0.555,0.37};
+						priority			= 1;
+						attachment			= "";
+						hitpoint 			= HitPylon2;
+					};
+					class pylon3 : pylon2
+					{
+						UIposition[]		= {0.11,0.37};
+						mirroredMissilePos	= 2;
+						hitpoint 			= HitPylon3;
+					};
+					class pylon4 : pylon1
+					{
+						UIposition[]		= {0.04,0.42};
+						mirroredMissilePos 	= 1;
+						hitpoint 			= HitPylon4;
+					};
+					class cmDispenser
+					{
+						hardpoints[]	= {"RHSUSF_cm_M130","RHSUSF_cm_M130_x2"};
+						priority		= 1;
+						attachment		= "rhsusf_M130_CMFlare_Chaff_Magazine_x2";
+						maxweight		= 800;
+						UIposition[]	= {0.33,0.0};
+					};
+				};
+			};
+		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

@@ -126,6 +126,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["ru_msv_ural_ammo"];
 _u = _u		+ ["ru_vdv_kamaz_ammo"];
+_u = _u		+ ["BOX_IND_AmmoVeh_F"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 

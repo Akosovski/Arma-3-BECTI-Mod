@@ -665,6 +665,15 @@ _s = _s + ["service-fueltruck"];
 
 // ---------- Support Vehicles (Ammo) ------------
 
+_c = _c + ['BOX_IND_AmmoVeh_F'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
+_n = _n + ['MSV Vehicle Ammo Box'];
+_o = _o + [50];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + [""];
+
 _c = _c + ['ru_msv_ural_ammo'];
 _p = _p + [''];
 _n = _n + [''];
