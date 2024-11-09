@@ -2339,7 +2339,7 @@
 					{
 						hardpoints[]		= {"RHS_HP_Fuel_ARMY_MEV"};
 						priority			= 2;
-						attachment			= "rhs_mag_fueltank_UH60MEV";
+						attachment			= "rhs_mag_M151_19";
 						maxweight			= 1200;
 						UIposition[]		= {0.625,0.42};
 						bay					= -1;
@@ -2350,20 +2350,8 @@
 						hardpoints[]		= {"RHS_HP_Fuel_ARMY_MEV","RHS_HP_Fuel_ARMY"};
 						UIposition[]		= {0.555,0.37};
 						priority			= 1;
-						attachment			= "";
+						attachment			= "rhs_mag_M151_19";
 						hitpoint 			= HitPylon2;
-					};
-					class pylon3 : pylon2
-					{
-						UIposition[]		= {0.11,0.37};
-						mirroredMissilePos	= 2;
-						hitpoint 			= HitPylon3;
-					};
-					class pylon4 : pylon1
-					{
-						UIposition[]		= {0.04,0.42};
-						mirroredMissilePos 	= 1;
-						hitpoint 			= HitPylon4;
 					};
 					class cmDispenser
 					{
@@ -2711,15 +2699,12 @@
             class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
-
         };
 
         // custom attributes (do not delete)
