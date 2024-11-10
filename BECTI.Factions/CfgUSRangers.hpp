@@ -2496,7 +2496,7 @@
 
     };
 
-        class us_rg_ch47f : RHS_CH_47F_OCimport_02 {
+    class us_rg_ch47f : RHS_CH_47F_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -2526,5 +2526,43 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_abramsx : qav_abramsx_OCimport_03 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC AbramsX";
+        side = 1;
+        faction = "ako_us_rg";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret {
+                gunnerType = "us_rg_crewman";
+                class Turrets : Turrets {
+                    class CommanderOptics : CommanderOptics {
+                        gunnerType = "us_rg_crewman";
+                    };
+                    class CommanderMG : CommanderMG {
+                        gunnerType = "";
+                    };
+                };
+            };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'QAV_AbramsX\data\textures\AbramsX\AbramsX_Hull_co.paa'];_unit setObjectTextureGlobal [1,'A3\Armor_F\Data\camonet_NATO_Desert_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "nato";
 
     };

@@ -139,7 +139,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
@@ -178,7 +178,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
@@ -217,7 +217,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -256,7 +256,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -295,7 +295,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -336,7 +336,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
@@ -377,7 +377,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -418,7 +418,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
@@ -457,7 +457,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
@@ -496,7 +496,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
@@ -535,7 +535,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -574,7 +574,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -613,7 +613,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -654,7 +654,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "m88_black_w";
 
@@ -695,7 +695,7 @@
         side = 2;
         faction = "AKO_TK_ISIS";
 
-        identityTypes[] = {"Head_TK","LanguageRUS","rhs_scarf","G_CIVIL_male"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
         uniformClass = "rhs_uniform_emr_des_patchless";
 
