@@ -4,8 +4,6 @@
 // Generated with ALiVE version 2.1.2.2309211
 //////////////////////////////////////////////////////////////////////////////////
 
-
-
     class RHS_Ural_Repair_MSV_01;
     class RHS_Ural_Repair_MSV_01_OCimport_01 : RHS_Ural_Repair_MSV_01 { scope = 0; class EventHandlers; };
     class RHS_Ural_Repair_MSV_01_OCimport_02 : RHS_Ural_Repair_MSV_01_OCimport_01 { scope = 0; class EventHandlers; };

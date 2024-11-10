@@ -4,7 +4,6 @@
 // Generated with ALiVE version 2.1.2.2309211
 //////////////////////////////////////////////////////////////////////////////////
 
-
     class rhsusf_army_ocp_arb_squadleader;
     class rhsusf_army_ocp_arb_squadleader_OCimport_01 : rhsusf_army_ocp_arb_squadleader { scope = 0; class EventHandlers; };
     class rhsusf_army_ocp_arb_squadleader_OCimport_02 : rhsusf_army_ocp_arb_squadleader_OCimport_01 { class EventHandlers; };

@@ -4,7 +4,6 @@
 // Generated with ALiVE version 2.1.2.2309211
 //////////////////////////////////////////////////////////////////////////////////
 
-
     class rhs_vmf_recon_sergeant;
     class rhs_vmf_recon_sergeant_OCimport_01 : rhs_vmf_recon_sergeant { scope = 0; class EventHandlers; };
     class rhs_vmf_recon_sergeant_OCimport_02 : rhs_vmf_recon_sergeant_OCimport_01 { class EventHandlers; };

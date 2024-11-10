@@ -4,8 +4,6 @@
 // Generated with ALiVE version 2.1.2.2309211
 //////////////////////////////////////////////////////////////////////////////////
 
-
-
     class rhs_vdv_rifleman;
     class rhs_vdv_rifleman_OCimport_01 : rhs_vdv_rifleman { scope = 0; class EventHandlers; };
     class rhs_vdv_rifleman_OCimport_02 : rhs_vdv_rifleman_OCimport_01 { class EventHandlers; };
@@ -2225,6 +2223,86 @@
         backpack = "B_Parachute";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_df15",{{"FirstAidKit",5}}},{"CMU33PTan",{{"FirstAidKit",4},{"rhs_mag_rgo",2,1},{"CUP_30Rnd_545x39_AK_M",5,30}}},{"B_Parachute",{}},"rhs_zsh7a_alt","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_des_mortarman_gun : ru_vdv_des_rifleman_ak74m {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV Mortarman (Gun)";
+        side = 0;
+        faction = "AKO_RU_VDV";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
+
+        linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "RHS_Podnos_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"RHS_Podnos_Gun_Bag",{}},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_vdv_mortarman_bipod : ru_vdv_des_rifleman_ak12 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV Mortarman (Bipod)";
+        side = 0;
+        faction = "AKO_RU_VDV";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
+
+        linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK12_bicolor"};
+        respawnWeapons[] = {"CUP_arifle_AK12_bicolor"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M"};
+
+        backpack = "RHS_Podnos_Bipod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"RHS_Podnos_Bipod_Bag",{}},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

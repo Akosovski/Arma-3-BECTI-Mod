@@ -200,6 +200,96 @@ class CfgPatches {
         author = "Akosovski";
         authors[] = {"Akosovski"};
     };
+    class AKO_TK_ISIS {
+        units[] = {
+            "tk_isis_squad_leader",
+            "tk_isis_rifleman_akm",
+            "tk_isis_rifleman_m16",
+            "tk_isis_crewman",
+            "tk_isis_aa_specialist",
+            "tk_isis_grenadier_m16a4",
+            "tk_isis_grenadier_rpg",
+            "tk_isis_elite_rifleman_m4a1",
+            "tk_isis_elite_rifleman_mk17",
+            "tk_isis_elite_autorifleman",
+            "tk_isis_marksman",
+            "tk_isis_machinegunner",
+            "tk_isis_missileman",
+            "tk_isis_medic",
+            "tk_isis_engineer",
+            "tk_isis_t72m",
+            "tk_isis_t72b_1989",
+            "tk_isis_bmp1",
+            "tk_isis_bmp2",
+            "tk_isis_btr80a",
+            "tk_isis_zsu23",
+            "tk_isis_m1025_m2",
+            "tk_isis_m1025_mk19",
+            "tk_isis_m1025_tow"
+        };
+        weapons[] = {};
+        requiredVersion = 1.62;
+        requiredAddons[] = {
+            "rhsgref_c_troops",
+            "A3_Characters_F",
+            "rhs_c_troops",
+            "rhs_cti_insurgents",
+            "rhssaf_c_troops",
+            "MoeAnimations",
+            "A3_Sounds_F",
+            "A3_Sounds_F_Exp",
+            "A3_Data_F",
+            "A3_Data_F_Curator",
+            "A3_Air_F_Heli",
+            "cba_xeh",
+            "rhsgref_c_vehicles_ret",
+            "rhs_c_t72",
+            "rhs_c_vehiclesounds",
+            "A3_Armor_F_Beta",
+            "A3_Armor_F_Beta_APC_Tracked_01",
+            "A3_Armor_F_Beta_APC_Tracked_02",
+            "A3_Armor_F_Gamma_MBT_01",
+            "A3_Armor_F_Gamma_MBT_02",
+            "QAV_AbramsX",
+            "A3_Armor_F_EPB_APC_Tracked_03",
+            "A3_Armor_F_EPB_MBT_03",
+            "A3_Armor_F_Tank_LT_01",
+            "A3_Armor_F_Tank_MBT_04",
+            "A3_Soft_F_Enoch_UGV_02",
+            "rhs_c_2s1",
+            "rhs_c_2s3",
+            "rhs_c_bmd",
+            "rhs_c_bmp3",
+            "rhs_c_bmp",
+            "rhs_c_pts",
+            "rhs_c_sprut",
+            "rhs_c_t14",
+            "rhs_c_t15",
+            "rhs_c_tanks",
+            "RHS_US_A2Port_Armor",
+            "rhsusf_c_m109",
+            "rhsusf_c_m113",
+            "rhsusf_c_m1a1",
+            "rhsusf_c_m1a2",
+            "rhs_c_a2port_armor",
+            "rhssaf_c_vehicles",
+            "A3_Data_F_ParticleEffects",
+            "rhs_c_btr",
+            "A3_Armor_F_Beta_APC_Wheeled_01",
+            "A3_Armor_F_Beta_APC_Wheeled_02",
+            "A3_Armor_F_Gamma_APC_Wheeled_03",
+            "A3_Armor_F_Tank_AFV_Wheeled_01",
+            "rhsgref_c_a2port_armor",
+            "A3_Soft_F",
+            "A3_Soft_F_Gamma_Hatchback_01",
+            "A3_Soft_F_Exp_Offroad_02",
+            "rhsusf_vehicles",
+            "A3_Soft_F_MRAP_01",
+            "A3_Soft_F_Exp_MRAP_01"
+        };
+        author = "Akosovski";
+        authors[] = {"Akosovski"};
+    };
     class AKO_RU_MSV {
         units[] = {
             "ru_msv_ural_repair",
@@ -390,7 +480,9 @@ class CfgPatches {
             "ru_vdv_des_tank_crewman",
             "ru_vdv_des_heli_pilot",
             "ru_vdv_des_heli_crew",
-            "ru_vdv_des_jet_pilot"
+            "ru_vdv_des_jet_pilot",
+            "ru_vdv_des_mortarman_gun",
+            "ru_vdv_des_mortarman_bipod"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -1049,6 +1141,13 @@ class CfgFactionClasses {
         icon = "\A3\Ui_f\data\Map\Markers\Flags\tanoa_ca.paa";
         priority = 0;
     };
+    class AKO_TK_ISIS {
+        displayName = "Ako's Takistan (ISIS)";
+        side = 2;
+        flag = "\CUP\BaseConfigs\CUP_BaseConfigs\data\Flags\flag_tkm_co.paa";
+        icon = "\CUP\BaseConfigs\CUP_BaseConfigs\data\Flags\flag_tkm_co.paa";
+        priority = 0;
+    };
     class AKO_RU_MSV {
         displayName = "Ako's Russia (MSV)";
         side = 0;
@@ -1146,6 +1245,61 @@ class CfgGroups {
         };
         class AKO_TA_TLA {
             name = "Ako's Tanoa (TLA)";
+
+            class Infantry {
+                name = "Infantry";
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
+            };
+
+            class Motorized {
+                name = "Motorized Infantry";
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support Infantry";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized Infantry";
+
+            };
+
+            class Armored {
+                name = "Armor";
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
+        class AKO_TK_ISIS {
+            name = "Ako's Takistan (ISIS)";
 
             class Infantry {
                 name = "Infantry";
@@ -1496,4 +1650,5 @@ class CfgVehicles {
     #include "CfgRussianVMF.hpp"
     #include "CfgAltisDefenceForces.hpp"
     #include "CfgTanoaLiberationArmy.hpp"
+    #include "CfgTakistanISIS.hpp"
 }

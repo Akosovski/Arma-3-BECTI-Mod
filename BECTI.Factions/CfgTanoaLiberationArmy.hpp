@@ -4,8 +4,6 @@
 // Generated with ALiVE version 2.1.2.2309211
 //////////////////////////////////////////////////////////////////////////////////
 
-
-
     class rhsgref_tla_g_warlord;
     class rhsgref_tla_g_warlord_OCimport_01 : rhsgref_tla_g_warlord { scope = 0; class EventHandlers; };
     class rhsgref_tla_g_warlord_OCimport_02 : rhsgref_tla_g_warlord_OCimport_01 { class EventHandlers; };
