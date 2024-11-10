@@ -1317,7 +1317,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_off","rhs_atacs_c_6b47_6B50","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_off","rhs_atacs_c_6b47_6B50","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1328,7 +1328,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_30Rnd_545x39_AK12_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_off",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{},"rhs_atacs_c_6b47_6B50","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_off",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{},"rhs_atacs_c_6b47_6B50","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1355,7 +1355,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_grn","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_grn","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1368,7 +1368,7 @@
 
         backpack = "rhs_rd54";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_bicolor","","rhs_acc_perst1ik_ris","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_grn",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_30Rnd_545x39_AK12_M",8,30}}},{"rhs_rd54",{{"DemoCharge_Remote_Mag",2,1},{"CUP_1Rnd_HE_GP25_M",5,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_bicolor","","rhs_acc_perst1ik_ris","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_grn",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_30Rnd_545x39_AK12_M",8,30}}},{"rhs_rd54",{{"DemoCharge_Remote_Mag",2,1},{"CUP_1Rnd_HE_GP25_M",5,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1395,7 +1395,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1406,7 +1406,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","rhs_rpg26_mag","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","rhs_rpg26_mag","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_rpg26","","","",{"rhs_rpg26_mag",1},{},""},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman",{{"FirstAidKit",1},{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK_M",11,30}}},{},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_rpg26","","","",{"rhs_rpg26_mag",1},{},""},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman",{{"FirstAidKit",1},{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK_M",11,30}}},{},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1433,7 +1433,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1444,7 +1444,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1471,7 +1471,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1482,7 +1482,7 @@
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK103","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",3,1},{"CUP_30Rnd_762x39_AK47_M",9,30}}},{},"rhs_atacs_c_6b47","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK103","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",3,1},{"CUP_30Rnd_762x39_AK47_M",9,30}}},{},"rhs_atacs_c_6b47","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1509,7 +1509,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1522,7 +1522,7 @@
 
         backpack = "rhs_rd54";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"rhs_rd54",{{"CUP_30Rnd_545x39_AK12_M",10,30},{"DemoCharge_Remote_Mag",2,1},{"CUP_30Rnd_545x39_AK_M",10,30}}},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"rhs_rd54",{{"CUP_30Rnd_545x39_AK12_M",10,30},{"DemoCharge_Remote_Mag",2,1},{"CUP_30Rnd_545x39_AK_M",10,30}}},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1549,7 +1549,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1562,7 +1562,7 @@
 
         backpack = "rhs_rk_sht_30_atacs_c";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",4},{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK12_M",8,30}}},{"rhs_rk_sht_30_atacs_c",{{"FirstAidKit",5},{"Medikit",2}}},"rhs_atacs_c_6b47","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",4},{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK12_M",8,30}}},{"rhs_rk_sht_30_atacs_c",{{"FirstAidKit",5},{"Medikit",2}}},"rhs_atacs_c_6b47","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1589,7 +1589,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_6b47_bare_d","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1602,7 +1602,7 @@
 
         backpack = "rhs_rk_sht_30_atacs_c";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK103","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_762x39_AK47_M",9,30}}},{"rhs_rk_sht_30_atacs_c",{{"ToolKit",2},{"DemoCharge_Remote_Mag",3,1}}},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK103","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_762x39_AK47_M",9,30}}},{"rhs_rk_sht_30_atacs_c",{{"ToolKit",2},{"DemoCharge_Remote_Mag",3,1}}},"rhs_6b47_bare_d","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1629,7 +1629,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_grn","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_grn","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1640,7 +1640,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK12_M","CUP_1Rnd_HE_GP25_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_bicolor","","rhs_acc_perst1ik_ris","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_grn",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_30Rnd_545x39_AK12_M",8,30}}},{},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_GP34_bicolor","","rhs_acc_perst1ik_ris","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK12_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_grn",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_30Rnd_545x39_AK12_M",8,30}}},{},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1667,7 +1667,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1680,7 +1680,7 @@
 
         backpack = "rhs_rpg_2";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_rpg7","","","rhs_acc_pgo7v",{"rhs_rpg7_PG7VR_mag",1},{},""},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"rhs_rpg_2",{{"rhs_rpg7_PG7VR_mag",2,1}}},"rhs_atacs_c_6b47","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_rpg7","","","rhs_acc_pgo7v",{"rhs_rpg7_PG7VR_mag",1},{},""},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"rhs_rpg_2",{{"rhs_rpg7_PG7VR_mag",2,1}}},"rhs_atacs_c_6b47","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1707,7 +1707,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_mg","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_mg","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1720,7 +1720,7 @@
 
         backpack = "rhs_rk_sht_30_atacs_c";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Pecheneg_B50_vfg","","","rhs_acc_pkas",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_mg",{{"rhs_mag_rgo",3,1},{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},{"rhs_rk_sht_30_atacs_c",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Red_M",5,100}}},"rhs_atacs_c_6b47_emr_1","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Pecheneg_B50_vfg","","","rhs_acc_pkas",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_mg",{{"rhs_mag_rgo",3,1},{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},{"rhs_rk_sht_30_atacs_c",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Red_M",5,100}}},"rhs_atacs_c_6b47_emr_1","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1747,7 +1747,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_atacs_c_6b47_emr_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1760,7 +1760,7 @@
 
         backpack = "rhs_rk_sht_30_atacs_c";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74M","","","CUP_optic_PSO_1_1_open",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK_M",4,30}}},{"rhs_rk_sht_30_atacs_c",{{"CUP_30Rnd_545x39_AK_M",20,30}}},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74M","","","CUP_optic_PSO_1_1_open",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK_M",4,30}}},{"rhs_rk_sht_30_atacs_c",{{"CUP_30Rnd_545x39_AK_M",20,30}}},"rhs_atacs_c_6b47_emr_1","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1787,7 +1787,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman","rhs_atacs_c_6b47_6B50","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman","rhs_atacs_c_6b47_6B50","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1800,7 +1800,7 @@
 
         backpack = "rhs_rk_sht_30_atacs_c";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"rhs_rk_sht_30_atacs_c",{{"rhs_mag_9k38_rocket",2,1}}},"rhs_atacs_c_6b47_6B50","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"rhs_rk_sht_30_atacs_c",{{"rhs_mag_9k38_rocket",2,1}}},"rhs_atacs_c_6b47_6B50","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1827,7 +1827,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1840,7 +1840,7 @@
 
         backpack = "rhs_rk_sht_30_atacs_c";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"launch_O_Vorona_brown_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"rhs_rk_sht_30_atacs_c",{{"Vorona_HEAT",2,1}}},"rhs_atacs_c_6b47","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"launch_O_Vorona_brown_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman",{{"CUP_30Rnd_545x39_AK_M",12,30},{"rhs_mag_rgo",3,1}}},{"rhs_rk_sht_30_atacs_c",{{"Vorona_HEAT",2,1}}},"rhs_atacs_c_6b47","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1867,7 +1867,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_beret_vdv1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_beret_vdv1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1878,7 +1878,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",6,30}}},{},"rhs_beret_vdv1","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",6,30}}},{},"rhs_beret_vdv1","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1905,7 +1905,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_beanie_green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_beanie_green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1916,7 +1916,7 @@
         magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
         respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD","","","CUP_optic_PSO_3_open",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"rhs_mag_rgo",1,1},{"CUP_10Rnd_762x54_SVD_M",14,10}}},{},"rhs_beanie_green","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD","","","CUP_optic_PSO_3_open",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"rhs_mag_rgo",1,1},{"CUP_10Rnd_762x54_SVD_M",14,10}}},{},"rhs_beanie_green","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1943,7 +1943,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_vkpo_atacs_c_cap_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_vkpo_atacs_c_cap_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1954,7 +1954,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"rhs_vkpo_atacs_c_cap_alt","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"FirstAidKit",2},{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"rhs_vkpo_atacs_c_cap_alt","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1981,7 +1981,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_6b45_desert","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_desert","rhs_atacs_c_6b47","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -1992,7 +1992,7 @@
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_6b45_desert",{{"FirstAidKit",2}}},{},"rhs_atacs_c_6b47","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_6b45_desert",{{"FirstAidKit",2}}},{},"rhs_atacs_c_6b47","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2019,7 +2019,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47_emr_1","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_rifleman_2","rhs_atacs_c_6b47_emr_1","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
@@ -2032,7 +2032,7 @@
 
         backpack = "O_UAV_01_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"O_UAV_01_backpack_F",{}},"rhs_atacs_c_6b47_emr_1","rhs_facewear_6m2_1",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_bicolor","","rhs_acc_perst1ik_ris","",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_rifleman_2",{{"FirstAidKit",1},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"O_UAV_01_backpack_F",{}},"rhs_atacs_c_6b47_emr_1","rhs_facewear_6m2_1",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2059,7 +2059,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_tsh4_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_tsh4_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -2070,7 +2070,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_tsh4_ess","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_tsh4_ess","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2097,7 +2097,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_6b48","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_6b48","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -2108,7 +2108,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_6b48","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_6b48","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2135,7 +2135,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_zsh7a_mike_green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_zsh7a_mike_green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -2146,7 +2146,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_zsh7a_mike_green","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_zsh7a_mike_green","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2173,7 +2173,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_atacs_c_vkpo";
+        uniformClass = "rhs_uniform_vkpo_atacs_c_gloves";
 
         linkedItems[] = {"rhs_atacs_c_6b45_light","rhs_zsh7a_mike_green_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_atacs_c_6b45_light","rhs_zsh7a_mike_green_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -2184,7 +2184,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_atacs_c_vkpo",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_zsh7a_mike_green_alt","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"rhs_uniform_vkpo_atacs_c_gloves",{{"FirstAidKit",5}}},{"rhs_atacs_c_6b45_light",{{"CUP_30Rnd_545x39_AK_M",7,30}}},{},"rhs_zsh7a_mike_green_alt","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
