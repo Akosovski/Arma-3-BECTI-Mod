@@ -2670,8 +2670,6 @@
             class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2680,7 +2678,7 @@
             };
 
         };
-
+        
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
@@ -2724,8 +2722,6 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

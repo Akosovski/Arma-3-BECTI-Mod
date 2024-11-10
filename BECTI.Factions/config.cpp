@@ -366,7 +366,31 @@ class CfgPatches {
             "ru_vdv_kamaz_open",
             "ru_vdv_k40a",
             "ru_vdv_k40b",
-            "ru_vdv_su35"
+            "ru_vdv_su35",
+            "ru_vdv_des_sergeant",
+            "ru_vdv_des_efreitor_ak12",
+            "ru_vdv_des_efreitor_ak74m",
+            "ru_vdv_des_rifleman_ak74m",
+            "ru_vdv_des_rifleman_ak103",
+            "ru_vdv_des_rifleman_ak12",
+            "ru_vdv_des_medic",
+            "ru_vdv_des_engineer",
+            "ru_vdv_des_grenadier_gp34",
+            "ru_vdv_des_grenadier_rpg",
+            "ru_vdv_des_machinegunner",
+            "ru_vdv_des_autorifleman",
+            "ru_vdv_des_aa_specialist",
+            "ru_vdv_des_at_specialist",
+            "ru_vdv_des_officer",
+            "ru_vdv_des_marksman",
+            "ru_vdv_des_driver",
+            "ru_vdv_des_worker",
+            "ru_vdv_des_uav_operator",
+            "ru_vdv_des_crewman",
+            "ru_vdv_des_tank_crewman",
+            "ru_vdv_des_heli_pilot",
+            "ru_vdv_des_heli_crew",
+            "ru_vdv_des_jet_pilot"
         };
         weapons[] = {};
         requiredVersion = 1.62;
