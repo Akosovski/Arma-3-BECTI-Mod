@@ -568,16 +568,12 @@ _p = _p		   + [130];
 
 // --- Uniforms ---
  
-_i = _i        + ["rhs_uniform_emr_patchless"];
+_i = _i        + ["rhs_uniform_atacs_c_vkpo"];
 _u = _u        + [0];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_uniform_vkpo"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_vkpo_gloves"];
-_u = _u        + [1];
+_i = _i        + ["rhs_uniform_vkpo_atacs_c_gloves"];
+_u = _u        + [0];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_atacs_mc_vkpo"];
@@ -585,14 +581,6 @@ _u = _u        + [1];
 _p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_vkpo_atacs_mc_gloves"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_atacs_c_vkpo"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_vkpo_atacs_c_gloves"];
 _u = _u        + [1];
 _p = _p        + [10];
 
