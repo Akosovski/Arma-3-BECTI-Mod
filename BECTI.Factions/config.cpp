@@ -2,14 +2,15 @@ class CfgPatches {
     class AKO_AL_ADF {
         units[] = {
             "al_adf_sergeant",
-            "al_adf_rifleman",
+            "al_adf_rifleman_g36",
+            "al_adf_rifleman_g3a3",
             "al_adf_officer",
             "al_adf_aa_specialist",
             "al_adf_at_specialist",
             "al_adf_corporal",
             "al_adf_autorifleman",
             "al_adf_crewman",
-            "al_adf_eod_specialist",
+            "al_adf_elite_rifleman",
             "al_adf_engineer",
             "al_adf_medic",
             "al_adf_machinegunner",
@@ -482,7 +483,14 @@ class CfgPatches {
             "ru_vdv_des_heli_crew",
             "ru_vdv_des_jet_pilot",
             "ru_vdv_des_mortarman_gun",
-            "ru_vdv_des_mortarman_bipod"
+            "ru_vdv_des_mortarman_bipod",
+            "ru_vdv_spetsnaz_ak12",
+            "ru_vdv_spetsnaz_ak104",
+            "ru_vdv_spetsnaz_ak74m",
+            "ru_vdv_spetsnaz_ak15",
+            "ru_vdv_spetsnaz_aks74u",
+            "ru_vdv_spetsnaz_svd",
+            "ru_vdv_spetsnaz_pilot"
         };
         weapons[] = {};
         requiredVersion = 1.62;
