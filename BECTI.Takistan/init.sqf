@@ -15,6 +15,8 @@ tf_no_auto_long_range_radio = true;
 TF_give_microdagr_to_soldier = false;
 }; 
 
+onMapSingleClick {true};
+
 //--- Initial View Distance and Object View Distance for both clients and server
 setViewDistance 2500;
 setObjectViewDistance 2500;
@@ -103,7 +105,7 @@ if (CTI_IsClient && !CTI_IsHeadless) then {
 	execVM "Client\Init\Init_Client.sqf";
 };
 //--- Add the briefing (notes).
-[] ExecVM "briefing.sqf";
+// [] ExecVM "briefing.sqf";
 
 //--- Headless client execution
 if (CTI_IsHeadless) then {

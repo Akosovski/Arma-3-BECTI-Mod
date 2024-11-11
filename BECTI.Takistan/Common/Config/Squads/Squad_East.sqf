@@ -8,122 +8,98 @@ _m = [];
 _c = [];
 _s = [];
 
-//--- Commander will assign those orders based on the force and the probability [type, strenght, {probability}, {Max per side}]
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2], ["InfantryAT", 1], ["InfantryAA", 1, 40, .10], ["InfantryRanged", 1, 60, .05], ["InfantrySniper", 1, 40, .05]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["Motorized", 1, 75, .12], ["Mechanized", 1, 90, .15]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["Mechanized", 1, 35], ["AntiAir", 1, 85, .10], ["MechanizedHeavy", 1], ["Armored", 2]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1],["AirAttack", 1, 35]]];
+//--- Commander will assign those orders based on the force and the probability [type, strength, {probability}, {Max per side}]
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2, 45], ["InfantryAT", 1, 45], ["InfantryElite", 1, 75]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["MotorizedBTR", 1, 50]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["MechanizedBMP", 1, 50], ["MechanizedBMP", 1, 45], ["Armored", 2, 95]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1], ["AirAttack", 1, 95], ["AirAttackElite", 1, 95]]];
 
 missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["InfantryAT", "InfantryAA"]];
 
 //--- Those are used by the commander to determine the kind of unit an AI team has
-missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_INFANTRY", _side], ["Infantry", "InfantryAT", "InfantryAA", "InfantryRanged", "InfantrySniper"]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_LIGHT", _side], ["Motorized"]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_HEAVY", _side], ["Mechanized", "MechanizedHeavy", "Armored", "AntiAir"]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_INFANTRY", _side], ["Infantry", "InfantryAT", "InfantryElite"]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_LIGHT", _side], ["Motorized, MotorizedBTR"]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_HEAVY", _side], ["MechanizedBMP", "Armored"]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAttack", "AirAttack"]];
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["rhs_vdv_des_rifleman", 5, 90], ["rhs_vdv_des_arifleman", 2, 80], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_LAT", 1, 70], ["rhs_vdv_des_machinegunner", 1, 40], ["rhs_vdv_des_grenadier",2,90], ["rhs_vdv_des_grenadier_rpg", 2, 90], ["rhs_vdv_des_marksman", 1, 70], ["rhs_vdv_des_sergeant", 1, 55]]];
+_p = _p		+ [[["ru_msv_ural_normal", 1], ["ru_vdv_des_rifleman_ak74m", 3], ["ru_vdv_des_engineer", 2, 65], ["ru_vdv_des_efreitor_ak74m", 2], ["ru_vdv_des_medic", 1], ["ru_vdv_des_rifleman_ak12", 1], ["ru_vdv_des_machinegunner", 1], ["ru_vdv_des_rifleman_ak103", 1], ["ru_vdv_des_grenadier_rpg", 1]]];
 _f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [1000];
+_m = _m		+ [2000];
 _c = _c		+ ["Infantry"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAT"];
 _t = _t		+ ["Infantry - AT"];
-_p = _p		+ [[["rhs_vdv_des_at", 5, 85], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_grenadier_rpg", 3, 75]]];
+_p = _p		+ [[["ru_msv_ural_normal", 1], ["ru_vdv_des_at_specialist", 2, 95], ["ru_vdv_des_medic", 1], ["ru_vdv_des_rifleman_ak12", 2], ["ru_vdv_des_grenadier_rpg", 2, 95]]];
 _f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [4865];
+_m = _m		+ [2000];
 _c = _c		+ ["InfantryAT"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAA"];
 _t = _t		+ ["Infantry - AA"];
-_p = _p		+ [[["rhs_vdv_des_aa", 5, 85], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_LAT", 2, 60]]];
+_p = _p		+ [[["ru_msv_ural_normal", 1], ["ru_vdv_des_aa_specialist", 3, 95], ["ru_vdv_des_medic", 1], ["ru_vdv_des_rifleman_ak74m", 3], ["ru_vdv_des_efreitor_ak12", 1, 90]]];
 _f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [2415];
+_m = _m		+ [2000];
 _c = _c		+ ["InfantryAA"];
 _s = _s		+ [[]];
 
-_v = _v		+ ["InfantryRanged"];
-_t = _t		+ ["Infantry - Marksmen"];
-_p = _p		+ [[["rhs_vdv_des_marksman", 2], ["rhs_vdv_des_rifleman", 1], ["rhs_vdv_des_sergeant", 1]]];
+_v = _v		+ ["InfantryElite"];
+_t = _t		+ ["Infantry - Spetsnaz GRU"];
+_p = _p		+ [[["ru_vdv_kamaz", 1], ["ru_vdv_spetsnaz_ak74m", 2], ["ru_vdv_spetsnaz_ak12", 2], ["ru_vdv_spetsnaz_ak15", 2], ["ru_vdv_spetsnaz_ak104", 1], ["ru_vdv_spetsnaz_svd", 2], ["ru_vdv_spetsnaz_aks74u", 1]]];
 _f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [1300];
-_c = _c		+ ["InfantryAdvanced"];
+_m = _m		+ [3000];
+_c = _c		+ ["InfantryElite"];
 _s = _s		+ [[]];
-
-_v = _v		+ ["InfantrySniper"];
-_t = _t		+ ["Infantry - Snipers"];
-_p = _p		+ [[["rhs_vdv_des_marksman", 2], ["rhs_vdv_des_junior_sergeant", 1]]];
-_f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [1450];
-_c = _c		+ ["InfantryAdvanced"];
-_s = _s		+ [[]];
-
-// _v = _v		+ ["Motorized"];
-// _t = _t		+ ["Motorized - Transport"];
-// _p = _p		+ [[["O_Truck_03_covered_F", 1]]];
-// _f = _f		+ [CTI_LIGHT];
-// _m = _m		+ [1000];
-// _c = _c		+ ["MotorizedTransport"];
-// _s = _s		+ [[["Transport"], ["TransportFitCargo", 40]]];
 
 _v = _v		+ ["Motorized"];
-_t = _t		+ ["Motorized - MPRAP"];
-_p = _p		+ [[["rhs_tigr_m_msv", 3], ["rhs_tigr_sts_msv", 2, 75]]];
+_t = _t		+ ["Motorized - Regular MSV"];
+_p = _p		+ [[["ru_msv_gaz_armed", 1], ["ru_msv_gaz_armed", 1, 50], ["ru_vdv_des_medic", 1], ["ru_vdv_des_rifleman_ak74m", 1], ["ru_vdv_des_efreitor_ak12", 2], ["ru_vdv_des_sergeant", 1]]];
 _f = _f		+ [CTI_LIGHT];
-_m = _m		+ [6500];
+_m = _m		+ [3000];
 _c = _c		+ ["Motorized"];
 _s = _s		+ [[]];
 
-_v = _v		+ ["Mechanized"];
-_t = _t		+ ["Mechanized - APC"];
-_p = _p		+ [[["rhs_btr60_msv", 1], ["rhs_btr70_msv", 1, 80]]];
-_f = _f		+ [CTI_HEAVY];
-_m = _m		+ [6400];
-_c = _c		+ ["Mechanized"];
+_v = _v		+ ["MotorizedBTR"];
+_t = _t		+ ["Motorized - BTR"];
+_p = _p		+ [[["ru_msv_btr80a", 1], ["ru_vdv_des_rifleman_ak74m", 3], ["ru_vdv_des_engineer", 2, 65], ["ru_vdv_des_efreitor_ak74m", 2], ["ru_vdv_des_machinegunner", 1], ["ru_vdv_des_medic", 1]]];
+_f = _f		+ [CTI_LIGHT];
+_m = _m		+ [4500];
+_c = _c		+ ["MotorizedBTR"];
 _s = _s		+ [[]];
 
-_v = _v		+ ["MechanizedHeavy"];
-_t = _t		+ ["Mechanized - APC (Heavy)"];
-_p = _p		+ [[["rhs_bmp1_msv", 1]]];
-_f = _f		+ [CTI_HEAVY];
-_m = _m		+ [4950];
-_c = _c		+ ["Mechanized"];
+_v = _v		+ ["MechanizedBMP"];
+_t = _t		+ ["Mechanized - BMP"];
+_p = _p		+ [[["ru_msv_bmp3", 1, 50], ["ru_msv_bmp2", 1], ["ru_vdv_des_rifleman_ak74m", 3], ["ru_vdv_des_engineer", 2, 65], ["ru_vdv_des_efreitor_ak12", 2], ["ru_vdv_des_machinegunner", 1], ["ru_vdv_des_medic", 1]]];
+_f = _f		+ [CTI_LIGHT];
+_m = _m		+ [5000];
+_c = _c		+ ["MechanizedBMP"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["Armored"];
 _t = _t		+ ["Armored - MBT"];
-_p = _p		+ [[["rhs_t72bb_tv", 2]]];
+_p = _p		+ [[["ru_msv_t72b3_2012", 1], ["ru_msv_t90sm", 1]]];
 _f = _f		+ [CTI_HEAVY];
-_m = _m		+ [16400];
+_m = _m		+ [7500];
 _c = _c		+ ["Armored"];
-_s = _s		+ [[]];
-
-_v = _v		+ ["AntiAir"];
-_t = _t		+ ["Armored - Anti Air"];
-_p = _p		+ [[["rhs_btr80a_msv", 1]]];
-_f = _f		+ [CTI_HEAVY];
-_m = _m		+ [5650];
-_c = _c		+ ["AntiAir"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["HeliAttack"];
 _t = _t		+ ["Heli - Attack"];
-_p = _p		+ [[["RHS_Mi24P_CAS_vdv", 1]]];
+_p = _p		+ [[["ru_vdv_ka52", 1]]];
 _f = _f		+ [CTI_AIR];
-_m = _m		+ [80000];
-_c = _c		+ ["Air"];
+_m = _m		+ [10000];
+_c = _c		+ ["HeliAttack"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
-_t = _t		+ ["Air - Attack"];
-_p = _p		+ [[["RHS_Su25SM_CAS_vvs", 1]]];
+_t = _t		+ ["Heli - Airborne (VDV)"];
+_p = _p		+ [[["ru_vdv_24g", 1], ["ru_vdv_spetsnaz_ak74m", 2], ["ru_vdv_spetsnaz_ak12", 2], ["ru_vdv_spetsnaz_ak15", 2], ["ru_vdv_spetsnaz_ak104", 1], ["ru_vdv_spetsnaz_svd", 2]]];
 _f = _f		+ [CTI_AIR];
-_m = _m		+ [90000];
-_c = _c		+ ["Air"];
+_m = _m		+ [10000];
+_c = _c		+ ["AirAttack"];
 _s = _s		+ [[]];
 
 [_side, _v, _t, _p, _f, _m, _c, _s] call compile preprocessFileLineNumbers "Common\Config\Squads\Squads_Set.sqf";

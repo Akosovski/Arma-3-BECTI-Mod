@@ -81,6 +81,7 @@ randomSeed=7728140;
 class ScenarioData
 {
 	overviewText="BECTI USA-RUS ALTIS";
+	overviewTextLocked="BECTI USA-RUS ALTIS";
 	onLoadMission="BECTI USA-RUS ALTIS";
 	respawn=3;
 	respawnDelay=1;
@@ -208,7 +209,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=688;
-					type="us_usmc_sergeant";
+					type="us_usmc_officer";
 					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
@@ -285,7 +286,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=689;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					class CustomAttributes
 					{
 						class Attribute0

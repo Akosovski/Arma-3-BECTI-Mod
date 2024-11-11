@@ -80,9 +80,9 @@ class AddonsMetaData
 randomSeed=7728140;
 class ScenarioData
 {
-	overviewText="BECTI RHS USA-RUSA TAKISTAN";
-	overviewTextLocked="BECTI RHS USA-RUSA TAKISTAN";
-	onLoadMission="BECTI RHS USA-RUSA TAKISTAN";
+	overviewText="BECTI USA-RUS TAKISTAN";
+	overviewTextLocked="BECTI USA-RUS TAKISTAN";
+	onLoadMission="BECTI USA-RUS TAKISTAN";
 	respawn=3;
 	respawnDelay=1;
 };
@@ -158,8 +158,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="BECTI RHS USA-RUSA TAKISTAN";
-		overviewText="Orginal BECTI: Benny, Sari RHS Edit by: Fisher";
+		briefingName="BECTI USA-RUS TAKISTAN";
+		overviewText="Orginal BECTI: Benny & Sari, Edit by: Akosovski";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -174,10 +174,10 @@ class Mission
 		day=6;
 		hour=12;
 		minute=0;
-		startFogBase=250;
-		forecastFogBase=250;
-		startFogDecay=0.014;
-		forecastFogDecay=0.014;
+		startFogBase=0;
+		forecastFogBase=0;
+		startFogDecay=0;
+		forecastFogDecay=0;
 	};
 	class Entities
 	{
@@ -202,13 +202,13 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="CAPTAIN";
 						description="Alpha, Officer";
 						isPlayer=1;
 						isPlayable=1;
 					};
 					id=226;
-					type="rhsusf_army_ocp_officer";
+					type="us_usmc_des_officer";
 					atlOffset=1.5258789e-005;
 					class CustomAttributes
 					{
@@ -280,12 +280,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="CAPTAIN";
 						description="Alpha, Officer";
 						isPlayable=1;
 					};
 					id=225;
-					type="rhs_msv_emr_officer";
+					type="ru_vdv_des_officer";
 					atlOffset=1.0614014;
 					class CustomAttributes
 					{
@@ -362,7 +362,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=242;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=0.62316895;
 				};
 			};
@@ -397,7 +397,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=243;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=0.24468994;
 				};
 			};
@@ -432,7 +432,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=244;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -467,7 +467,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=245;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=0.00012207031;
 				};
 			};
@@ -502,7 +502,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=246;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -537,7 +537,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=247;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -572,7 +572,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=248;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=0.00012207031;
 				};
 			};
@@ -607,7 +607,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=249;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=1.237854;
 				};
 			};
@@ -642,7 +642,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=250;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=1.0256348;
 				};
 			};
@@ -677,7 +677,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=251;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=0.45922852;
 				};
 			};
@@ -712,7 +712,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=252;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=0.039733887;
 				};
 			};
@@ -747,7 +747,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=253;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -782,7 +782,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=254;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -817,7 +817,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=255;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -852,7 +852,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=256;
-					type="rhs_msv_emr_sergeant";
+					type="ru_vdv_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -887,7 +887,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=227;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -920,7 +920,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=228;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -953,7 +953,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=229;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=6.1035156e-005;
 				};
 			};
@@ -988,7 +988,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=230;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=0.00010681152;
 				};
 			};
@@ -1023,7 +1023,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=231;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -1056,7 +1056,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=232;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=3.0517578e-005;
 				};
 			};
@@ -1091,7 +1091,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=233;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -1124,7 +1124,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=234;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=7.6293945e-005;
 				};
 			};
@@ -1159,7 +1159,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=235;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -1192,7 +1192,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=236;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -1225,7 +1225,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=237;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=9.1552734e-005;
 				};
 			};
@@ -1260,7 +1260,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=238;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 				};
 			};
 			class Attributes
@@ -1293,7 +1293,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=239;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=1.5258789e-005;
 				};
 			};
@@ -1328,7 +1328,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=240;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=3.0517578e-005;
 				};
 			};
@@ -1363,7 +1363,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=241;
-					type="rhsusf_army_ocp_squadleader";
+					type="us_usmc_des_sergeant";
 					atlOffset=9.1552734e-005;
 				};
 			};

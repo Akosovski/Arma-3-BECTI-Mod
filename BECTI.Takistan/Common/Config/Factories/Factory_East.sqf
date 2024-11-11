@@ -2,175 +2,162 @@ private ["_side", "_u"];
 
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Commander", _side], "rhs_vdv_des_officer"];
-missionNamespace setVariable [format["CTI_%1_Worker", _side], "rhs_vdv_des_crew"];
+missionNamespace setVariable [format["CTI_%1_Commander", _side], "ru_vdv_des_officer"];
+missionNamespace setVariable [format["CTI_%1_Worker", _side], "ru_vdv_des_worker"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_diver_F"];
-missionNamespace setVariable [format["CTI_%1_Soldier", _side], "rhs_vdv_des_rifleman"];
-missionNamespace setVariable [format["CTI_%1_Crew", _side], "rhs_vdv_des_combatcrew"];
-missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhs_pilot_combat_heli"];
+missionNamespace setVariable [format["CTI_%1_Soldier", _side], "ru_vdv_des_rifleman_ak74m"];
+missionNamespace setVariable [format["CTI_%1_Crew", _side], "ru_vdv_des_tank_crewman"];
+missionNamespace setVariable [format["CTI_%1_Pilot", _side], "ru_vdv_des_heli_pilot"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "O_UAV_AI"];
 missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
 
-missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["rhs_tigr_3camo_vdv", [
-		["rhs_weap_ak74m", 2], ["rhs_30Rnd_762x39mm", 50],
-		["rhs_weap_akm", 2], ["rhs_30Rnd_762x39mm_tracer", 25],
-		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 12], 
-		["rhs_mag_rgo", 20], 
-		["firstaidkit", 20],
-		["rhs_acc_1p29", 5],
-		["rhs_acc_ekp1", 3],
-		["optic_Holosight", 2],
-		["rhs_acc_pso1m2", 1]
-	]], 
-	["RHS_Ural_Open_MSV_01", [
-		["rhs_weap_ak74m", 2], ["rhs_30Rnd_762x39mm", 50],
-		["rhs_weap_akm", 2], ["rhs_30Rnd_762x39mm_tracer", 25],
-		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 12], 
-		["rhs_mag_rgo", 20], 
-		["firstaidkit", 20],
-		["rhs_acc_1p29", 5],
-		["rhs_acc_ekp1", 3],
-		["optic_Holosight", 2],
-		["rhs_acc_pso1m2", 1]
-	]]
-]];
+// missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+// 	["rhs_tigr_3camo_vdv", [
+// 		["rhs_weap_ak74m", 2], ["rhs_30Rnd_762x39mm", 50],
+// 		["rhs_weap_akm", 2], ["rhs_30Rnd_762x39mm_tracer", 25],
+// 		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 12], 
+// 		["rhs_mag_rgo", 20], 
+// 		["firstaidkit", 20],
+// 		["rhs_acc_1p29", 5],
+// 		["rhs_acc_ekp1", 3],
+// 		["optic_Holosight", 2],
+// 		["rhs_acc_pso1m2", 1]
+// 	]], 
+// 	["RHS_Ural_Open_MSV_01", [
+// 		["rhs_weap_ak74m", 2], ["rhs_30Rnd_762x39mm", 50],
+// 		["rhs_weap_akm", 2], ["rhs_30Rnd_762x39mm_tracer", 25],
+// 		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 12], 
+// 		["rhs_mag_rgo", 20], 
+// 		["firstaidkit", 20],
+// 		["rhs_acc_1p29", 5],
+// 		["rhs_acc_ekp1", 3],
+// 		["optic_Holosight", 2],
+// 		["rhs_acc_pso1m2", 1]
+// 	]]
+// ]];
 
 //--- Units - Barracks
-_u 			= ["rhs_vdv_des_LAT"];
-_u = _u		+ ["rhs_vdv_des_aa"];
-_u = _u		+ ["rhs_vdv_des_grenadier_rpg"];
-_u = _u		+ ["rhs_vdv_des_RShG2"];
-_u = _u		+ ["rhs_vdv_des_combatcrew"];
-_u = _u		+ ["rhs_vdv_des_efreitor"];
-_u = _u		+ ["rhs_vdv_des_arifleman"];
-_u = _u		+ ["rhs_vdv_des_grenadier"];
-_u = _u		+ ["rhs_vdv_des_machinegunner"];
-_u = _u		+ ["rhs_pilot_combat_heli"];
-_u = _u		+ ["rhs_vdv_des_medic"];
-_u = _u		+ ["rhs_vdv_des_officer"];
-_u = _u		+ ["rhs_vdv_des_rifleman"];  
-_u = _u		+ ["rhs_vdv_des_driver_armored"];
-_u = _u		+ ["rhs_vdv_des_engineer"];
-_u = _u		+ ["rhs_vdv_des_marksman"];
-_u = _u		+ ["rhs_vdv_des_sergeant"];
-_u = _u		+ ["rhs_vdv_des_junior_sergeant"];
-_u = _u		+ ["rhs_vdv_des_officer_armored"];
-_u = _u		+ ["rhs_vdv_des_strelok_rpg_assist"];
-_u = _u		+ ["rhs_vdv_des_at"];
-_u = _u		+ ["O_T_soldier_UAV_F"];
-_u = _u		+ ["rhs_vdv_des_machinegunner_assistant"];
-_u = _u		+ ["rhs_vdv_des_driver"];
-_u = _u		+ ["O_diver_F"];
+_u 			= ["ru_vdv_des_rifleman_ak74m"];
+_u = _u		+ ["ru_vdv_des_rifleman_ak12"];
+_u = _u		+ ["ru_vdv_des_rifleman_ak103"];
+_u = _u		+ ["ru_vdv_des_grenadier_gp34"];
+_u = _u		+ ["ru_vdv_des_grenadier_rpg"];
+_u = _u		+ ["ru_vdv_des_efreitor_ak12"];
+_u = _u		+ ["ru_vdv_des_efreitor_ak74m"];
+_u = _u		+ ["ru_vdv_des_medic"];
+_u = _u		+ ["ru_vdv_des_engineer"];
+_u = _u		+ ["ru_vdv_des_autorifleman"];
+_u = _u		+ ["ru_vdv_des_machinegunner"];
+_u = _u		+ ["ru_vdv_des_marksman"];
+_u = _u		+ ["ru_vdv_des_sergeant"];
+_u = _u		+ ["ru_vdv_des_at_specialist"];
+_u = _u		+ ["ru_vdv_des_aa_specialist"];
+_u = _u		+ ["ru_vdv_des_mortarman_gun"];
+_u = _u		+ ["ru_vdv_des_mortarman_bipod"];
+_u = _u		+ ["ru_vdv_des_uav_operator"];
+_u = _u		+ ["ru_vdv_des_driver"];
+_u = _u		+ ["ru_vdv_des_officer"];
+_u = _u		+ ["ru_vdv_des_crewman"];
+_u = _u		+ ["ru_vdv_des_tank_crewman"];
+_u = _u		+ ["ru_vdv_des_heli_pilot"];
+_u = _u		+ ["ru_vdv_des_heli_crewman"];
+_u = _u		+ ["ru_vdv_spetsnaz_ak104"];
+_u = _u		+ ["ru_vdv_spetsnaz_ak12"];
+_u = _u		+ ["ru_vdv_spetsnaz_ak15"];
+_u = _u		+ ["ru_vdv_spetsnaz_ak74m"];
+_u = _u		+ ["ru_vdv_spetsnaz_aks74u"];
+_u = _u		+ ["ru_vdv_spetsnaz_svd"];
+_u = _u		+ ["ru_vdv_spetsnaz_pilot"];
 
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
-_u 			= ["O_Quadbike_01_F"];
-_u = _u		+ ["RHS_UAZ_MSV_01"];
-_u = _u		+ ["RHS_Ural_Open_MSV_01"];
-_u = _u		+ ["rhs_uaz_open_MSV_01"];
-_u = _u		+ ["rhs_tigr_msv"];
-_u = _u		+ ["rhs_tigr_m_msv"];
-_u = _u		+ ["rhs_tigr_sts_msv"];
-_u = _u		+ ["rhs_bmp1d_msv"];
-_u = _u		+ ["rhs_bmp1_msv"];
-_u = _u		+ ["rhs_bmp1k_msv"];
-_u = _u		+ ["rhs_bmp1p_msv"];
-_u = _u		+ ["rhs_bmp3mera_msv"];
-_u = _u		+ ["rhs_bmp2_msv"];
-_u = _u		+ ["rhs_bmp3_msv"];
-_u = _u		+ ["rhs_bmp3_late_msv"];
-_u = _u		+ ["rhs_Ob_681_2"];
-_u = _u		+ ["rhs_bmp2k_msv"];
-_u = _u		+ ["rhs_bmp2d_msv"]; 
-_u = _u		+ ["rhs_bmp3_late_msv"]; 
-_u = _u		+ ["rhs_brm1k_msv"]; 
-_u = _u		+ ["rhs_bmp3m_msv"]; 
-_u = _u		+ ["rhs_btr80_msv"]; 
-_u = _u		+ ["rhs_btr70_msv"]; 
-_u = _u		+ ["rhs_btr60_msv"]; 
-_u = _u		+ ["rhs_btr80a_msv"]; 
-_u = _u		+ ["RHS_Ural_Zu23_MSV_01"];
-_u = _u		+ ["rhs_gaz66o_msv"];
-_u = _u		+ ["rhs_gaz66_msv"];
-_u = _u		+ ["RHS_Ural_MSV_01"];
-_u = _u		+ ["RHS_Ural_Open_MSV_01"];
-_u = _u		+ ["rhs_gaz66_zu23_msv"];
-_u = _u		+ ["rhs_kamaz5350_open_msv"];
-_u = _u		+ ["rhs_kamaz5350_msv"];
+_u 			= ["ru_msv_uaz"];
+_u = _u		+ ["ru_msv_uaz_open"];
+_u = _u		+ ["ru_msv_gaz_unarmed"];
+_u = _u		+ ["ru_msv_gaz_normal"];
+_u = _u		+ ["ru_msv_gaz_armed"];
+_u = _u		+ ["ru_msv_ural_normal"];
+_u = _u		+ ["ru_msv_ural_flatbed"];
+_u = _u		+ ["ru_msv_ural_open"];
+_u = _u		+ ["ru_msv_ural_open_flatbed"];
+_u = _u		+ ["ru_msv_ural_aa"];
+_u = _u		+ ["ru_vdv_kamaz"];
+_u = _u		+ ["ru_vdv_kamaz_open"];
+_u = _u		+ ["ru_msv_brdm"];
+_u = _u		+ ["ru_msv_brdm_at"];
+_u = _u		+ ["ru_msv_btr70"]; 
+_u = _u		+ ["ru_msv_btr80a"]; 
+_u = _u		+ ["ru_msv_bmp1"];
+_u = _u		+ ["ru_msv_bmp2"];
+_u = _u		+ ["ru_msv_bmp3"];
+_u = _u		+ ["ru_msv_bmp3_vesna"]; 
+_u = _u		+ ["ru_vdv_bmd4"];
+_u = _u		+ ["ru_vdv_bmd4m"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
-_u 			= ["RHS_BM21_MSV_01"];
-_u = _u		+ ["rhs_t72ba_tv"];
-_u = _u		+ ["rhs_t80a"];
-_u = _u		+ ["rhs_prp3_msv"];
-_u = _u		+ ["rhs_t72bb_tv"];
-_u = _u		+ ["rhs_t80"];
-_u = _u		+ ["rhs_t80bv"];
-_u = _u		+ ["rhs_2s3_tv"];
-_u = _u		+ ["rhs_t72bc_tv"];
-_u = _u		+ ["rhs_t90_tv"];
-_u = _u		+ ["rhs_t80u45m"];
-_u = _u		+ ["rhs_t80um"];
-_u = _u		+ ["rhs_t80bvk"];
-_u = _u		+ ["rhs_t90a_tv"];
-_u = _u		+ ["rhs_t72bd_tv"];
+_u 			= ["ru_msv_bm21"];
+_u = _u		+ ["ru_rva_tochka_he"];
+_u = _u		+ ["ru_rva_tochka_nuke"];
+_u = _u		+ ["ru_msv_t72b_1989"];
+_u = _u		+ ["ru_msv_t72b3_2012"];
+_u = _u		+ ["ru_msv_t80u"];
+_u = _u		+ ["ru_msv_t80um"];
+_u = _u		+ ["ru_msv_t90_1992"];
+_u = _u		+ ["ru_msv_t90a_2006"];
+_u = _u		+ ["ru_msv_t90sm"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ["RHS_Mi8AMT_vdv"];
-_u = _u		+ ["RHS_Mi8mt_vdv"];
-_u = _u		+ ["RHS_Mi8MTV3_vdv"];
-_u = _u		+ ["RHS_Mi8MTV3_FAB_vdv"];
-_u = _u		+ ["RHS_Mi8MTV3_UPK23_vdv"];
-_u = _u		+ ["RHS_Mi8MTV3_UPK23_vdv"];
-_u = _u		+ ["RHS_Mi24P_AT_vdv"];
-_u = _u		+ ["RHS_Mi24P_CAS_vdv"];   
-_u = _u		+ ["RHS_Mi24P_vdv"];
-_u = _u		+ ["RHS_Mi24V_AT_vdv"];
-_u = _u		+ ["RHS_Mi24V_vdv"];
-_u = _u		+ ["RHS_Mi24V_UPK23_vdv"];
-_u = _u		+ ["RHS_Mi24V_FAB_vdv"];
-_u = _u		+ ["rhs_ka60_grey"];
-_u = _u		+ ["rhs_mi28n_vvs"];
-_u = _u		+ ["RHS_Ka52_UPK23_vvs"];
-_u = _u		+ ["RHS_Ka52_vvs"];
-_u = _u		+ ["rhs_mi28n_s13_vvs"];
-_u = _u		+ ["RHS_T50_vvs_generic"];
-_u = _u		+ ["RHS_Su25SM_vvs"];
-_u = _u		+ ["RHS_Su25SM_CAS_vvs"];
-_u = _u		+ ["RHS_Su25SM_KH29_vvs"];
-_u = _u		+ ["RHS_TU95MS_vvs_old"];
+_u 			= ["ru_vdv_ka60"];
+_u = _u	    + ["ru_vdv_mi8t"];
+_u = _u		+ ["ru_vdv_mi8mt"];
+_u = _u		+ ["ru_vdv_mi8mtv3"];
+_u = _u		+ ["ru_vdv_mi24g"];
+_u = _u		+ ["ru_vdv_mi28n"];
+_u = _u		+ ["ru_vdv_ka52"]; 
+_u = _u		+ ["ru_vdv_mig29sm"];
+_u = _u		+ ["ru_vdv_su35"];
+_u = _u		+ ["ru_vdv_tu95ms6"];
+// _u = _u	    + ["ru_vdv_k40a"];
+// _u = _u	    + ["ru_vdv_k40b"];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u =		+ ["CTI_Salvager_East"];
-_u = _u		+ ["rhs_gaz66_repair_msv"];
-_u = _u		+ ["RHS_Ural_Fuel_MSV_01"];
+_u = _u		+ ["ru_msv_ural_repair"];
+_u = _u		+ ["ru_msv_ural_fuel"];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
-_u 			= ["rhs_gaz66_r142_msv"];
-_u = _u		+ ["rhs_gaz66_ammo_msv"];
+_u 			= ["ru_msv_ural_ammo"];
+_u = _u		+ ["ru_vdv_kamaz_ammo"];
+_u = _u		+ ["BOX_IND_AmmoVeh_F"];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["O_Boat_Transport_01_F"];
 _u = _u		+ ["O_Boat_Armed_01_hmg_F"];
-_u = _u		+ ["O_SDV_01_F"];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
-_u 			= ["C_Offroad_01_F"];
+_u 			= ["ru_msv_uaz"];
+_u = _u		+ ["ru_msv_gaz_normal"];
+_u = _u		+ ["ru_msv_ural_normal"];
+_u = _u		+ ["ru_msv_ural_ammo"];
 _u = _u		+ ["C_Quadbike_01_F"];
-_u = _u		+ ["C_Offroad_02_unarmed_F"];
-_u = _u		+ ["C_Hatchback_01_F"];
-_u = _u		+ ["C_Hatchback_01_sport_F"];
-_u = _u		+ ["C_SUV_01_F"];
-_u = _u		+ ["C_Van_01_transport_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
-	_u = _u		+ ["rhs_vdv_des_engineer"];
-	_u = _u		+ ["rhs_vdv_des_medic"];
-        _u = _u		+ ["rhs_vdv_des_arifleman"];
+	_u = _u		+ ["ru_vdv_des_rifleman_ak12"];
+	_u = _u		+ ["ru_vdv_des_rifleman_ak103"];
+	_u = _u		+ ["ru_vdv_des_grenadier_gp34"];
+	_u = _u		+ ["ru_vdv_des_grenadier_rpg"];
+	_u = _u		+ ["ru_vdv_des_efreitor_ak12"];
+	_u = _u		+ ["ru_vdv_des_efreitor_ak74m"];
+	_u = _u		+ ["ru_vdv_des_machinegunner"];
+	_u = _u		+ ["ru_vdv_des_medic"];
+	_u = _u		+ ["ru_vdv_des_engineer"];
 };
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_DEPOT], _u];

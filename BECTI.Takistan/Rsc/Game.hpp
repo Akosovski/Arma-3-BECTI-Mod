@@ -3,15 +3,20 @@ respawn = 3;
 respawnDelay = 1;
 respawnDialog = false;
 
+// --- Corpse timer.
+corpseManagerMode = 1;
+corpseLimit = 0;
+corpseRemovalMinTime = 1200;
+
 //--- Require briefing.html to show up.
-onLoadName = "BECTI RHS USA-RUSA Takistan";
-briefingName = "BECTI RHS USA-RUSA Takistan";
-onLoadMission = "Battle Against Players and AI for control of the Map.";
-overviewText = "Battle Against Players and AI for control of the Map.";
+onLoadName = "BECTI USA-RUS Takistan";
+briefingName = "BECTI USA-RUS Takistan";
+onLoadMission = "Battle against Players and AI for control of Takistan.";
+overviewText = "Battle against Players and AI for control of Takistan.";
 
 //--- ArmA 3 Specifics
-dev = "Fisher, Original by: Sari, Benny";
-author = "Fisher, Original by: Sari, Benny";
+dev = "Akosovski, Fisher, Boivie, Original by: Sari & Benny";
+author = "Akosovski";
 
 // overviewPicture
 overviewPicture = "Rsc\Pictures\missionSplash.paa";
@@ -20,5 +25,5 @@ overviewPicture = "Rsc\Pictures\missionSplash.paa";
 class Header {
 	gameType = CTI;
 	minPlayers = 1;
-	maxPlayers = 32;
+	maxPlayers = 10;
 };

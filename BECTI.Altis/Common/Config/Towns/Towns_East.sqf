@@ -10,7 +10,7 @@ with missionNamespace do {
 	EAST_SOLDIER_ENGINEER = ["ru_msv_engineer", 1];
 	EAST_SOLDIER_GL = ["ru_msv_grenadier_rpg", 1];
 	EAST_SOLDIER_MEDIC = ["ru_msv_medic", 1];
-	EAST_SOLDIER_PILOT = ["ru_vdv_combat_heli", 1];
+	EAST_SOLDIER_PILOT = ["ru_vdv_heli_pilot", 1];
 	EAST_SOLDIER_SQUADLEADER = ["ru_msv_sergeant", 1];
 	EAST_SOLDIER_SNIPER = ["ru_msv_officer", 1];
 	EAST_SOLDIER_MARKSMAN = ["ru_msv_marksman", 1];

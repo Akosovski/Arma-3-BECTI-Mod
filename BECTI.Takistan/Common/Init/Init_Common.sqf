@@ -153,10 +153,11 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 
 //--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-	[["rhs_weap_m4a1_carryhandle",["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk_light","rhsusf_acc_ACOG_RMR"],["rhs_mag_30Rnd_556x45_Mk318_Stanag"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_cu_ocp",["firstaidkit","firstaidkit"]],["rhsusf_iotv_ocp_Squadleader",["rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_an_m8hc", "rhs_mag_an_m8hc", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
-	["rhsusf_ach_helmet_headset_ocp",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["JCA_arifle_M4A1_black_F",["","rhsusf_acc_anpeq15_bk","","rhsusf_acc_ACOG_RMR"],["30Rnd_556x45_Stanag"]],["",[],[""]],["",[],[]]],
+	[["rhs_uniform_FROG01_d",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
+	["rhsusf_lwh_helmet_marpatd_headset",""],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-	[["rhs_weap_ak74m",["rhs_acc_dtk","","",""],["rhs_30Rnd_545x39_AK"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_emr_des_patchless",["firstaidkit","firstaidkit"]],["rhs_6b23_digi_6sh92",["rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
-	["rhs_6b28",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["CUP_arifle_ak74m",["rhs_acc_dtk","","","rhs_acc_pkas"],["CUP_30Rnd_545x39_AK74_plum_M"]],["",[],[""]],["",[],[]]],
+	[["rhs_uniform_vkpo_atacs_c_gloves",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_rifleman_cb_2",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
+	["rhs_atacs_c_6b47_6B50","rhs_facewear_6m2_1"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
