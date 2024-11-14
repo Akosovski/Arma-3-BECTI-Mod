@@ -183,9 +183,9 @@ if (_attempts >= 500) then {
 	_totalTeams = count synchronizedObjects _logic;
 	_processed = 0;
 	switch (missionNamespace getVariable "CTI_AI_TEAMS_ENABLED") do {
-		case 1: {_totalTeams = round(_totalTeams * 0.25)};
-		case 2: {_totalTeams = round(_totalTeams * 0.5)};
-		case 3: {_totalTeams = round(_totalTeams * 0.75)};
+		case 1: {_totalTeams = 3};
+		case 2: {_totalTeams = 5};
+		case 3: {_totalTeams = 10};
 		default {};
 	};
 

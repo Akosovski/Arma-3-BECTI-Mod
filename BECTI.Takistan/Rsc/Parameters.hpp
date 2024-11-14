@@ -79,9 +79,9 @@ class Params {
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Start-up Placement";
-		values[] = {1000,2000,4000,6000,15000};
-		texts[] = {"1KM","2 KM","4 KM","6 KM","15 KM"};
-		default = 15000;
+		values[] = {1000,2000,3000,5000,7000};
+		texts[] = {"1KM","2 KM","3 KM","5 KM","7 KM"};
+		default = 3000;
 	};
 	class CTI_BASE_WORKERS_LIMIT {
 		title = "BASE: Worker Limit";
