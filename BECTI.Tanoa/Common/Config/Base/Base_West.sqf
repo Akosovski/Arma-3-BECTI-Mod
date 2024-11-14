@@ -112,7 +112,7 @@ _helper = _helper			+ [["Land_VR_Target_MBT_01_cannon_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
-_classes = _classes 		+ [["Land_Airport_Tower_F", "Land_Airport_Tower_ruins_F"]];
+_classes = _classes 		+ [["Land_Research_HQ_F", "Land_Research_HQ_ruins_F"]];
 _prices = _prices 			+ [4400];
 _times = _times 			+ [30];
 _placements = _placements 	+ [[90, 25]];
