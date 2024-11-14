@@ -1585,7 +1585,7 @@ class Mission
 								angles[]={6.2416081,0,6.1811438};
 							};
 							name="Town0";
-							init="nullReturn = [this, ""Landay"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Landay"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=279;
 							type="LocationArea_F";
 							atlOffset=3.0517578e-005;
@@ -1622,7 +1622,7 @@ class Mission
 								angles[]={6.2368116,0,6.268786};
 							};
 							name="Town1";
-							init="nullReturn = [this, ""Anmaday"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Anmaday"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=675;
 							type="LocationArea_F";
 						};
@@ -1645,7 +1645,7 @@ class Mission
 								angles[]={6.2049475,0,0.13988149};
 							};
 							name="Town2";
-							init="nullReturn = [this, ""Chak Chak"", resistance, 20, 30, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Chak Chak"", resistance, 20, 40, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=679;
 							type="LocationArea_F";
 						};
@@ -1691,7 +1691,7 @@ class Mission
 								angles[]={6.144875,0,0.020799667};
 							};
 							name="Town3";
-							init="nullReturn = [this, ""Huzrutimam"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Huzrutimam"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=686;
 							type="LocationArea_F";
 						};
@@ -1714,7 +1714,7 @@ class Mission
 								angles[]={6.1954131,0,6.1669111};
 							};
 							name="Town4";
-							init="nullReturn = [this, ""Sultansafe"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Sultansafe"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=692;
 							type="LocationArea_F";
 							atlOffset=-3.0517578e-005;
@@ -1820,7 +1820,7 @@ class Mission
 								angles[]={6.2479987,0,0.043176915};
 							};
 							name="Town7";
-							init="nullReturn = [this, ""Loy Manara"", resistance, 10, 25, 400] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Loy Manara"", resistance, 20, 45, 400] execVM ""Common\Init\Init_Location.sqf""";
 							id=701;
 							type="LocationArea_F";
 							atlOffset=-3.0517578e-005;
@@ -1857,7 +1857,7 @@ class Mission
 								angles[]={0.17576957,0,0.086187907};
 							};
 							name="Town6";
-							init="nullReturn = [this, ""Jaza"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Jaza"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=704;
 							type="LocationArea_F";
 						};
@@ -1880,7 +1880,7 @@ class Mission
 								angles[]={6.260788,0,0.027195957};
 							};
 							name="Town8";
-							init="nullReturn = [this, ""Chardarakht"", resistance, 10, 25, 400] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Chardarakht"", resistance, 15, 55, 400] execVM ""Common\Init\Init_Location.sqf""";
 							id=706;
 							type="LocationArea_F";
 						};
@@ -1927,7 +1927,7 @@ class Mission
 								angles[]={6.2623887,0,6.2464066};
 							};
 							name="Town9";
-							init="nullReturn = [this, ""Hazar Bagh"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Hazar Bagh"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=710;
 							type="LocationArea_F";
 						};
@@ -1950,7 +1950,7 @@ class Mission
 								angles[]={6.2799911,0,6.2288356};
 							};
 							name="Town10";
-							init="nullReturn = [this, ""Shukurkalay"", resistance, 20, 30, 600] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Shukurkalay"", resistance, 30, 45, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=712;
 							type="LocationArea_F";
 							atlOffset=-1.5258789e-005;
@@ -1998,7 +1998,7 @@ class Mission
 								angles[]={0.017598685,0,6.2464013};
 							};
 							name="Town11";
-							init="nullReturn = [this, ""Sakhe"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Sakhe"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=716;
 							type="LocationArea_F";
 						};
@@ -2033,7 +2033,7 @@ class Mission
 								angles[]={0.079830162,0,6.2575908};
 							};
 							name="Town12";
-							init="nullReturn = [this, ""Kakaru"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Kakaru"", resistance, 15, 25, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=719;
 							type="LocationArea_F";
 							atlOffset=0.00010681152;
@@ -2058,7 +2058,7 @@ class Mission
 								angles[]={0.068696164,0,6.2767797};
 							};
 							name="Town13";
-							init="nullReturn = [this, ""Chaman"", resistance, 20, 30, 600] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Chaman"", resistance, 20, 45, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=721;
 							type="LocationArea_F";
 						};
@@ -2104,7 +2104,7 @@ class Mission
 								angles[]={0.10363106,0,0.068690397};
 							};
 							name="Town14";
-							init="nullReturn = [this, ""Anar"", resistance, 10, 25, 400] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Anar"", resistance, 15, 35, 400] execVM ""Common\Init\Init_Location.sqf""";
 							id=725;
 							type="LocationArea_F";
 						};
@@ -2161,7 +2161,7 @@ class Mission
 								angles[]={6.2687874,0,6.2511969};
 							};
 							name="Town15";
-							init="nullReturn = [this, ""Garmarud"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Garmarud"", resistance, 10, 40, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=730;
 							type="LocationArea_F";
 							atlOffset=1.5258789e-005;
@@ -2256,7 +2256,7 @@ class Mission
 								angles[]={6.2352238,0,6.071979};
 							};
 							name="Town17";
-							init="nullReturn = [this, ""Timurkalay"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Timurkalay"", resistance, 15, 25, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=738;
 							type="LocationArea_F";
 						};
@@ -2291,7 +2291,7 @@ class Mission
 								angles[]={6.259192,0,0.090947419};
 							};
 							name="Town18";
-							init="nullReturn = [this, ""Imarat"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Imarat"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=744;
 							type="LocationArea_F";
 						};
@@ -2429,7 +2429,7 @@ class Mission
 								position[]={5812.3008,83.040009,11325.692};
 							};
 							name="Town21";
-							init="nullReturn = [this, ""Military Base"", resistance, 20, 30, 400] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Military Base"", resistance, 20, 50, 400] execVM ""Common\Init\Init_Location.sqf""";
 							id=756;
 							type="LocationArea_F";
 							atlOffset=7.6293945e-006;
@@ -2476,7 +2476,7 @@ class Mission
 								angles[]={0.071873315,0,6.2655869};
 							};
 							name="Town22";
-							init="nullReturn = [this, ""Ravanay"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Ravanay"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=763;
 							type="LocationArea_F";
 						};
@@ -2499,7 +2499,7 @@ class Mission
 								angles[]={0.081419133,0,6.2432065};
 							};
 							name="Town23";
-							init="nullReturn = [this, ""Karachinar"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Karachinar"", resistance, 15, 30, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=765;
 							type="LocationArea_F";
 							atlOffset=-1.5258789e-005;
@@ -2629,7 +2629,7 @@ class Mission
 								angles[]={0.047964405,0,6.2336264};
 							};
 							name="Town26";
-							init="nullReturn = [this, ""Jilavur"", resistance, 10, 30, 350] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Jilavur"", resistance, 20, 40, 350] execVM ""Common\Init\Init_Location.sqf""";
 							id=776;
 							type="LocationArea_F";
 							atlOffset=1.5258789e-005;
@@ -2654,7 +2654,7 @@ class Mission
 								angles[]={6.2400112,0,6.249599};
 							};
 							name="Town27";
-							init="nullReturn = [this, ""Khushab"", resistance, 10, 30, 350] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Khushab"", resistance, 15, 40, 350] execVM ""Common\Init\Init_Location.sqf""";
 							id=778;
 							type="LocationArea_F";
 							atlOffset=-3.0517578e-005;
@@ -2724,7 +2724,7 @@ class Mission
 								angles[]={6.2240553,0,6.2081265};
 							};
 							name="Town29";
-							init="nullReturn = [this, ""Mulladost"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Mulladost"", resistance, 20, 40, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=784;
 							type="LocationArea_F";
 							atlOffset=3.0517578e-005;
@@ -2760,7 +2760,7 @@ class Mission
 								angles[]={0.0207968,0,0.027193764};
 							};
 							name="Town30";
-							init="nullReturn = [this, ""Gospandi"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Gospandi"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=787;
 							type="LocationArea_F";
 						};
@@ -2829,7 +2829,7 @@ class Mission
 								position[]={1814.735,145.86,11950.581};
 							};
 							name="Town32";
-							init="nullReturn = [this, ""Nur"", resistance, 10, 20, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Nur"", resistance, 15, 30, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=794;
 							type="LocationArea_F";
 						};
@@ -2864,7 +2864,7 @@ class Mission
 								angles[]={0.076649368,0,6.2703872};
 							};
 							name="Town33";
-							init="nullReturn = [this, ""Shamali"", resistance, 20, 30, 450] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Shamali"", resistance, 20, 35, 450] execVM ""Common\Init\Init_Location.sqf""";
 							id=797;
 							type="LocationArea_F";
 							atlOffset=-9.5367432e-006;
@@ -2911,7 +2911,7 @@ class Mission
 								angles[]={0.027193764,0,6.2799835};
 							};
 							name="Town34";
-							init="nullReturn = [this, ""Falar"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Falar"", resistance, 15, 25, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=818;
 							type="LocationArea_F";
 							atlOffset=1.5258789e-005;
@@ -2936,7 +2936,7 @@ class Mission
 								angles[]={0.0207968,0,6.2735858};
 							};
 							name="Town35";
-							init="nullReturn = [this, ""Sagram"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Sagram"", resistance, 15, 35, 250] execVM ""Common\Init\Init_Location.sqf""";
 							id=820;
 							type="LocationArea_F";
 						};
