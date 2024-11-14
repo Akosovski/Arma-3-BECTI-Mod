@@ -1383,7 +1383,7 @@ class Mission
 				class Item0
 				{
 					dataType="Marker";
-					position[]={2727.5505,419.19229,925.50757};
+					position[]={10025.7,41.19229,925.10223};
 					name="cti-spawn0";
 					type="Empty";
 					id=0;
@@ -1392,7 +1392,7 @@ class Mission
 				class Item1
 				{
 					dataType="Marker";
-					position[]={6948.0352,311.99634,5937.9126};
+					position[]={4800,32.99634,11749.6};
 					name="cti-spawn1";
 					type="Empty";
 					id=1;
@@ -1401,7 +1401,7 @@ class Mission
 				class Item2
 				{
 					dataType="Marker";
-					position[]={7226.3354,346.17099,520.38879};
+					position[]={3333.16,33.17099,10485.1};
 					name="cti-spawn10";
 					type="Empty";
 					id=10;
@@ -1410,7 +1410,7 @@ class Mission
 				class Item3
 				{
 					dataType="Marker";
-					position[]={4784.8682,152.73772,5804.2642};
+					position[]={6762.37,14.73772,694.736};
 					name="cti-spawn2";
 					type="Empty";
 					id=2;
@@ -1418,7 +1418,7 @@ class Mission
 				class Item4
 				{
 					dataType="Marker";
-					position[]={5831.0361,89.457275,8409.6729};
+					position[]={6653.22,89.457275,4734.44};
 					name="cti-spawn3";
 					type="Empty";
 					id=3;
@@ -1427,7 +1427,7 @@ class Mission
 				class Item5
 				{
 					dataType="Marker";
-					position[]={8570.9766,176.33154,7399.627};
+					position[]={8543.71,176.33154,10224.6};
 					name="cti-spawn4";
 					type="Empty";
 					id=4;
