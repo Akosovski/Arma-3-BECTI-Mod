@@ -141,6 +141,10 @@ _i = _i		+ ["JCA_SMG_MP5_VFG_Black_F"];
 _u = _u		+ [2];
 _p = _p		+ [25];
 
+_i = _i     + ["CUP_arifle_AUG_A1"];
+_u = _u     + [3];
+_p = _p     + [30];
+
 //--- PISTOLS ---
 
 _i = _i		+ ["CUP_hgun_Colt1911"];
@@ -150,6 +154,10 @@ _p = _p		+ [8];
 _i = _i		+ ["CUP_hgun_M9A1"];
 _u = _u		+ [0];
 _p = _p		+ [10];
+
+_i = _i     + ["JCA_hgun_P320_black_F"];
+_u = _u     + [1];
+_p = _p     + [10];
 
 _i = _i		+ ["CUP_hgun_M17_blk"];
 _u = _u		+ [1];
@@ -252,6 +260,14 @@ _p = _p		+ [8];
 _i = _i		+ ["JCA_30Rnd_9x21_MP5_Mag"];
 _u = _u		+ [1];
 _p = _p		+ [6];
+
+_i = _i     + ["CUP_30Rnd_556x45_AUG"];
+_u = _u     + [3];
+_p = _p     + [2];
+
+_i = _i     + ["JCA_17Rnd_9x21_P320_Mag"];
+_u = _u     + [1];
+_p = _p     + [2];
 
 _i = _i		+ ["CUP_7Rnd_45ACP_1911"];
 _u = _u		+ [0];
@@ -595,6 +611,14 @@ _u = _u + [1];
 _p = _p + [20];
 
 _i = _i + ["rhsusf_plateframe_teamleader"];
+_u = _u + [1];
+_p = _p + [20];
+
+_i = _i + ["JCA_MRCP_V_CarrierRigKBT_01_compact_coyote_F"];
+_u = _u + [1];
+_p = _p + [20];
+
+_i = _i + ["JCA_MRCP_V_CarrierRigKBT_01_combat_coyote_F"];
 _u = _u + [1];
 _p = _p + [20];
 
