@@ -47,8 +47,8 @@ _c = _c		+ ["InfantryAA"];
 _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryElite"];
-_t = _t		+ ["Infantry - Elite MARSOC"];
-_p = _p		+ [[["us_usmc_m1078a1", 1], ["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
+_t = _t		+ ["Infantry - Elite FORECON"];
+_p = _p		+ [[["us_usmc_m1078a1", 1], ["us_usmc_forecon_chief", 1], ["us_usmc_forecon_m4a4", 2], ["us_usmc_forecon_mk16", 2], ["us_usmc_forecon_mk17", 2], ["us_usmc_forecon_m249", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [4000];
 _c = _c		+ ["InfantryElite"];
@@ -88,7 +88,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
 _t = _t		+ ["Heli - Airborne (MARSOC)"];
-_p = _p		+ [[["us_usmc_uh1y_armed", 1], ["us_usmc_marsoc_chief", 1], ["us_usmc_marsoc_m4a4", 2], ["us_usmc_marsoc_mk16", 2], ["us_usmc_marsoc_mk17", 2], ["us_usmc_marsoc_m249", 2]]];
+_p = _p		+ [[["us_usmc_uh1y_armed", 1], ["us_usmc_forecon_chief", 1], ["us_usmc_forecon_m4a4", 2], ["us_usmc_forecon_mk16", 2], ["us_usmc_forecon_mk17", 2], ["us_usmc_forecon_m249", 2]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
 _c = _c		+ ["AirAttack"];
