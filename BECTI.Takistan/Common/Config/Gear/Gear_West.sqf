@@ -159,6 +159,10 @@ _i = _i     + ["JCA_hgun_P320_black_F"];
 _u = _u     + [1];
 _p = _p     + [10];
 
+_i = _i     + ["JCA_hgun_P226_black_F"];
+_u = _u     + [1];
+_p = _p     + [10];
+
 _i = _i		+ ["CUP_hgun_M17_blk"];
 _u = _u		+ [1];
 _p = _p		+ [12];
@@ -266,6 +270,10 @@ _u = _u     + [3];
 _p = _p     + [2];
 
 _i = _i     + ["JCA_17Rnd_9x21_P320_Mag"];
+_u = _u     + [1];
+_p = _p     + [2];
+
+_i = _i     + ["JCA_15Rnd_9x21_P226_Mag"];
 _u = _u     + [1];
 _p = _p     + [2];
 
@@ -499,7 +507,11 @@ _i = _i		+ ["rhs_uniform_g3_rgr"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
-_i = _i		+ ["rhs_uniform_g3_aor2"];
+_i = _i		+ ["rhs_uniform_g3_tan"];
+_u = _u		+ [3];
+_p = _p		+ [10];
+
+_i = _i		+ ["CryGen3_dt"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
@@ -614,11 +626,11 @@ _i = _i + ["rhsusf_plateframe_teamleader"];
 _u = _u + [1];
 _p = _p + [20];
 
-_i = _i + ["JCA_MRCP_V_CarrierRigKBT_01_compact_coyote_F"];
+_i = _i + ["JCA_MCRP_V_CarrierRigKBT_01_compact_coyote_F"];
 _u = _u + [1];
 _p = _p + [20];
 
-_i = _i + ["JCA_MRCP_V_CarrierRigKBT_01_combat_coyote_F"];
+_i = _i + ["JCA_MCRP_V_CarrierRigKBT_01_combat_coyote_F"];
 _u = _u + [1];
 _p = _p + [20];
 
@@ -679,6 +691,18 @@ _i = _i     + ["rhsusf_lwh_helmet_marpatd_headset"];
 _u = _u     + [0];
 _p = _p     + [10];
 
+_i = _i     + ["bcb_lwh_helmet_tan"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["bcb_lwh_helmet_tan_ess"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["bcb_lwh_helmet_tan_headset"];
+_u = _u     + [1];
+_p = _p     + [10];
+
 _i = _i     + ["rhsusf_mich_helmet_marpatd_alt"];
 _u = _u     + [2];
 _p = _p     + [10];
@@ -704,46 +728,6 @@ _u = _u     + [3];
 _p = _p     + [10];
 
 _i = _i     + ["rhsusf_mich_helmet_marpatd_norotos_arc_headset"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_headset"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_alt"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_alt_headset"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_headset"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_semi_headset"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_semi"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_alt_semi"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_alt_semi_headset"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_mich_bare_norotos_arc_semi_headset"];
 _u = _u     + [3];
 _p = _p     + [10];
 
@@ -796,6 +780,14 @@ _u = _u		+ [1];
 _p = _p		+ [7];
 
 _i = _i		+ ["rhsusf_cvc_green_ess"];
+_u = _u		+ [1];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_cvc_tan_helmet"];
+_u = _u		+ [1];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_cvc_tan_ess"];
 _u = _u		+ [1];
 _p = _p		+ [7];
 

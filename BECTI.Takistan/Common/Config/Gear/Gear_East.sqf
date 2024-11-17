@@ -268,6 +268,10 @@ _i = _i        + ["CUP_hgun_CZ75"];
 _u = _u        + [1];
 _p = _p        + [8];
 
+_i = _i        + ["JCA_hgun_P226_black_F"];
+_u = _u        + [1];
+_p = _p        + [10];
+
 _i = _i        + ["JCA_hgun_P320_black_F"];
 _u = _u        + [1];
 _p = _p        + [10];
@@ -481,6 +485,10 @@ _u = _u        + [3];
 _p = _p        + [2];
 
 _i = _i        + ["JCA_17Rnd_9x21_P320_Mag"];
+_u = _u        + [1];
+_p = _p        + [2];
+
+_i = _i        + ["JCA_15Rnd_9x21_P226_Mag"];
 _u = _u        + [1];
 _p = _p        + [2];
 
@@ -823,13 +831,13 @@ _i = _i        + ["rhs_atacs_mc_6b45_rifleman_grn"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i + ["JCA_MRCP_V_CarrierRigKBT_01_compact_coyote_F"];
-_u = _u + [1];
-_p = _p + [20];
+_i = _i        + ["JCA_MCRP_V_CarrierRigKBT_01_compact_coyote_F"];
+_u = _u        + [1];
+_p = _p        + [20];
 
-_i = _i + ["JCA_MRCP_V_CarrierRigKBT_01_combat_coyote_F"];
-_u = _u + [1];
-_p = _p + [20];
+_i = _i        + ["JCA_MCRP_V_CarrierRigKBT_01_combat_coyote_F"];
+_u = _u        + [1];
+_p = _p        + [20];
 
 // _i = _i        + ["rhs_6b13_EMR"];
 // _u = _u        + [2];

@@ -15,7 +15,7 @@ class Params {
 		title = "AI: Teams";
 		values[] = {0,1,2,3,4};
 		texts[] = {"Disabled", "3 AI", "5 AI", "10 AI", "All Slots"};
-		default = 1;
+		default = 2;
 	};
 	class CTI_AI_TEAMS_GROUPSIZE {
 		title = "AI: Team Size (AI)";

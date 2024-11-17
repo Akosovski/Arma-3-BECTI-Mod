@@ -800,6 +800,14 @@ _i = _i        + ["rhs_atacs_mc_6b45_rifleman_grn"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
+_i = _i        + ["JCA_MCRP_V_CarrierRigKBT_01_compact_coyote_F"];
+_u = _u        + [1];
+_p = _p        + [20];
+
+_i = _i        + ["JCA_MCRP_V_CarrierRigKBT_01_combat_coyote_F"];
+_u = _u        + [1];
+_p = _p        + [20];
+
 _i = _i        + ["rhs_6b13_EMR"];
 _u = _u        + [2];
 _p = _p        + [10]; 

@@ -62,6 +62,7 @@ _u = _u		+ ["ru_vdv_des_crewman"];
 _u = _u		+ ["ru_vdv_des_tank_crewman"];
 _u = _u		+ ["ru_vdv_des_heli_pilot"];
 _u = _u		+ ["ru_vdv_des_heli_crewman"];
+_u = _u		+ ["ru_vdv_des_jet_pilot"];
 _u = _u		+ ["ru_vdv_spetsnaz_ak104"];
 _u = _u		+ ["ru_vdv_spetsnaz_ak12"];
 _u = _u		+ ["ru_vdv_spetsnaz_ak15"];

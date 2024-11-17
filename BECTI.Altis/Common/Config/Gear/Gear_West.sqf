@@ -598,6 +598,14 @@ _i = _i + ["rhsusf_plateframe_teamleader"];
 _u = _u + [1];
 _p = _p + [20];
 
+_i = _i + ["JCA_MCRP_V_CarrierRigKBT_01_compact_coyote_F"];
+_u = _u + [1];
+_p = _p + [20];
+
+_i = _i + ["JCA_MCRP_V_CarrierRigKBT_01_combat_coyote_F"];
+_u = _u + [1];
+_p = _p + [20];
+
 _i = _i + ["SRU21P_LPU9P_PCU15AP"];
 _u = _u + [2];
 _p = _p + [25];
