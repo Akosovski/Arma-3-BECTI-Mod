@@ -159,5 +159,5 @@ missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 	[["CUP_arifle_ak74m",["rhs_acc_dtk","","","rhs_acc_pkas"],["CUP_30Rnd_545x39_AK74_plum_M"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_vkpo_atacs_c_gloves",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_rifleman_cb_2",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
+	[["rhs_uniform_vkpo_atacs_c_gloves",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_rifleman_2_cb",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
 	["rhs_atacs_c_6b47_6B50","rhs_facewear_6m2_1"],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
