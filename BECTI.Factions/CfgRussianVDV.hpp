@@ -964,7 +964,7 @@
 
     };
 
-        class ru_vdv_su35 : JS_JC_SU35_OCimport_02 {
+    class ru_vdv_su35 : JS_JC_SU35_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;

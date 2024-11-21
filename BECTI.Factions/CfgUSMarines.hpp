@@ -1718,7 +1718,7 @@
 					class LCT4: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 						
 						priority = 3;						
 						maxweight = 1000;
@@ -1727,7 +1727,7 @@
 					class LCT5: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 	
 						priority = 3;						
 						maxweight = 1000;
@@ -1736,7 +1736,7 @@
 					class LCT6: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 	
 						priority = 3;						
 						maxweight = 1000;
@@ -1746,7 +1746,7 @@
 					class LCT1: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
 	                    turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1755,7 +1755,7 @@
 					class LCT2: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1764,7 +1764,7 @@
 					class LCT3: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1774,7 +1774,7 @@
 					class RCT1: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 3;						
 						maxweight = 1000;
@@ -1783,7 +1783,7 @@
 					class RCT2: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 3;						
 						maxweight = 1000;
@@ -1792,7 +1792,7 @@
 					class RCT3: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AA_UNDER_HP","FIR_F15E_AG2000_HP","FIR_F15E_AGM_HP","FIR_F15E_SDB_HP","FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 3;						
 						maxweight = 1000;
@@ -1802,7 +1802,7 @@
 					class RCT4: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1811,7 +1811,7 @@
 					class RCT5: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1820,7 +1820,7 @@
 					class RCT6: LCT4
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 2;						
 						maxweight = 500;
@@ -1830,7 +1830,7 @@
 					class STA2: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_AGM_HP","FIR_F15E_MISC_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 1;						
 						maxweight = 1000;
@@ -1839,7 +1839,7 @@
 					class STA8: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_AGM_HP","FIR_F15E_MISC_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 1;						
 						maxweight = 1000;
@@ -1848,7 +1848,7 @@
 					class STA5: STA2A
 					{
 						hardpoints[] = {"FIR_F15E_AG_HP","FIR_F15E_AG2000_HP","FIR_F15E_SDB_HP","FIR_F15E_MISC_HP","FIR_MISC"};
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 1;						
 						maxweight = 1000;
@@ -1857,7 +1857,7 @@
                     class STA1: STA2A
 					{
 						hardpoints[] = {"FIR_F15SE_Midwing_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 6;						
 						maxweight = 1000;
@@ -1866,7 +1866,7 @@
 					class STA9: STA2A
 					{
 						hardpoints[] = {"FIR_F15SE_Midwing_HP","FIR_MISC"};
-						attachment = "FIR_GBU54_P_1rnd_M";
+						attachment = "FIR_Mk84_AIR_P_1rnd_M";
                         turret[] = {}; 
 						priority = 6;						
 						maxweight = 1000;
@@ -1926,7 +1926,7 @@
 					{
 						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_Combined_HP"};
 						priority = 3;
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_TER9A_P_3rnd_M";
 						maxweight = 1050;
 						UIposition[] = {0.34,0.1};
 					};
@@ -1934,7 +1934,7 @@
 					{
 						hardpoints[] = {"FIR_MISC","FIR_Clean_MISC","FIR_F16_AG_HP"};
 						priority = 2;
-						attachment = "FIR_GBU56_P_1rnd_M";
+						attachment = "FIR_Mk82_AIR_TER9A_P_3rnd_M";
 						maxweight = 1200;
 						UIposition[] = {0.33,0.2};
 					};
