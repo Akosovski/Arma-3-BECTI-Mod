@@ -2279,7 +2279,7 @@
 
     };
 
-    class ru_vdv_mortarman_bipod : ru_vdv_des_rifleman_ak12 {
+    class ru_vdv_des_mortarman_bipod : ru_vdv_des_rifleman_ak12 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
