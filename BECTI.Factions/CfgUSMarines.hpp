@@ -2690,7 +2690,41 @@
         crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class MainTurret : MainTurret { 
+                gunnerType = "us_usmc_crewman";
+                
+                magazines[] = {
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_M830_max",
+                    "rhs_mag_M1147_max",
+                    "rhs_mag_M829A4" 
+                };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x51_M240_200_M80{
+                magazine = "rhs_mag_762x51_M240_200_M80";
+                count = 7;
+            };
+            class _xx_rhs_mag_M830_max {
+                magazine = "rhs_mag_M830_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M1147_max {
+                magazine = "rhs_mag_M1147_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M829A4 {
+                magazine = "rhs_mag_M829A4";
+                count = 1;
+            };
         };
 
         class EventHandlers : EventHandlers {
@@ -2699,9 +2733,8 @@
             class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
-
         };
-        
+      
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
@@ -2717,8 +2750,51 @@
         crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class MainTurret : MainTurret { 
+                gunnerType = "us_usmc_crewman";
+                
+                magazines[] = {
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_M830_max",
+                    "rhs_mag_M1147_max",
+                    "rhs_mag_M829A4" 
+                };
+            };
         };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_200rnd_127x99_mag{
+                magazine = "rhs_mag_200rnd_127x99_mag";
+                count = 4;
+            };
+            class _xx_rhs_mag_762x51_M240_200_M80{
+                magazine = "rhs_mag_762x51_M240_200_M80";
+                count = 7;
+            };
+            class _xx_rhs_mag_M830_max {
+                magazine = "rhs_mag_M830_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M1147_max {
+                magazine = "rhs_mag_M1147_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M829A4 {
+                magazine = "rhs_mag_M829A4";
+                count = 1;
+            };
+        };
+
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2743,7 +2819,49 @@
         crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class MainTurret : MainTurret { 
+                gunnerType = "us_usmc_crewman";
+                
+                magazines[] = {
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_200rnd_127x99_mag",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_M830_max",
+                    "rhs_mag_M1147_max",
+                    "rhs_mag_M829A4" 
+                };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_200rnd_127x99_mag{
+                magazine = "rhs_mag_200rnd_127x99_mag";
+                count = 4;
+            };
+            class _xx_rhs_mag_762x51_M240_200_M80{
+                magazine = "rhs_mag_762x51_M240_200_M80";
+                count = 7;
+            };
+            class _xx_rhs_mag_M830_max {
+                magazine = "rhs_mag_M830_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M1147_max {
+                magazine = "rhs_mag_M1147_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M829A4 {
+                magazine = "rhs_mag_M829A4";
+                count = 1;
+            };
         };
 
         class EventHandlers : EventHandlers {
@@ -2770,11 +2888,45 @@
         crew = "us_usmc_crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
+            class MainTurret : MainTurret { 
+                gunnerType = "us_usmc_crewman";
+                
+                magazines[] = {
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_762x51_M240_200_M80",
+                    "rhs_mag_M830_max",
+                    "rhs_mag_M1147_max",
+                    "rhs_mag_M829A4" 
+                };
+            };
         };
 
-
-
+        class TransportMagazines {
+            class _xx_rhs_mag_762x51_M240_200_M80{
+                magazine = "rhs_mag_762x51_M240_200_M80";
+                count = 9;
+            };
+            class _xx_rhs_mag_M830_max {
+                magazine = "rhs_mag_M830_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M1147_max {
+                magazine = "rhs_mag_M1147_max";
+                count = 1;
+            };
+            class _xx_rhs_mag_M829A4 {
+                magazine = "rhs_mag_M829A4";
+                count = 1;
+            };
+        };
+        
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2801,8 +2953,6 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "us_usmc_crewman"; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -4889,44 +5039,6 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class us_usmc_abramsx : qav_abramsx_OCimport_03 {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "USMC AbramsX";
-        side = 1;
-        faction = "AKO_US_USMC";
-        crew = "us_usmc_crewman";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
-                gunnerType = "us_usmc_crewman";
-                class Turrets : Turrets {
-                    class CommanderOptics : CommanderOptics {
-                        gunnerType = "us_usmc_crewman";
-                    };
-                    class CommanderMG : CommanderMG {
-                        gunnerType = "";
-                    };
-                };
-            };
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'QAV_AbramsX\data\textures\AbramsX\AbramsX_Hull_co.paa'];_unit setObjectTextureGlobal [1,'A3\Armor_F\Data\camonet_NATO_Desert_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "nato";
 
     };
 

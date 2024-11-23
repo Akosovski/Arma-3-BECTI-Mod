@@ -1166,7 +1166,7 @@
 
     class ru_msv_t72b_1989 : rhs_t72bc_tv_OCimport_03 {
         author = "Akosovski";
-        scope = 2;
+        scope = 2;t
         scopeCurator = 2;
         displayName = "MSV T-72B (1989)";
         side = 0;
@@ -1176,6 +1176,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
+
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1184,6 +1199,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
@@ -1214,6 +1252,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1222,6 +1275,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
@@ -1252,6 +1328,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1260,6 +1351,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
@@ -1290,6 +1404,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1298,6 +1427,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
@@ -1328,6 +1480,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1336,6 +1503,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
@@ -1366,6 +1556,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1374,6 +1579,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
@@ -1404,6 +1632,21 @@
         class Turrets : Turrets {
             class MainTurret : MainTurret {
                 gunnerType = "ru_msv_tank_crewman";
+
+                magazines[] = {
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_762x54mm_250",
+                    "rhs_mag_3bm42",
+                    "rhs_mag_3bk18",
+                    "rhs_mag_3of26",
+                    "rhs_mag_9m119"
+                };
                 class Turrets : Turrets {
                     class CommanderOptics : CommanderOptics {
                         gunnerType = "ru_msv_tank_crewman";
@@ -1412,6 +1655,29 @@
                         gunnerType = "";
                     };
                 };
+            };
+        };
+
+        class TransportMagazines {
+            class _xx_rhs_mag_762x54mm_250{
+                magazine = "rhs_mag_762x54mm_250";
+                count = 8;
+            };
+            class _xx_rhs_mag_3bm42 {
+                magazine = "rhs_mag_3bm42";
+                count = 1;
+            };
+            class _xx_rhs_mag_3bk18 {
+                magazine = "rhs_mag_3bk18";
+                count = 1;
+            };
+            class _xx_rhs_mag_3of26 {
+                magazine = "rhs_mag_3of26";
+                count = 1;
+            };
+            class _xx_rhs_mag_9m119 {
+                magazine = "rhs_mag_9m119";
+                count = 1;
             };
         };
 
