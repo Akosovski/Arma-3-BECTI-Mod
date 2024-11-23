@@ -1166,7 +1166,7 @@
 
     class ru_msv_t72b_1989 : rhs_t72bc_tv_OCimport_03 {
         author = "Akosovski";
-        scope = 2;t
+        scope = 2;
         scopeCurator = 2;
         displayName = "MSV T-72B (1989)";
         side = 0;
