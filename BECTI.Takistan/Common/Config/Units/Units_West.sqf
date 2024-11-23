@@ -237,92 +237,92 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-//--- MARSOC Operators ---
+//--- FORECON Operators ---
 
-_c = _c + ['us_usmc_marsoc_chief'];
+_c = _c + ['us_usmc_forecon_chief'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Chief'];
+_n = _n + ['FORECON Chief'];
 _o = _o + [350];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_eod'];
+_c = _c + ['us_usmc_forecon_eod'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC EOD Specialist'];
+_n = _n + ['FORECON EOD Specialist'];
 _o = _o + [330];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_marksman'];
+_c = _c + ['us_usmc_forecon_marksman'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Marksman'];
+_n = _n + ['FORECON Marksman'];
 _o = _o + [350];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_m4a4'];
+_c = _c + ['us_usmc_forecon_m4a4'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Operator (M4A4)'];
+_n = _n + ['FORECON Operator (M4A4)'];
 _o = _o + [300];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_mk16'];
+_c = _c + ['us_usmc_forecon_mk16'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Operator (Mk16)'];
+_n = _n + ['FORECON Operator (Mk16)'];
 _o = _o + [320];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_mk17'];
+_c = _c + ['us_usmc_forecon_mk17'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Operator (Mk17)'];
+_n = _n + ['FORECON Operator (Mk17)'];
 _o = _o + [320];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_m249'];
+_c = _c + ['us_usmc_forecon_m249'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Operator (M249)'];
+_n = _n + ['FORECON Operator (M249)'];
 _o = _o + [350];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_eglm'];
+_c = _c + ['us_usmc_forecon_eglm'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Operator (EGLM)'];
+_n = _n + ['FORECON Operator (EGLM)'];
 _o = _o + [330];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_m136'];
+_c = _c + ['us_usmc_forecon_m136'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Operator (M136)'];
+_n = _n + ['FORECON Operator (M136)'];
 _o = _o + [350];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_marsoc_heli_pilot'];
+_c = _c + ['us_usmc_forecon_heli_pilot'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\socomlogo.paa'];
-_n = _n + ['MARSOC Helicopter Pilot'];
+_n = _n + ['FORECON Helicopter Pilot'];
 _o = _o + [300];
 _t = _t + [3];
 _u = _u + [3];
