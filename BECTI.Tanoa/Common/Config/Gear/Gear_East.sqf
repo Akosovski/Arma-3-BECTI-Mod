@@ -322,6 +322,14 @@ _i = _i        + ["rhs_acc_2dpZenit_ris"];
 _u = _u        + [1];
 _p = _p        + [3];
 
+_i = _i		+ ["optic_tws"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
+_i = _i		+ ["optic_Nightstalker"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
 _i = _i        + ["CUP_muzzle_TGPA"];
 _u = _u        + [3];
 _p = _p        + [7];

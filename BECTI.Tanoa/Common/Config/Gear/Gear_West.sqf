@@ -1009,6 +1009,14 @@ _i = _i		+ ["rhs_weap_optic_smaw"];
 _u = _u		+ [2];
 _p = _p		+ [10];
 
+_i = _i		+ ["optic_tws"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
+_i = _i		+ ["optic_Nightstalker"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
 _i = _i		+ ["CUP_muzzle_snds_M9"];
 _u = _u		+ [2];
 _p = _p		+ [5];
