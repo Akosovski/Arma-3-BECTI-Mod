@@ -679,7 +679,7 @@
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
-        uniformClass = "rhs_uniform_emr_patchless";
+        uniformClass = "rhs_uniform_6sh122_v1";
 
         linkedItems[] = {"rhs_6b45_light","rhs_tsh4_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_light","rhs_tsh4_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -690,7 +690,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_emr_patchless",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"rhs_mag_rgo",2,1},{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{},"rhs_tsh4_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"rhs_mag_rgo",2,1},{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{},"rhs_tsh4_ess","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

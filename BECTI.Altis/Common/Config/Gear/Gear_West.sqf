@@ -425,6 +425,18 @@ _p = _p		+ [300];
 
 //--- Backpacks ---
 
+_i = _i		+ ["B_UAV_01_backpack_F"];
+_u = _u		+ [1];
+_p = _p		+ [100];
+
+_i = _i		+ ["B_UAV_01_backpack_Custom"];
+_u = _u		+ [1];
+_p = _p		+ [110];
+
+_i = _i		+ ["B_UAV_FPV_backpack_F"];
+_u = _u		+ [1];
+_p = _p		+ [130];
+
 _i = _i		+ ["rhsusf_assault_eagleaiii_coy"];
 _u = _u		+ [0];
 _p = _p		+ [20];
@@ -448,18 +460,6 @@ _p = _p		+ [25];
 _i = _i		+ ["b_parachute"];
 _u = _u		+ [0];
 _p = _p		+ [25];
-
-_i = _i		+ ["B_UAV_01_backpack_F"];
-_u = _u		+ [1];
-_p = _p		+ [100];
-
-_i = _i		+ ["B_UAV_01_backpack_Custom"];
-_u = _u		+ [1];
-_p = _p		+ [110];
-
-_i = _i		+ ["B_UAV_FPV_backpack_F"];
-_u = _u		+ [1];
-_p = _p		+ [130];
 
 //--- Uniforms ---
 
@@ -648,6 +648,23 @@ _p = _p		+ [8];
 _i = _i		+ ["rhs_ess_black"];
 _u = _u		+ [0];
 _p = _p		+ [8];
+
+_i = _i        + ["Deg_TB_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_UN_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_Tan"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_UN_Tan"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
 
 _i = _i     + ["JCA_G_AirPurifyingRespirator_03_olive_tinted_F"];
 _u = _u     + [0];

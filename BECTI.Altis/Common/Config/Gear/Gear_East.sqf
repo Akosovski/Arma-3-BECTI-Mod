@@ -180,6 +180,10 @@ _i = _i        + ["CUP_lmg_PKM"];
 _u = _u        + [1];
 _p = _p        + [65];
 
+_i = _i        + ["CUP_arifle_RPK74"];
+_u = _u        + [1];
+_p = _p        + [45];
+
 _i = _i        + ["CUP_lmg_Pecheneg"];
 _u = _u        + [2];
 _p = _p        + [75];
@@ -221,6 +225,10 @@ _p = _p        + [250];
 _i = _i        + ["rhs_weap_rpg26"];
 _u = _u        + [0];
 _p = _p        + [35];
+
+_i = _i        + ["rhs_weap_rpg75"];
+_u = _u        + [0];
+_p = _p        + [40];
  
 _i = _i        + ["rhs_weap_rpg7"];
 _u = _u        + [0];
@@ -257,10 +265,6 @@ _u = _u        + [2];
 _p = _p        + [3];
  
 // --- Weapon Accessories ---
- 
-_i = _i        + ["JCA_optic_AICO_black"];
-_u = _u        + [0];
-_p = _p        + [7];
 
 _i = _i        + ["CUP_optic_Aimpoint_5000"];
 _u = _u        + [0];
@@ -420,6 +424,10 @@ _i = _i        + ["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Red_M"];
 _u = _u        + [1];
 _p = _p        + [5];
 
+_i = _i        + ["CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"];
+_u = _u        + [2];
+_p = _p        + [6];
+
 _i = _i        + ["CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M"];
 _u = _u        + [2];
 _p = _p        + [4];
@@ -502,7 +510,19 @@ _p = _p        + [2];
  
  // --- Backpacks ---
 
-__i = _i        + ["rhs_sidor"];
+_i = _i		   + ["O_UAV_01_backpack_F"];
+_u = _u		   + [1];
+_p = _p		   + [100];
+
+_i = _i		   + ["O_UAV_01_backpack_Custom"];
+_u = _u		   + [1];
+_p = _p		   + [110];
+
+_i = _i		   + ["O_UAV_FPV_backpack_F"];
+_u = _u		   + [1];
+_p = _p		   + [130];
+
+_i = _i        + ["rhs_sidor"];
 _u = _u        + [0];
 _p = _p        + [5];
 
@@ -533,14 +553,6 @@ _p = _p        + [10];
 _i = _i        + ["rhs_rk_sht_30_olive_engineer_empty"];
 _u = _u        + [1];
 _p = _p        + [10];
-
-_i = _i        + ["rhs_rk_sht_30_atacs_c"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_rk_sht_30_atacs_mc"];
-_u = _u        + [1];
-_p = _p        + [10];
  
 _i = _i        + ["rhs_medic_bag"];
 _u = _u        + [0];
@@ -566,32 +578,7 @@ _i = _i		   + ["b_parachute"];
 _u = _u		   + [0];
 _p = _p		   + [25];
 
-_i = _i		   + ["O_UAV_01_backpack_F"];
-_u = _u		   + [1];
-_p = _p		   + [100];
-
-_i = _i		   + ["O_UAV_01_backpack_Custom"];
-_u = _u		   + [1];
-_p = _p		   + [110];
-
-_i = _i		   + ["O_UAV_FPV_backpack_F"];
-_u = _u		   + [1];
-_p = _p		   + [130];
-
 // --- Uniforms ---
- 
-
-_i = _i        + ["rhs_uniform_emr_patchless"];
-_u = _u        + [0];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_vkpo"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_vkpo_gloves"];
-_u = _u        + [1];
-_p = _p        + [10];
 
 _i = _i        + ["rhs_uniform_6sh122_gloves_v2"];
 _u = _u        + [2];
@@ -625,11 +612,11 @@ _i = _i        + ["rhs_atacs_fg_mix_2_uniform_6sh122_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_uniform_fg_mix_1_uniform_6sh122_gloves_v1"];
+_i = _i        + ["rhs_uniform_mix_1_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_uniform_fg_mix_2_uniform_6sh122_gloves_v1"];
+_i = _i        + ["rhs_uniform_mix_2_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
  
@@ -648,8 +635,28 @@ _p = _p        + [15];
 _i = _i        + ["rhs_uniform_gorka_1_b"];
 _u = _u        + [2];
 _p = _p        + [15];
+
+_i = _i        + ["rhs_uniform_gorka_1_atacs_ag"];
+_u = _u        + [2];
+_p = _p        + [15];
+
+_i = _i        + ["rhs_uniform_gorka_1_atacs_fg"];
+_u = _u        + [2];
+_p = _p        + [15];
  
 _i = _i        + ["rhs_uniform_df15_tan"];
+_u = _u        + [1];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_uniform_emr_patchless"];
+_u = _u        + [0];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_uniform_vkpo"];
+_u = _u        + [1];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_uniform_vkpo_gloves"];
 _u = _u        + [1];
 _p = _p        + [10];
 
@@ -700,15 +707,7 @@ _i = _i        + ["Deg_TB_Green"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
-_i = _i        + ["Deg_TB_G_Gatorz_Green"];
-_u = _u        + [0];
-_p = _p        + [3]; 
-
-_i = _i        + ["Deg_TB_G_Combat_Green"];
-_u = _u        + [0];
-_p = _p        + [3]; 
-
-_i = _i        + ["Deg_TB_G_Combat_UN_Green"];
+_i = _i        + ["Deg_TB_UN_Green"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
