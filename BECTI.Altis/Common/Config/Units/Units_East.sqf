@@ -320,6 +320,24 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['ru_vdv_uav_operator'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV UAV Operator'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_at_specialist'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV AT Specialist'];
+_o = _o + [320];
+_t = _t + [3];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 // ---------- Cars ------------
 
 _c = _c + ['ru_msv_uaz_open'];

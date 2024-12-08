@@ -3718,30 +3718,30 @@
 
     };
 
-    class us_usmc_at_specialist : us_usmc_aa_specialist {
+    class us_usmc_at_specialist : us_usmc_missileman {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USMC AT Specialist";
         side = 1;
-        faction = "ako_us_usmc";
+        faction = "AKO_US_USMC";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
         uniformClass = "rhs_uniform_FROG01_wd";
 
-        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatwd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatwd_headset_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatwd_headset_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws","Rangefinder"};
+        weapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
+        magazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_coy";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"rhs_mag_maaws_HEAT",1},{},""},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_coy",{{"rhs_mag_maaws_HEAT",2,1}}},"rhsusf_lwh_helmet_marpatwd_ess","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_FROG01_wd",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"Titan_AT",2,1}}},"rhsusf_lwh_helmet_marpatwd_headset_blk","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -4812,24 +4812,24 @@
         scopeCurator = 2;
         displayName = "USMC AT Specialist";
         side = 1;
-        faction = "ako_us_usmc";
+        faction = "AKO_US_USMC";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
         uniformClass = "rhs_uniform_FROG01_d";
 
-        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_maaws","Rangefinder"};
+        weapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
+        magazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_coy";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"rhs_mag_maaws_HEAT",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"rhsusf_assault_eagleaiii_coy",{{"rhs_mag_maaws_HEAT",2,1}}},"rhsusf_lwh_helmet_marpatd_ess","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"Titan_AT",2,1}}},"rhsusf_lwh_helmet_marpatd_ess","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

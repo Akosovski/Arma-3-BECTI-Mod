@@ -258,6 +258,22 @@ _p = _p        + [3];
  
 // --- Weapon Accessories ---
  
+_i = _i        + ["JCA_optic_AICO_black"];
+_u = _u        + [0];
+_p = _p        + [7];
+
+_i = _i        + ["CUP_optic_Aimpoint_5000"];
+_u = _u        + [0];
+_p = _p        + [7];
+
+_i = _i        + ["CUP_optic_CompM2_low"];
+_u = _u        + [0];
+_p = _p        + [7];
+
+_i = _i        + ["optic_Holosight_blk_F"];
+_u = _u        + [0];
+_p = _p        + [7];
+
 _i = _i        + ["rhs_acc_pkas"];
 _u = _u        + [0];
 _p = _p        + [5];
@@ -302,13 +318,21 @@ _i = _i        + ["rhs_acc_2dpZenit_ris"];
 _u = _u        + [1];
 _p = _p        + [3];
 
-_i = _i		+ ["optic_tws"];
-_u = _u		+ [2];
-_p = _p		+ [5];
+_i = _i        + ["CUP_acc_LLM01_L"];
+_u = _u        + [1];
+_p = _p        + [3];
 
-_i = _i		+ ["optic_Nightstalker"];
-_u = _u		+ [2];
-_p = _p		+ [5];
+_i = _i        + ["CUP_acc_LLM_black"];
+_u = _u        + [1];
+_p = _p        + [3];
+
+_i = _i		   + ["optic_tws"];
+_u = _u		   + [2];
+_p = _p		   + [5];
+
+_i = _i		   + ["optic_Nightstalker"];
+_u = _u		   + [2];
+_p = _p		   + [5];
 
 _i = _i        + ["CUP_muzzle_TGPA"];
 _u = _u        + [3];
@@ -589,11 +613,35 @@ _i = _i        + ["rhs_uniform_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_atacs_mc_uniform_6sh122_gloves_v1"];
+_i = _i        + ["rhs_atacs_fg_uniform_6sh122_v1"];
+_u = _u        + [2];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_atacs_fg_uniform_6sh122_gloves_v1"];
+_u = _u        + [2];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_atacs_ag_uniform_6sh122_v2"];
+_u = _u        + [2];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_atacs_ag_uniform_6sh122_gloves_v2"];
 _u = _u        + [2];
 _p = _p        + [10];
  
-_i = _i        + ["rhs_atacs_c_uniform_6sh122_gloves_v1"];
+_i = _i        + ["rhs_atacs_fg_mix_1_uniform_6sh122_v1"];
+_u = _u        + [2];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_atacs_fg_mix_2_uniform_6sh122_v1"];
+_u = _u        + [2];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_atacs_fg_mix_1_uniform_6sh122_gloves_v1"];
+_u = _u        + [2];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_atacs_fg_mix_2_uniform_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
  
@@ -628,6 +676,14 @@ _i = _i        + ["rhs_facewear_6m2"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
+_i = _i        + ["rhs_6m2_1_nvg"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["rhs_6m2_nvg"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
 _i = _i        + ["g_Bandanna_khk"];
 _u = _u        + [0];
 _p = _p        + [3]; 
@@ -649,6 +705,22 @@ _u = _u        + [0];
 _p = _p        + [3]; 
 
 _i = _i        + ["g_Balaclava_oli"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_G_Gatorz_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_G_Combat_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_G_Combat_UN_Green"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
@@ -744,67 +816,51 @@ _i = _i        + ["rhs_6b45_rifleman_grn"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_c_6b45"];
+_i = _i        + ["cpc_communications_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_c_6b45_holster"];
+_i = _i        + ["cpc_Fast_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_c_6b45_light"];
+_i = _i        + ["cpc_light_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_c_6b45_mg"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_atacs_c_6b45_off"];
+_i = _i        + ["cpc_medical_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_c_6b45_rifleman"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_atacs_c_6b45_rifleman_2"];
-_u = _u        + [1];
-_p = _p        + [10];  
-
-_i = _i        + ["rhs_atacs_c_6b45_rifleman_grn"];
+_i = _i        + ["cpc_tl_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45"];
+_i = _i        + ["cpc_weapons_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45_holster"];
+_i = _i        + ["cpc_communicationsbelt_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45_light"];
+_i = _i        + ["cpc_Fastbelt_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45_mg"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_atacs_mc_6b45_off"];
+_i = _i        + ["cpc_lightbelt_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45_rifleman"];
+_i = _i        + ["cpc_medicalbelt_rngr"];
 _u = _u        + [1];
-_p = _p        + [10];
+_p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45_rifleman_2"];
+_i = _i        + ["cpc_tlbelt_rngr"];
 _u = _u        + [1];
-_p = _p        + [10];  
+_p = _p        + [10]; 
 
-_i = _i        + ["rhs_atacs_mc_6b45_rifleman_grn"];
+_i = _i        + ["cpc_weaponsbelt_rngr"];
 _u = _u        + [1];
 _p = _p        + [10]; 
 
@@ -915,117 +971,65 @@ _p = _p        + [20];
 
 // --- Helmets ---
 
-_i = _i        + ["rhs_6b47"];
-_u = _u        + [2];
+_i = _i        + ["rhs_6b47_emr"];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
 _i = _i        + ["rhs_6b47_bare"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b47_6m2_1"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b47_6m2"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b47_bala"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b47_ess"];
-_u = _u        + [2];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_6b47_ess_bala"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_atacs_mc_6b47_emr_1"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_atacs_mc_6b47"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_atacs_mc_6b47_6B50"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_atacs_c_6b47_emr_1"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_atacs_c_6b47"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_atacs_c_6b47_6B50"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b27m_mc"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b7_1m_mc"];
-_u = _u        + [2];
-_p = _p        + [10]; 
-
-_i = _i        + ["rhs_6b7_1m"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_6b7_1m_bala2"];
+_i = _i        + ["rhs_6b47_emr_1"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_6b7_1m_bala1"];
-_u = _u        + [0];
-_p = _p        + [10];
- 
-_i = _i        + ["rhs_6b7_1m_bala2_emr"];
+_i = _i        + ["rhs_6b47_emr_2"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_6b7_1m_emr"];
+_i = _i        + ["rhs_6b47_6B50"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["rhs_6b7_1m_bala1_emr"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_i = _i        + ["RCE_d_LSHZ"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["rhs_6b7_1m_emr_ess"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_i = _i        + ["RCE_w_LSHZ"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["rhs_6b7_1m_emr_ess_bala"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_i = _i        + ["RCE_d_LSHZ_B"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["rhs_6b7_1m_ess"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_i = _i        + ["RCE_w_LSHZ_B"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["rhs_6b7_1m_ess_bala"];
-_u = _u        + [0];
-_p = _p        + [10];
+_i = _i        + ["RCE_d_LSHZ_K"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["rhs_6b7_1m_olive"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_i = _i        + ["RCE_w_LSHZ_K"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["rhs_6b7_1m_bala2_olive"];
-_u = _u        + [0];
-_p = _p        + [10];
- 
-_i = _i        + ["rhs_6b7_1m_bala1_olive"];
-_u = _u        + [0];
-_p = _p        + [10]; 
+_i = _i        + ["RCE_d_LSHZC_C"];
+_u = _u        + [2];
+_p = _p        + [20]; 
+
+_i = _i        + ["RCE_w_LSHZC_C"];
+_u = _u        + [2];
+_p = _p        + [20]; 
+
+_i = _i        + ["RCE_d_LSHZC_B_K"];
+_u = _u        + [2];
+_p = _p        + [20]; 
+
+_i = _i        + ["RCE_w_LSHZC_B_K"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
 _i = _i        + ["rhs_altyn_bala"];
 _u = _u        + [3];
@@ -1112,14 +1116,6 @@ _u = _u        + [0];
 _p = _p        + [5]; 
 
 _i = _i        + ["rhs_vkpo_cap_alt"];
-_u = _u        + [1];
-_p = _p        + [5]; 
-
-_i = _i        + ["rhs_vkpo_atacs_mc_cap_alt"];
-_u = _u        + [1];
-_p = _p        + [5]; 
-
-_i = _i        + ["rhs_vkpo_atacs_c_cap_alt"];
 _u = _u        + [1];
 _p = _p        + [5]; 
 

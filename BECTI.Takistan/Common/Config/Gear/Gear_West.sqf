@@ -321,6 +321,10 @@ _i = _i		+ ["rhs_mag_smaw_SR"];
 _u = _u		+ [2];
 _p = _p		+ [75];
 
+_i = _i		+ ["Titan_AT"];
+_u = _u		+ [2];
+_p = _p		+ [75];
+
 _i = _i		+ ["rhs_fgm148_magazine_AT"];
 _u = _u		+ [3];
 _p = _p		+ [90];
@@ -430,6 +434,10 @@ _p = _p		+ [200];
 _i = _i		+ ["rhs_weap_smaw"];
 _u = _u		+ [2];
 _p = _p		+ [190];
+
+_i = _i		+ ["launch_O_Titan_short_F"];
+_u = _u		+ [2];
+_p = _p		+ [250];
 
 _i = _i		+ ["rhs_weap_fim92"];
 _u = _u		+ [2];

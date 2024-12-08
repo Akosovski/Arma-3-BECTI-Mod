@@ -437,6 +437,8 @@ class CfgPatches {
             "ru_vdv_heli_crewman",
             "ru_vdv_jet_pilot",
             "ru_vdv_crewman",
+            "ru_vdv_at_specialist",
+            "ru_vdv_uav_operator",
             "ru_vdv_bmd1",
             "ru_vdv_bmd2",
             "ru_vdv_bmd4",
