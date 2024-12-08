@@ -589,22 +589,6 @@ _i = _i        + ["rhs_uniform_vkpo_gloves"];
 _u = _u        + [1];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_uniform_atacs_mc_vkpo"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_vkpo_atacs_mc_gloves"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_atacs_c_vkpo"];
-_u = _u        + [1];
-_p = _p        + [10];
-
-_i = _i        + ["rhs_uniform_vkpo_atacs_c_gloves"];
-_u = _u        + [1];
-_p = _p        + [10];
-
 _i = _i        + ["rhs_uniform_6sh122_gloves_v2"];
 _u = _u        + [2];
 _p = _p        + [10];
@@ -637,11 +621,11 @@ _i = _i        + ["rhs_atacs_fg_mix_2_uniform_6sh122_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_atacs_fg_mix_1_uniform_6sh122_gloves_v1"];
+_i = _i        + ["rhs_uniform_fg_mix_1_uniform_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i        + ["rhs_atacs_fg_mix_2_uniform_6sh122_gloves_v1"];
+_i = _i        + ["rhs_uniform_fg_mix_2_uniform_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
  

@@ -1084,7 +1084,7 @@
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"rhs_uniform_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"rhs_6b45",{}},{},"rhs_6b47_bare","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"rhs_uniform_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"rhs_6b45",{}},{},"rhs_6b47_bare","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
