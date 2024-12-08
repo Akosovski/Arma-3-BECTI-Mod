@@ -506,6 +506,10 @@ __i = _i        + ["rhs_sidor"];
 _u = _u        + [0];
 _p = _p        + [5];
 
+_i = _i        + ["b_AssaultPack_khk"];
+_u = _u        + [0];
+_p = _p        + [10];
+
 _i = _i        + ["rhs_rd54_emr1"];
 _u = _u        + [0];
 _p = _p        + [10];
@@ -975,43 +979,19 @@ _i = _i        + ["rhs_6b47_6B50"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["RCE_d_LSHZ"];
+_i = _i        + ["RCE_d_LSHZ_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 
-_i = _i        + ["RCE_w_LSHZ"];
+_i = _i        + ["RCE_w_LSHZ_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 
-_i = _i        + ["RCE_d_LSHZ_B"];
+_i = _i        + ["RCE_d_LSHZ_C_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 
-_i = _i        + ["RCE_w_LSHZ_B"];
-_u = _u        + [2];
-_p = _p        + [20]; 
-
-_i = _i        + ["RCE_d_LSHZ_K"];
-_u = _u        + [2];
-_p = _p        + [20]; 
-
-_i = _i        + ["RCE_w_LSHZ_K"];
-_u = _u        + [2];
-_p = _p        + [20]; 
-
-_i = _i        + ["RCE_d_LSHZC_C"];
-_u = _u        + [2];
-_p = _p        + [20]; 
-
-_i = _i        + ["RCE_w_LSHZC_C"];
-_u = _u        + [2];
-_p = _p        + [20]; 
-
-_i = _i        + ["RCE_d_LSHZC_B_K"];
-_u = _u        + [2];
-_p = _p        + [20]; 
-
-_i = _i        + ["RCE_w_LSHZC_B_K"];
+_i = _i        + ["RCE_w_LSHZ_C_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 

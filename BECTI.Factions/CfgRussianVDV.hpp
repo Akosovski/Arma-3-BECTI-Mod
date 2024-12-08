@@ -193,7 +193,7 @@
     class JS_JC_SU35_OCimport_02 : JS_JC_SU35_OCimport_01 { scope = 0; class EventHandlers; };
 
 
-        class ru_vdv_sergeant : rhs_vdv_rifleman_OCimport_02 {
+    class ru_vdv_sergeant : rhs_vdv_rifleman_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -321,8 +321,8 @@
 
         uniformClass = "rhs_atacs_fg_mix_1_uniform_6sh122_v1";
 
-        linkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_H_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_H_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AK74M_railed_afg"};
         respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg"};
@@ -330,7 +330,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM_black","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"cpc_tlbelt_rngr",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK74M_M",9,30}}},{},"RCE_w_LSHZC_C_H_B_K","Deg_TB_G_Gatorz_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM_black","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"cpc_tlbelt_rngr",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK74M_M",9,30}}},{},"RCE_w_LSHZC_C_B_K","Deg_TB_G_Gatorz_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -359,8 +359,8 @@
 
         uniformClass = "rhs_uniform_mix_2_6sh122_gloves_v1";
 
-        linkedItems[] = {"cpc_weaponsbelt_rngr","RCE_d_LSHZ_C_B","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"cpc_weaponsbelt_rngr","RCE_d_LSHZ_C_B","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"cpc_weaponsbelt_rngr","RCE_d_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"cpc_weaponsbelt_rngr","RCE_d_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AS_VAL"};
         respawnWeapons[] = {"CUP_arifle_AS_VAL"};
@@ -370,7 +370,7 @@
 
         backpack = "B_AssaultPack_khk";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AS_VAL","","CUP_acc_LLM_black","CUP_optic_PSO_1_1_open",{"CUP_30Rnd_9x39_SP5_VIKHR_M",30},{},""},{},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"cpc_weaponsbelt_rngr",{{"CUP_30Rnd_9x39_SP5_VIKHR_M",4,30},{"rhs_mag_rgo",3,1}}},{"B_AssaultPack_khk",{{"CUP_30Rnd_9x39_SP5_VIKHR_M",8,30}}},"RCE_d_LSHZ_C_B","Deg_TB_G_Combat_UN_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AS_VAL","","CUP_acc_LLM_black","CUP_optic_PSO_1_1_open",{"CUP_30Rnd_9x39_SP5_VIKHR_M",30},{},""},{},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"cpc_weaponsbelt_rngr",{{"CUP_30Rnd_9x39_SP5_VIKHR_M",4,30},{"rhs_mag_rgo",3,1}}},{"B_AssaultPack_khk",{{"CUP_30Rnd_9x39_SP5_VIKHR_M",8,30}}},"RCE_d_LSHZC_C_B_K","Deg_TB_G_Combat_UN_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -399,8 +399,8 @@
 
         uniformClass = "rhs_atacs_fg_mix_1_uniform_6sh122_v1";
 
-        linkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_K","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
-        respawnlinkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_K","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
+        linkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
+        respawnlinkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
 
         weapons[] = {"CUP_arifle_AKMN_railed_afg"};
         respawnWeapons[] = {"CUP_arifle_AKMN_railed_afg"};
@@ -410,7 +410,7 @@
 
         backpack = "rhs_rk_sht_30_olive";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKMN_railed_afg","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"cpc_tlbelt_rngr",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_762x39_AK47_M",7,30}}},{"rhs_rk_sht_30_olive",{{"Medikit",1},{"FirstAidKit",5},{"CUP_30Rnd_762x39_AK47_M",3,30}}},"RCE_w_LSHZC_C_K","Deg_TB_G_Gatorz_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKMN_railed_afg","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"cpc_tlbelt_rngr",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_762x39_AK47_M",7,30}}},{"rhs_rk_sht_30_olive",{{"Medikit",1},{"FirstAidKit",5},{"CUP_30Rnd_762x39_AK47_M",3,30}}},"RCE_w_LSHZC_C_B_K","Deg_TB_G_Gatorz_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -479,8 +479,8 @@
 
         uniformClass = "rhs_atacs_fg_uniform_6sh122_gloves_v1";
 
-        linkedItems[] = {"cpc_lightbelt_rngr","RCE_w_LSHZC_C_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
-        respawnlinkedItems[] = {"cpc_lightbelt_rngr","RCE_w_LSHZC_C_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
+        linkedItems[] = {"cpc_lightbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
+        respawnlinkedItems[] = {"cpc_lightbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
 
         weapons[] = {"CUP_lmg_Pecheneg_B50_vfg"};
         respawnWeapons[] = {"CUP_lmg_Pecheneg_B50_vfg"};
@@ -673,8 +673,8 @@
 
         uniformClass = "rhs_atacs_fg_mix_1_uniform_6sh122_v1";
 
-        linkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_H_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_H_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"cpc_tlbelt_rngr","RCE_w_LSHZC_C_B_K","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AK74M_railed_afg","launch_O_Vorona_green_F"};
         respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg","launch_O_Vorona_green_F"};
@@ -684,7 +684,7 @@
 
         backpack = "B_Carryall_oli";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM_black","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"cpc_tlbelt_rngr",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK74M_M",9,30}}},{"B_Carryall_oli",{{"Vorona_HEAT",3,1}}},"RCE_w_LSHZC_C_H_B_K","Deg_TB_G_Gatorz_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM_black","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"cpc_tlbelt_rngr",{{"rhs_mag_rgo",3,1},{"CUP_30Rnd_545x39_AK74M_M",9,30}}},{"B_Carryall_oli",{{"Vorona_HEAT",3,1}}},"RCE_w_LSHZC_C_B_K","Deg_TB_G_Gatorz_Green",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
