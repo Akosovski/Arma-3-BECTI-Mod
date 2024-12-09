@@ -1311,7 +1311,7 @@ class CfgFactionClasses {
         icon = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
         priority = 0;
     };
-    class AKO_US_RG {
+    class AKO_US_USAF {
         displayName = "Ako's USA (AIR FORCE)";
         side = 1;
         flag = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
