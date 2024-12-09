@@ -1372,7 +1372,7 @@ class CfgVehicles {
     #include "BLUFOR\USRG\Cfg_USRG_Ground.hpp"
     #include "BLUFOR\USRG\Cfg_USRG_Air.hpp"
 
-    #include "BLUFOR\USRG\Cfg_USAF_Combined.hpp"
+    #include "BLUFOR\USAF\Cfg_USAF_Combined.hpp"
 
     // REDFOR // ---------------------------------------
     #include "REDFOR\MSV\Cfg_MSV_Infantry.hpp"
