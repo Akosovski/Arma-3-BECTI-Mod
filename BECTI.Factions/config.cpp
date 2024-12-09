@@ -1132,6 +1132,124 @@ class CfgPatches {
         author = "Kaga No Kami";
         authors[] = {"Kaga No Kami"};
     };
+    class AKO_US_USAF {
+        units[] = {
+            "us_usaf_jet_pilot",
+            "us_usaf_a10a",
+            "us_usaf_ah64d",
+            "us_usaf_f22a",
+            "us_usaf_c130j",
+            "us_usaf_mq4a",
+            "us_usaf_mq4b",
+            "us_usaf_a29",
+            "us_usaf_f15ex",
+            "us_usaf_f16c"
+        };
+        weapons[] = {};
+        requiredVersion = 1.62;
+        requiredAddons[] = {
+            "rhsusf_c_troops",
+            "A3_Characters_F",
+            "A3_Sounds_F",
+            "A3_Sounds_F_Exp",
+            "A3_Data_F",
+            "A3_Data_F_Curator",
+            "A3_Air_F_Heli",
+            "cba_xeh",
+            "A3_Air_F_Beta_Heli_Transport_01",
+            "A3_Air_F",
+            "A3_Air_F_Heli_Light_01",
+            "A3_Air_F_Heli_Light_02",
+            "rhsusf_c_melb",
+            "rhsgref_c_air",
+            "RHS_US_A2_AirImport",
+            "A3_Air_F_EPC_Plane_CAS_01",
+            "A3_Air_F_Beta",
+            "A3_Air_F_Gamma_Plane_Fighter_03",
+            "A3_Air_F_EPC_Plane_CAS_02",
+            "A3_Air_F_Exp_Plane_Civil_01",
+            "A3_Air_F_Jets_Plane_Fighter_01",
+            "A3_Air_F_Jets_Plane_Fighter_02",
+            "A3_Air_F_Jets_Plane_Fighter_04",
+            "A3_Air_F_Jets_UAV_05",
+            "rhs_c_a2port_air",
+            "rhs_c_air",
+            "rhs_c_mig29",
+            "RHSGREF_c_A29",
+            "rhssaf_c_vehicles",
+            "A3_Air_F_Beta_Heli_Attack_01",
+            "rhsusf_c_f22",
+            "A3_Air_F_Beta_Heli_Transport_02",
+            "rhsusf_c_ch53",
+            "A3_Air_F_EPB_Heli_Light_03",
+            "rhsusf_c_himars",
+            "A3_Soft_F_Beta_Truck_01",
+            "A3_Soft_F_Gamma_Truck_01",
+            "rhsusf_c_Caiman",
+            "rhsusf_c_fmtv",
+            "rhsusf_c_HEMTT_A4",
+            "rhsusf_c_mtvr",
+            "A3_Soft_F",
+            "A3_Soft_F_Beta_Truck_02",
+            "A3_Soft_F_Gamma_Van_01",
+            "A3_Soft_F_EPC_Truck_03",
+            "A3_Soft_F_Orange_Van_02",
+            "rhs_c_zil131",
+            "rhs_c_a2port_car",
+            "rhs_c_kamaz",
+            "rhs_c_kraz255",
+            "rhs_c_rva",
+            "rhsgref_c_vehicles_ret",
+            "A3_Soft_F_Gamma_Hatchback_01",
+            "A3_Soft_F_Exp_Offroad_02",
+            "A3_Data_F_ParticleEffects",
+            "A3_Armor_F_Beta",
+            "rhsusf_c_m109",
+            "A3_Armor_F_Gamma_MBT_01",
+            "A3_Armor_F_Beta_APC_Tracked_01",
+            "A3_Armor_F_Beta_APC_Tracked_02",
+            "A3_Armor_F_Gamma_MBT_02",
+            "A3_Armor_F_EPB_APC_Tracked_03",
+            "A3_Armor_F_EPB_MBT_03",
+            "A3_Armor_F_Tank_LT_01",
+            "A3_Armor_F_Tank_MBT_04",
+            "A3_Soft_F_Enoch_UGV_02",
+            "rhs_c_2s1",
+            "rhs_c_2s3",
+            "rhs_c_bmd",
+            "rhs_c_bmp3",
+            "rhs_c_bmp",
+            "rhs_c_pts",
+            "rhs_c_sprut",
+            "rhs_c_t14",
+            "rhs_c_t15",
+            "rhs_c_t72",
+            "rhs_c_tanks",
+            "RHS_US_A2Port_Armor",
+            "rhsusf_c_m113",
+            "rhsusf_c_m1a1",
+            "rhsusf_c_m1a2",
+            "rhs_c_a2port_armor",
+            "RHSUSF_c_vehicleSounds",
+            "rhsusf_vehicles",
+            "A3_Soft_F_MRAP_01",
+            "A3_Soft_F_Exp_MRAP_01",
+            "rhsusf_c_stryker",
+            "A3_Armor_F_Beta_APC_Wheeled_01",
+            "A3_Armor_F_Beta_APC_Wheeled_02",
+            "A3_Armor_F_Gamma_APC_Wheeled_03",
+            "A3_Armor_F_Tank_AFV_Wheeled_01",
+            "rhs_c_btr",
+            "rhsgref_c_a2port_armor",
+            "rhsusf_c_m11xx",
+            "A3_Soft_F_Exp_Truck_01",
+            "rhsusf_c_m1117",
+            "A3_Drones_F_Air_F_Gamma_UAV_02",
+            "LoiteringMunitionUAVs"
+        };
+        author = "Kaga No Kami";
+        authors[] = {"Kaga No Kami"};
+    };
 };
 
 class CBA_Extended_EventHandlers_base;
@@ -1186,11 +1304,18 @@ class CfgFactionClasses {
         icon = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
         priority = 0;
     };
-        class AKO_US_RG {
+    class AKO_US_RG {
         displayName = "Ako's USA (RANGERS)";
         side = 1;
-        flag = "\rhsusf\addons\rhsusf_main\data\flag_map\flag_us_co.paa";
-        icon = "\rhsusf\addons\rhsusf_main\data\flag_map\flag_us_co.paa";
+        flag = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
+        icon = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
+        priority = 0;
+    };
+    class AKO_US_RG {
+        displayName = "Ako's USA (AIR FORCE)";
+        side = 1;
+        flag = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
+        icon = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
         priority = 0;
     };
 };
@@ -1200,168 +1325,12 @@ class CfgGroups {
 
         class AKO_AL_ADF {
             name = "Ako's Altis (ADF)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "SpecOps";
-
-            };
-
-            class Motorized {
-                name = "Motorized";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized";
-
-            };
-
-            class Armored {
-                name = "Armored";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
         class AKO_TA_TLA {
             name = "Ako's Tanoa (TLA)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "Special Forces";
-
-            };
-
-            class Motorized {
-                name = "Motorized Infantry";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support Infantry";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized Infantry";
-
-            };
-
-            class Armored {
-                name = "Armor";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
         class AKO_TK_ISIS {
             name = "Ako's Takistan (ISIS)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "Special Forces";
-
-            };
-
-            class Motorized {
-                name = "Motorized Infantry";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support Infantry";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized Infantry";
-
-            };
-
-            class Armored {
-                name = "Armor";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
 
     };
@@ -1369,296 +1338,55 @@ class CfgGroups {
 
         class AKO_RU_MSV {
             name = "Ako's Russia (MSV)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "SpecOps";
-
-            };
-
-            class Motorized {
-                name = "Motorized";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized";
-
-            };
-
-            class Armored {
-                name = "Armored";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
         class AKO_RU_VDV {
             name = "Ako's Russia (VDV)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "SpecOps";
-
-            };
-
-            class Motorized {
-                name = "Motorized";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized";
-
-            };
-
-            class Armored {
-                name = "Armored";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
         class AKO_RU_VMF {
             name = "Ako's Russia (VMF)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "Special Forces";
-
-            };
-
-            class Motorized {
-                name = "Motorized Infantry";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support Infantry";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized Infantry";
-
-            };
-
-            class Armored {
-                name = "Armor";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
-
-
     };
     class WEST {
 
         class AKO_US_USMC {
-            name = "Ako's USA (USMC)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "SpecOps";
-
-            };
-
-            class Motorized {
-                name = "Motorized";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized";
-
-            };
-
-            class Armored {
-                name = "Armored";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
+            name = "Ako's America (USMC)";
         };
         class AKO_US_RG {
-            name = "Ako's USA (RANGERS)";
-
-            class Infantry {
-                name = "Infantry";
-
-            };
-
-            class SpecOps {
-                name = "Special Forces";
-
-            };
-
-            class Motorized {
-                name = "Motorized Infantry";
-
-            };
-
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-
-            };
-
-            class Support {
-                name = "Support Infantry";
-
-            };
-
-            class Mechanized {
-                name = "Mechanized Infantry";
-
-            };
-
-            class Armored {
-                name = "Armor";
-
-            };
-
-            class Artillery {
-                name = "Artillery";
-
-            };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
+            name = "Ako's America (RANGERS)";
         };
-
+        class AKO_US_USAF {
+            name = "Ako's America (AIR FORCE)";
+        };
     };
 };
 
 class CfgVehicles {
     
-    #include "CfgUSMarines.hpp"
-    #include "CfgUSRangers.hpp"
-    #include "CfgRussianMSV.hpp"
-    #include "CfgRussianVDV.hpp"
-    #include "CfgRussianVMF.hpp"
-    #include "CfgAltisDefenceForces.hpp"
-    #include "CfgTanoaLiberationArmy.hpp"
-    #include "CfgTakistanISIS.hpp"
+    // BLUFOR // ---------------------------------------
+    #include "BLUFOR\USMC\Cfg_USMC_Infantry.hpp"
+    #include "BLUFOR\USMC\Cfg_USMC_Infantry_Desert.hpp"
+    #include "BLUFOR\USMC\Cfg_USMC_Ground.hpp"
+    #include "BLUFOR\USMC\Cfg_USMC_Air.hpp"
+
+    #include "BLUFOR\USRG\Cfg_USRG_Infantry.hpp"
+    #include "BLUFOR\USRG\Cfg_USRG_Ground.hpp"
+    #include "BLUFOR\USRG\Cfg_USRG_Air.hpp"
+
+    #include "BLUFOR\USRG\Cfg_USAF_Combined.hpp"
+
+    // REDFOR // ---------------------------------------
+    #include "REDFOR\MSV\Cfg_MSV_Infantry.hpp"
+    #include "REDFOR\MSV\Cfg_MSV_Ground.hpp"
+
+    #include "REDFOR\VDV\Cfg_VDV_Infantry.hpp"
+    #include "REDFOR\VDV\Cfg_VDV_Infantry_Desert.hpp"
+    #include "REDFOR\VDV\Cfg_VDV_Ground.hpp"
+    #include "REDFOR\VDV\Cfg_VDV_Air.hpp"
+
+    #include "REDFOR\VMF\Cfg_VMF_Infantry.hpp"
+
+    // INDEPENDENT // ----------------------------------
+    #include "INDEPENDENT\ADF\Cfg_ADF_Combined.hpp"
+    #include "INDEPENDENT\TLA\Cfg_TLA_Combined.hpp"
+    #include "INDEPENDENT\ISIS\Cfg_ISIS_Combined.hpp"
 }

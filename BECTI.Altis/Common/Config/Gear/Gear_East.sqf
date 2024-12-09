@@ -986,11 +986,11 @@ _i = _i        + ["RCE_w_LSHZ_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 
-_i = _i        + ["RCE_d_LSHZ_C_B_K"];
+_i = _i        + ["RCE_d_LSHZC_C_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 
-_i = _i        + ["RCE_w_LSHZ_C_B_K"];
+_i = _i        + ["RCE_w_LSHZC_C_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
 
