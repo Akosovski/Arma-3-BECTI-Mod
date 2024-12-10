@@ -180,10 +180,6 @@ _i = _i        + ["CUP_lmg_PKM"];
 _u = _u        + [1];
 _p = _p        + [65];
 
-_i = _i        + ["CUP_arifle_RPK74"];
-_u = _u        + [1];
-_p = _p        + [45];
-
 _i = _i        + ["CUP_lmg_Pecheneg"];
 _u = _u        + [2];
 _p = _p        + [75];
@@ -195,6 +191,10 @@ _p = _p        + [85];
 _i = _i        + ["CUP_srifle_SVD"];
 _u = _u        + [1];
 _p = _p        + [65];
+
+_i = _i        + ["CUP_arifle_RPK74"];
+_u = _u        + [1];
+_p = _p        + [45];
 
 _i = _i        + ["CUP_arifle_RPK74M"];
 _u = _u        + [2];
@@ -274,6 +274,10 @@ _i = _i        + ["CUP_optic_CompM2_low"];
 _u = _u        + [0];
 _p = _p        + [7];
 
+_i = _i        + ["CUP_optic_CompM4"];
+_u = _u        + [0];
+_p = _p        + [7];
+
 _i = _i        + ["optic_Holosight_blk_F"];
 _u = _u        + [0];
 _p = _p        + [7];
@@ -338,11 +342,19 @@ _i = _i		   + ["optic_Nightstalker"];
 _u = _u		   + [2];
 _p = _p		   + [5];
 
-_i = _i        + ["CUP_muzzle_TGPA"];
+_i = _i        + ["rhs_acc_tgpa"];
 _u = _u        + [3];
 _p = _p        + [7];
 
-_i = _i        + ["CUP_muzzle_snds_KZRZP_AK545"];
+_i = _i        + ["rhs_acc_uuk"];
+_u = _u        + [3];
+_p = _p        + [7];
+
+_i = _i        + ["CUP_muzzle_Bizon"];
+_u = _u        + [3];
+_p = _p        + [7];
+
+_i = _i        + ["CUP_muzzle_snds_KZRZP_AK762"];
 _u = _u        + [3];
 _p = _p        + [7];
 
@@ -530,6 +542,10 @@ _i = _i        + ["b_AssaultPack_khk"];
 _u = _u        + [0];
 _p = _p        + [10];
 
+_i = _i        + ["rhs_rd54_flora1"];
+_u = _u        + [0];
+_p = _p        + [10];
+
 _i = _i        + ["rhs_rd54_emr1"];
 _u = _u        + [0];
 _p = _p        + [10];
@@ -558,6 +574,10 @@ _i = _i        + ["rhs_medic_bag"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
+_i = _i        + ["rhs_rpg_2"];
+_u = _u        + [0];
+_p = _p        + [10];
+
 _i = _i        + ["rhs_rpg_empty"];
 _u = _u        + [0];
 _p = _p        + [10];
@@ -566,11 +586,19 @@ _i = _i        + ["rhs_tortila_emr"];
 _u = _u        + [2];
 _p = _p        + [10];
 
+_i = _i        + ["rhs_tortila_khaki"];
+_u = _u        + [2];
+_p = _p        + [10];
+
 _i = _i        + ["rhs_tortila_olive"];
 _u = _u        + [2];
 _p = _p        + [10];
 
 _i = _i		   + ["b_Kitbag_sgg"];
+_u = _u		   + [1];
+_p = _p		   + [25];
+
+_i = _i		   + ["rhssaf_kitbag_smb"];
 _u = _u		   + [1];
 _p = _p		   + [25];
 
@@ -619,6 +647,14 @@ _p = _p        + [10];
 _i = _i        + ["rhs_uniform_mix_2_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
+
+_i = _i        + ["gorkaflora"];
+_u = _u        + [1];
+_p = _p        + [15];
+
+_i = _i        + ["gorkacflora"];
+_u = _u        + [1];
+_p = _p        + [15];
  
 _i = _i        + ["rhs_uniform_gorka_r_g_gloves"];
 _u = _u        + [3];
@@ -644,7 +680,7 @@ _i = _i        + ["rhs_uniform_gorka_1_atacs_fg"];
 _u = _u        + [2];
 _p = _p        + [15];
  
-_i = _i        + ["rhs_uniform_df15_tan"];
+_i = _i        + ["rhssaf_uniform_mig29_pilot"];
 _u = _u        + [1];
 _p = _p        + [10];
 
@@ -659,6 +695,10 @@ _p = _p        + [10];
 _i = _i        + ["rhs_uniform_vkpo_gloves"];
 _u = _u        + [1];
 _p = _p        + [10];
+
+_i = _i        + ["U_I_FullGhillie_sard"];
+_u = _u        + [3];
+_p = _p        + [30];
 
  
 // --- Face Wear ---
@@ -676,6 +716,14 @@ _u = _u        + [0];
 _p = _p        + [3]; 
 
 _i = _i        + ["rhs_6m2_nvg"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["rhs_ess_black"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["G_Aviator"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
@@ -708,6 +756,14 @@ _u = _u        + [0];
 _p = _p        + [3]; 
 
 _i = _i        + ["Deg_TB_UN_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_Tan"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_UN_Tan"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
@@ -803,53 +859,65 @@ _i = _i        + ["rhs_6b45_rifleman_grn"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["cpc_communications_rngr"];
-_u = _u        + [1];
+_i = _i        + ["rhs_6b45_od"];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["cpc_Fast_rngr"];
-_u = _u        + [1];
+_i = _i        + ["rhs_6b45_holster_od"];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["cpc_light_rngr"];
-_u = _u        + [1];
+_i = _i        + ["rhs_6b45_light_od"];
+_u = _u        + [0];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_6b45_mg_od"];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["cpc_medical_rngr"];
-_u = _u        + [1];
+_i = _i        + ["rhs_6b45_rifleman_od"];
+_u = _u        + [0];
+_p = _p        + [10];
+
+_i = _i        + ["rhs_6b45_rifleman_2_od"];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["cpc_tl_rngr"];
-_u = _u        + [1];
+_i = _i        + ["rhs_6b45_grn_od"];
+_u = _u        + [0];
 _p = _p        + [10]; 
 
-_i = _i        + ["cpc_weapons_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_AK_AtacsFG"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["cpc_communicationsbelt_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_Light_AK_AtacsFG"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["cpc_Fastbelt_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_Medium_AK_AtacsFG"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["cpc_lightbelt_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_Heavy_AK_AtacsFG"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["cpc_medicalbelt_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_AK_Olive"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["cpc_tlbelt_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_Light_AK_Olive"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
-_i = _i        + ["cpc_weaponsbelt_rngr"];
-_u = _u        + [1];
-_p = _p        + [10]; 
+_i = _i        + ["AGE_WAS_Medium_AK_Olive"];
+_u = _u        + [2];
+_p = _p        + [20]; 
+
+_i = _i        + ["AGE_WAS_Heavy_AK_Olive"];
+_u = _u        + [2];
+_p = _p        + [20]; 
 
 _i = _i        + ["JCA_MCRP_V_CarrierRigKBT_01_compact_coyote_F"];
 _u = _u        + [1];
@@ -978,6 +1046,38 @@ _i = _i        + ["rhs_6b47_6B50"];
 _u = _u        + [0];
 _p = _p        + [10]; 
 
+_i = _i        + ["rhs_6b7_1m"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_bala1"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_bala2"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_ess"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_ess_bala"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_olive"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_bala1_olive"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
+_i = _i        + ["rhs_6b7_1m_bala2_olive"];
+_u = _u        + [0];
+_p = _p        + [10]; 
+
 _i = _i        + ["RCE_d_LSHZ_B_K"];
 _u = _u        + [2];
 _p = _p        + [20]; 
@@ -1062,6 +1162,10 @@ _i = _i        + ["rhs_beanie_green"];
 _u = _u        + [0];
 _p = _p        + [5]; 
 
+_i = _i        + ["rhs_Booniehat_digi"];
+_u = _u        + [0];
+_p = _p        + [5]; 
+
 _i = _i        + ["rhs_fieldcap_digi"];
 _u = _u        + [0];
 _p = _p        + [5]; 
@@ -1070,17 +1174,22 @@ _i = _i        + ["rhs_fieldcap_digi2"];
 _u = _u        + [0];
 _p = _p        + [5]; 
 
-_i = _i        + ["rhs_Booniehat_digi"];
-_u = _u        + [0];
+_i = _i        + ["rhs_vkpo_cap_alt"];
+_u = _u        + [1];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_beret_vdv_early"];
+_u = _u        + [1];
+_p = _p        + [5]; 
+
+_i = _i        + ["rhs_beret_mp1"];
+_u = _u        + [1];
 _p = _p        + [5]; 
 
 _i = _i        + ["rhs_ushanka"];
 _u = _u        + [0];
 _p = _p        + [5]; 
 
-_i = _i        + ["rhs_vkpo_cap_alt"];
-_u = _u        + [1];
-_p = _p        + [5]; 
 
  //--- Weapon Backpacks ---
  
@@ -1152,25 +1261,26 @@ _i = _i        + ["RHS_NSV_Gun_Bag"];
 _u = _u        + [1];
 _p = _p        + [30]; 
 
-// --- Grips and Bipods ---
-
-
-_i = _i        + ["rhs_acc_grip_ffg2"];
-_u = _u        + [2];
-_p = _p        + [5]; 
-
-_i = _i        + ["rhs_acc_grip_rk2"];
-_u = _u        + [2];
-_p = _p        + [5]; 
-
-_i = _i        + ["rhs_acc_grip_rk6"];
-_u = _u        + [2];
-_p = _p        + [5]; 
-
 
 // --- Misc NVG and Binos ---
  
-_i = _i         + ["CUP_NVG_1PN138"];
+_i = _i         + ["FirstAidKit"];
+_u = _u         + [0];
+_p = _p         + [3]; 
+
+_i = _i		    + ["Toolkit"];
+_u = _u		    + [0];
+_p = _p		    + [100];
+
+_i = _i		    + ["Medikit"];
+_u = _u		    + [0];
+_p = _p		    + [100];
+
+_i = _i		    + ["O_UavTerminal"];
+_u = _u		    + [1];
+_p = _p		    + [20];
+
+_i = _i         + ["rhs_ipn138"];
 _u = _u         + [0];
 _p = _p         + [10]; 
 
@@ -1210,25 +1320,9 @@ _i = _i		    + ["itemwatch"];
 _u = _u		    + [0];
 _p = _p		    + [5];
 
-_i = _i		    + ["O_UavTerminal"];
-_u = _u		    + [1];
-_p = _p		    + [20];
-
 _i = _i		    + ["Minedetector"];
 _u = _u		    + [0];
 _p = _p		    + [25];
-
-_i = _i         + ["FirstAidKit"];
-_u = _u         + [0];
-_p = _p         + [3]; 
-
-_i = _i		    + ["Toolkit"];
-_u = _u		    + [0];
-_p = _p		    + [100];
-
-_i = _i		    + ["Medikit"];
-_u = _u		    + [0];
-_p = _p		    + [100];
 
 
 //--- ADDONS

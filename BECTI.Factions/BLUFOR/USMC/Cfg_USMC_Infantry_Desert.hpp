@@ -473,6 +473,46 @@
 
     };
 
+    class us_usmc_des_at_specialist : us_usmc_des_aa_specialist {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC AT Specialist";
+        side = 1;
+        faction = "AKO_US_USMC";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_d";
+
+        linkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
+
+        backpack = "rhsusf_assault_eagleaiii_coy";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"Titan_AT",2,1}}},"rhsusf_lwh_helmet_marpatd_ess","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class us_usmc_des_missileman : us_usmc_des_aa_specialist {
         author = "Akosovski";
         scope = 2;
@@ -525,6 +565,44 @@
 
         uniformClass = "rhs_uniform_FROG01_d";
 
+        linkedItems[] = {"rhsusf_spc_light","rhsusf_lwh_helmet_marpatd_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_light","rhsusf_lwh_helmet_marpatd_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_black_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_bk","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_light",{{"FirstAidKit",3},{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{},"rhsusf_lwh_helmet_marpatd_headset","rhs_googles_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_des_commander : us_usmc_des_officer {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC Commander";
+        side = 1;
+        faction = "AKO_US_USMC";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_d";
+
         linkedItems[] = {"rhsusf_spc_light","rhs_8point_marpatd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_spc_light","rhs_8point_marpatd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
@@ -534,7 +612,7 @@
         magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_light",{{"FirstAidKit",3},{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{},"rhs_8point_marpatd","rhs_googles_clear",{"","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_wmx_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_light",{{"FirstAidKit",3},{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{},"rhs_8point_marpatd","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -744,46 +822,6 @@
 
     };
 
-    class us_usmc_des_at_specialist : us_usmc_des_aa_specialist {
-        author = "Akosovski";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "USMC AT Specialist";
-        side = 1;
-        faction = "AKO_US_USMC";
-
-        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
-
-        uniformClass = "rhs_uniform_FROG01_d";
-
-        linkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-
-        weapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","launch_O_Titan_short_F","Rangefinder"};
-
-        magazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
-
-        backpack = "rhsusf_assault_eagleaiii_coy";
-
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"Titan_AT",2,1}}},"rhsusf_lwh_helmet_marpatd_ess","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
     class us_usmc_des_grenadier_m16a4 : us_usmc_des_rifleman_m16 {
         author = "Akosovski";
         scope = 2;
@@ -940,11 +978,11 @@
 
     };
 
-    class us_usmc_des_uav_operator : us_usmc_des_rifleman_m4a1 {
+    class us_usmc_des_uav_operator_he : us_usmc_des_rifleman_m4a1 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "USMC UAV Operator";
+        displayName = "USMC UAV Operator (HE)";
         side = 1;
         faction = "ako_us_usmc";
 
@@ -952,8 +990,8 @@
 
         uniformClass = "rhs_uniform_FROG01_d";
 
-        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd_ess","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"JCA_arifle_M4A1_black_F"};
         respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
@@ -961,9 +999,49 @@
         magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        backpack = "B_UAV_01_backpack_F";
+        backpack = "B_UAV_01_backpack_Custom";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_F",{}},"rhsusf_lwh_helmet_marpatd_ess","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_Custom",{}},"rhsusf_lwh_helmet_marpatd","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_usmc_des_uav_operator_rpg : us_usmc_des_uav_operator_he {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USMC UAV Operator (RPG)";
+        side = 1;
+        faction = "ako_us_usmc";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
+
+        uniformClass = "rhs_uniform_FROG01_d";
+
+        linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_lwh_helmet_marpatd","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_black_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+
+        backpack = "B_UAV_FPV_backpack_F";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_rifleman",{{"FirstAidKit",3},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_FPV_backpack_F",{}},"rhsusf_lwh_helmet_marpatd","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

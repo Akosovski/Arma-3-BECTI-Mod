@@ -545,9 +545,8 @@
         scopeCurator = 2;
         displayName = "USAF F-35C";
         side = 1;
-        faction = "AKO_US_USMC";
+        faction = "ako_us_usaf";
         crew = "us_usaf_jet_pilot";
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

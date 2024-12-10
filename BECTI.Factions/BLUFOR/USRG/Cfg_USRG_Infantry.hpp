@@ -328,7 +328,45 @@
         scopeCurator = 2;
         displayName = "USRG Officer";
         side = 1;
-        faction = "ako_us_rg";
+        faction = "AKO_US_RG";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F"};
+
+        uniformClass = "rhs_uniform_acu_oefcp";
+
+        linkedItems[] = {"rhsusf_iotv_ocp_Repair","TFV_headgear_opscore_peltor_camera","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_iotv_ocp_Repair","TFV_headgear_opscore_peltor_camera","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A1_short_sand_F","Laserdesignator"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_short_sand_F","Laserdesignator"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Laserbatteries","30Rnd_556x45_Stanag","Laserbatteries"};
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_sand_F","","rhsusf_acc_anpeq15_bk","optic_NVS",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Repair",{{"30Rnd_556x45_Stanag",10,30},{"rhs_mag_m67",4,1}}},{},"TFV_headgear_opscore_peltor_camera","rhs_googles_black",{"Laserdesignator","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CUP_insignia_75th_ranger'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "CUP_insignia_75th_ranger";
+    };
+
+    class us_rg_commander : us_rg_mortarman_gun {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG Commander";
+        side = 1;
+        faction = "AKO_US_RG";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -358,7 +396,6 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "CUP_insignia_75th_ranger";
-
     };
 
     class us_rg_medic : us_rg_officer {
@@ -562,7 +599,7 @@
 
     };
 
-    class us_rg_helicopter_pilot : us_rg_jet_pilot {
+    class us_rg_helicopter_pilot : us_rg_officer {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -679,13 +716,13 @@
 
     };
 
-    class us_rg_uav_operator : us_rg_worker {
+    class us_rg_uav_operator_he : us_rg_worker {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "USRG UAV Operator";
+        displayName = "USRG UAV Operator (HE)";
         side = 1;
-        faction = "ako_us_rg";
+        faction = "AKO_US_RG";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -700,9 +737,9 @@
         magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
 
-        backpack = "B_UAV_01_backpack_F";
+        backpack = "B_UAV_01_backpack_Custom";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_F",{}},"TFV_headgear_opscore_cover_mc_peltor_nsw","rhs_googles_clear",{},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_01_backpack_Custom",{}},"TFV_headgear_opscore_cover_mc_peltor_nsw","rhs_googles_clear",{},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -720,7 +757,48 @@
 
     };
 
-    class us_rg_aa_specialist : us_rg_uav_operator {
+    class us_rg_uav_operator_rpg : us_rg_worker {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG UAV Operator (RPG)";
+        side = 1;
+        faction = "AKO_US_RG";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F"};
+
+        uniformClass = "rhs_uniform_acu_oefcp";
+
+        linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","TFV_headgear_opscore_cover_mc_peltor_nsw","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","TFV_headgear_opscore_cover_mc_peltor_nsw","ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
+
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"};
+
+        backpack = "B_UAV_FPV_backpack_F";
+
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",4},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",10,30}}},{"B_UAV_FPV_backpack_F",{}},"TFV_headgear_opscore_cover_mc_peltor_nsw","rhs_googles_clear",{},{"ItemMap","B_UavTerminal","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CUP_insignia_75th_ranger'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "CUP_insignia_75th_ranger";
+
+    };
+
+    class us_rg_aa_specialist : us_rg_uav_operator_he {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -761,13 +839,13 @@
 
     };
 
-    class us_rg_at_specialist : us_rg_aa_specialist {
+    class us_rg_at_specialist : us_rg_aa_specialist  {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
         displayName = "USRG AT Specialist";
         side = 1;
-        faction = "ako_us_rg";
+        faction = "AKO_US_RG";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -776,15 +854,15 @@
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","TFV_headgear_opscore_cover_mc_peltor_nsw","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","TFV_headgear_opscore_cover_mc_peltor_nsw","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_maaws"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_maaws"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","launch_O_Titan_short_F"};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","launch_O_Titan_short_F"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_maaws_HEAT","30Rnd_556x45_Stanag"};
+        magazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","Titan_AT","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_ocp";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_maaws","","","rhs_optic_maaws",{"rhs_mag_maaws_HEAT",1},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",11,30},{"DemoCharge_Remote_Mag",1,1}}},{"rhsusf_assault_eagleaiii_ocp",{{"rhs_mag_maaws_HEAT",2,1}}},"TFV_headgear_opscore_cover_mc_peltor_nsw","rhs_googles_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",11,30},{"DemoCharge_Remote_Mag",1,1}}},{"rhsusf_assault_eagleaiii_ocp",{{"Titan_AT",2,1}}},"TFV_headgear_opscore_cover_mc_peltor_nsw","rhs_ess_black",{},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1059,9 +1137,9 @@
         magazines[] = {"30Rnd_556x45_Stanag_green","CUP_12Rnd_45ACP_mk23","30Rnd_556x45_Stanag_green","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag_green","CUP_12Rnd_45ACP_mk23","30Rnd_556x45_Stanag_green","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "B_UAV_01_backpack_F";
+        backpack = "B_UAV_01_backpack_Custom";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_olive_F","rhsusf_acc_SF3P556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag_green",30},{},""},{},{"CUP_hgun_Mk23","","","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_CarrierRigKBT_01_heavy_Olive_F",{{"CUP_12Rnd_45ACP_mk23",3,12},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"30Rnd_556x45_Stanag_green",6,30}}},{"B_UAV_01_backpack_F",{}},"TFV_headgear_opscore_cover_rgr_peltor_nsw","JCA_G_AirPurifyingRespirator_03_olive_tinted_F",{"Rangefinder","","","",{},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_short_olive_F","rhsusf_acc_SF3P556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag_green",30},{},""},{},{"CUP_hgun_Mk23","","","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"rhs_uniform_g3_rgr",{{"FirstAidKit",5}}},{"V_CarrierRigKBT_01_heavy_Olive_F",{{"CUP_12Rnd_45ACP_mk23",3,12},{"rhs_mag_m67",4,1},{"DemoCharge_Remote_Mag",1,1},{"30Rnd_556x45_Stanag_green",6,30}}},{"B_UAV_01_backpack_Custom",{}},"TFV_headgear_opscore_cover_rgr_peltor_nsw","JCA_G_AirPurifyingRespirator_03_olive_tinted_F",{"Rangefinder","","","",{},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black"}};
 
 
         class EventHandlers : EventHandlers {
