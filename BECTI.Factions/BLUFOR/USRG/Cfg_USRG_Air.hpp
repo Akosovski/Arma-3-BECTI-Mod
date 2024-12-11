@@ -1,102 +1,5 @@
     
-    // UH-80 Ghost Hawk Importer
-    class B_Heli_Transport_01_F;
-    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_Heli_Transport_01_F_OCimport_02 : B_Heli_Transport_01_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class MainTurret;
-            class RightDoorGun;
-        };
-    };
-
-    class RHS_UH60M;
-    class RHS_UH60M_OCimport_01 : RHS_UH60M { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_UH60M_OCimport_02 : RHS_UH60M_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class MainTurret;
-            class RightDoorGun;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class RHS_UH60M_ESSS2;
-    class RHS_UH60M_ESSS2_OCimport_01 : RHS_UH60M_ESSS2 { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_UH60M_ESSS2_OCimport_02 : RHS_UH60M_ESSS2_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class RHS_MELB_AH6M;
-    class RHS_MELB_AH6M_OCimport_01 : RHS_MELB_AH6M { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_MELB_AH6M_OCimport_02 : RHS_MELB_AH6M_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-        };
-    };
-
-    class RHS_MELB_MH6M;
-    class RHS_MELB_MH6M_OCimport_01 : RHS_MELB_MH6M { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_MELB_MH6M_OCimport_02 : RHS_MELB_MH6M_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-            class CargoTurret_07;
-            class CargoTurret_08;
-        };
-    };
-
-    class RHS_MELB_H6M;
-    class RHS_MELB_H6M_OCimport_01 : RHS_MELB_H6M { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_MELB_H6M_OCimport_02 : RHS_MELB_H6M_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-        };
-    };
-
-    class RHS_CH_47F;
-    class RHS_CH_47F_OCimport_01 : RHS_CH_47F { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_CH_47F_OCimport_02 : RHS_CH_47F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class MainTurret;
-            class RightDoorGun;
-            class CargoTurret_01;
-            class CargoTurret_02;
-        };
-    };
-
-    class RHS_AH64D_wd;
-    class RHS_AH64D_wd_OCimport_01 : RHS_AH64D_wd { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_AH64D_wd_OCimport_02 : RHS_AH64D_wd_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class us_usmc_uh80 : B_Heli_Transport_01_F_OCimport_02 {
+    class us_rg_uh80 : B_Heli_Transport_01_F_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -127,7 +30,7 @@
 
     };
 
-    class us_usmc_uh60m : RHS_UH60M_OCimport_02 {
+    class us_rg_uh60m : RHS_UH60M_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -162,7 +65,7 @@
 
     };
 
-    class us_usmc_uh60m_ews : RHS_UH60M_ESSS2_OCimport_02 {
+    class us_rg_uh60m_ews : RHS_UH60M_ESSS2_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -229,7 +132,7 @@
 
     };
 
-    class us_usmc_ch47f : RHS_CH_47F_OCimport_02 {
+    class us_rg_ch47f : RHS_CH_47F_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -262,7 +165,7 @@
 
     };
 
-    class us_usmc_ah6m : RHS_MELB_AH6M_OCimport_02 {
+    class us_rg_ah6m : RHS_MELB_AH6M_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -291,7 +194,7 @@
 
     };
 
-    class us_usmc_mh6m : RHS_MELB_MH6M_OCimport_02 {
+    class us_rg_mh6m : RHS_MELB_MH6M_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -326,7 +229,7 @@
 
     };
 
-    class us_usmc_oh6m : RHS_MELB_H6M_OCimport_02 {
+    class us_rg_oh6m : RHS_MELB_H6M_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -357,7 +260,7 @@
 
     };
 
-    class us_usmc_ah64d : RHS_AH64D_wd_OCimport_02 {
+    class us_rg_ah64d : RHS_AH64D_wd_OCimport_02 {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
@@ -381,5 +284,73 @@
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_uh1h_rocket : TRU_RHS_UH1H_navy_gunship_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG UH-1H (Rocket + MG)";
+        side = 1;
+        faction = "AKO_US_RG";
+        crew = "us_rg_helicopter_pilot";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class RightGunner : RightGunner { gunnerType = "us_rg_helicopter_crewman"; };
+            class LeftGunner : LeftGunner { gunnerType = "us_rg_helicopter_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsgref\addons\rhsgref_air\uh1h\data\uh1h_us_co.paa'];_unit setObjectTextureGlobal [1,'rhsgref\addons\rhsgref_air\uh1h\data\uh1h_us_in_co.paa'];_unit setObjectTextureGlobal [2,'rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa'];_unit setObjectTextureGlobal [3,'rhsgref\addons\rhsgref_air\uh1h\data\decals\uh1h_us_decals_ca.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "us_army";
+
+    };
+
+    class us_rg_uh1h_mg : TRU_RHS_UH1H_navy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG UH-1H (MG)";
+        side = 1;
+        faction = "AKO_US_RG";
+        crew = "us_rg_helicopter_pilot";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class RightGunner : RightGunner { gunnerType = "us_rg_helicopter_crewman"; };
+            class LeftGunner : LeftGunner { gunnerType = "us_rg_helicopter_crewman"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsgref\addons\rhsgref_air\uh1h\data\uh1h_us_co.paa'];_unit setObjectTextureGlobal [1,'rhsgref\addons\rhsgref_air\uh1h\data\uh1h_us_in_co.paa'];_unit setObjectTextureGlobal [2,'rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa'];_unit setObjectTextureGlobal [3,'rhsgref\addons\rhsgref_air\uh1h\data\decals\uh1h_us_decals_ca.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "us_army";
 
     };

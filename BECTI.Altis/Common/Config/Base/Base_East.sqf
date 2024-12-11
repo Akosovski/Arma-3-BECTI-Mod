@@ -5,6 +5,7 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Li
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
 	[CTI_BARRACKS, 180, [-23,33]],
+	[CTI_NAVAL, 180, [80,-37]],
 	[CTI_LIGHT, 180, [23,33]],
 	[CTI_CONTROLCENTER, 0, [30,-40]],
 	[CTI_HEAVY, 0, [-30,-40]],
@@ -21,6 +22,7 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_TOWNS, 2], {true}],
 	["upgrade", [CTI_UPGRADE_TOWNS, 3], {true}],
 	["upgrade", [CTI_UPGRADE_SUPPLY, 1], {true}],
+	["build-structures", CTI_NAVAL, {true}],
 	["build-structures", CTI_HEAVY, {true}],
 	["build-structures", CTI_LIGHT, {true}],
 	["build-structures", CTI_AIR, {true}],
@@ -135,7 +137,7 @@ _classes = _classes 		+ [["Land_Cargo_Patrol_V1_F", "Land_Cargo_Patrol_V1_ruins_
 _prices = _prices 			+ [400];
 _times = _times 			+ [25];
 _placements = _placements 	+ [[180, 25]];
-_helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
+_helper = _helper			+ [["B_Soldier_VR_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];
 
 [_side, _headers, _classes, _prices, _times, _placements, _helper, _specials] call compile preprocessFileLineNumbers "Common\Config\Base\Set_Structures.sqf";

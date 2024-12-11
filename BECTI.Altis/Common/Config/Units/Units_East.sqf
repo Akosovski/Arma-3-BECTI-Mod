@@ -138,6 +138,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['ru_msv_commander'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
+_n = _n + ['MSV Commander'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['ru_msv_worker'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
 _n = _n + ['MSV Worker'];
@@ -201,9 +210,18 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['ru_msv_uav_operator'];
+_c = _c + ['ru_msv_uav_operator_rpg'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
-_n = _n + ['MSV UAV Operator'];
+_n = _n + ['MSV UAV Operator (HE)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_msv_uav_operator_rpg'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
+_n = _n + ['MSV UAV Operator (RPG)'];
 _o = _o + [250];
 _t = _t + [3];
 _u = _u + [1];
@@ -212,28 +230,145 @@ _s = _s + [""];
 
 // ---------- VDV Infantry ------------
 
-_c = _c + ['ru_vdv_heli_pilot'];
+_c = _c + ['ru_vdv_rifleman_ak74m'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Helicopter Pilot'];
-_o = _o + [150];  
+_n = _n + ['VDV Rifleman (AK-74M)'];
+_o = _o + [170];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_rifleman_akm'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Rifleman (AKM)'];
+_o = _o + [160];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_rifleman_ak12'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Rifleman (AK-12)'];
+_o = _o + [180];
 _t = _t + [3];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['ru_vdv_heli_crewman'];
+_c = _c + ['ru_vdv_rifleman_ak103'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Helicopter Crew'];
-_o = _o + [120];  
+_n = _n + ['VDV Rifleman (AK-103)'];
+_o = _o + [180];
 _t = _t + [3];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['ru_vdv_jet_pilot'];
+_c = _c + ['ru_vdv_grenadier_rpg'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Jet Pilot'];
+_n = _n + ['VDV Grenadier (RPG-7V2)'];
+_o = _o + [210];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_grenadier_gp25'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Grenadier (GP-25)'];
 _o = _o + [200];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_aa_specialist'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV AA Specialist'];
+_o = _o + [450];
+_t = _t + [3];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_crewman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Crewman'];
+_o = _o + [140];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_efreitor'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Efreitor'];
+_o = _o + [240];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_machinegunner'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Machine Gunner'];
+_o = _o + [300];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_medic'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Medic'];
+_o = _o + [200];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_officer'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Officer'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_commander'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Commander'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_worker'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Worker'];
+_o = _o + [CTI_BASE_WORKERS_PRICE];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_engineer'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Engineer'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_marksman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Marksman'];
+_o = _o + [300];
 _t = _t + [3];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -242,99 +377,254 @@ _s = _s + [""];
 _c = _c + ['ru_vdv_sergeant'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['VDV Sergeant'];
-_o = _o + [280];
+_o = _o + [225];
 _t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_efreitor'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Efreitor'];
-_o = _o + [260];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_medic'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Medic'];
-_o = _o + [280];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_autorifleman'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Auto Rifleman'];
-_o = _o + [300];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_machinegunner'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Machine Gunner'];
-_o = _o + [320];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_rifleman_ak12'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Rifleman (AK-12)'];
-_o = _o + [250];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_rifleman_ak74m'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Rifleman (AK-74M)'];
-_o = _o + [250];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_rifleman_asval'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Rifleman (AS Val)'];
-_o = _o + [260];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_crewman'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV Crewman'];
-_o = _o + [220];
-_t = _t + [3];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['ru_vdv_uav_operator'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
-_n = _n + ['VDV UAV Operator'];
-_o = _o + [250];
-_t = _t + [3];
-_u = _u + [3];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['ru_vdv_at_specialist'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['VDV AT Specialist'];
-_o = _o + [320];
+_o = _o + [280];
 _t = _t + [3];
-_u = _u + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_mortarman_gun'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Mortarman (Gun)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_mortarman_bipod'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV Mortarman (Bipod)'];
+_o = _o + [220];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_uav_operator_rpg'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV UAV Operator (HE)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_uav_operator_rpg'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VDV UAV Operator (RPG)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+// ------ VMF Infantry --------
+
+_c = _c + ['ru_vmf_rifleman_ak74m'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + ['VMF Rifleman (AK-74M)'];
+_o = _o + [170];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_rifleman_akm'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Rifleman (AKM)'];
+_o = _o + [160];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_rifleman_ak12'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Rifleman (AK-12)'];
+_o = _o + [180];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_grenadier_rpg'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Grenadier (RPG-7V2)'];
+_o = _o + [210];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_grenadier_gp25'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Grenadier (GP-25)'];
+_o = _o + [200];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_aa_specialist'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF AA Specialist'];
+_o = _o + [450];
+_t = _t + [3];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_crewman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Crewman'];
+_o = _o + [140];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_tank_crewman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Tank Crewman'];
+_o = _o + [160];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_efreitor'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Efreitor'];
+_o = _o + [240];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_machinegunner'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Machine Gunner'];
+_o = _o + [300];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_medic'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Medic'];
+_o = _o + [200];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_officer'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Officer'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_commander'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Commander'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_worker'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Worker'];
+_o = _o + [CTI_BASE_WORKERS_PRICE];
+_t = _t + [3];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_engineer'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Engineer'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_marksman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Marksman'];
+_o = _o + [300];
+_t = _t + [3];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_sergeant'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Sergeant'];
+_o = _o + [225];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_at_specialist'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF AT Specialist'];
+_o = _o + [280];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_mortarman_gun'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Mortarman (Gun)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_mortarman_bipod'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF Mortarman (Bipod)'];
+_o = _o + [220];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_uav_operator_rpg'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF UAV Operator (HE)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vmf_uav_operator_rpg'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
+_n = _n + ['VMF UAV Operator (RPG)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -737,7 +1027,7 @@ _o = _o + [6500];
 _t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic","service-ammotruck"];
+_s = _s + ["service-medic"];
 
 _c = _c + ['ru_vdv_mi8t'];
 _p = _p + [''];
@@ -755,7 +1045,7 @@ _o = _o + [6500];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic","service-ammotruck"];
+_s = _s + ["service-medic"];
 
 _c = _c + ['ru_vdv_mi8mtv3'];
 _p = _p + [''];

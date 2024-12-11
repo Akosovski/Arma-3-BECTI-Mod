@@ -1,8 +1,4 @@
     
-    class rhsusf_navy_marpat_d_medic;
-    class rhsusf_navy_marpat_d_medic_OCimport_01 : rhsusf_navy_marpat_d_medic { scope = 0; class EventHandlers; };
-    class rhsusf_navy_marpat_d_medic_OCimport_02 : rhsusf_navy_marpat_d_medic_OCimport_01 { class EventHandlers; };
-
     class us_usmc_des_sergeant : rhsusf_navy_marpat_d_medic_OCimport_02 {
         author = "Akosovski";
         scope = 2;

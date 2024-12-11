@@ -1,8 +1,4 @@
-
-    class rhsusf_army_ocp_arb_squadleader;
-    class rhsusf_army_ocp_arb_squadleader_OCimport_01 : rhsusf_army_ocp_arb_squadleader { scope = 0; class EventHandlers; };
-    class rhsusf_army_ocp_arb_squadleader_OCimport_02 : rhsusf_army_ocp_arb_squadleader_OCimport_01 { class EventHandlers; };
-
+    
     class us_rg_rifleman_m4 : rhsusf_army_ocp_arb_squadleader_OCimport_02 {
         author = "Akosovski";
         scope = 2;

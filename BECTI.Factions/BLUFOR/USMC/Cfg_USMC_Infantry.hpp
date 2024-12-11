@@ -1,8 +1,4 @@
-
-    class rhsusf_usmc_marpat_wd_squadleader;
-    class rhsusf_usmc_marpat_wd_squadleader_OCimport_01 : rhsusf_usmc_marpat_wd_squadleader { scope = 0; class EventHandlers; };
-    class rhsusf_usmc_marpat_wd_squadleader_OCimport_02 : rhsusf_usmc_marpat_wd_squadleader_OCimport_01 { class EventHandlers; };
-
+    
     class us_usmc_sergeant : rhsusf_usmc_marpat_wd_squadleader_OCimport_02 {
         author = "Akosovski";
         scope = 2;

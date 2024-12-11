@@ -175,7 +175,11 @@ _p = _p        + [40];
 _i = _i        + ["CUP_arifle_OTS14_GROZA_762_GL"];
 _u = _u        + [3];
 _p = _p        + [45];
- 
+
+_i = _i		    + ["CUP_arifle_AUG_A1"];
+_u = _u		    + [3];
+_p = _p		    + [25];
+
 _i = _i        + ["CUP_lmg_PKM"];
 _u = _u        + [1];
 _p = _p        + [65];
@@ -251,6 +255,14 @@ _p = _p        + [5];
 _i = _i        + ["CUP_hgun_CZ75"];
 _u = _u        + [1];
 _p = _p        + [8];
+
+_i = _i		    + ["JCA_hgun_P320_black_F"];
+_u = _u		    + [2];
+_p = _p		    + [5];
+
+_i = _i		    + ["JCA_hgun_P226_black_F"];
+_u = _u		    + [2];
+_p = _p		    + [5];
 
 _i = _i        + ["rhs_weap_rsp30_white"];
 _u = _u        + [2];
@@ -444,6 +456,10 @@ _i = _i        + ["CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M"];
 _u = _u        + [2];
 _p = _p        + [4];
 
+_i = _i		    + ["CUP_30Rnd_556x45_AUG"];
+_u = _u		    + [3];
+_p = _p		    + [6];
+
 _i = _i        + ["CUP_10Rnd_762x54_SVD_M"];
 _u = _u        + [1];
 _p = _p        + [2];
@@ -495,6 +511,14 @@ _p = _p        + [2];
 _i = _i        + ["CUP_8Rnd_762x25_TT"];
 _u = _u        + [0];
 _p = _p        + [2];
+
+_i = _i		    + ["JCA_15Rnd_9x21_P226_Mag"];
+_u = _u		    + [2];
+_p = _p		    + [2];
+
+_i = _i		    + ["JCA_17Rnd_9x21_P320_Mag"];
+_u = _u		    + [2];
+_p = _p		    + [2];
 
 _i = _i        + ["CUP_1Rnd_HE_GP25_M"];
 _u = _u        + [0];
@@ -697,6 +721,10 @@ _u = _u        + [1];
 _p = _p        + [10];
 
 _i = _i        + ["U_I_FullGhillie_sard"];
+_u = _u        + [3];
+_p = _p        + [30];
+
+_i = _i        + ["U_I_FullGhillie_ard"];
 _u = _u        + [3];
 _p = _p        + [30];
 

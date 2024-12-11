@@ -1,12 +1,4 @@
-
-    class rhs_vmf_recon_sergeant;
-    class rhs_vmf_recon_sergeant_OCimport_01 : rhs_vmf_recon_sergeant { scope = 0; class EventHandlers; };
-    class rhs_vmf_recon_sergeant_OCimport_02 : rhs_vmf_recon_sergeant_OCimport_01 { class EventHandlers; };
-
-    class rhs_vmf_recon_efreitor;
-    class rhs_vmf_recon_efreitor_OCimport_01 : rhs_vmf_recon_efreitor { scope = 0; class EventHandlers; };
-    class rhs_vmf_recon_efreitor_OCimport_02 : rhs_vmf_recon_efreitor_OCimport_01 { class EventHandlers; };
-
+    
     class ru_vmf_sergeant : rhs_vmf_recon_sergeant_OCimport_02 {
         author = "Akosovski";
         scope = 2;

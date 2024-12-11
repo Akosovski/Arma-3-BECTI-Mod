@@ -1,8 +1,4 @@
     
-    class rhs_vdv_rifleman;
-    class rhs_vdv_rifleman_OCimport_01 : rhs_vdv_rifleman { scope = 0; class EventHandlers; };
-    class rhs_vdv_rifleman_OCimport_02 : rhs_vdv_rifleman_OCimport_01 { class EventHandlers; };
-
     class ru_vdv_sergeant : rhs_vdv_rifleman_OCimport_02 {
         author = "Akosovski";
         scope = 2;

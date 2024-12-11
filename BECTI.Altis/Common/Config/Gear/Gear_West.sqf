@@ -9,15 +9,15 @@ _p = []; // Price
 
 //--- Weapons / Rifles ---
 
-_i = _i		+ ["CUP_arifle_M16A4_Base"];
+_i = _i		+ ["JCA_arifle_M16A4_black_F"];
 _u = _u		+ [0];
 _p = _p		+ [30];
 
-_i = _i		+ ["CUP_arifle_M16A4_Grip"];
+_i = _i		+ ["JCA_arifle_M16A4_FG_black_F"];
 _u = _u		+ [0];
 _p = _p		+ [30];
 
-_i = _i		+ ["CUP_arifle_M16A4_GL"];
+_i = _i		+ ["JCA_arifle_M16A4_GL_black_F"];
 _u = _u		+ [0];
 _p = _p		+ [30];
 
@@ -34,14 +34,38 @@ _u = _u		+ [1];
 _p = _p		+ [35];
 
 _i = _i		+ ["JCA_arifle_M4A4_AFG_black_F"];
+_u = _u		+ [0];
+_p = _p		+ [35];
+
+_i = _i		+ ["JCA_arifle_M4A4_AFG_sand_F"];
+_u = _u		+ [0];
+_p = _p		+ [35];
+
+_i = _i		+ ["JCA_arifle_M4A4_AFG_olive_F"];
 _u = _u		+ [2];
 _p = _p		+ [35];
 
 _i = _i		+ ["JCA_arifle_M4A4_VFG_black_F"];
+_u = _u		+ [0];
+_p = _p		+ [35];
+
+_i = _i		+ ["JCA_arifle_M4A4_VFG_sand_F"];
+_u = _u		+ [0];
+_p = _p		+ [35];
+
+_i = _i		+ ["JCA_arifle_M4A4_VFG_olive_F"];
 _u = _u		+ [2];
 _p = _p		+ [35];
 
 _i = _i		+ ["JCA_arifle_M4A4_GL_black_F"];
+_u = _u		+ [1];
+_p = _p		+ [35];
+
+_i = _i		+ ["JCA_arifle_M4A4_GL_sand_F"];
+_u = _u		+ [1];
+_p = _p		+ [35];
+
+_i = _i		+ ["JCA_arifle_M4A4_GL_olive_F"];
 _u = _u		+ [2];
 _p = _p		+ [35];
 
@@ -117,6 +141,14 @@ _i = _i		+ ["JCA_arifle_SR10_black_F"];
 _u = _u		+ [3];
 _p = _p		+ [45];
 
+_i = _i		+ ["CUP_arifle_AUG_A1"];
+_u = _u		+ [3];
+_p = _p		+ [25];
+
+_i = _i		+ ["CUP_sgun_M1014"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
 _i = _i		+ ["CUP_srifle_M2010_blk"];
 _u = _u		+ [2];
 _p = _p		+ [20];
@@ -155,6 +187,14 @@ _i = _i		+ ["CUP_hgun_M17_blk"];
 _u = _u		+ [1];
 _p = _p		+ [12];
 
+_i = _i		+ ["JCA_hgun_P320_black_F"];
+_u = _u		+ [2];
+_p = _p		+ [8];
+
+_i = _i		+ ["JCA_hgun_P226_black_F"];
+_u = _u		+ [2];
+_p = _p		+ [8];
+
 _i = _i		+ ["CUP_hgun_Glock17_blk"];
 _u = _u		+ [1];
 _p = _p		+ [10];
@@ -190,6 +230,10 @@ _u = _u		+ [2];
 _p = _p		+ [3];
 
 _i = _i		+ ["CUP_60Rnd_556x45_SureFire"];
+_u = _u		+ [3];
+_p = _p		+ [6];
+
+_i = _i		+ ["CUP_30Rnd_556x45_AUG"];
 _u = _u		+ [3];
 _p = _p		+ [6];
 
@@ -237,6 +281,18 @@ _i = _i		+ ["JCA_20Rnd_762x51_PMAG"];
 _u = _u		+ [3];
 _p = _p		+ [5];
 
+_i = _i		+ ["CUP_8Rnd_12Gauge_Pellets_No4_Buck"];
+_u = _u		+ [2];
+_p = _p		+ [3];
+
+_i = _i		+ ["CUP_8Rnd_12Gauge_Slug"];
+_u = _u		+ [2];
+_p = _p		+ [3];
+
+_i = _i		+ ["CUP_8Rnd_12Gauge_HE"];
+_u = _u		+ [2];
+_p = _p		+ [3];
+
 _i = _i		+ ["CUP_5Rnd_762x67_M2010_M"];
 _u = _u		+ [2];
 _p = _p		+ [8];
@@ -270,6 +326,14 @@ _u = _u		+ [1];
 _p = _p		+ [2];
 
 _i = _i		+ ["CUP_12Rnd_45ACP_mk23"];
+_u = _u		+ [2];
+_p = _p		+ [2];
+
+_i = _i		+ ["JCA_15Rnd_9x21_P226_Mag"];
+_u = _u		+ [2];
+_p = _p		+ [2];
+
+_i = _i		+ ["JCA_17Rnd_9x21_P320_Mag"];
 _u = _u		+ [2];
 _p = _p		+ [2];
 
@@ -441,6 +505,14 @@ _i = _i		+ ["rhsusf_assault_eagleaiii_coy"];
 _u = _u		+ [0];
 _p = _p		+ [20];
 
+_i = _i		+ ["rhsusf_assault_eagleaiii_mc"];
+_u = _u		+ [0];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_falconii_mc"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
 _i = _i		+ ["rhsusf_falconii_coy"];
 _u = _u		+ [0];
 _p = _p		+ [10];
@@ -463,7 +535,19 @@ _p = _p		+ [25];
 
 //--- Uniforms ---
 
+_i = _i		+ ["rhs_uniform_acu_oefcp"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhs_uniform_cu_oefcp"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
 _i = _i		+ ["rhs_uniform_FROG01_wd"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhs_uniform_FROG01_d"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
@@ -471,15 +555,31 @@ _i = _i		+ ["U_B_HeliPilotCoveralls"];
 _u = _u		+ [1];
 _p = _p		+ [10];
 
-_i = _i		+ ["U_B_PilotCoveralls"];
-_u = _u		+ [1];
-_p = _p		+ [15];
+_i = _i		+ ["CryGen2_ucp"];
+_u = _u		+ [3];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhs_uniform_g3_m81"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
 _i = _i		+ ["rhs_uniform_g3_blk"];
+_u = _u		+ [3];
+_p = _p		+ [10];
+
+_i = _i		+ ["CryGen3_mcblk"];
+_u = _u		+ [3];
+_p = _p		+ [10];
+
+_i = _i		+ ["CryGen3_mctrp"];
+_u = _u		+ [3];
+_p = _p		+ [10];
+
+_i = _i		+ ["CryGen3_ts"];
+_u = _u		+ [3];
+_p = _p		+ [10];
+
+_i = _i		+ ["CryGen3_dt"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
@@ -495,8 +595,88 @@ _i = _i		+ ["rhs_uniform_g3_aor2"];
 _u = _u		+ [3];
 _p = _p		+ [10];
 
+_i = _i     + ["U_B_FullGhillie_sard"];
+_u = _u     + [3];
+_p = _p     + [30];
+
+_i = _i     + ["U_B_FullGhillie_ard"];
+_u = _u     + [3];
+_p = _p     + [30];
+
 
 //--- Vests ---
+
+_i = _i + ["rhsusf_iotv_ocp"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_Medic"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_Grenadier"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_Repair"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_Rifleman"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_SAW"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_Squadleader"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_iotv_ocp_Teamleader"];
+_u = _u + [0];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_crewman"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_grenadier"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_machinegunner"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_medic"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_rifleman_alt"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_rifleman"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_saw"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_sniper"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_squadleader"];
+_u = _u + [1];
+_p = _p + [25];
+
+_i = _i + ["rhsusf_spcs_ocp_teamleader"];
+_u = _u + [1];
+_p = _p + [25];
 
 _i = _i + ["rhsusf_spc"];
 _u = _u + [0];
@@ -649,22 +829,25 @@ _i = _i		+ ["rhs_ess_black"];
 _u = _u		+ [0];
 _p = _p		+ [8];
 
-_i = _i        + ["Deg_TB_Green"];
-_u = _u        + [0];
-_p = _p        + [3]; 
+_i = _i		+ ["G_Aviator"];
+_u = _u		+ [0];
+_p = _p		+ [8];
 
-_i = _i        + ["Deg_TB_UN_Green"];
-_u = _u        + [0];
-_p = _p        + [3]; 
+_i = _i     + ["Deg_TB_Green"];
+_u = _u     + [0];
+_p = _p     + [3]; 
 
-_i = _i        + ["Deg_TB_Tan"];
-_u = _u        + [0];
-_p = _p        + [3]; 
+_i = _i     + ["Deg_TB_UN_Green"];
+_u = _u     + [0];
+_p = _p     + [3]; 
 
-_i = _i        + ["Deg_TB_UN_Tan"];
-_u = _u        + [0];
-_p = _p        + [3]; 
+_i = _i     + ["Deg_TB_Tan"];
+_u = _u     + [0];
+_p = _p     + [3]; 
 
+_i = _i     + ["Deg_TB_UN_Tan"];
+_u = _u     + [0];
+_p = _p     + [3]; 
 
 _i = _i     + ["JCA_G_AirPurifyingRespirator_03_olive_tinted_F"];
 _u = _u     + [0];
@@ -675,6 +858,78 @@ _u = _u     + [0];
 _p = _p     + [5];
 
 //--- Helmets ---
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_peltor_nsw"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_peltor_camera"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor_nsw"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor_camera"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_black_set_nsw"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_black_set_nsw_cam"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_blk_peltor_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_blk_peltor_camera"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mcB_peltor_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mcB_peltor_camera"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_ATACSFG_peltor_nsw"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_ATACSFG_peltor_camera"];
+_u = _u     + [23];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_rgr_peltor_nsw"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_ach_helmet_headset_ocp_alt"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_ach_helmet_headset_ess_ocp"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_ach_helmet_camo_ocp"];
+_u = _u     + [1];
+_p = _p     + [10];
 
 _i = _i     + ["rhsusf_lwh_helmet_marpatwd"];
 _u = _u     + [0];
@@ -704,6 +959,18 @@ _i = _i     + ["rhsusf_lwh_helmet_marpatwd_ess"];
 _u = _u     + [0];
 _p = _p     + [10];
 
+_i = _i     + ["rhsusf_lwh_helmet_marpatd"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_lwh_helmet_marpatd_ess"];
+_u = _u     + [0];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_lwh_helmet_marpatd_headset"];
+_u = _u     + [0];
+_p = _p     + [10];
+
 _i = _i     + ["rhsusf_mich_helmet_marpatwd_alt"];
 _u = _u     + [2];
 _p = _p     + [10];
@@ -729,6 +996,34 @@ _u = _u     + [3];
 _p = _p     + [10];
 
 _i = _i     + ["rhsusf_mich_helmet_marpatwd_norotos_arc_headset"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_alt"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_alt_headset"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_headset"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_norotos"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_norotos_headset"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_norotos_arc"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_mich_helmet_marpatd_norotos_arc_headset"];
 _u = _u     + [3];
 _p = _p     + [10];
 
@@ -840,9 +1135,25 @@ _i = _i		+ ["rhsusf_hgu56p_visor_mask"];
 _u = _u		+ [1];
 _p = _p		+ [7];
 
-_i = _i		+ ["JHMCS2_MBU20P"];
+_i = _i		+ ["rhsusf_hgu56p_visor_tan"];
+_u = _u		+ [1];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_hgu56p_visor_mask_tan"];
+_u = _u		+ [1];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_hgu56p_green"];
 _u = _u		+ [2];
 _p = _p		+ [7];
+
+_i = _i		+ ["JHMCS2_MBU20P"];
+_u = _u		+ [2];
+_p = _p		+ [20];
+
+_i = _i		+ ["HGU68P_MBU14P_Tinted"];
+_u = _u		+ [2];
+_p = _p		+ [20];
 
 _i = _i		+ ["rhsusf_Bowman"];
 _u = _u		+ [2];
@@ -852,9 +1163,17 @@ _i = _i		+ ["rhsusf_bowman_cap"];
 _u = _u		+ [2];
 _p = _p		+ [4];
 
+_i = _i		+ ["rhs_Booniehat_ocp"];
+_u = _u		+ [0];
+_p = _p		+ [2];
+
 _i = _i		+ ["rhs_Booniehat2_marpatwd"];
 _u = _u		+ [0];
 _p = _p		+ [2];
+
+_i = _i		+ ["rhsusf_patrolcap_ocp"];
+_u = _u		+ [0];
+_p = _p		+ [3];
 
 _i = _i		+ ["rhs_8point_marpatwd"];
 _u = _u		+ [0];
@@ -1128,6 +1447,14 @@ _p = _p		+ [15];
 
 //--- Explosives ---
 
+_i = _i		+ ["SatchelCharge_Remote_Mag"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+_i = _i		+ ["DemoCharge_Remote_Mag"];
+_u = _u		+ [1];
+_p = _p		+ [30];
+
 _i = _i		+ ["ATMine_Range_Mag"];
 _u = _u		+ [2];
 _p = _p		+ [40];
@@ -1147,14 +1474,6 @@ _p = _p		+ [25];
 _i = _i		+ ["APERSTripMine_Wire_Mag"];
 _u = _u		+ [0];
 _p = _p		+ [15];
-
-_i = _i		+ ["SatchelCharge_Remote_Mag"];
-_u = _u		+ [2];
-_p = _p		+ [50];
-
-_i = _i		+ ["DemoCharge_Remote_Mag"];
-_u = _u		+ [1];
-_p = _p		+ [30];
 
 _i = _i		+ ["ClaymoreDirectionalMine_Remote_Mag"];
 _u = _u		+ [0];

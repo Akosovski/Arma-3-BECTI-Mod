@@ -1,8 +1,4 @@
     
-    class rhs_msv_emr_rifleman;
-    class rhs_msv_emr_rifleman_OCimport_01 : rhs_msv_emr_rifleman { scope = 0; class EventHandlers; };
-    class rhs_msv_emr_rifleman_OCimport_02 : rhs_msv_emr_rifleman_OCimport_01 { class EventHandlers; };
-
     class ru_msv_rifleman_ak12 : rhs_msv_emr_rifleman_OCimport_02 {
         author = "Akosovski";
         scope = 2;
@@ -195,11 +191,11 @@
 
     };
 
-    class ru_msv_uav_operator : ru_msv_efreitor {
+    class ru_msv_uav_operator_he : ru_msv_efreitor {
         author = "Akosovski";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MSV UAV Operator";
+        displayName = "MSV UAV Operator (HE)";
         side = 0;
         faction = "ako_ru_msv";
 
@@ -216,9 +212,49 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        backpack = "O_UAV_01_backpack_F";
+        backpack = "O_UAV_01_backpack_Custom";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","rhs_acc_perst1ik_ris","rhs_acc_pkas",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"O_UAV_01_backpack_F",{}},"rhs_6b47_6B50","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","rhs_acc_perst1ik_ris","rhs_acc_pkas",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"O_UAV_01_backpack_Custom",{}},"rhs_6b47_6B50","rhs_facewear_6m2_1",{"Binocular","","","",{},{},""},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_uav_operator_rpg : ru_msv_uav_operator_he {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV UAV Operator (RPG)";
+        side = 0;
+        faction = "AKO_RU_MSV";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_6sh122_v1";
+
+        linkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_emr_2","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
+        respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_emr_2","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
+
+        weapons[] = {"CUP_arifle_AK74M","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+
+        backpack = "O_UAV_FPV_backpack_F";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","rhs_acc_perst1ik_ris","rhs_acc_pkas",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"FirstAidKit",3},{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"O_UAV_FPV_backpack_F",{}},"rhs_6b47_emr_2","rhs_ess_black",{"Binocular","","","",{},{},""},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -613,6 +649,44 @@
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",4,30}}},{},"rhs_6b47_emr","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class ru_msv_commander : ru_msv_officer {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV Commander";
+        side = 0;
+        faction = "AKO_RU_MSV";
+
+        identityTypes[] = {"Head_Russian","LanguageRUS_F"};
+
+        uniformClass = "rhs_uniform_6sh122_gloves_v1";
+
+        linkedItems[] = {"rhs_6b45_light","rhs_vkpo_cap_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"rhs_6b45_light","rhs_vkpo_cap_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"rhs_6b45_light",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",4,30}}},{},"rhs_vkpo_cap_alt","G_Aviator",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
