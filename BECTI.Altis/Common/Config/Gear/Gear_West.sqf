@@ -157,7 +157,7 @@ _i = _i		+ ["CUP_srifle_M14_DMR"];
 _u = _u		+ [1];
 _p = _p		+ [20];
 
-_i = _i		+ ["CUP_srifle_M107_base"];
+_i = _i		+ ["CUP_srifle_M107_Pristine"];
 _u = _u		+ [2];
 _p = _p		+ [60];
 

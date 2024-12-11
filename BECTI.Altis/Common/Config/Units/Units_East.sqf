@@ -431,7 +431,7 @@ _s = _s + [""];
 // ------ VMF Infantry --------
 
 _c = _c + ['ru_vmf_rifleman_ak74m'];
-_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
 _n = _n + ['VMF Rifleman (AK-74M)'];
 _o = _o + [170];
 _t = _t + [3];

@@ -809,15 +809,15 @@
         linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","TFV_headgear_opscore_peltor_camera","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","TFV_headgear_opscore_peltor_camera","ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92","Rangefinder"};
+        weapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92",""};
+        respawnWeapons[] = {"JCA_arifle_M4A4_VFG_sand_F","rhs_weap_fim92",""};
 
         magazines[] = {"30Rnd_556x45_Stanag","rhs_fim92_mag","30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_fim92_mag","30Rnd_556x45_Stanag"};
 
         backpack = "rhsusf_assault_eagleaiii_ocp";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",2},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",12,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"rhs_fim92_mag",2,1}}},"TFV_headgear_opscore_peltor_camera","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A4_VFG_sand_F","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15_bk","rhsusf_acc_eotech_xps3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{},{"rhs_uniform_acu_oefcp",{{"FirstAidKit",5}}},{"rhsusf_iotv_ocp_Teamleader",{{"FirstAidKit",2},{"rhs_mag_m67",4,1},{"30Rnd_556x45_Stanag",12,30}}},{"rhsusf_assault_eagleaiii_ocp",{{"rhs_fim92_mag",2,1}}},"TFV_headgear_opscore_peltor_camera","rhs_googles_black",{"","","","",{},{},""},{"ItemMap","ItemGPS","rhsusf_radio_anprc152","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

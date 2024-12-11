@@ -356,12 +356,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Bravo, Squad Leader";
 						isPlayable=1;
 					};
 					id=242;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=-0.00018882751;
 				};
 			};
@@ -391,12 +391,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Charlie, Squad Leader";
 						isPlayable=1;
 					};
 					id=243;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.00061130524;
 				};
 			};
@@ -426,12 +426,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Delta, Squad Leader";
 						isPlayable=1;
 					};
 					id=244;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.0001373291;
 				};
 			};
@@ -461,12 +461,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Echo, Squad Leader";
 						isPlayable=1;
 					};
 					id=245;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=3.8146973e-006;
 				};
 			};
@@ -501,7 +501,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=246;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=9.5367432e-007;
 				};
 			};
@@ -531,12 +531,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Golf, Squad Leader";
 						isPlayable=1;
 					};
 					id=247;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.0005106926;
 				};
 			};
@@ -566,12 +566,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Hotel, Squad Leader";
 						isPlayable=1;
 					};
 					id=248;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.00050497055;
 				};
 			};
@@ -601,12 +601,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="India, Squad Leader";
 						isPlayable=1;
 					};
 					id=249;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=3.8146973e-006;
 				};
 			};
@@ -636,12 +636,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Juliet, Squad Leader";
 						isPlayable=1;
 					};
 					id=250;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.17740154;
 				};
 			};
@@ -671,12 +671,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Kilo, Squad Leader";
 						isPlayable=1;
 					};
 					id=251;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=5.7220459e-006;
 				};
 			};
@@ -706,12 +706,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Lima, Squad Leader";
 						isPlayable=1;
 					};
 					id=252;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=6.6757202e-006;
 				};
 			};
@@ -741,12 +741,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Mike, Squad Leader";
 						isPlayable=1;
 					};
 					id=253;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.00019645691;
 				};
 			};
@@ -776,12 +776,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="November, Squad Leader";
 						isPlayable=1;
 					};
 					id=254;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=3.8146973e-006;
 				};
 			};
@@ -811,12 +811,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Oscar, Squad Leader";
 						isPlayable=1;
 					};
 					id=255;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=2.8610229e-006;
 				};
 			};
@@ -846,12 +846,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Papa, Squad Leader";
 						isPlayable=1;
 					};
 					id=256;
-					type="ru_msv_sergeant";
+					type="ru_msv_officer";
 					atlOffset=0.00051116943;
 				};
 			};
@@ -881,12 +881,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Bravo, Squad Leader";
 						isPlayable=1;
 					};
 					id=227;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -914,12 +914,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Charlie, Squad Leader";
 						isPlayable=1;
 					};
 					id=228;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -946,12 +946,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Delta, Squad Leader";
 						isPlayable=1;
 					};
 					id=229;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 					atlOffset=0.30680847;
 				};
 			};
@@ -981,12 +981,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Echo, Squad Leader";
 						isPlayable=1;
 					};
 					id=230;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 					atlOffset=0.22475433;
 				};
 			};
@@ -1021,7 +1021,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=231;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 					atlOffset=0.24653625;
 				};
 			};
@@ -1051,12 +1051,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Golf, Squad Leader";
 						isPlayable=1;
 					};
 					id=232;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -1084,12 +1084,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Hotel, Squad Leader";
 						isPlayable=1;
 					};
 					id=233;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 					atlOffset=-7.6293945e-006;
 				};
 			};
@@ -1119,12 +1119,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="India, Squad Leader";
 						isPlayable=1;
 					};
 					id=234;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -1152,12 +1152,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Juliet, Squad Leader";
 						isPlayable=1;
 					};
 					id=235;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -1185,12 +1185,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Kilo, Squad Leader";
 						isPlayable=1;
 					};
 					id=236;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 					atlOffset=7.6293945e-006;
 				};
 			};
@@ -1220,12 +1220,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Lima, Squad Leader";
 						isPlayable=1;
 					};
 					id=237;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -1253,12 +1253,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Mike, Squad Leader";
 						isPlayable=1;
 					};
 					id=238;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 					atlOffset=-7.6293945e-006;
 				};
 			};
@@ -1288,12 +1288,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="November, Squad Leader";
 						isPlayable=1;
 					};
 					id=239;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -1321,12 +1321,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Oscar, Squad Leader";
 						isPlayable=1;
 					};
 					id=240;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes
@@ -1354,12 +1354,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="SERGEANT";
+						rank="LIEUTENANT";
 						description="Papa, Squad Leader";
 						isPlayable=1;
 					};
 					id=241;
-					type="us_usmc_sergeant";
+					type="us_rg_officer";
 				};
 			};
 			class Attributes

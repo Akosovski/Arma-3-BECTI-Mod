@@ -154,11 +154,11 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 //--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-	[["JCA_arifle_M4A1_black_F",["","rhsusf_acc_anpeq15_bk","","rhsusf_acc_ACOG_RMR"],["30Rnd_556x45_Stanag"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_FROG01_wd",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_spc_squadleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
-	["rhsusf_lwh_helmet_marpatwd_headset_blk",""],[["","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["JCA_arifle_M4A1_short_sand_F",["","rhsusf_acc_anpeq15_bk","","optic_NVS"],["30Rnd_556x45_Stanag"]],["",[],[""]],["",[],[]]],
+	[["rhs_uniform_acu_oefcp",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhsusf_iotv_ocp_Teamleader",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
+	["TFV_headgear_opscore_cover_mc_peltor_nsw","rhs_ess_black"],[["","rangefinder"],["itemmap","B_UavTerminal","itemradio","itemcompass","itemwatch"]]]];
 
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 	[["CUP_arifle_ak74m_GL",["","","","rhs_acc_pkas"],["CUP_30Rnd_545x39_AK74_plum_M"]],["",[],[""]],["",[],[]]],
 	[["rhs_uniform_6sh122_gloves_v1",["firstaidkit","firstaidkit","firstaidkit","firstaidkit","firstaidkit"]],["rhs_6b45_off",["CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M","rhs_mag_rgo","rhs_mag_rgo", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M"]],["",[""]]],
-	["rhs_6b47_6B50","G_Bandanna_oli"],[["rhs_6m2_1_nvg","rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	["rhs_6b47_6B50","G_Bandanna_oli"],[["rhs_6m2_1_nvg","rangefinder"],["itemmap","O_UavTerminal","itemradio","itemcompass","itemwatch"]]]];

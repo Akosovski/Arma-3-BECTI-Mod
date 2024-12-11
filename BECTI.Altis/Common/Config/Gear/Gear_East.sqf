@@ -672,13 +672,14 @@ _i = _i        + ["rhs_uniform_mix_2_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-_i = _i        + ["gorkaflora"];
-_u = _u        + [1];
-_p = _p        + [15];
+// No appearing IN GAME
+// _i = _i        + ["gorkaflora"];
+// _u = _u        + [1];
+// _p = _p        + [15];
 
-_i = _i        + ["gorkacflora"];
-_u = _u        + [1];
-_p = _p        + [15];
+// _i = _i        + ["gorkacflora"];
+// _u = _u        + [1];
+// _p = _p        + [15];
  
 _i = _i        + ["rhs_uniform_gorka_r_g_gloves"];
 _u = _u        + [3];
@@ -720,13 +721,14 @@ _i = _i        + ["rhs_uniform_vkpo_gloves"];
 _u = _u        + [1];
 _p = _p        + [10];
 
-_i = _i        + ["U_I_FullGhillie_sard"];
-_u = _u        + [3];
-_p = _p        + [30];
+// No appearing IN GAME
+// _i = _i        + ["U_I_FullGhillie_sard"];
+// _u = _u        + [3];
+// _p = _p        + [30];
 
-_i = _i        + ["U_I_FullGhillie_ard"];
-_u = _u        + [3];
-_p = _p        + [30];
+// _i = _i        + ["U_I_FullGhillie_ard"];
+// _u = _u        + [3];
+// _p = _p        + [30];
 
  
 // --- Face Wear ---
