@@ -210,7 +210,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['ru_msv_uav_operator_rpg'];
+_c = _c + ['ru_msv_uav_operator_he'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\msv.paa'];
 _n = _n + ['MSV UAV Operator (HE)'];
 _o = _o + [250];
