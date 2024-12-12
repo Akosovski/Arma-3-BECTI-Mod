@@ -785,15 +785,7 @@ _i = _i        + ["Deg_TB_Green"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
-_i = _i        + ["Deg_TB_UN_Green"];
-_u = _u        + [0];
-_p = _p        + [3]; 
-
 _i = _i        + ["Deg_TB_Tan"];
-_u = _u        + [0];
-_p = _p        + [3]; 
-
-_i = _i        + ["Deg_TB_UN_Tan"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 

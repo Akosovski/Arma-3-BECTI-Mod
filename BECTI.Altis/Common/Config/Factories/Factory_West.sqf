@@ -6,17 +6,17 @@ missionNamespace setVariable [format["CTI_%1_Commander", _side], "us_rg_commande
 missionNamespace setVariable [format["CTI_%1_Worker", _side], "us_rg_worker"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_diver_f"];
-missionNamespace setVariable [format["CTI_%1_Soldier", _side], "us_rg_rifleman_m4"];
+missionNamespace setVariable [format["CTI_%1_Soldier", _side], "us_rg_rifleman_m4a1"];
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "us_rg_crewman"];
-missionNamespace setVariable [format["CTI_%1_Pilot", _side], "us_rg_helicopter_pilot"];
+missionNamespace setVariable [format["CTI_%1_Pilot", _side], "us_rg_heli_pilot"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
 missionNamespace setVariable [format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
 
 //--- Units - Barracks
-_u 			= ["us_rg_rifleman_m4"];
+_u 			= ["us_rg_rifleman_m4a1"];
 _u = _u		+ ["us_rg_rifleman_mk16"];
-_u = _u		+ ["us_rg_rifleman_ak16"];
-_u = _u		+ ["us_rg_auto_rifleman"];
+_u = _u		+ ["us_rg_rifleman_mk17"];
+_u = _u		+ ["us_rg_autorifleman_m249"];
 _u = _u		+ ["us_rg_machinegunner"];
 _u = _u		+ ["us_rg_sergeant"];
 _u = _u		+ ["us_rg_corporal"];
@@ -27,13 +27,13 @@ _u = _u		+ ["us_rg_mortarman_bipod"];
 _u = _u		+ ["us_rg_uav_operator_he"];
 _u = _u		+ ["us_rg_uav_operator_rpg"];
 _u = _u		+ ["us_rg_marksman"];
+_u = _u		+ ["us_rg_sniper_m107"];
 _u = _u		+ ["us_rg_medic"];
 _u = _u		+ ["us_rg_engineer"];
-_u = _u		+ ["us_rg_sniper"];
 _u = _u		+ ["us_rg_officer"];
 _u = _u		+ ["us_rg_crewman"];
-_u = _u		+ ["us_rg_helicopter_pilot"];
-_u = _u		+ ["us_rg_helicopter_crewman"];
+_u = _u		+ ["us_rg_heli_pilot"];
+_u = _u		+ ["us_rg_heli_crewman"];
 _u = _u		+ ["us_usaf_jet_pilot"];
 _u = _u 	+ ["us_dvg_operator_m4"];
 _u = _u 	+ ["us_dvg_operator_mk16"];
@@ -164,11 +164,11 @@ if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];
 	_u = _u		+ ["us_rg_rifleman_mk17"];
 	_u = _u		+ ["us_rg_rifleman_mk16"];
-	_u = _u		+ ["us_rg_uav_operator_rpg"];
 	_u = _u		+ ["us_rg_corporal"];
-	_u = _u		+ ["us_rg_auto_rifleman"];
+	_u = _u		+ ["us_rg_autorifleman_m249"];
 	_u = _u		+ ["us_rg_machinegunner"];
     _u = _u		+ ["us_rg_at_specialist"];
+	_u = _u		+ ["us_rg_aa_specialist"];
 	_u = _u		+ ["us_rg_medic"];
 	_u = _u		+ ["us_rg_engineer"];
 };

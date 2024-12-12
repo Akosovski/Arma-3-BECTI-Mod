@@ -12,7 +12,7 @@ _s = []; //--- Script
 
 //--- US Rangers ---
 
-_c = _c + ['us_rg_rifleman_m4'];
+_c = _c + ['us_rg_rifleman_m4a1'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
 _n = _n + ['US Rangers Rifleman (M4A1)'];
 _o = _o + [160];
@@ -48,9 +48,9 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_rg_auto_rifleman'];
+_c = _c + ['us_rg_autorifleman_m249'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
-_n = _n + ['US Rangers Auto Rifleman'];
+_n = _n + ['US Rangers Auto Rifleman (M249)'];
 _o = _o + [220];
 _t = _t + [3];
 _u = _u + [0];
@@ -131,7 +131,7 @@ _s = _s + [""];
 
 _c = _c + ['us_rg_uav_operator_he'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
-_n = _n + ['US Rangers UAV Operator HE'];
+_n = _n + ['US Rangers UAV Operator (HE)'];
 _o = _o + [250];
 _t = _t + [3];
 _u = _u + [1];
@@ -140,7 +140,7 @@ _s = _s + [""];
 
 _c = _c + ['us_rg_uav_operator_rpg'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
-_n = _n + ['US Rangers UAV Operator RPG'];
+_n = _n + ['US Rangers UAV Operator (RPG)'];
 _o = _o + [250];
 _t = _t + [3];
 _u = _u + [1];
@@ -165,19 +165,19 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_rg_helicopter_pilot'];
+_c = _c + ['us_rg_heli_pilot'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
 _n = _n + ['US Rangers Helicopter Pilot'];
-_o = _o + [120];
+_o = _o + [150];
 _t = _t + [3];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_rg_helicopter_crewman'];
+_c = _c + ['us_rg_heli_crewman'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
 _n = _n + ['US Rangers Helicopter Crew'];
-_o = _o + [110];
+_o = _o + [120];
 _t = _t + [3];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -186,7 +186,7 @@ _s = _s + [""];
 _c = _c + ['us_usaf_jet_pilot'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
 _n = _n + ['US Rangers Jet Pilot'];
-_o = _o + [150];
+_o = _o + [250];
 _t = _t + [3];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -196,6 +196,15 @@ _c = _c + ['us_rg_marksman'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
 _n = _n + ['US Rangers Marksman'];
 _o = _o + [250];
+_t = _t + [3];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_rg_sniper_m107'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
+_n = _n + ['US Rangers Sniper (M107)'];
+_o = _o + [300];
 _t = _t + [3];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];

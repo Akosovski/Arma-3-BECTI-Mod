@@ -488,7 +488,7 @@
 
         backpack = "rhs_tortila_khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74_plum_M",9,30}}},{"rhs_tortila_khaki",{{"Vorona_HEAT",3,1}}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74_plum_M",9,30}}},{"rhs_tortila_khaki",{{"Vorona_HEAT",1,1}}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -884,7 +884,7 @@
 
         backpack = "rhs_tortila_khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74_plum_M",9,30}}},{"rhs_tortila_khaki",{{"rhs_mag_9k38_rocket",3,1}}},"RCE_d_LSHZC_C_B_K","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74_plum_M",9,30}}},{"rhs_tortila_khaki",{{"rhs_mag_9k38_rocket",1,1}}},"RCE_d_LSHZC_C_B_K","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {

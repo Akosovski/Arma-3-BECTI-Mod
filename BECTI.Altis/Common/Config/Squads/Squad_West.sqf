@@ -24,7 +24,7 @@ missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAtt
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["us_rg_m1078a1", 1], ["us_rg_rifleman_m4", 2], ["us_rg_rifleman_mk17", 2], ["us_rg_corporal", 2], ["us_rg_auto_rifleman", 2], ["us_rg_sergeant", 2], ["us_rg_machinegunner", 2], ["us_rg_at_specialist", 1]]];
+_p = _p		+ [[["us_rg_m1078a1", 1], ["us_rg_rifleman_m4a1", 2], ["us_rg_rifleman_mk17", 2], ["us_rg_corporal", 2], ["us_rg_autorifleman_m249", 2], ["us_rg_sergeant", 2], ["us_rg_machinegunner", 2], ["us_rg_at_specialist", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [2000];
 _c = _c		+ ["Infantry"];
@@ -32,7 +32,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAT"];
 _t = _t		+ ["Infantry - AT"];
-_p = _p		+ [[["us_rg_m1078a1", 1], ["us_rg_rifleman_mk17", 3], ["us_rg_at_specialist", 2], ["us_rg_corporal", 2]]];
+_p = _p		+ [[["us_rg_m1078a1", 1], ["us_rg_rifleman_mk17", 3], ["us_rg_at_specialist", 3], ["us_rg_corporal", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [2000];
 _c = _c		+ ["InfantryAT"];
@@ -40,7 +40,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAA"];
 _t = _t		+ ["Infantry - AA"];
-_p = _p		+ [[["us_rg_m1078a1", 1], ["us_rg_aa_specialist", 4], ["us_rg_corporal", 1], ["us_rg_rifleman_m4", 2]]];
+_p = _p		+ [[["us_rg_m1078a1", 1], ["us_rg_aa_specialist", 4], ["us_rg_corporal", 1], ["us_rg_rifleman_m4a1", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [2000];
 _c = _c		+ ["InfantryAA"];
@@ -64,7 +64,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["MechanizedHeavy"];
 _t = _t		+ ["Mechanized - IFV"];
-_p = _p		+ [[["us_rg_m2a3_b1", 1], ["us_rg_rifleman_m4", 2], ["us_rg_rifleman_mk17", 2], ["us_rg_corporal", 2], ["us_rg_auto_rifleman", 2]]];
+_p = _p		+ [[["us_rg_m2a3_b1", 1], ["us_rg_rifleman_m4a1", 2], ["us_rg_rifleman_mk17", 2], ["us_rg_corporal", 2], ["us_rg_autorifleman_m249", 2]]];
 _f = _f		+ [CTI_HEAVY];
 _m = _m		+ [6000];
 _c = _c		+ ["Mechanized"];

@@ -570,7 +570,7 @@
 
         backpack = "rhs_tortila_emr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_tortila_emr",{{"rhs_mag_9k38_rocket",3,1}}},"rhs_6b47_bare","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"rhs_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",8,30}}},{"rhs_tortila_emr",{{"rhs_mag_9k38_rocket",1,1}}},"rhs_6b47_bare","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -610,7 +610,7 @@
 
         backpack = "rhs_tortila_emr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","CUP_acc_LLM01_L","rhs_acc_ekp8_02",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",11,30}}},{"rhs_tortila_emr",{{"Vorona_HEAT",2,1}}},"rhs_6b47_emr_1","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","CUP_acc_LLM01_L","rhs_acc_ekp8_02",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"rhs_6b45_rifleman",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",11,30}}},{"rhs_tortila_emr",{{"Vorona_HEAT",1,1}}},"rhs_6b47_emr_1","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

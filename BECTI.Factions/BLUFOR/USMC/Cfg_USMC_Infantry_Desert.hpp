@@ -492,7 +492,7 @@
 
         backpack = "rhsusf_assault_eagleaiii_coy";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"Titan_AT",2,1}}},"rhsusf_lwh_helmet_marpatd_ess","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"launch_O_Titan_short_F","","","",{"Titan_AT",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"Titan_AT",1,1}}},"rhsusf_lwh_helmet_marpatd_ess","rhs_googles_black",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

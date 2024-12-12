@@ -494,7 +494,7 @@
 
         backpack = "rhs_tortila_olive";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"gorkaflora",{{"FirstAidKit",6}}},{"rhs_6b45_rifleman_od",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK_M",10,30}}},{"rhs_tortila_olive",{{"Vorona_HEAT",3,1}}},"rhs_6b7_1m_olive","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"gorkaflora",{{"FirstAidKit",6}}},{"rhs_6b45_rifleman_od",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK_M",10,30}}},{"rhs_tortila_olive",{{"Vorona_HEAT",1,1}}},"rhs_6b7_1m_olive","rhs_ess_black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -534,7 +534,7 @@
 
         backpack = "rhs_tortila_olive";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","CUP_acc_LLM01_L","rhs_acc_1p63",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"gorkacflora",{{"FirstAidKit",6}}},{"rhs_6b45_rifleman_od",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK_M",10,30}}},{"rhs_tortila_olive",{{"rhs_mag_9k38_rocket",3,1}}},"rhs_6b7_1m_ess","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","CUP_acc_LLM01_L","rhs_acc_1p63",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"rhs_weap_igla","","","",{"rhs_mag_9k38_rocket",1},{},""},{},{"gorkacflora",{{"FirstAidKit",6}}},{"rhs_6b45_rifleman_od",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK_M",10,30}}},{"rhs_tortila_olive",{{"rhs_mag_9k38_rocket",1,1}}},"rhs_6b7_1m_ess","G_Bandanna_oli",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {

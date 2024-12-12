@@ -29,9 +29,9 @@ with missionNamespace do {
 	WEST_MARINES_MARKSMEN = [WEST_MARINE_MARKSMAN];
 
 	// Infantry - Rangers
-	WEST_SOLDIER = ["us_rg_rifleman_m4", 1];
+	WEST_SOLDIER = ["us_rg_rifleman_m4a1", 1];
 	WEST_SOLDIER_AA = ["us_rg_aa_specialist", 1];
-	WEST_SOLDIER_AR = ["us_rg_auto_rifleman", 1];
+	WEST_SOLDIER_AR = ["us_rg_autorifleman_m249", 1];
 	WEST_SOLDIER_AT = ["us_rg_uav_operator_rpg", 1];
 	WEST_SOLDIER_CREW = ["us_rg_crewman", 1];
 	WEST_SOLDIER_LAT = ["us_rg_corporal", 1];
@@ -39,9 +39,9 @@ with missionNamespace do {
 	WEST_SOLDIER_ENGINEER = ["us_rg_engineer", 1];
 	WEST_SOLDIER_GL = ["us_rg_uav_operator_he", 1];
 	WEST_SOLDIER_MEDIC = ["us_rg_medic", 1];
-	WEST_SOLDIER_PILOT = ["us_rg_helicopter_pilot", 1];
+	WEST_SOLDIER_PILOT = ["us_rg_heli_pilot", 1];
 	WEST_SOLDIER_SQUADLEADER = ["us_rg_sergeant", 1];
-	WEST_SOLDIER_SNIPER = ["us_rg_sniper", 1];
+	WEST_SOLDIER_SNIPER = ["us_rg_sniper_m107", 1];
 	WEST_SOLDIER_MARKSMAN = ["us_rg_marksman", 1];
 	WEST_SOLDIER_TEAMLEADER = ["us_rg_rifleman_mk16", 1];
 	WEST_SOLDIER_HEAVYGUNNER = ["us_rg_machinegunner", 1];
