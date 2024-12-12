@@ -410,7 +410,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['ru_vdv_uav_operator_rpg'];
+_c = _c + ['ru_vdv_uav_operator_he'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
 _n = _n + ['VDV UAV Operator (HE)'];
 _o = _o + [250];
@@ -425,6 +425,33 @@ _n = _n + ['VDV UAV Operator (RPG)'];
 _o = _o + [250];
 _t = _t + [3];
 _u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_heli_crewman'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + [''];
+_o = _o + [200];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_heli_pilot'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + [''];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['ru_vdv_jet_pilot'];
+_p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vdv.paa'];
+_n = _n + [''];
+_o = _o + [350];
+_t = _t + [3];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -610,7 +637,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['ru_vmf_uav_operator_rpg'];
+_c = _c + ['ru_vmf_uav_operator_he'];
 _p = _p + ['\rhsafrf\addons\rhs_main\data\icons\vmf.paa'];
 _n = _n + ['VMF UAV Operator (HE)'];
 _o = _o + [250];

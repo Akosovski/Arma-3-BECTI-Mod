@@ -412,9 +412,18 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_usmc_uav_operator'];
+_c = _c + ['us_usmc_uav_operator_he'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
-_n = _n + ['USMC UAV Operator'];
+_n = _n + ['USMC UAV Operator (HE)'];
+_o = _o + [250];
+_t = _t + [3];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_usmc_uav_operator_rpg'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\usmclogo.paa'];
+_n = _n + ['USMC UAV Operator (RPG)'];
 _o = _o + [250];
 _t = _t + [3];
 _u = _u + [1];
