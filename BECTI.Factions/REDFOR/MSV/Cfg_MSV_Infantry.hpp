@@ -130,8 +130,8 @@
         linkedItems[] = {"rhs_6b45_grn","rhs_6b47_6B50","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_grn","rhs_6b47_6B50","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AK74M_GL",""};
-        respawnWeapons[] = {"CUP_arifle_AK74M_GL",""};
+        weapons[] = {"CUP_arifle_AK74M_GL"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_GL"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74_plum_M","CUP_1Rnd_HE_GP25_M"};
@@ -168,8 +168,8 @@
         linkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_emr_2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_emr_2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AK74M","rhs_weap_rpg26",""};
-        respawnWeapons[] = {"CUP_arifle_AK74M","rhs_weap_rpg26",""};
+        weapons[] = {"CUP_arifle_AK74M","rhs_weap_rpg26"};
+        respawnWeapons[] = {"CUP_arifle_AK74M","rhs_weap_rpg26"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","rhs_rpg26_mag","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","rhs_rpg26_mag","CUP_30Rnd_545x39_AK74_plum_M"};
@@ -206,8 +206,8 @@
         linkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_6B50","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_6B50","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AK74M",""};
-        respawnWeapons[] = {"CUP_arifle_AK74M",""};
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
@@ -246,8 +246,8 @@
         linkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_emr_2","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
         respawnlinkedItems[] = {"rhs_6b45_rifleman","rhs_6b47_emr_2","ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"};
 
-        weapons[] = {"CUP_arifle_AK74M",""};
-        respawnWeapons[] = {"CUP_arifle_AK74M",""};
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
@@ -642,8 +642,8 @@
         linkedItems[] = {"rhs_6b45_light","rhs_6b47_emr","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_light","rhs_6b47_emr","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AK74M",""};
-        respawnWeapons[] = {"CUP_arifle_AK74M",""};
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
@@ -680,8 +680,8 @@
         linkedItems[] = {"rhs_6b45_light","rhs_vkpo_cap_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhs_6b45_light","rhs_vkpo_cap_alt","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_AK74M",""};
-        respawnWeapons[] = {"CUP_arifle_AK74M",""};
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
 
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
