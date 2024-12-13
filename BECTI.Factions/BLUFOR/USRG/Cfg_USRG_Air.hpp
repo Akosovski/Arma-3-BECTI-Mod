@@ -6,12 +6,12 @@
         displayName = "USRG UH-80";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crewman"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crewman"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_rg_heli_crewman"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_heli_crewman"; };
         };
 
 
@@ -37,12 +37,12 @@
         displayName = "USRG UH-60M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crewman"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crewman"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_rg_heli_crewman"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_heli_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -72,10 +72,10 @@
         displayName = "USRG UH-60M (EWS)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -139,12 +139,12 @@
         displayName = "USRG CH-47F";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_crewman"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_helicopter_crewman"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_rg_heli_crewman"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "us_rg_heli_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -172,10 +172,10 @@
         displayName = "USRG AH-6M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
         };
 
 
@@ -201,10 +201,10 @@
         displayName = "USRG MH-6M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
@@ -236,10 +236,10 @@
         displayName = "USRG OH-6M";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -267,10 +267,10 @@
         displayName = "USRG AH-64D";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "us_rg_helicopter_pilot"; };
+            class MainTurret : MainTurret { gunnerType = "us_rg_heli_pilot"; };
         };
 
         class EventHandlers : EventHandlers {
@@ -294,12 +294,12 @@
         displayName = "USRG UH-1H (Rocket + MG)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class RightGunner : RightGunner { gunnerType = "us_rg_helicopter_crewman"; };
-            class LeftGunner : LeftGunner { gunnerType = "us_rg_helicopter_crewman"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
+            class RightGunner : RightGunner { gunnerType = "us_rg_heli_crewman"; };
+            class LeftGunner : LeftGunner { gunnerType = "us_rg_heli_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -328,12 +328,12 @@
         displayName = "USRG UH-1H (MG)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_helicopter_pilot";
+        crew = "us_rg_heli_pilot";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_helicopter_pilot"; };
-            class RightGunner : RightGunner { gunnerType = "us_rg_helicopter_crewman"; };
-            class LeftGunner : LeftGunner { gunnerType = "us_rg_helicopter_crewman"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "us_rg_heli_pilot"; };
+            class RightGunner : RightGunner { gunnerType = "us_rg_heli_crewman"; };
+            class LeftGunner : LeftGunner { gunnerType = "us_rg_heli_crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };

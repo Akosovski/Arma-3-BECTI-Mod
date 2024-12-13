@@ -1351,6 +1351,10 @@ _i = _i		+ ["JCA_optic_HPPO_black"];
 _u = _u		+ [2];
 _p = _p		+ [5];
 
+_i = _i		+ ["JCA_optic_HPPO_RAD_black"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
 _i = _i		+ ["rhsusf_optic_maaws"];
 _u = _u		+ [1];
 _p = _p		+ [15];
@@ -1459,6 +1463,38 @@ _p = _p		+ [15];
 
 _i = _i		+ ["CUP_NVG_GPNVG_black"];
 _u = _u		+ [2];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
+_u = _u		+ [0];
 _p = _p		+ [15];
 
 _i = _i		+ ["Binocular"];

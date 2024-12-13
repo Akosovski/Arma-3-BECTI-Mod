@@ -11,8 +11,8 @@ _s = [];
 //--- Commander will assign those orders based on the force and the probability [type, strength, {probability}, {Max per side}]
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_INFANTRY", _side], [["Infantry", 2, 45], ["InfantryAT", 1, 45], ["InfantryElite", 1, 75]]];
 missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_LIGHT", _side], [["MotorizedBTR", 1, 50]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["MechanizedBMP", 1, 50], ["MechanizedBMP", 1, 45], ["Armored", 2, 95]]];
-missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1, 75], ["AirAttack", 1, 95]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_HEAVY", _side], [["MechanizedBMP", 1, 70], ["MechanizedBMP", 1, 45], ["Armored", 2, 95]]];
+missionNamespace setVariable [format["CTI_SQUADS_%1_CATEGORY_AIR", _side], [["HeliAttack", 1, 90], ["AirAttack", 2, 95]]];
 
 missionNamespace setVariable [format["CTI_SQUADS_%1_TOWN_DEFENSE", _side], ["InfantryAT", "InfantryAA"]];
 

@@ -383,7 +383,7 @@
         displayName = "USRG M977A4";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -407,7 +407,7 @@
         displayName = "USRG M977A4 (Ammo)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -431,7 +431,7 @@
         displayName = "USRG M977A4 (Repair)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -455,7 +455,7 @@
         displayName = "USRG M977A4 (Fuel)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -479,7 +479,7 @@
         displayName = "USRG M1078A1";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -509,7 +509,7 @@
         displayName = "USRG M1078A1 (Flatbed)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -533,7 +533,7 @@
         displayName = "USRG Salvager";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
 
         class EventHandlers : EventHandlers {
@@ -559,7 +559,7 @@
         displayName = "USRG M1123 (Half)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -589,7 +589,7 @@
         displayName = "USRG M1123 (Open)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -620,7 +620,7 @@
         displayName = "USRG M1123";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -650,7 +650,7 @@
         displayName = "USRG M1151A1";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
@@ -679,10 +679,10 @@
         displayName = "USRG M1151A1 (CROWS/M2)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class CROWS_Turret : CROWS_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CROWS_Turret : CROWS_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -709,10 +709,10 @@
         displayName = "USRG M1151A1 (CROWS/Mk19)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class CROWS_Turret : CROWS_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class CROWS_Turret : CROWS_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -739,10 +739,10 @@
         displayName = "USRG M1151A1 (M2)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -769,10 +769,10 @@
         displayName = "USRG M1151A1 (M240)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -799,10 +799,10 @@
         displayName = "USRG M1151A1 (Mk19)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -829,7 +829,7 @@
         displayName = "USRG M1152A1 (Ammo)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
@@ -1085,7 +1085,7 @@
         displayName = "USRG M142 HIMARS (Cluster)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1133,7 +1133,7 @@
         displayName = "USRG M142 HIMARS (HE)";
         side = 1;
         faction = "ako_us_rg";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1183,10 +1183,10 @@
         displayName = "USRG M1165A1 (M134)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class SAG_Turret : SAG_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class SAG_Turret : SAG_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
             class SwingArm_L_Turret : SwingArm_L_Turret { gunnerType = ""; };
             class SwingArm_R_Turret : SwingArm_R_Turret { gunnerType = ""; };
@@ -1220,10 +1220,10 @@
         displayName = "USRG M1165A1 (M2)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class SAG_Turret : SAG_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class SAG_Turret : SAG_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
             class SwingArm_L_Turret : SwingArm_L_Turret { gunnerType = ""; };
             class SwingArm_R_Turret : SwingArm_R_Turret { gunnerType = ""; };
@@ -1257,10 +1257,10 @@
         displayName = "USRG M1165A1 (Mk19)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class SAG_Turret : SAG_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class SAG_Turret : SAG_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
             class SwingArm_L_Turret : SwingArm_L_Turret { gunnerType = ""; };
             class SwingArm_R_Turret : SwingArm_R_Turret { gunnerType = ""; };
@@ -1294,10 +1294,10 @@
         displayName = "USRG M1230 (M2)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class M2_Turret : M2_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
         };
 
 
@@ -1323,10 +1323,10 @@
         displayName = "USRG M1230 (Mk19)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class M2_Turret : M2_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
         };
 
 
@@ -1352,10 +1352,10 @@
         displayName = "USRG M1240A1 (M2)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
@@ -1382,10 +1382,10 @@
         displayName = "USRG M1240A1 (Mk19)";
         side = 1;
         faction = "AKO_US_RG";
-        crew = "us_rg_rifleman_m4";
+        crew = "us_rg_rifleman_m4a1";
 
         class Turrets : Turrets {
-            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4"; };
+            class OGPK_Turret : OGPK_Turret { gunnerType = "us_rg_rifleman_m4a1"; };
             class CoDriverTurret : CoDriverTurret { gunnerType = ""; };
         };
 
