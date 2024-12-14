@@ -115,6 +115,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 _u 			= ["us_rg_m977a4_ammo"];
 _u = _u		+ ["us_rg_m113a3_ammo"];
 _u = _u		+ ["us_rg_m1152a1_ammo"];
+_u = _u		+ ["RHS_M119_WD"];
 _u = _u		+ ["BOX_NATO_AmmoVeh_F"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
@@ -157,6 +158,8 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
 _u 			= ["us_rg_m1123"];
 _u = _u		+ ["us_rg_m1078a1"];
+_u = _u		+ ["us_rg_m977a4_repair"];
+_u = _u		+ ["us_rg_m977a4_fuel"];
 _u = _u		+ ["us_rg_m1152a1_ammo"];
 _u = _u		+ ["C_Quadbike_01_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {

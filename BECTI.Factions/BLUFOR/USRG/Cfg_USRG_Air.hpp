@@ -90,7 +90,7 @@
 				{
 					class pylon1
 					{
-						hardpoints[]		= {"RHS_HP_Fuel_ARMY_MEV"};
+						hardpoints[]		= {};
 						priority			= 2;
 						attachment			= "rhs_mag_M151_19";
 						maxweight			= 1200;
@@ -100,7 +100,7 @@
 					};
 					class pylon2 : pylon1
 					{
-						hardpoints[]		= {"RHS_HP_Fuel_ARMY_MEV","RHS_HP_Fuel_ARMY"};
+						hardpoints[]		= {};
 						UIposition[]		= {0.555,0.37};
 						priority			= 1;
 						attachment			= "rhs_mag_M151_19";

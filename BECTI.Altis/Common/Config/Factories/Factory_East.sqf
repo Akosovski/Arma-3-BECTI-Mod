@@ -100,6 +100,7 @@ _u = _u		+ ["ru_msv_t90sm"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
 _u 			= ["ru_vdv_ka60"];
+_u = _u	    + ["ru_vdv_ka60_rocket"];
 _u = _u	    + ["ru_vdv_mi8t"];
 _u = _u		+ ["ru_vdv_mi8mt"];
 _u = _u		+ ["ru_vdv_mi8mtv3"];
@@ -122,6 +123,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["ru_msv_ural_ammo"];
 _u = _u		+ ["ru_vdv_kamaz_ammo"];
+_u = _u		+ ["rhs_D30_msv"];
 _u = _u		+ ["BOX_IND_AmmoVeh_F"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
@@ -153,6 +155,8 @@ _u 			= ["ru_msv_uaz"];
 _u = _u		+ ["ru_msv_gaz_normal"];
 _u = _u		+ ["ru_msv_ural_normal"];
 _u = _u		+ ["ru_msv_ural_ammo"];
+_u = _u		+ ["ru_msv_ural_repair"];
+_u = _u		+ ["ru_msv_ural_fuel"];
 _u = _u		+ ["C_Quadbike_01_F"];
 if ((missionNamespace getVariable "CTI_UNITS_TOWN_PURCHASE") > 0) then {
  	_u = _u		+ [missionNamespace getVariable format ["CTI_%1_SOLDIER", _side]];

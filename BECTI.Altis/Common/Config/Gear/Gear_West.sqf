@@ -865,18 +865,6 @@ _i = _i     + ["Deg_TB_Green"];
 _u = _u     + [0];
 _p = _p     + [3]; 
 
-_i = _i     + ["Deg_TB_UN_Green"];
-_u = _u     + [0];
-_p = _p     + [3]; 
-
-_i = _i     + ["Deg_TB_G_Combat_Green"];
-_u = _u     + [0];
-_p = _p     + [3]; 
-
-_i = _i     + ["Deg_TB_G_Gatorz_Green"];
-_u = _u     + [0];
-_p = _p     + [3]; 
-
 _i = _i     + ["JCA_G_AirPurifyingRespirator_03_olive_tinted_F"];
 _u = _u     + [0];
 _p = _p     + [5];
@@ -1412,6 +1400,10 @@ _u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["CUP_muzzle_snds_socom762rc"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_aac_762sdn6_silencer"];
 _u = _u		+ [3];
 _p = _p		+ [5];
 

@@ -709,7 +709,7 @@ _o = _o + [450];
 _t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 _c = _c + ['ru_msv_brdm_at'];
 _p = _p + [''];
@@ -718,7 +718,7 @@ _o = _o + [550];
 _t = _t + [15];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 // ---------- Trucks ------------
 
@@ -801,7 +801,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [950];
 _t = _t + [15];
-_u = _u + [2];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
@@ -1027,6 +1027,15 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
 
+_c = _c + ['rhs_D30_msv'];
+_p = _p + [''];
+_n = _n + ['MSV D-30A Howitzer'];
+_o = _o + [800];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + [""];
+
 // ---------- Air Vehicles ------------
 
 _c = _c + ['ru_vdv_k40a'];
@@ -1051,6 +1060,15 @@ _c = _c + ['ru_vdv_ka60'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [6500];
+_t = _t + [15];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + ["service-medic"];
+
+_c = _c + ['ru_vdv_ka60_rocket'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [7000];
 _t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];

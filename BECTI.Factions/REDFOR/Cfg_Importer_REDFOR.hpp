@@ -19,6 +19,16 @@
 
     // Air Units
 
+    
+    class O_Heli_Light_02_dynamicLoadout_F;
+    class O_Heli_Light_02_dynamicLoadout_F_OCimport_01 : O_Heli_Light_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Light_02_dynamicLoadout_F_OCimport_02 : O_Heli_Light_02_dynamicLoadout_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+        };
+    };
+
     class rhs_ka60_c;
     class rhs_ka60_c_OCimport_01 : rhs_ka60_c { scope = 0; class EventHandlers; class Turrets; };
     class rhs_ka60_c_OCimport_02 : rhs_ka60_c_OCimport_01 { 

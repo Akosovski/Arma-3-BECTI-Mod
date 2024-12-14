@@ -1,4 +1,33 @@
-    
+
+
+    class ru_vdv_ka60_rocket : O_Heli_Light_02_dynamicLoadout_F_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VDV Ka-60 (Rockets)";
+        side = 0;
+        faction = "AKO_RU_VDV";
+        crew = "ru_vdv_heli_pilot";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "ru_vdv_heli_pilot"; };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Air_F_Heli\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_V2_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Blackcustom";
+
+    };
+
     class ru_vdv_ka60 : rhs_ka60_c_OCimport_02 {
         author = "Akosovski";
         scope = 2;

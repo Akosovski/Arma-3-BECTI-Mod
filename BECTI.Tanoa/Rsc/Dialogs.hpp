@@ -1679,7 +1679,7 @@ class CTI_RscOptionsMenu {
 			
 			y = "SafeZoneY + (SafezoneH * 0.545)";
 			
-			text = "Play Music: Off";
+			text = "Play Music";
 			action = "['onMusicPressed'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_OptionsMenu.sqf'";
 		};
 		class CTI_Menu_Options_TransferFunds : CTI_Menu_Options_OnlineHelp {

@@ -639,7 +639,7 @@ _o = _o + [200];
 _t = _t + [20];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 _c = _c + ['us_rg_m1123_half'];
 _p = _p + [''];
@@ -720,7 +720,7 @@ _o = _o + [700];
 _t = _t + [20];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 _c = _c + ['us_rg_m1165a1_m2'];
 _p = _p + [''];
@@ -729,7 +729,7 @@ _o = _o + [700];
 _t = _t + [20];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 _c = _c + ['us_rg_m1165a1_mk19'];
 _p = _p + [''];
@@ -738,7 +738,7 @@ _o = _o + [700];
 _t = _t + [20];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 _c = _c + ['us_rg_m1230_m2'];
 _p = _p + [''];
@@ -812,7 +812,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [950];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
@@ -821,7 +821,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1100];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
@@ -830,7 +830,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1200];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
@@ -1030,6 +1030,15 @@ _t = _t + [10];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
+
+_c = _c + ['RHS_M119_WD'];
+_p = _p + [''];
+_n = _n + ['USRG M119A2 Howitzer'];
+_o = _o + [800];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + [""];
 
 //--- Vehicles Air ---
 

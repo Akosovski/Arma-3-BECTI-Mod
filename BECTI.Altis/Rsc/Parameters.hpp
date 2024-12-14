@@ -74,14 +74,14 @@ class Params {
 	class CTI_BASE_START_TOWN {
 		title = "BASE: Start Near towns";
 		values[] = {0,1};
-		texts[] = {"No","Yes"};//{"Disabled","Enabled"};
-		default = 1;
+		texts[] = {"No","Yes"};
+		default = 0;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Start-up Placement";
 		values[] = {1000,2000,4000,6000,9000};
 		texts[] = {"1KM","2 KM","4 KM","6 KM","9 KM"};
-		default = 6000;
+		default = 9000;
 	};
 	class CTI_BASE_WORKERS_LIMIT {
 		title = "BASE: Worker Limit";

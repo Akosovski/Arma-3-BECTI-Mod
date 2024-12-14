@@ -116,7 +116,41 @@
             class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
         };
 
-
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\rhsusf\addons\rhsusf_a2port_air\data\loadouts\RHS_UH60_ESSS_EDEN_CA.paa";
+				
+				class pylons
+				{
+					class pylon1
+					{
+						hardpoints[]		= {};
+						priority			= 2;
+						attachment			= "rhs_mag_FFAR_19_USAF";
+						maxweight			= 1200;
+						UIposition[]		= {0.625,0.42};
+						bay					= -1;
+						hitpoint 			= HitPylon1;
+					};
+					class pylon2 : pylon1
+					{
+						hardpoints[]		= {"RHSUSF_cm_ANALE39","RHSUSF_cm_ANALE39_x2","RHSUSF_cm_ANALE39_x4"};
+						UIposition[]		= {0.555,0.37};
+						priority			= 1;
+						attachment			= "rhs_mag_FFAR_19_USAF";
+						hitpoint 			= HitPylon2;
+					};
+					class cmDispenser
+					{
+						hardpoints[]	= {"RHSUSF_cm_M130","RHSUSF_cm_M130_x2"};
+						priority		= 1;
+						attachment		= "rhsusf_M130_CMFlare_Chaff_Magazine_x2";
+						maxweight		= 800;
+						UIposition[]	= {0.33,0.0};
+					};
+				};
+			};
+		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -153,7 +187,41 @@
             class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
         };
 
-
+        class Components {
+            class TransportPylonsComponent {
+                UIPicture = "\rhsusf\addons\rhsusf_a2port_air\data\loadouts\RHS_UH60_ESSS_EDEN_CA.paa";
+				
+				class pylons
+				{
+					class pylon1
+					{
+						hardpoints[]		= {};
+						priority			= 2;
+						attachment			= "rhs_mag_FFAR_19_USAF";
+						maxweight			= 1200;
+						UIposition[]		= {0.625,0.42};
+						bay					= -1;
+						hitpoint 			= HitPylon1;
+					};
+					class pylon2 : pylon1
+					{
+						hardpoints[]		= {};
+						UIposition[]		= {0.555,0.37};
+						priority			= 1;
+						attachment			= "rhs_mag_FFAR_19_USAF";
+						hitpoint 			= HitPylon2;
+					};
+					class cmDispenser
+					{
+						hardpoints[]	= {"RHSUSF_cm_ANALE39","RHSUSF_cm_ANALE39_x2","RHSUSF_cm_ANALE39_x4"};
+						priority		= 1;
+						attachment		= "rhsusf_ANALE39_CMFlare_Chaff_Magazine_x4";
+						maxweight		= 800;
+						UIposition[]	= {0.33,0.0};
+					};
+				};
+			};
+		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

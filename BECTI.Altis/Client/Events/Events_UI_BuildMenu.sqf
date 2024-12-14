@@ -1,4 +1,4 @@
-private ["_action"];
+Auto-Manning: Onprivate ["_action"];
 _action = _this select 0;
 
 switch (_action) do {
@@ -6,7 +6,7 @@ switch (_action) do {
 		execVM "Client\GUI\GUI_BuildMenu.sqf";
 		CTI_VAR_DestroyCam = true;
 		if (CTI_P_WallsAutoAlign) then { ctrlSetText [100003, "Auto-Align Walls: On"] } else { ctrlSetText [100003, "Auto-Align Walls: Off"] };
-		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, "Defenses Auto-Manning: On"] } else { ctrlSetText [100011, "Defenses Auto-Manning: Off"] };
+		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, "Auto-Manning: On"] } else { ctrlSetText [100011, "Auto-Manning: Off"] };
 		_hq = CTI_P_SideJoined call CTI_CO_FNC_GetSideHQ;
 		_supplyActive = if (missionNameSpace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM" == 0) then {true} else {false};
 		
@@ -142,7 +142,7 @@ switch (_action) do {
 	};
 	case "onAutoManning": {
 		CTI_P_DefensesAutoManning = !CTI_P_DefensesAutoManning;
-		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, "Defenses Auto-Manning: On"] } else { ctrlSetText [100011, "Defenses Auto-Manning: Off"] };
+		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, "Auto-Manning: On"] } else { ctrlSetText [100011, "Auto-Manning: Off"] };
 	};
 	case "onAddWorker": {
 		//--- Check the worker limit
