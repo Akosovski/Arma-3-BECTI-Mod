@@ -219,7 +219,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_rg_machinegunner'];
+_c = _c + ['us_rg_machine_gunner'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\armylogo.paa'];
 _n = _n + ['US Rangers Machine Gunner'];
 _o = _o + [280];
@@ -765,7 +765,7 @@ _o = _o + [900];
 _t = _t + [20];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 _c = _c + ['us_rg_m1240a1_mk19'];
 _p = _p + [''];
@@ -774,7 +774,7 @@ _o = _o + [900];
 _t = _t + [20];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
 //--- Trucks ---
 
@@ -1050,24 +1050,6 @@ _t = _t + [5];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [];
-
-_c = _c + ['us_rg_mh146_unarmed'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [7000];
-_t = _t + [15];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic"];
-
-_c = _c + ['us_rg_mh146_armed'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [8000];
-_t = _t + [15];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + ["service-medic"];
 
 _c = _c + ['us_rg_uh60m'];
 _p = _p + [''];

@@ -209,7 +209,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=688;
-					type="us_usmc_officer";
+					type="us_rg_officer";
 					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{

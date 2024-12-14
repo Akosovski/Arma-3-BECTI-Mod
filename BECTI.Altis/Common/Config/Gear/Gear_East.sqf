@@ -672,14 +672,14 @@ _i = _i        + ["rhs_uniform_mix_2_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
 
-// No appearing IN GAME
-// _i = _i        + ["gorkaflora"];
-// _u = _u        + [1];
-// _p = _p        + [15];
+// Not working IN GAME
+_i = _i        + ["gorkaflora"];
+_u = _u        + [0];
+_p = _p        + [15];
 
-// _i = _i        + ["gorkacflora"];
-// _u = _u        + [1];
-// _p = _p        + [15];
+_i = _i        + ["gorkacflora"];
+_u = _u        + [0];
+_p = _p        + [15];
  
 _i = _i        + ["rhs_uniform_gorka_r_g_gloves"];
 _u = _u        + [3];
@@ -721,14 +721,13 @@ _i = _i        + ["rhs_uniform_vkpo_gloves"];
 _u = _u        + [1];
 _p = _p        + [10];
 
-// No appearing IN GAME
-// _i = _i        + ["U_I_FullGhillie_sard"];
-// _u = _u        + [3];
-// _p = _p        + [30];
+_i = _i        + ["U_O_FullGhillie_sard"];
+_u = _u        + [3];
+_p = _p        + [30];
 
-// _i = _i        + ["U_I_FullGhillie_ard"];
-// _u = _u        + [3];
-// _p = _p        + [30];
+_i = _i        + ["U_O_FullGhillie_ard"];
+_u = _u        + [3];
+_p = _p        + [30];
 
  
 // --- Face Wear ---
@@ -785,7 +784,15 @@ _i = _i        + ["Deg_TB_Green"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
-_i = _i        + ["Deg_TB_Tan"];
+_i = _i        + ["Deg_TB_UN_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_G_Combat_Green"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_TB_G_Gatorz_Green"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
@@ -1302,38 +1309,6 @@ _i = _i		    + ["O_UavTerminal"];
 _u = _u		    + [1];
 _p = _p		    + [20];
 
-_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
 _i = _i         + ["rhs_ipn138"];
 _u = _u         + [0];
 _p = _p         + [10]; 
@@ -1377,6 +1352,38 @@ _p = _p		    + [5];
 _i = _i		    + ["Minedetector"];
 _u = _u		    + [0];
 _p = _p		    + [25];
+
+_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
 
 
 //--- ADDONS

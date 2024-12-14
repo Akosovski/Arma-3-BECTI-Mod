@@ -798,6 +798,22 @@ _i = _i + ["rhsusf_plateframe_teamleader"];
 _u = _u + [1];
 _p = _p + [20];
 
+_i = _i + ["AGE_WAS_AK_MultiCam"];
+_u = _u + [2];
+_p = _p + [20]; 
+
+_i = _i + ["AGE_WAS_Light_AK_MultiCam"];
+_u = _u + [2];
+_p = _p + [20]; 
+
+_i = _i + ["AGE_WAS_Medium_AK_MultiCam"];
+_u = _u + [2];
+_p = _p + [20]; 
+
+_i = _i + ["AGE_WAS_Heavy_AK_MultiCam"];
+_u = _u + [2];
+_p = _p + [20]; 
+
 _i = _i + ["JCA_MCRP_V_CarrierRigKBT_01_compact_coyote_F"];
 _u = _u + [1];
 _p = _p + [20];
@@ -849,7 +865,15 @@ _i = _i     + ["Deg_TB_Green"];
 _u = _u     + [0];
 _p = _p     + [3]; 
 
-_i = _i     + ["Deg_TB_Tan"];
+_i = _i     + ["Deg_TB_UN_Green"];
+_u = _u     + [0];
+_p = _p     + [3]; 
+
+_i = _i     + ["Deg_TB_G_Combat_Green"];
+_u = _u     + [0];
+_p = _p     + [3]; 
+
+_i = _i     + ["Deg_TB_G_Gatorz_Green"];
 _u = _u     + [0];
 _p = _p     + [3]; 
 
@@ -1449,51 +1473,31 @@ _p = _p		+ [5];
 
 //--- Items ---
 
+_i = _i		+ ["FirstAidKit"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["Toolkit"];
+_u = _u		+ [0];
+_p = _p		+ [25];
+
+_i = _i		+ ["Medikit"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["B_UavTerminal"];
+_u = _u		+ [1];
+_p = _p		+ [20];
+
 _i = _i		+ ["NVGogglesB_grn_F"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
-_i = _i		+ ["CUP_NVG_PVS14"];
+_i = _i		+ ["rhsusf_ANPVS_15"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
-_i = _i		+ ["CUP_NVG_PVS15_black"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["CUP_NVG_GPNVG_black"];
-_u = _u		+ [2];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
+_i = _i		+ ["rhsusf_Rhino"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
@@ -1533,19 +1537,35 @@ _i = _i		+ ["itemwatch"];
 _u = _u		+ [0];
 _p = _p		+ [1];
 
-_i = _i		+ ["B_UavTerminal"];
-_u = _u		+ [1];
-_p = _p		+ [20];
-
-_i = _i		+ ["FirstAidKit"];
+_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
-_i = _i		+ ["Toolkit"];
+_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
 _u = _u		+ [0];
-_p = _p		+ [25];
+_p = _p		+ [15];
 
-_i = _i		+ ["Medikit"];
+_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
