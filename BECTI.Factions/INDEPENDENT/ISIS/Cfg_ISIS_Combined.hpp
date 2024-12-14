@@ -136,7 +136,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavr_l","H_ShemagOpen_tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavr_l","H_ShemagOpen_tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -147,7 +147,7 @@
         magazines[] = {"30Rnd_556x45_Stanag_Sand","30Rnd_556x45_Stanag_Sand"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag_Sand","30Rnd_556x45_Stanag_Sand"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag_Sand",30},{},""},{"rhs_weap_M136","","","",{},{},""},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",5}}},{"mbavr_l",{{"FirstAidKit",2},{"CUP_HandGrenade_M67",3,1},{"30Rnd_556x45_Stanag_Sand",6,30}}},{},"H_ShemagOpen_tan","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","","rhsusf_acc_EOTECH",{"30Rnd_556x45_Stanag_Sand",30},{},""},{"rhs_weap_M136","","","",{},{},""},{},{"m93_cmd",{{"FirstAidKit",5}}},{"mbavr_l",{{"FirstAidKit",2},{"CUP_HandGrenade_M67",3,1},{"30Rnd_556x45_Stanag_Sand",6,30}}},{},"H_ShemagOpen_tan","G_Aviator",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -175,7 +175,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavr_r","H_ShemagOpen_tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavr_r","H_ShemagOpen_tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -186,7 +186,7 @@
         magazines[] = {"CUP_30Rnd_762x39_AK47_TK_M","CUP_30Rnd_762x39_AK47_TK_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_TK_M","CUP_30Rnd_762x39_AK47_TK_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47_Early","","","",{"CUP_30Rnd_762x39_AK47_TK_M",30},{},""},{},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",5}}},{"mbavr_r",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",3,1},{"CUP_30Rnd_762x39_AK47_TK_M",10,30}}},{},"H_ShemagOpen_tan","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47_Early","","","",{"CUP_30Rnd_762x39_AK47_TK_M",30},{},""},{},{},{"m93_cmd",{{"FirstAidKit",5}}},{"mbavr_r",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",3,1},{"CUP_30Rnd_762x39_AK47_TK_M",10,30}}},{},"H_ShemagOpen_tan","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -333,7 +333,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavr_gl","H_Bandanna_sand","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavr_gl","H_Bandanna_sand","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -346,7 +346,7 @@
 
         backpack = "tacpac_tan";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M16A4_GL_black_F","","rhsusf_acc_anpeq15_wmx_light","rhsusf_acc_ACOG3_USMC",{"30Rnd_556x45_Stanag_Sand",30},{"1Rnd_HE_Grenade_shell",1},""},{},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",3},{"30Rnd_556x45_Stanag_green",2,30}}},{"mbavr_gl",{{"FirstAidKit",1},{"1Rnd_HE_Grenade_shell",15,1},{"30Rnd_556x45_Stanag_Sand",10,30}}},{"tacpac_tan",{}},"H_Bandanna_sand","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M16A4_GL_black_F","","rhsusf_acc_anpeq15_wmx_light","rhsusf_acc_ACOG3_USMC",{"30Rnd_556x45_Stanag_Sand",30},{"1Rnd_HE_Grenade_shell",1},""},{},{},{"m93_cmd",{{"FirstAidKit",3},{"30Rnd_556x45_Stanag_green",2,30}}},{"mbavr_gl",{{"FirstAidKit",1},{"1Rnd_HE_Grenade_shell",15,1},{"30Rnd_556x45_Stanag_Sand",10,30}}},{"tacpac_tan",{}},"H_Bandanna_sand","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -415,7 +415,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavr_r","rhsusf_opscore_mar_ut","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavr_r","rhsusf_opscore_mar_ut","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -426,7 +426,7 @@
         magazines[] = {"30Rnd_556x45_Stanag_Sand","30Rnd_556x45_Stanag_Sand"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag_Sand","30Rnd_556x45_Stanag_Sand"};
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_wmx","rhsusf_acc_su230_mrds_c",{"30Rnd_556x45_Stanag_Sand",30},{},""},{},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",5}}},{"mbavr_r",{{"FirstAidKit",2},{"CUP_HandGrenade_M67",3,1},{"30Rnd_556x45_Stanag_Sand",11,30}}},{},"rhsusf_opscore_mar_ut","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_wmx","rhsusf_acc_su230_mrds_c",{"30Rnd_556x45_Stanag_Sand",30},{},""},{},{},{"m93_cmd",{{"FirstAidKit",5}}},{"mbavr_r",{{"FirstAidKit",2},{"CUP_HandGrenade_M67",3,1},{"30Rnd_556x45_Stanag_Sand",11,30}}},{},"rhsusf_opscore_mar_ut","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -454,7 +454,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavr_r","rhsusf_opscore_mar_ut","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavr_r","rhsusf_opscore_mar_ut","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -465,7 +465,7 @@
         magazines[] = {"CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl"};
         respawnMagazines[] = {"CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_CQC_AFG","","rhsusf_acc_anpeq15_wmx","rhsusf_acc_su230",{"CUP_20Rnd_762x51_B_SCAR_bkl",20},{},""},{},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",5}}},{"mbavr_r",{{"CUP_HandGrenade_M67",3,1},{"CUP_20Rnd_762x51_B_SCAR_bkl",9,20}}},{},"rhsusf_opscore_mar_ut","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_CQC_AFG","","rhsusf_acc_anpeq15_wmx","rhsusf_acc_su230",{"CUP_20Rnd_762x51_B_SCAR_bkl",20},{},""},{},{},{"m93_cmd",{{"FirstAidKit",5}}},{"mbavr_r",{{"CUP_HandGrenade_M67",3,1},{"CUP_20Rnd_762x51_B_SCAR_bkl",9,20}}},{},"rhsusf_opscore_mar_ut","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -493,7 +493,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavkhk_mg","rhsusf_opscore_mar_ut","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavkhk_mg","rhsusf_opscore_mar_ut","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -504,7 +504,7 @@
         magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
         respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_E1","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",5}}},{"mbavkhk_mg",{{"rhs_mag_m67",2,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3,200}}},{},"rhsusf_opscore_mar_ut","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_E1","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"m93_cmd",{{"FirstAidKit",5}}},{"mbavkhk_mg",{{"rhs_mag_m67",2,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3,200}}},{},"rhsusf_opscore_mar_ut","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -692,7 +692,7 @@
 
         identityTypes[] = {"Head_TK","LanguagePER_F","rhs_scarf","G_CIVIL_male"};
 
-        uniformClass = "rhs_uniform_emr_des_patchless";
+        uniformClass = "m93_cmd";
 
         linkedItems[] = {"mbavr_m","pasgt_bgd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"mbavr_m","pasgt_bgd","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -705,7 +705,7 @@
 
         backpack = "B_AssaultPack_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A1E1","","","",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"rhs_uniform_emr_des_patchless",{{"FirstAidKit",5}}},{"mbavr_m",{{"FirstAidKit",5},{"30Rnd_556x45_Stanag",12,30},{"rhs_mag_m67",1,1}}},{"B_AssaultPack_cbr",{{"ToolKit",2}}},"pasgt_bgd","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A1E1","","","",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"m93_cmd",{{"FirstAidKit",5}}},{"mbavr_m",{{"FirstAidKit",5},{"30Rnd_556x45_Stanag",12,30},{"rhs_mag_m67",1,1}}},{"B_AssaultPack_cbr",{{"ToolKit",2}}},"pasgt_bgd","rhsusf_shemagh2_gogg_tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

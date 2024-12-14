@@ -837,6 +837,7 @@ class CfgVehicles {
     #include "REDFOR\VDV\Cfg_VDV_Air.hpp"
 
     #include "REDFOR\VMF\Cfg_VMF_Infantry.hpp"
+    #include "REDFOR\VMF\Cfg_VMF_Infantry_Desert.hpp"
 
     // INDEPENDENT // ----------------------------------
     #include "INDEPENDENT\ADF\Cfg_ADF_Combined.hpp"

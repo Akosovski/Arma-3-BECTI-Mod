@@ -671,15 +671,6 @@ _p = _p        + [10];
 _i = _i        + ["rhs_uniform_mix_2_6sh122_gloves_v1"];
 _u = _u        + [2];
 _p = _p        + [10];
-
-// Not working IN GAME
-_i = _i        + ["gorkaflora"];
-_u = _u        + [0];
-_p = _p        + [15];
-
-_i = _i        + ["gorkacflora"];
-_u = _u        + [0];
-_p = _p        + [15];
  
 _i = _i        + ["rhs_uniform_gorka_r_g_gloves"];
 _u = _u        + [3];

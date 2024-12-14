@@ -32,12 +32,12 @@ with missionNamespace do {
 	WEST_SOLDIER = ["us_rg_rifleman_m4a1", 1];
 	WEST_SOLDIER_AA = ["us_rg_aa_specialist", 1];
 	WEST_SOLDIER_AR = ["us_rg_autorifleman_m249", 1];
-	WEST_SOLDIER_AT = ["us_rg_uav_operator_rpg", 1];
+	WEST_SOLDIER_AT = ["us_rg_at_specialist", 1];
 	WEST_SOLDIER_CREW = ["us_rg_crewman", 1];
 	WEST_SOLDIER_LAT = ["us_rg_corporal", 1];
 	WEST_SOLDIER_HAT = ["us_rg_at_specialist", 1];
 	WEST_SOLDIER_ENGINEER = ["us_rg_engineer", 1];
-	WEST_SOLDIER_GL = ["us_rg_uav_operator_he", 1];
+	WEST_SOLDIER_GL = ["us_rg_corporal", 1];
 	WEST_SOLDIER_MEDIC = ["us_rg_medic", 1];
 	WEST_SOLDIER_PILOT = ["us_rg_heli_pilot", 1];
 	WEST_SOLDIER_SQUADLEADER = ["us_rg_sergeant", 1];

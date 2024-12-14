@@ -8,10 +8,10 @@
     class rhs_vmf_recon_sergeant;
     class rhs_vmf_recon_sergeant_OCimport_01 : rhs_vmf_recon_sergeant { scope = 0; class EventHandlers; };
     class rhs_vmf_recon_sergeant_OCimport_02 : rhs_vmf_recon_sergeant_OCimport_01 { class EventHandlers; };
-
-    class rhs_vmf_recon_efreitor;
-    class rhs_vmf_recon_efreitor_OCimport_01 : rhs_vmf_recon_efreitor { scope = 0; class EventHandlers; };
-    class rhs_vmf_recon_efreitor_OCimport_02 : rhs_vmf_recon_efreitor_OCimport_01 { class EventHandlers; };
+    
+    class rhs_vdv_des_sergeant;
+    class rhs_vdv_des_sergeant_OCimport_01 : rhs_vdv_des_sergeant { scope = 0; class EventHandlers; };
+    class rhs_vdv_des_sergeant_OCimport_02 : rhs_vdv_des_sergeant_OCimport_01 { class EventHandlers; };
 
     class rhs_vdv_rifleman;
     class rhs_vdv_rifleman_OCimport_01 : rhs_vdv_rifleman { scope = 0; class EventHandlers; };
