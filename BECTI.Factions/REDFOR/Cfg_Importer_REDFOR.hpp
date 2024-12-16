@@ -19,7 +19,15 @@
 
     // Air Units
 
-    
+    class rhs_D30_msv;
+    class rhs_D30_msv_OCimport_01 : rhs_D30_msv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_D30_msv_OCimport_02 : rhs_D30_msv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
     class O_Heli_Light_02_dynamicLoadout_F;
     class O_Heli_Light_02_dynamicLoadout_F_OCimport_01 : O_Heli_Light_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
     class O_Heli_Light_02_dynamicLoadout_F_OCimport_02 : O_Heli_Light_02_dynamicLoadout_F_OCimport_01 { 

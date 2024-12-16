@@ -1,4 +1,38 @@
 
+    class us_rg_m119a2 : RHS_M119_WD_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M119A2";
+        side = 1;
+        faction = "AKO_US_RG";
+        crew = "us_rg_rifleman_m4a1";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_rifleman_m4a1"; };
+        };
+
+        class TransportMagazines {
+            class _xx_RHS_mag_m1_he_12{
+                magazine = "RHS_mag_m1_he_12";
+                count = 5;
+            };
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     // IFV // ifv // ---------------------------------------
 
     class us_rg_m2a3 : RHS_M2A3_wd_OCimport_02 {

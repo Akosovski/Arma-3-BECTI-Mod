@@ -1031,7 +1031,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
 
-_c = _c + ['RHS_M119_WD'];
+_c = _c + ['us_rg_m119a2'];
 _p = _p + [''];
 _n = _n + ['USRG M119A2 Howitzer'];
 _o = _o + [800];

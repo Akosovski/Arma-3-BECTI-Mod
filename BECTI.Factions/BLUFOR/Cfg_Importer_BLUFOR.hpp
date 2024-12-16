@@ -13,6 +13,16 @@
     class rhsusf_usmc_marpat_wd_squadleader_OCimport_02 : rhsusf_usmc_marpat_wd_squadleader_OCimport_01 { class EventHandlers; };
 
     // Air Units
+
+    class RHS_M119_WD;
+    class RHS_M119_WD_OCimport_01 : RHS_M119_WD { scope = 0; class EventHandlers; class Turrets; };
+    class RHS_M119_WD_OCimport_02 : RHS_M119_WD_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
     class RHSGREF_A29B_HIDF;
     class RHSGREF_A29B_HIDF_OCimport_01 : RHSGREF_A29B_HIDF { scope = 0; class EventHandlers; class Turrets; };
     class RHSGREF_A29B_HIDF_OCimport_02 : RHSGREF_A29B_HIDF_OCimport_01 { 

@@ -115,7 +115,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 _u 			= ["us_rg_m977a4_ammo"];
 _u = _u		+ ["us_rg_m113a3_ammo"];
 _u = _u		+ ["us_rg_m1152a1_ammo"];
-_u = _u		+ ["RHS_M119_WD"];
+_u = _u		+ ["us_rg_m119a2"];
 _u = _u		+ ["BOX_NATO_AmmoVeh_F"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
