@@ -183,18 +183,6 @@ _prices = _prices 			+ [1000];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Ammo Box (Vehicles)"];
-_classes = _classes 		+ ["CUP_BOX_US_ARMY_AmmoVeh_F"];
-_prices = _prices 			+ [500];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["Support Box (Repair)"];
-_classes = _classes 		+ ["CUP_BOX_US_ARMY_Support_F"];
-_prices = _prices 			+ [350];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
 // Defenses
 
 _headers = _headers 		+ ["MG Defense (M2 - Low)"];
@@ -237,6 +225,18 @@ _headers = _headers 		+ ["M119A2 Howitzer"];
 _classes = _classes 		+ ["RHS_M119_D"];
 _prices = _prices 			+ [3000];
 _placements = _placements 	+ [[180, 15]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Ammo Box (Vehicles)"];
+_classes = _classes 		+ ["CUP_BOX_US_ARMY_AmmoVeh_F"];
+_prices = _prices 			+ [500];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Support Box (Repair)"];
+_classes = _classes 		+ ["CUP_BOX_US_ARMY_Support_F"];
+_prices = _prices 			+ [350];
+_placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Defense"];
 
 [_side, _headers, _classes, _prices, _placements, _categories] call compile preprocessFileLineNumbers "Common\Config\Base\Set_Defenses.sqf";
