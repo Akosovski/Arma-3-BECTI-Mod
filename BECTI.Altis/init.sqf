@@ -15,7 +15,13 @@ tf_no_auto_long_range_radio = true;
 TF_give_microdagr_to_soldier = false;
 }; 
 
-onMapSingleClick {true};
+onMapSingleClick {
+    // Prevent unit movement on map click
+    hint "Map click disabled for movement.";
+    true // This suppresses the default behavior
+};
+
+onMapSingleClick {}; // Disable the default map click behavior completely
 
 //--- Initial View Distance and Object View Distance for both clients and server
 setViewDistance 2500;

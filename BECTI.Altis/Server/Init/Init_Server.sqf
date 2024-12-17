@@ -60,6 +60,14 @@ for '_i' from 0 to 30 do {
 	_startup_locations pushBack _location;
 };
 
+onMapSingleClick {
+    // Prevent unit movement on map click
+    hint "Map click disabled for movement.";
+    true // This suppresses the default behavior
+};
+
+onMapSingleClick {}; // Disable the default map click behavior completely
+
 //--- Select whether the spawn restriction is enabled or not.
 if ((missionNamespace getVariable "CTI_BASE_START_TOWN") > 0) then {
 	waitUntil {!isNil 'CTI_InitTowns'};
