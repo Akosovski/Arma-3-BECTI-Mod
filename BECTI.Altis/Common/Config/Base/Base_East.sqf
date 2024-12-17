@@ -163,21 +163,33 @@ _prices = _prices 			+ [30];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Bunker (Small)"];
+_headers = _headers 		+ ["Sandbag (Round)"];
+_classes = _classes 		+ ["Land_BagFence_Round_F"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Sandbag Bunker"];
 _classes = _classes 		+ ["Land_BagBunker_Small_F"];
 _prices = _prices 			+ [30];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Military Cargo Tower (Green)"];
-_classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
-_prices = _prices 			+ [750];
+_headers = _headers 		+ ["Military Cargo Post"];
+_classes = _classes 		+ ["Land_Cargo_Patrol_V1_F"];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruins_F"], ["DMG_Reduce", 8]]]];
-_classes = _classes 		+ ["Land_Shed_Big_F"];
-_prices = _prices 			+ [125];
+_headers = _headers 		+ ["Ammo Box (Vehicles)"];
+_classes = _classes 		+ ["CUP_BOX_RU_AmmoVeh_F"];
+_prices = _prices 			+ [500];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Support Box (Repair)"];
+_classes = _classes 		+ ["CUP_BOX_RU_Support_F"];
+_prices = _prices 			+ [350];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
@@ -203,43 +215,43 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AA Defense (ZU-23)"];
 _classes = _classes 		+ ["RHS_ZU23_MSV"];
-_prices = _prices 			+ [6000];
+_prices = _prices 			+ [4000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AT Defense (SPG-9)"];
 _classes = _classes 		+ ["rhs_SP9M_MSV"];
-_prices = _prices 			+ [1500];
+_prices = _prices 			+ [1300];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AT Defense (Kornet - Low)"];
 _classes = _classes 		+ ["rhs_Metis_9k115_2_msv"];
-_prices = _prices 			+ [1800];
+_prices = _prices 			+ [1200];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AT Defense (Kornet - High)"];
 _classes = _classes 		+ ["rhs_Kornet_9M133_2_msv"];
-_prices = _prices 			+ [2000];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AA Defense (Igla)"];
 _classes = _classes 		+ ["rhs_Igla_AA_pod_msv"];
-_prices = _prices 			+ [1600];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Mortar (2B14 Podnos)"];
 _classes = _classes 		+ ["rhs_2b14_82mm_msv"];
-_prices = _prices 			+ [2000];
+_prices = _prices 			+ [500];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["D30 Howitzer"];
 _classes = _classes 		+ ["rhs_D30_msv"];
-_prices = _prices 			+ [7000];
+_prices = _prices 			+ [3000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 

@@ -159,27 +159,39 @@ _prices = _prices 			+ [3500];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Bunker (Small)"];
-_classes = _classes 		+ ["Land_BagBunker_Small_F"];
-_prices = _prices 			+ [30];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Fortification"];
-
 _headers = _headers 		+ ["Flag (USA)"];
 _classes = _classes 		+ ["Flag_US_F"];
 _prices = _prices 			+ [30];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Military Cargo Tower (Green)"];
-_classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
-_prices = _prices 			+ [750];
+_headers = _headers 		+ ["Sandbag (Round)"];
+_classes = _classes 		+ ["Land_BagFence_Round_F"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Sandbag Bunker"];
+_classes = _classes 		+ ["Land_BagBunker_Small_F"];
+_prices = _prices 			+ [50];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Military Cargo Post"];
+_classes = _classes 		+ ["Land_Cargo_Patrol_V1_F"];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruins_F"], ["DMG_Reduce", 8]]]];
-_classes = _classes 		+ ["Land_Shed_Big_F"];
-_prices = _prices 			+ [125];
+_headers = _headers 		+ ["Ammo Box (Vehicles)"];
+_classes = _classes 		+ ["CUP_BOX_US_ARMY_AmmoVeh_F"];
+_prices = _prices 			+ [500];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Support Box (Repair)"];
+_classes = _classes 		+ ["CUP_BOX_US_ARMY_Support_F"];
+_prices = _prices 			+ [350];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
@@ -205,25 +217,25 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AT Defense (TOW)"];
 _classes = _classes 		+ ["RHS_Tow_TriPod_D"];
-_prices = _prices 			+ [1800];
+_prices = _prices 			+ [1200];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AA Defense (Stinger)"];
 _classes = _classes 		+ ["RHS_Stinger_AA_pod_D"];
-_prices = _prices 			+ [1600];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Mortar (M252)"];
 _classes = _classes 		+ ["RHS_M252_D"];
-_prices = _prices 			+ [2000];
+_prices = _prices 			+ [500];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["M119A2 Howitzer"];
 _classes = _classes 		+ ["RHS_M119_D"];
-_prices = _prices 			+ [4000];
+_prices = _prices 			+ [3000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 

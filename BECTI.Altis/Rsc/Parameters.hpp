@@ -69,7 +69,7 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {"Disabled","1","2","3","4","5","6"};
-		default = 5;
+		default = 6;
 	};
 	class CTI_BASE_START_TOWN {
 		title = "BASE: Start Near towns";
@@ -207,9 +207,9 @@ class Params {
 	};
 	class CTI_RESPAWN_FOB_RANGE {
 		title = "RESPAWN: FOB Range";
-		values[] = {500,750,1000,1250,1500,1750,2000,4000};
-		texts[] = {"0.50 KM","0.75 KM","1 KM","1.25 KM","1.5 KM","1.75 KM","2 KM","4 KM"};
-		default = 4000;
+		values[] = {500,750,1000,1250,1500,1750,2000,4000,20000};
+		texts[] = {"0.50 KM","0.75 KM","1 KM","1.25 KM","1.5 KM","1.75 KM","2 KM","4 KM","20 KM"};
+		default = 20000;
 	};
 	class CTI_RESPAWN_MOBILE {
 		title = "RESPAWN: Mobile";
