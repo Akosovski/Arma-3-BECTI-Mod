@@ -66,8 +66,8 @@ with missionNamespace do {
 	EAST_VEHICLE_APC = [["ru_msv_bmp2", 1], ["ru_msv_bmp1", 1]];
 	EAST_VEHICLE_ARMORED_LIGHT = [["ru_msv_t90a_2006", 1], ["ru_msv_t72b_1989", 1]];
 	EAST_VEHICLE_MOTORIZED = [EAST_MOTORIZED_MG, EAST_MOTORIZED_GL, EAST_MOTORIZED_MG];
-	EAST_MARINES_HELO = [["ru_vdv_mi28n", 1]];
-	EAST_VEHICLE_HELO = [["ru_vdv_ka52", 1]];
+	// EAST_MARINES_HELO = [["ru_vdv_mi28n", 1]];
+	// EAST_VEHICLE_HELO = [["ru_vdv_ka52", 1]];
 
 	//--- Vehicles - Mixed
 	EAST_VEHICLES_AA_LIGHT = EAST_VEHICLE_AA;
