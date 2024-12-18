@@ -573,9 +573,22 @@
         };
     };
 
+    class rhsusf_m109_usarmy;
+    class rhsusf_m109_usarmy_OCimport_01 : rhsusf_m109_usarmy { scope = 0; class EventHandlers; class Turrets; };
+    class rhsusf_m109_usarmy_OCimport_02 : rhsusf_m109_usarmy_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
     class B_Truck_01_box_F;
     class B_Truck_01_box_F_OCimport_01 : B_Truck_01_box_F { scope = 0; class EventHandlers; };
     class B_Truck_01_box_F_OCimport_02 : B_Truck_01_box_F_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy;
+    class rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy_OCimport_01 : rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy { scope = 0; class EventHandlers; };
+    class rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy_OCimport_02 : rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy_OCimport_01 { scope = 0; class EventHandlers; };
 
     class rhsusf_m1165a1_gmv_m134d_m240_socom_d;
     class rhsusf_m1165a1_gmv_m134d_m240_socom_d_OCimport_01 : rhsusf_m1165a1_gmv_m134d_m240_socom_d { scope = 0; class EventHandlers; class Turrets; };

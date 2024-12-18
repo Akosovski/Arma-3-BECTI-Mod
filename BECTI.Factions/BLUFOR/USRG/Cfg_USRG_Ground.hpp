@@ -147,6 +147,35 @@
 
     // TANKS // tanks // ---------------------------------------
 
+    class us_rg_m109a6 : rhsusf_m109_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M109A6";
+        side = 1;
+        faction = "AKO_US_RG";
+        crew = "us_rg_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "us_rg_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class us_rg_m1a1fep : rhsusf_m1a1fep_wd_OCimport_02 {
         author = "Akosovski";
         scope = 2;
@@ -543,6 +572,30 @@
         displayName = "USRG M1078A1 (Flatbed)";
         side = 1;
         faction = "ako_us_rg";
+        crew = "us_rg_rifleman_m4a1";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class us_rg_m1078a1_repair : rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "USRG M1078A1 (Repair)";
+        side = 1;
+        faction = "AKO_US_RG";
         crew = "us_rg_rifleman_m4a1";
 
 

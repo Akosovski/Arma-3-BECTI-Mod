@@ -38,6 +38,35 @@
 
     };
 
+    class ru_msv_2s1 : rhs_2s1_tv_OCimport_02 {
+        author = "Akosovski";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSV 2S1";
+        side = 0;
+        faction = "AKO_RU_MSV";
+        crew = "ru_msv_tank_crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "ru_msv_tank_crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     // TANKS // tanks // ----------------------------
 
     class ru_msv_t72b_1989 : rhs_t72bc_tv_OCimport_03 {
