@@ -975,6 +975,15 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-repairtruck"];
 
+_c = _c + ['us_rg_m1078a1_repair'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [450];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
 _c = _c + ['us_rg_salvager'];
 _p = _p + [''];
 _n = _n + [''];

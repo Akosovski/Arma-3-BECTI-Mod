@@ -60,8 +60,6 @@ for '_i' from 0 to 30 do {
 	_startup_locations pushBack _location;
 };
 
-onMapSingleClick {true};
-
 //--- Select whether the spawn restriction is enabled or not.
 if ((missionNamespace getVariable "CTI_BASE_START_TOWN") > 0) then {
 	waitUntil {!isNil 'CTI_InitTowns'};
@@ -70,7 +68,7 @@ if ((missionNamespace getVariable "CTI_BASE_START_TOWN") > 0) then {
 		_town = _x;
 		{ 
 			_range = _x distance _town;
-			if (_range <= 100 && !(_x in _adjusted_positions)) then {
+			if (_range <= 2500 && !(_x in _adjusted_positions)) then {
 				_adjusted_positions = _adjusted_positions + [_x];
 			};
 		} forEach _startup_locations;

@@ -314,7 +314,7 @@ class CTI_RscPurchaseMenu {
 			y = "SafeZoneY + (SafezoneH * 0.391)";
 			w = "SafeZoneW * 0.280";
 			h = "SafeZoneH * 0.205";
-			
+			widthRailWay = 1;
 			showCountourInterval = 1;
 		};
 		class CTI_Menu_Map_Info : RscStructuredText {
@@ -1513,7 +1513,7 @@ class CTI_RscRespawnMenu {
 			y = "SafeZoneY + (SafezoneH * 0.21)";
 			w = "SafeZoneW * 0.40";
 			h = "SafeZoneH * 0.58";
-			
+			widthRailWay = 1;
 			showCountourInterval = 1;
 			
 			onMouseMoving = "mouseX = (_this select 1);mouseY = (_this select 2)";
@@ -2356,7 +2356,7 @@ class CTI_RscSatelitteCamera {
 			y = "SafeZoneY + (SafezoneH * 3.63)";
 			w = "SafeZoneW * 0.18";
 			h = "SafeZoneH * 0.30";
-			
+			widthRailWay = 1;
 			showCountourInterval = 1;
 			onMouseButtonDown = "nullReturn = _this call CTI_UI_SatelitteCamera_MapClicked";
 		};
@@ -2565,7 +2565,7 @@ class CTI_RscUnitsCamera {
 			y = "SafeZoneY + (SafezoneH * 3.63)";
 			w = "SafeZoneW * 0.18";
 			h = "SafeZoneH * 0.30";
-			
+			widthRailWay = 1;
 			showCountourInterval = 1;
 		};
 		class CTI_Background_Top : CTI_Background {
@@ -3319,7 +3319,7 @@ class CTI_RscMapCommandMenu {
 			y = "SafeZoneY + (SafezoneH * 0.05)";
 			w = "SafeZoneW";
 			h = "SafeZoneH * 0.95";
-			
+			widthRailWay = 1;
 			// showCountourInterval = 1;
 			onMouseButtonDown = "['onMapButtonDown', _this] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_MapCommandMenu.sqf'";
 		};
@@ -4097,7 +4097,7 @@ class CTI_RscWorkersMenu {
 			y = "SafeZoneY + (SafezoneH * 0.275)";
 			w = "SafeZoneW * 0.27";
 			h = "SafeZoneH * 0.38";
-			
+			widthRailWay = 1;
 			showCountourInterval = 0;
 			onMouseButtonDown = "['onMapButtonDown', _this] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_WorkersMenu.sqf'";
 		};
@@ -4216,7 +4216,7 @@ class CTI_RscAIMicromanagementMenu {
 			y = "SafeZoneY + (SafezoneH * 0.05)";
 			w = "SafeZoneW";
 			h = "SafeZoneH * 0.95";
-			
+			widthRailWay = 1;
 			// showCountourInterval = 1;
 			onMouseButtonDown = "['onMapButtonDown', _this] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_AIMicromanagementMenu.sqf'";
 		};
@@ -4509,7 +4509,7 @@ class CTI_RscRequestMenu {
 			y = "SafeZoneY + (SafezoneH * 0.245)";
 			w = "SafeZoneW * 0.285";
 			h = "SafeZoneH * 0.28";
-			
+			widthRailWay = 1;
 			showCountourInterval = 0;
 		};
 		class CTI_Menu_Control_Info : RscStructuredText {
@@ -4623,7 +4623,7 @@ class CTI_RscArtilleryMenu {
 			y = "SafeZoneY + (SafezoneH * 0.05)";
 			w = "SafeZoneW";
 			h = "SafeZoneH * 0.95";
-			
+			widthRailWay = 1;
 			showCountourInterval = 1;
 			onMouseButtonDown = "['onMapButtonDown', _this] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_ArtilleryMenu.sqf'";
 		};

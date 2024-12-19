@@ -111,13 +111,14 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 _u 			= ["CTI_Salvager_West"];
 _u = _u		+ ["us_rg_m977a4_fuel"];
 _u = _u		+ ["us_rg_m977a4_repair"];
+_u = _u		+ ["us_rg_m1078a1_repair"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["us_rg_m977a4_ammo"];
 _u = _u		+ ["us_rg_m113a3_ammo"];
 _u = _u		+ ["us_rg_m1152a1_ammo"];
 _u = _u		+ ["us_rg_m119a2"];
-_u = _u		+ ["BOX_NATO_AmmoVeh_F"];
+// _u = _u		+ ["BOX_NATO_AmmoVeh_F"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
@@ -159,6 +160,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
 _u 			= ["us_rg_m1123"];
 _u = _u		+ ["us_rg_m1078a1"];
+_u = _u		+ ["us_rg_m1078a1_repair"];
 _u = _u		+ ["us_rg_m977a4_repair"];
 _u = _u		+ ["us_rg_m977a4_fuel"];
 _u = _u		+ ["us_rg_m1152a1_ammo"];
