@@ -243,17 +243,16 @@ _prices = _prices 			+ [3000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["Ammo Box (Vehicles)"];
-_classes = _classes 		+ ["CUP_BOX_RU_AmmoVeh_F"];
-_prices = _prices 			+ [500];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Defense"];
+// _headers = _headers 		+ ["Ammo Box (Vehicles)"];
+// _classes = _classes 		+ ["CUP_BOX_RU_AmmoVeh_F"];
+// _prices = _prices 			+ [500];
+// _placements = _placements 	+ [[0, 15]];
+// _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["Support Box (Repair)"];
-_classes = _classes 		+ ["CUP_BOX_RU_Support_F"];
-_prices = _prices 			+ [350];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Defense"];
-
+// _headers = _headers 		+ ["Support Box (Repair)"];
+// _classes = _classes 		+ ["CUP_BOX_RU_Support_F"];
+// _prices = _prices 			+ [350];
+// _placements = _placements 	+ [[0, 15]];
+// _categories = _categories 	+ ["Defense"];
 
 [_side, _headers, _classes, _prices, _placements, _categories] call compile preprocessFileLineNumbers "Common\Config\Base\Set_Defenses.sqf";
