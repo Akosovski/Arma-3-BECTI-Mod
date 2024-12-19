@@ -917,6 +917,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['us_rg_m109a6'];
+_p = _p + [''];
+_n = _n + ['USRG M109A6 Howitzer'];
+_o = _o + [6000];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 //--- Tanks Heavy ---
 
 _c = _c + ['us_rg_m1a1fep'];

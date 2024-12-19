@@ -87,6 +87,7 @@ _u = _u		+ ["ru_vdv_bmd4m"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 _u 			= ["ru_msv_bm21"];
+_u = _u		+ ["ru_msv_2s1"];
 _u = _u		+ ["ru_rva_tochka_he"];
 _u = _u		+ ["ru_rva_tochka_nuke"];
 _u = _u		+ ["ru_msv_t72b_1989"];
