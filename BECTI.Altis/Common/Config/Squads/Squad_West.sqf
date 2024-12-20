@@ -48,7 +48,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryElite"];
 _t = _t		+ ["Infantry - DEVGRU"];
-_p = _p		+ [[["us_rg_m1165a1_m134", 1], ["us_dvg_operator_m4", 3], ["us_dvg_operator_mk16", 2], ["us_dvg_operator_mk48", 2]]];
+_p = _p		+ [[["us_rg_m1165a1_m134", 1], ["us_dvg_operator_m4", 3], ["us_dvg_operator_mk16", 2], ["us_dvg_operator_m249", 2]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [3000];
 _c = _c		+ ["InfantryElite"];
@@ -88,7 +88,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
 _t = _t		+ ["Heli - Airborne (DEVGRU)"];
-_p = _p		+ [[["us_rg_uh60m", 1], ["us_dvg_operator_m4", 3], ["us_dvg_operator_mk16", 3], ["us_dvg_operator_mk17", 2], ["us_dvg_operator_mk48", 2], ["us_dvg_sniper_awm", 1], ["us_dvg_sniper_sr10", 1]]];
+_p = _p		+ [[["us_rg_uh60m", 1], ["us_dvg_operator_m4", 3], ["us_dvg_operator_mk16", 3], ["us_dvg_operator_mk17", 2], ["us_dvg_operator_m249", 2], ["us_dvg_sniper_awm", 1], ["us_dvg_sniper_sr10", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [10000];
 _c = _c		+ ["AirAttack"];

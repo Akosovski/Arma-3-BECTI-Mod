@@ -38,9 +38,11 @@ _u = _u		+ ["us_usaf_jet_pilot"];
 _u = _u 	+ ["us_dvg_operator_m4"];
 _u = _u 	+ ["us_dvg_operator_mk16"];
 _u = _u 	+ ["us_dvg_operator_mk17"];
-_u = _u 	+ ["us_dvg_operator_mk48"];
+_u = _u 	+ ["us_dvg_operator_m249"];
+_u = _u 	+ ["us_dvg_operator_sr10"];
+_u = _u 	+ ["us_dvg_sniper_awm"];
 _u = _u 	+ ["us_dvg_uav_operator"];
-_u = _u 	+ ["us_dvg_helicopter_pilot"];
+_u = _u 	+ ["us_dvg_heli_pilot"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 

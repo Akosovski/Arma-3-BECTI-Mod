@@ -861,6 +861,10 @@ _i = _i		+ ["G_Aviator"];
 _u = _u		+ [0];
 _p = _p		+ [8];
 
+_i = _i     + ["Deg_G_Gatorz"];
+_u = _u     + [0];
+_p = _p     + [3]; 
+
 _i = _i     + ["Deg_TB_Green"];
 _u = _u     + [0];
 _p = _p     + [3]; 
@@ -914,6 +918,90 @@ _p = _p     + [30];
 _i = _i     + ["USP_IHPS_MAN_ARM_VIS_COV_CT3_TAN"];
 _u = _u     + [2];
 _p = _p     + [30];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_peltor_nsw"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_peltor_camera"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor_nsw"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor_camera"];
+_u = _u     + [1];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_black_set_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_black_set_nsw_cam"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_blk_peltor_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_blk_peltor_camera"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mcB_peltor_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_mcB_peltor_camera"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_ATACSFG_peltor_nsw"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_ATACSFG_peltor_camera"];
+_u = _u     + [23];
+_p = _p     + [10];
+
+_i = _i     + ["TFV_headgear_opscore_cover_rgr_peltor_nsw"];
+_u = _u     + [3];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_opscore_mc_cover_pelt_cam"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_opscore_rg_cover_pelt"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_opscore_coy_cover_pelt"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_opscore_ut_pelt_nsw_cam"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_opscore_mc_pelt_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
+
+_i = _i     + ["rhsusf_opscore_fg_pelt_nsw"];
+_u = _u     + [2];
+_p = _p     + [10];
 
 _i = _i     + ["rhsusf_ach_helmet_headset_ocp_alt"];
 _u = _u     + [1];
@@ -1081,90 +1169,6 @@ _p = _p     + [10];
 
 _i = _i     + ["rhsusf_mich_bare_norotos_arc_tan_headset"];
 _u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_mc"];
-_u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_peltor_nsw"];
-_u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_peltor_camera"];
-_u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor"];
-_u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor_nsw"];
-_u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_mc_peltor_camera"];
-_u = _u     + [1];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_black_set_nsw"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_black_set_nsw_cam"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_blk_peltor_nsw"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_blk_peltor_camera"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_mcB_peltor_nsw"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_mcB_peltor_camera"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_ATACSFG_peltor_nsw"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_ATACSFG_peltor_camera"];
-_u = _u     + [23];
-_p = _p     + [10];
-
-_i = _i     + ["TFV_headgear_opscore_cover_rgr_peltor_nsw"];
-_u = _u     + [3];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_opscore_mc_cover_pelt_cam"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_opscore_rg_cover_pelt"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_opscore_coy_cover_pelt"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_opscore_ut_pelt_nsw_cam"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_opscore_mc_pelt_nsw"];
-_u = _u     + [2];
-_p = _p     + [10];
-
-_i = _i     + ["rhsusf_opscore_fg_pelt_nsw"];
-_u = _u     + [2];
 _p = _p     + [10];
 
 _i = _i		+ ["rhsusf_cvc_green_helmet"];
@@ -1485,6 +1489,10 @@ _i = _i		+ ["NVGogglesB_grn_F"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["NVGogglesB_blk_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
 _i = _i		+ ["rhsusf_ANPVS_15"];
 _u = _u		+ [0];
 _p = _p		+ [15];
@@ -1529,38 +1537,6 @@ _i = _i		+ ["itemwatch"];
 _u = _u		+ [0];
 _p = _p		+ [1];
 
-_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
 //--- Explosives ---
 
 _i = _i		+ ["SatchelCharge_Remote_Mag"];
@@ -1598,6 +1574,39 @@ _p = _p		+ [20];
 _i = _i		+ ["Laserbatteries"];
 _u = _u		+ [3];
 _p = _p		+ [30];
+
+_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
 
 //--- ADDONS ---
 

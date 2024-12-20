@@ -257,10 +257,28 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_dvg_operator_mk48'];
+_c = _c + ['us_dvg_operator_m249'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\navylogo.paa'];;
-_n = _n + ['DEVGRU Operator (Mk48)'];
+_n = _n + ['DEVGRU Operator (M249)'];
 _o = _o + [340];
+_t = _t + [3];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_dvg_operator_sr10'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\navylogo.paa'];;
+_n = _n + ['DEVGRU Operator (SR10)'];
+_o = _o + [350];
+_t = _t + [3];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['us_dvg_sniper_awm'];
+_p = _p + ['rhsusf\addons\rhsusf_main\data\navylogo.paa'];;
+_n = _n + ['DEVGRU Sniper (AWM)'];
+_o = _o + [390];
 _t = _t + [3];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
@@ -275,7 +293,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['us_dvg_helicopter_pilot'];
+_c = _c + ['us_dvg_heli_pilot'];
 _p = _p + ['rhsusf\addons\rhsusf_main\data\navylogo.paa'];;
 _n = _n + ['DEVGRU Helicopter Pilot'];
 _o = _o + [300];
