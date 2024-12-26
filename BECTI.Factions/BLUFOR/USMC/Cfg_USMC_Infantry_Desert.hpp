@@ -524,15 +524,15 @@
         linkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"rhsusf_spc_marksman","rhsusf_lwh_helmet_marpatd_headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_smaw","Rangefinder"};
-        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","rhs_weap_smaw","Rangefinder"};
+        weapons[] = {"JCA_arifle_M4A1_black_F","JCA_launch_Mk153_black_F","Rangefinder"};
+        respawnWeapons[] = {"JCA_arifle_M4A1_black_F","JCA_launch_Mk153_black_F","Rangefinder"};
 
-        magazines[] = {"30Rnd_556x45_Stanag","rhs_mag_smaw_HEDP","30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"30Rnd_556x45_Stanag","rhs_mag_smaw_HEDP","30Rnd_556x45_Stanag"};
+        magazines[] = {"30Rnd_556x45_Stanag","JCA_MK153_HEAT_F","30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","JCA_MK153_HEAT_F","30Rnd_556x45_Stanag"};
 
-        backpack = "rhsusf_falconii_coy";
+        backpack = "rhsusf_assault_eagleaiii_coy";
 
-        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"rhs_weap_smaw","","","rhs_weap_optic_smaw",{"rhs_mag_smaw_HEDP",1},{"rhs_mag_smaw_SR",5},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_falconii_coy",{{"rhs_mag_smaw_HEDP",1,1},{"30Rnd_556x45_Stanag",3,30}}},"rhsusf_lwh_helmet_marpatd_headset","rhs_googles_clear",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"JCA_arifle_M4A1_black_F","","rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3",{"30Rnd_556x45_Stanag",30},{},""},{"JCA_launch_Mk153_black_F","","","CUP_optic_HensoldtZO_low",{"JCA_MK153_HEAT_F",1},{},""},{},{"rhs_uniform_FROG01_d",{{"FirstAidKit",5}}},{"rhsusf_spc_marksman",{{"rhs_mag_m67",2,1},{"30Rnd_556x45_Stanag",7,30}}},{"rhsusf_assault_eagleaiii_coy",{{"JCA_MK153_HEAT_F",3,1},{"30Rnd_556x45_Stanag",3,30}}},"rhsusf_lwh_helmet_marpatd_headset","rhs_googles_clear",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

@@ -349,17 +349,13 @@ _i = _i		+ ["rhs_mag_maaws_HEAT"];
 _u = _u		+ [1];
 _p = _p		+ [70];
 
-_i = _i		+ ["rhs_mag_smaw_HEAA"];
+_i = _i		+ ["JCA_MK153_HEAT_F"];
 _u = _u		+ [2];
 _p = _p		+ [60];
 
-_i = _i		+ ["rhs_mag_smaw_HEDP"];
+_i = _i		+ ["JCA_MK153_HE_F"];
 _u = _u		+ [2];
 _p = _p		+ [60];
-
-_i = _i		+ ["rhs_mag_smaw_SR"];
-_u = _u		+ [2];
-_p = _p		+ [75];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [2];
@@ -471,7 +467,7 @@ _i = _i		+ ["rhs_weap_maaws"];
 _u = _u		+ [1];
 _p = _p		+ [200];
 
-_i = _i		+ ["rhs_weap_smaw"];
+_i = _i		+ ["JCA_launch_Mk153_black_F"];
 _u = _u		+ [2];
 _p = _p		+ [190];
 
@@ -1374,10 +1370,6 @@ _p = _p		+ [5];
 _i = _i		+ ["rhsusf_optic_maaws"];
 _u = _u		+ [1];
 _p = _p		+ [15];
-
-_i = _i		+ ["rhs_weap_optic_smaw"];
-_u = _u		+ [2];
-_p = _p		+ [10];
 
 _i = _i		+ ["optic_tws"];
 _u = _u		+ [2];
