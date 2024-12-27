@@ -79,10 +79,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
 
 if (CTI_IsClient) then {
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
-		["Barracks", "Provides reinforcement of USMC Infantry units.<br />Level 1: USMC Basic Infantry<br />Level 2: USMC Upgraded Infantry<br />Level 3: MARSOC Operators"], //--- Barracks
-		["Light Factory", "Provides reinforcement of USMC Light Vehicles.<br />Level 1: USMC Motorized Vehicles and Trucks<br />Level 2: USMC Motorized APC<br />Level 3: USMC Upgraded Motorized APC"], //--- Light
-		["Heavy Factory", "Provides reinforcement of USMC IFV, Tanks and Artillery.<br />Level 1: USMC Basic IFV and Tanks<br />Level 2: USMC Upgraded IFV and Tanks"], //--- Heavy
-		["Aircraft Factory", "Provides reinforcement of USMC and USAF Helicopters and Planes.<br />Level 1: USMC Basic Helicopters<br />Level 2: USMC and USAF Attack Helicopters and Planes<br />Level 3: USAF Upgraded Planes"], //--- Air
+		["Barracks", "Provides reinforcement of Infantry units.<br />Level 1: Basic Infantry<br />Level 2: Upgraded Infantry<br />Level 3: Specialized Infantry"], //--- Barracks
+		["Light Factory", "Provides reinforcement of Light Vehicles.<br />Level 1: Motorized Vehicles and Trucks<br />Level 2: Motorized APC<br />Level 3: Upgraded Motorized APC"], //--- Light
+		["Heavy Factory", "Provides reinforcement of IFV, Tanks and Self-Propelled Artillery.<br />Level 1: Basic IFV and Tanks<br />Level 2: Upgraded IFV and Tanks"], //--- Heavy
+		["Aircraft Factory", "Provides reinforcement of Helicopters and Aircraft.<br />Level 1: Basic Helicopters<br />Level 2: Attack Helicopters and Aircraft<br />Level 3: Upgraded Aircraft"], //--- Air
 		["Satellite", "Allows the use of the Real-Time satellite camera."], //--- Satellite
 		["Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts."], //--- Air FFAR
 		["Aircraft AT", "Unlocks the Anti Tank Missiles for Aircrafts."], //--- Air AT
