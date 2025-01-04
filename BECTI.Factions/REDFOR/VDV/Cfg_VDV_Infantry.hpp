@@ -22,7 +22,7 @@
 
         backpack = "B_AssaultPack_khk";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_railed","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74_plum_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{"rhs_weap_rpg75","","","",{},{},""},{},{"rhs_atacs_ag_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"B_AssaultPack_khk",{{"CUP_30Rnd_545x39_AK74_plum_M",5,30},{"CUP_1Rnd_HE_GP25_M",15,1}}},"RCE_d_LSHZ_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_railed","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74_plum_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{"rhs_weap_rpg75","","","",{},{},""},{},{"rhs_atacs_ag_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_1Rnd_HE_GP25_M",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",8,30}}},{"B_AssaultPack_khk",{{"CUP_30Rnd_545x39_AK74_plum_M",5,30},{"CUP_1Rnd_HE_GP25_M",15,1}}},"RCE_d_LSHZ_B_K","rhs_atacs_ag_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -62,7 +62,7 @@
 
         backpack = "B_AssaultPack_khk";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_AFG_black","","CUP_acc_LLM_black","optic_Nightstalker",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{"rhs_weap_rpg75","","","",{},{},""},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"B_AssaultPack_khk",{{"CUP_30Rnd_545x39_AK12_M",5,30},{"rhs_mag_rgo",5,1},{{"rhs_weap_rpg75","","","",{},{},""},1}}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_AFG_black","","CUP_acc_LLM_black","optic_Nightstalker",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{"rhs_weap_rpg75","","","",{},{},""},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"B_AssaultPack_khk",{{"CUP_30Rnd_545x39_AK12_M",5,30},{"rhs_mag_rgo",5,1},{{"rhs_weap_rpg75","","","",{},{},""},1}}},"RCE_d_LSHZC_C_B_K","rhs_atacs_ag_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -100,7 +100,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_AFG_black","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"CUP_30Rnd_545x39_AK74_plum_M",10,30},{"rhs_mag_rgo",4,1}}},{},"RCE_w_LSHZC_C_B_K","Deg_TB_Tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_AFG_black","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"CUP_30Rnd_545x39_AK74_plum_M",10,30},{"rhs_mag_rgo",4,1}}},{},"RCE_w_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -138,7 +138,7 @@
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30}}},{},"RCE_d_LSHZC_C_B_K","Deg_TB_Tan",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30}}},{},"RCE_d_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -216,7 +216,7 @@
 
         backpack = "rhs_rk_sht_30_olive";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKMN_railed_afg","","CUP_acc_LLM_black","",{"CUP_30Rnd_762x39_AK103_bakelite_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_762x39_AK103_bakelite_M",8,30}}},{"rhs_rk_sht_30_olive",{{"Medikit",1},{"FirstAidKit",10},{"CUP_30Rnd_762x39_AK103_bakelite_M",3,30}}},"RCE_w_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKMN_railed_afg","","CUP_acc_LLM_black","",{"CUP_30Rnd_762x39_AK103_bakelite_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_762x39_AK103_bakelite_M",8,30}}},{"rhs_rk_sht_30_olive",{{"Medikit",1},{"FirstAidKit",10},{"CUP_30Rnd_762x39_AK103_bakelite_M",3,30}}},"RCE_w_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -294,7 +294,7 @@
 
         backpack = "rhs_rk_sht_30_olive";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Pecheneg_B50_vfg","","CUP_acc_LLM_black","rhs_acc_pkas",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Heavy_AK_AtacsFG",{{"rhs_mag_rgo",2,1},{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},{"rhs_rk_sht_30_olive",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",5,100}}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Pecheneg_B50_vfg","","CUP_acc_LLM_black","rhs_acc_pkas",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Heavy_AK_AtacsFG",{{"rhs_mag_rgo",2,1},{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},{"rhs_rk_sht_30_olive",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",5,100}}},"RCE_d_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -488,7 +488,7 @@
 
         backpack = "rhs_tortila_khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74_plum_M",9,30}}},{"rhs_tortila_khaki",{{"Vorona_HEAT",1,1}}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{"launch_O_Vorona_green_F","","","",{"Vorona_HEAT",1},{},""},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",5,1},{"CUP_30Rnd_545x39_AK74_plum_M",9,30}}},{"rhs_tortila_khaki",{{"FirstAidKit",5},{"Vorona_HEAT",1,1}}},"RCE_d_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -526,7 +526,7 @@
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"rhs_atacs_ag_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"AGE_WAS_AK_AtacsFG",{}},{},"RCE_w_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"rhs_atacs_ag_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"AGE_WAS_AK_AtacsFG",{}},{},"RCE_w_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -549,7 +549,7 @@
         scopeCurator = 2;
         displayName = "VDV UAV Operator (RPG)";
         side = 0;
-        faction = "AKO_RU_VDV";
+        faction = "ako_ru_vdv";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
@@ -566,7 +566,7 @@
 
         backpack = "O_UAV_FPV_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_black","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"O_UAV_FPV_backpack_F",{}},"RCE_w_LSHZ_B_K","Deg_TB_Green",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK12_black","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK12_M",30},{},""},{},{},{"rhs_uniform_mix_2_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_AtacsFG",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK12_M",10,30}}},{"O_UAV_FPV_backpack_F",{}},"RCE_w_LSHZ_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -606,7 +606,7 @@
 
         backpack = "O_UAV_01_backpack_Custom";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Light_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30}}},{"O_UAV_01_backpack_Custom",{}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_uniform_mix_1_6sh122_gloves_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Light_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30}}},{"O_UAV_01_backpack_Custom",{}},"RCE_d_LSHZC_C_B_K","rhs_atacs_fg_2_balaclava",{},{"ItemMap","O_UavTerminal","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -646,7 +646,7 @@
 
         backpack = "rhs_rk_sht_30_olive_engineer_empty";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM_black","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30}}},{"rhs_rk_sht_30_olive_engineer_empty",{{"ToolKit",3}}},"RCE_w_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_LLM_black","rhs_acc_1p87",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"rhs_atacs_fg_mix_1_uniform_6sh122_v1",{{"FirstAidKit",5}}},{"AGE_WAS_Medium_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74M_M",10,30}}},{"rhs_rk_sht_30_olive_engineer_empty",{{"ToolKit",3}}},"RCE_w_LSHZC_C_B_K","rhs_atacs_ag_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -804,7 +804,7 @@
 
         backpack = "B_AssaultPack_khk";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_railed","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74_plum_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_atacs_ag_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"AGE_WAS_Light_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",10,30}}},{"B_AssaultPack_khk",{{"CUP_1Rnd_HE_GP25_M",20,1},{"SatchelCharge_Remote_Mag",1,1}}},"RCE_d_LSHZC_C_B_K","Deg_TB_Green",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_railed","","CUP_acc_LLM01_L","CUP_optic_CompM2_low",{"CUP_30Rnd_545x39_AK74_plum_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"rhs_atacs_ag_uniform_6sh122_gloves_v2",{{"FirstAidKit",5}}},{"AGE_WAS_Light_AK_Olive",{{"rhs_mag_rgo",4,1},{"CUP_30Rnd_545x39_AK74_plum_M",10,30}}},{"B_AssaultPack_khk",{{"CUP_1Rnd_HE_GP25_M",20,1},{"SatchelCharge_Remote_Mag",1,1}}},"RCE_d_LSHZC_C_B_K","rhs_atacs_ag_2_balaclava",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","rhs_6m2_1_nvg"}};
 
 
         class EventHandlers : EventHandlers {
@@ -945,7 +945,7 @@
         scopeCurator = 2;
         displayName = "VDV Rifleman (AKM)";
         side = 0;
-        faction = "AKO_RU_VDV";
+        faction = "ako_ru_vdv";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
@@ -983,7 +983,7 @@
         scopeCurator = 2;
         displayName = "VDV Commander";
         side = 0;
-        faction = "AKO_RU_VDV";
+        faction = "ako_ru_vdv";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F"};
 
