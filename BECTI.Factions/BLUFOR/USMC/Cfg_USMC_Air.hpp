@@ -42,8 +42,6 @@
             class MainTurret : MainTurret { gunnerType = "us_usmc_heli_pilot"; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 

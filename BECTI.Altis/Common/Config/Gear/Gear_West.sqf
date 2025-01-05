@@ -861,7 +861,7 @@ _i = _i     + ["Deg_G_Gatorz"];
 _u = _u     + [0];
 _p = _p     + [3]; 
 
-_i = _i     + ["Deg_TB_Green"];
+_i = _i     + ["Deg_G_RollBar"];
 _u = _u     + [0];
 _p = _p     + [3]; 
 
@@ -1567,37 +1567,40 @@ _i = _i		+ ["Laserbatteries"];
 _u = _u		+ [3];
 _p = _p		+ [30];
 
-_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
 
-_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// Gloves
 
-_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
+
+// _i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
+
+// _i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
 
 //--- ADDONS ---

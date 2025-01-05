@@ -779,7 +779,19 @@ _i = _i        + ["rhs_balaclava1_olive"];
 _u = _u        + [0];
 _p = _p        + [3];
 
-_i = _i        + ["Deg_TB_Green"];
+_i = _i        + ["rhs_atacs_ag_2_balaclava"];
+_u = _u        + [0];
+_p = _p        + [3];
+
+_i = _i        + ["rhs_atacs_fg_2_balaclava"];
+_u = _u        + [0];
+_p = _p        + [3];
+
+_i = _i        + ["Deg_G_Gatorz"];
+_u = _u        + [0];
+_p = _p        + [3]; 
+
+_i = _i        + ["Deg_G_RollBar"];
 _u = _u        + [0];
 _p = _p        + [3]; 
 
@@ -1332,37 +1344,39 @@ _i = _i		    + ["Minedetector"];
 _u = _u		    + [0];
 _p = _p		    + [25];
 
-_i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// Gloves
 
-_i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_magpul_flightglove_cut_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_magpul_flightglove_cut_coyote_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_MPACT_gloves_black_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_MPACT_gloves_coyote_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_MPACT_gloves_od_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_flightglove_black_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
-_i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+// _i = _i		+ ["VSM_flightglove_coyote_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
+
+// _i = _i		+ ["VSM_flightglove_od_standalone_NVG"];
+// _u = _u		+ [0];
+// _p = _p		+ [15];
 
 
 //--- ADDONS
