@@ -472,6 +472,7 @@
         faction = "ako_us_rg";
         crew = "us_rg_rifleman_m4a1";
 
+        transportAmmo = 9999999;
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -479,12 +480,10 @@
             class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
-
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
     };
 
     class us_rg_m977a4_repair : rhsusf_M977A4_REPAIR_BKIT_usarmy_wd_OCimport_02 {

@@ -1216,6 +1216,7 @@
         faction = "ako_ru_msv";
         crew = "ru_msv_driver";
 
+        transportAmmo = 9999999;
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
