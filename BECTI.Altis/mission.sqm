@@ -12,15 +12,15 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1969;
+		nextID=1972;
 	};
 	class MarkerIDProvider
 	{
-		nextID=21;
+		nextID=24;
 	};
 	class LayerIndexProvider
 	{
-		nextID=4219;
+		nextID=4283;
 	};
 	class Camera
 	{
