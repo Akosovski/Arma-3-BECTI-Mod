@@ -501,7 +501,7 @@ _i = _i		+ ["rhsusf_assault_eagleaiii_coy"];
 _u = _u		+ [0];
 _p = _p		+ [20];
 
-_i = _i		+ ["rhsusf_assault_eagleaiii_mc"];
+_i = _i		+ ["rhsusf_assault_eagleaiii_ocp"];
 _u = _u		+ [0];
 _p = _p		+ [20];
 
@@ -521,13 +521,17 @@ _i = _i		+ ["rhssaf_kitbag_smb"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
-_i = _i		+ ["rhssaf_kitbag_mtp"];
+_i = _i		+ ["B_Kitbag_mcamo"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
-_i = _i		+ ["rhsgref_hidf_alicepack"];
+_i = _i		+ ["B_Carryall_mcamo"];
 _u = _u		+ [0];
-_p = _p		+ [25];
+_p = _p		+ [15];
+
+_i = _i		+ ["B_Carryall_oli"];
+_u = _u		+ [0];
+_p = _p		+ [15];
 
 _i = _i		+ ["b_parachute"];
 _u = _u		+ [0];
