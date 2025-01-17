@@ -69,6 +69,18 @@ _i = _i		+ ["JCA_arifle_M4A4_GL_olive_F"];
 _u = _u		+ [2];
 _p = _p		+ [35];
 
+_i = _i		+ ["arifle_SPAR_01_blk_F"];
+_u = _u		+ [1];
+_p = _p		+ [30];
+
+_i = _i		+ ["arifle_SPAR_02_blk_F"];
+_u = _u		+ [1];
+_p = _p		+ [30];
+
+_i = _i		+ ["arifle_SPAR_01_GL_blk_F"];
+_u = _u		+ [1];
+_p = _p		+ [30];
+
 _i = _i		+ ["CUP_arifle_Mk16_STD"];
 _u = _u		+ [2];
 _p = _p		+ [35];
@@ -184,6 +196,10 @@ _p = _p		+ [25];
 _i = _i		+ ["JCA_smg_UMP_VFG_Black_F"];
 _u = _u		+ [2];
 _p = _p		+ [25];
+
+_i = _i		+ ["rhs_weap_m32"];
+_u = _u		+ [3];
+_p = _p		+ [35];
 
 //--- PISTOLS ---
 
@@ -377,10 +393,6 @@ _i = _i		+ ["Titan_AT"];
 _u = _u		+ [2];
 _p = _p		+ [75];
 
-_i = _i		+ ["rhs_fgm148_magazine_AT"];
-_u = _u		+ [3];
-_p = _p		+ [90];
-
 _i = _i		+ ["rhs_fim92_mag"];
 _u = _u		+ [2];
 _p = _p		+ [90];
@@ -493,10 +505,6 @@ _p = _p		+ [250];
 
 _i = _i		+ ["rhs_weap_fim92"];
 _u = _u		+ [2];
-_p = _p		+ [300];
-
-_i = _i		+ ["rhs_weap_fgm148"];
-_u = _u		+ [3];
 _p = _p		+ [300];
 
 //--- Backpacks ---
