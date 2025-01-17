@@ -215,6 +215,19 @@ _p = _p        + [35];
 _i = _i        + ["CUP_sgun_Saiga12K_top_rail"];
 _u = _u        + [3];
 _p = _p        + [40];
+
+_i = _i		   + ["JCA_smg_UMP_Black_F"];
+_u = _u		   + [1];
+_p = _p		   + [20];
+
+_i = _i		   + ["JCA_smg_UMP_AFG_Black_F"];
+_u = _u		   + [2];
+_p = _p		   + [25];
+
+_i = _i		   + ["JCA_smg_UMP_VFG_Black_F"];
+_u = _u		   + [2];
+_p = _p		   + [25];
+
  
 // --- Launchers ---
  
@@ -370,6 +383,10 @@ _i = _i        + ["CUP_muzzle_snds_KZRZP_AK762"];
 _u = _u        + [3];
 _p = _p        + [7];
 
+_i = _i        + ["muzzle_snds_acp"];
+_u = _u        + [2];
+_p = _p        + [7];
+
 // --- Magazines / Munitions ---
 
 _i = _i        + ["rhs_mag_9k38_rocket"];
@@ -487,6 +504,10 @@ _p = _p        + [5];
 _i = _i        + ["CUP_12Rnd_B_Saiga12_HE"];
 _u = _u        + [3];
 _p = _p        + [5];
+
+_i = _i		   + ["JCA_25Rnd_45ACP_UMP_Mag"];
+_u = _u		   + [1];
+_p = _p		   + [6];
 
 _i = _i        + ["CUP_30Rnd_9x39_SP5_VIKHR_M"];
 _u = _u        + [3];

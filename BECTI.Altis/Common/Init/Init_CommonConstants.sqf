@@ -312,14 +312,14 @@ CTI_GEAR_RESELL_TAX = 0.8; //--- Owned items are traded for: <item price> * <tax
 
 //--- Towns: Capture
 CTI_TOWNS_CAPTURE_BOUNTY_DELAY = 300; //--- Award the bounty depending if the last town capture happened longer than x seconds ago
-CTI_TOWNS_CAPTURE_BOUNTY_RATIO = 2; //--- A value above 1 will increase the bounty awarded for town capture (Town value * ratio)
-CTI_TOWNS_CAPTURE_RANGE = 40; //--- The range which a unit/vehicle has to be from a town center to capture it
+CTI_TOWNS_CAPTURE_BOUNTY_RATIO = 8; //--- A value above 1 will increase the bounty awarded for town capture (Town value * ratio)
+CTI_TOWNS_CAPTURE_RANGE = 50; //--- The range which a unit/vehicle has to be from a town center to capture it
 CTI_TOWNS_CAPTURE_RATE = 1; //---
 CTI_TOWNS_CAPTURE_THRESHOLD_RANGE = 50; //--- 
 
 //--- Towns: Camps
-CTI_TOWNS_CAMPS_CAPTURE_BOUNTY = 250; //--- Bounty received by player whenever he capture a camp.
-CTI_TOWNS_CAMPS_CAPTURE_RATE = 10;
+CTI_TOWNS_CAMPS_CAPTURE_BOUNTY = 1000; //--- Bounty received by player whenever he capture a camp.
+CTI_TOWNS_CAMPS_CAPTURE_RATE = 15;
 CTI_TOWNS_CAMPS_CAPTURE_RATE_MAX = 5;
 CTI_TOWNS_CAMPS_RANGE = 10;
 CTI_TOWNS_CAMPS_RANGE_PLAYERS = 5;
@@ -332,24 +332,24 @@ CTI_TOWNS_CAMPS_PURCHASE_GEAR_RANGE = 5;
 CTI_TOWNS_INCOME_RATIO = 1; //--- A value above 1 will increase the resources generation ((Stock value occupied/unoccupied) * ratio)
 CTI_TOWNS_SUPPLY_LEVELS_TIME = [1, 2, 3, 4, 5];
 CTI_TOWNS_INCOME_UNOCCUPIED_PERCENTAGE = [0.25, 0.30, 0.35, 0.5]; //--- Determine how much value an unoccupied town bring to the side depending on the town occupation upgrade.
-CTI_TOWNS_PURCHASE_GEAR_RANGE = 5;
+CTI_TOWNS_PURCHASE_GEAR_RANGE = 10;
 
 //--- Towns: Patrol
 CTI_TOWNS_PATROL_HOPS = 10; //--- Towns patrol hops (non-waypoint)
 CTI_TOWNS_PATROL_RANGE = 375; //--- Patrol range in a town
 
 //--- Towns: Occupation
-CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 300; //--- Determine how far the units may spawn from the town center
-CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 50; //--- Determine how high a threat is considered aerial
-CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 300; //--- Determine how long a town may remain active when triggered
-CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 5; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
-CTI_TOWNS_OCCUPATION_SPAWN_CAPTURE_DELAY = 600; //--- If x seconds has elapsed since a town last capture, units may spawn again during that town capture.
+CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 350; //--- Determine how far the units may spawn from the town center
+CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 150; //--- Determine how high a threat is considered aerial
+CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 500; //--- Determine how long a town may remain active when triggered
+CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 1; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
+CTI_TOWNS_OCCUPATION_SPAWN_CAPTURE_DELAY = 400; //--- If x seconds has elapsed since a town last capture, units may spawn again during that town capture.
 	
 //--- Towns: Resistance
-CTI_TOWNS_RESISTANCE_SPAWN_RANGE = 300; //--- Determine how far the units may spawn from the town center
-CTI_TOWNS_RESISTANCE_DETECTION_RANGE_AIR = 50; //--- Determine how high a threat is considered aerial
-CTI_TOWNS_RESISTANCE_INACTIVE_MAX = 300; //--- Determine how long a town may remain active when triggered
-CTI_TOWNS_RESISTANCE_MIN_ACTIVE = 5; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
+CTI_TOWNS_RESISTANCE_SPAWN_RANGE = 350; //--- Determine how far the units may spawn from the town center
+CTI_TOWNS_RESISTANCE_DETECTION_RANGE_AIR = 150; //--- Determine how high a threat is considered aerial
+CTI_TOWNS_RESISTANCE_INACTIVE_MAX = 500; //--- Determine how long a town may remain active when triggered
+CTI_TOWNS_RESISTANCE_MIN_ACTIVE = 1; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
 	
 //--- Towns: Mortars
 CTI_TOWNS_MORTARS_SCAN = 60; //--- Scan the area around a target for friends and enemies.	
@@ -436,7 +436,7 @@ CTI_BASE_PURCHASE_UNITS_RANGE = 150; //--- Determine how far a player has to be 
 CTI_BASE_PURCHASE_UNITS_RANGE_CC = 12500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
 
 //--- Base: Workers
-CTI_BASE_WORKERS_BUILD_COEFFICIENT = 10; //--- Worker build speed multiplier (<coefficient> / (<structure build time> / 100)), higher is faster.
+CTI_BASE_WORKERS_BUILD_COEFFICIENT = 20; //--- Worker build speed multiplier (<coefficient> / (<structure build time> / 100)), higher is faster.
 CTI_BASE_WORKERS_BUILD_RANGE = 20; //--- Worker minimal build distance.
 CTI_BASE_WORKERS_BUILD_TIME = 1; //--- Worker build time.
 CTI_BASE_WORKERS_PRICE = if (CTI_DEBUG) then {1} else {300}; //--- Worker price.
@@ -453,7 +453,7 @@ with missionNamespace do {
 	if (isNil 'CTI_BASE_BUILDING_LIMIT') then {CTI_BASE_BUILDING_LIMIT = 2}; //--- Maximum amount of individual bases allowed
 	if (isNil 'CTI_BASE_DEFENSES_AUTO_LIMIT') then {CTI_BASE_DEFENSES_AUTO_LIMIT = 25}; //--- Amount of independent units which may man nearby defenses
 	if (isNil 'CTI_BASE_DEFENSES_AUTO_RANGE') then {CTI_BASE_DEFENSES_AUTO_RANGE = 500}; //--- Range from the nearest barrack at which AI may auto man a defense
-	if (isNil 'CTI_BASE_FOB_MAX') then {CTI_BASE_FOB_MAX = 2}; //--- Maximum amount of FOBs which a side may place
+	if (isNil 'CTI_BASE_FOB_MAX') then {CTI_BASE_FOB_MAX = 6}; //--- Maximum amount of FOBs which a side may place
 	if (isNil 'CTI_BASE_HQ_DEPLOY_COST') then {CTI_BASE_HQ_DEPLOY_COST = 100}; //--- The cost needed to deploy the HQ
 	if (isNil 'CTI_BASE_HQ_REPAIR') then {CTI_BASE_HQ_REPAIR = 1}; //--- Determine whether the HQ can be repaired or not
 	if (isNil 'CTI_BASE_START_TOWN') then {CTI_BASE_START_TOWN = 1}; //--- Remove the spawn locations which are too far away from the towns.
@@ -547,13 +547,13 @@ CTI_QUEUE_NAVAL_LIMIT = 3;
 //CTI_QUEUE_AIRPORT_LIMIT = 2;
 CTI_QUEUE_DEPOT_LIMIT = 3;
 
-CTI_PLAYER_DEFAULT_ALIAS = "Soldier";
+CTI_PLAYER_DEFAULT_ALIAS = "Officer";
 
 CTI_RESPAWN_AI_RANGE = 1000;
 CTI_RESPAWN_MOBILE_RANGE = 2000;
 
 CTI_SATCAM_ZOOM_MIN = 50;
-CTI_SATCAM_ZOOM_MAX = 800;
+CTI_SATCAM_ZOOM_MAX = 1000;
 
 CTI_SERVICE_PRICE_REPAIR = 300;
 CTI_SERVICE_PRICE_REPAIR_COEF = 0.5;
@@ -627,7 +627,7 @@ with missionNamespace do {
 	
 	if (CTI_ENVIRONMENT_WEATHER_FAST > 0) then {CTI_ENVIRONMENT_WEATHER_FAST = CTI_ENVIRONMENT_WEATHER_FAST_VALUES select CTI_ENVIRONMENT_WEATHER_FAST};
 	
-	CTI_GAMEPLAY_VOTE_TIME = if (CTI_Debug) then {8} else {15};
+	CTI_GAMEPLAY_VOTE_TIME = if (CTI_Debug) then {10} else {10};
 	
 	if (isNil 'CTI_GAMEPLAY_TEAMSTACK_DISABLE') then {CTI_GAMEPLAY_TEAMSTACK_DISABLE = 1}; //--- Teamstacking script. (0: Disabled, 1: +1 Player Advantage, 2: +2 Player Advantage, 3: +3 Player Advantage, 4: +4 Player Advantage, 5: +5 Player Advantage).
 	if (isNil 'CTI_GAMEPLAY_TEAMSWAP_DISABLE') then {CTI_GAMEPLAY_TEAMSTACK_DISABLE = 1}; //--- Teamswitch script. (0: Disabled, 1: Enabled).

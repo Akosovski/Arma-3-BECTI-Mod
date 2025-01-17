@@ -173,6 +173,18 @@ _i = _i		+ ["JCA_SMG_MP5_VFG_Black_F"];
 _u = _u		+ [2];
 _p = _p		+ [25];
 
+_i = _i		+ ["JCA_smg_UMP_Black_F"];
+_u = _u		+ [1];
+_p = _p		+ [20];
+
+_i = _i		+ ["JCA_smg_UMP_AFG_Black_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["JCA_smg_UMP_VFG_Black_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
 //--- PISTOLS ---
 
 _i = _i		+ ["CUP_hgun_Colt1911"];
@@ -306,6 +318,10 @@ _u = _u		+ [2];
 _p = _p		+ [8];
 
 _i = _i		+ ["JCA_30Rnd_9x21_MP5_Mag"];
+_u = _u		+ [1];
+_p = _p		+ [6];
+
+_i = _i		+ ["JCA_25Rnd_45ACP_UMP_Mag"];
 _u = _u		+ [1];
 _p = _p		+ [6];
 
@@ -1402,6 +1418,10 @@ _p = _p		+ [5];
 _i = _i		+ ["CUP_muzzle_snds_socom762rc"];
 _u = _u		+ [3];
 _p = _p		+ [5];
+
+_i = _i     + ["muzzle_snds_acp"];
+_u = _u     + [2];
+_p = _p     + [7];
 
 _i = _i		+ ["rhsusf_acc_aac_762sdn6_silencer"];
 _u = _u		+ [3];

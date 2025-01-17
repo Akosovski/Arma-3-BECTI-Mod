@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1972;
+		nextID=3481;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=4283;
+		nextID=4512;
 	};
 	class Camera
 	{
-		pos[]={23548.549,2238.5166,15735.721};
-		dir[]={-0.54604888,-0.40011048,0.73603851};
-		up[]={-0.23839389,0.91646558,0.32133773};
-		aside[]={0.80312461,-3.9817678e-07,0.5958184};
+		pos[]={12745.357,432.89612,20801.029};
+		dir[]={-0.93692857,-0.24815351,-0.24621721};
+		up[]={-0.24001439,0.96871412,-0.063073464};
+		aside[]={-0.25416756,1.4964462e-07,0.96717948};
 	};
 };
 binarizationWanted=0;
@@ -1343,7 +1343,7 @@ class Mission
 				class Item1
 				{
 					dataType="Marker";
-					position[]={10152.701,11.355811,9982.5645};
+					position[]={10204.257,13.613804,9956.7002};
 					name="cti-spawn1";
 					type="Empty";
 					id=1;
@@ -1351,11 +1351,11 @@ class Mission
 				class Item2
 				{
 					dataType="Marker";
-					position[]={18490.877,10.304932,13309.415};
+					position[]={18513.424,26.35025,13318.859};
 					name="cti-spawn10";
 					type="Empty";
 					id=10;
-					atlOffset=-16.532124;
+					atlOffset=1.9073486e-06;
 				};
 				class Item3
 				{
@@ -1386,38 +1386,36 @@ class Mission
 				class Item6
 				{
 					dataType="Marker";
-					position[]={13592.478,10.410889,20488.471};
+					position[]={13630.189,34.217686,20479.244};
 					name="cti-spawn5";
 					type="Empty";
 					id=5;
-					atlOffset=-24.815502;
 				};
 				class Item7
 				{
 					dataType="Marker";
-					position[]={20830.455,12.160156,13944.753};
+					position[]={20853.738,14.927351,13925.248};
 					name="cti-spawn6";
 					type="Empty";
 					id=6;
-					atlOffset=-3.556201;
 				};
 				class Item8
 				{
 					dataType="Marker";
-					position[]={16880.219,12.034821,19138.479};
+					position[]={16911.605,26.495831,19119.281};
 					name="cti-spawn7";
 					type="Empty";
 					id=7;
-					atlOffset=-15.083771;
+					atlOffset=1.9073486e-06;
 				};
 				class Item9
 				{
 					dataType="Marker";
-					position[]={18957.473,8.6015596,8188.3711};
+					position[]={18979.004,28.428673,8182.0898};
 					name="cti-spawn8";
 					type="Empty";
 					id=8;
-					atlOffset=-18.11718;
+					atlOffset=1.9073486e-06;
 				};
 				class Item10
 				{
@@ -1501,7 +1499,7 @@ class Mission
 				};
 			};
 			id=219;
-			atlOffset=-17.940512;
+			atlOffset=-17.798151;
 		};
 		class Item33
 		{
@@ -2119,8 +2117,8 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={20266.523,53.721046,11438.701};
-								angles[]={0.049293593,3.4099505,6.2179451};
+								position[]={20266.658,53.466728,11443.709};
+								angles[]={0.045302324,3.4099505,6.2219291};
 							};
 							id=413;
 							type="LocationCamp_F";
@@ -2130,15 +2128,15 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={20527.273,41.985493,11675.438};
-								angles[]={6.2299018,3.7500763,6.2591896};
+								position[]={20538.512,40.158379,11678.734};
+								angles[]={6.2551947,3.7500763,6.1012206};
 							};
 							id=414;
 							type="LocationCamp_F";
 						};
 					};
 					id=411;
-					atlOffset=-12.711273;
+					atlOffset=-13.377766;
 				};
 				class Item14
 				{
@@ -2430,31 +2428,6 @@ class Mission
 				class Item21
 				{
 					dataType="Layer";
-					name="Kalithea";
-					class Entities
-					{
-						items=1;
-						class Item0
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={17864.527,2.2517011,18164.811};
-								angles[]={0,2.1863215,0.013334315};
-							};
-							name="Town21";
-							init="nullReturn = [this, ""Kalithea"", resistance, 10, 30, 400, 200] execVM ""Common\Init\Init_Location.sqf""";
-							id=448;
-							type="LocationArea_F";
-							atlOffset=0.17799997;
-						};
-					};
-					id=447;
-					atlOffset=0.17799997;
-				};
-				class Item22
-				{
-					dataType="Layer";
 					name="Altis Int. Airport";
 					class Entities
 					{
@@ -2510,7 +2483,7 @@ class Mission
 					id=449;
 					atlOffset=0.1295929;
 				};
-				class Item23
+				class Item22
 				{
 					dataType="Layer";
 					name="Gravia";
@@ -2535,7 +2508,7 @@ class Mission
 					id=454;
 					atlOffset=0.17700005;
 				};
-				class Item24
+				class Item23
 				{
 					dataType="Layer";
 					name="Athira";
@@ -2593,7 +2566,7 @@ class Mission
 					id=456;
 					atlOffset=-1.3457069;
 				};
-				class Item25
+				class Item24
 				{
 					dataType="Layer";
 					name="Frini";
@@ -2618,7 +2591,7 @@ class Mission
 					id=461;
 					atlOffset=0.34799957;
 				};
-				class Item26
+				class Item25
 				{
 					dataType="Layer";
 					name="Ifestiona";
@@ -2643,7 +2616,7 @@ class Mission
 					id=463;
 					atlOffset=0.17499924;
 				};
-				class Item27
+				class Item26
 				{
 					dataType="Layer";
 					name="Lakka";
@@ -2691,7 +2664,7 @@ class Mission
 					id=467;
 					atlOffset=0.78823471;
 				};
-				class Item28
+				class Item27
 				{
 					dataType="Layer";
 					name="Stavros";
@@ -2739,7 +2712,7 @@ class Mission
 					id=471;
 					atlOffset=0.14222145;
 				};
-				class Item29
+				class Item28
 				{
 					dataType="Layer";
 					name="Neochori";
@@ -2787,7 +2760,7 @@ class Mission
 					id=475;
 					atlOffset=-1.9211731;
 				};
-				class Item30
+				class Item29
 				{
 					dataType="Layer";
 					name="Poliakko";
@@ -2835,7 +2808,7 @@ class Mission
 					id=479;
 					atlOffset=1.5845795;
 				};
-				class Item31
+				class Item30
 				{
 					dataType="Layer";
 					name="Katalaki";
@@ -2860,7 +2833,7 @@ class Mission
 					id=483;
 					atlOffset=0.17700005;
 				};
-				class Item32
+				class Item31
 				{
 					dataType="Layer";
 					name="Alikampas";
@@ -2907,7 +2880,7 @@ class Mission
 					id=485;
 					atlOffset=-2.480442;
 				};
-				class Item33
+				class Item32
 				{
 					dataType="Layer";
 					name="Therisa";
@@ -2932,7 +2905,7 @@ class Mission
 					id=489;
 					atlOffset=0.17800045;
 				};
-				class Item34
+				class Item33
 				{
 					dataType="Layer";
 					name="Zaros";
@@ -2969,13 +2942,13 @@ class Mission
 					id=491;
 					atlOffset=1.8965015;
 				};
-				class Item35
+				class Item34
 				{
 					dataType="Layer";
 					name="AAC Airfield";
 					class Entities
 					{
-						items=2;
+						items=3;
 						class Item0
 						{
 							dataType="Logic";
@@ -3000,11 +2973,22 @@ class Mission
 							id=498;
 							type="LocationCamp_F";
 						};
+						class Item2
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={11643.729,23.055084,11976.579};
+								angles[]={0,0,6.2791886};
+							};
+							id=1972;
+							type="LocationBase_F";
+						};
 					};
 					id=496;
-					atlOffset=0.011360168;
+					atlOffset=0.002779007;
 				};
-				class Item36
+				class Item35
 				{
 					dataType="Layer";
 					name="Agios Dionysios";
@@ -3051,7 +3035,7 @@ class Mission
 					id=499;
 					atlOffset=-8.8097153;
 				};
-				class Item37
+				class Item36
 				{
 					dataType="Layer";
 					name="Topolia";
@@ -3076,7 +3060,7 @@ class Mission
 					id=503;
 					atlOffset=0.1780014;
 				};
-				class Item38
+				class Item37
 				{
 					dataType="Layer";
 					name="Kore";
@@ -3101,7 +3085,7 @@ class Mission
 					id=505;
 					atlOffset=0.1740036;
 				};
-				class Item39
+				class Item38
 				{
 					dataType="Layer";
 					name="Negades";
@@ -3138,7 +3122,7 @@ class Mission
 					id=507;
 					atlOffset=-1.1151962;
 				};
-				class Item40
+				class Item39
 				{
 					dataType="Layer";
 					name="Kavala";
@@ -3196,7 +3180,7 @@ class Mission
 					id=510;
 					atlOffset=7.3964481;
 				};
-				class Item41
+				class Item40
 				{
 					dataType="Layer";
 					name="Aggelochori";
@@ -3243,7 +3227,7 @@ class Mission
 					id=515;
 					atlOffset=-16.953587;
 				};
-				class Item42
+				class Item41
 				{
 					dataType="Layer";
 					name="Neri";
@@ -3291,7 +3275,7 @@ class Mission
 					id=519;
 					atlOffset=5.2519646;
 				};
-				class Item43
+				class Item42
 				{
 					dataType="Layer";
 					name="Panochori";
@@ -3351,7 +3335,7 @@ class Mission
 					id=521;
 					atlOffset=4.97826;
 				};
-				class Item44
+				class Item43
 				{
 					dataType="Layer";
 					name="Syrta";
@@ -3387,7 +3371,7 @@ class Mission
 					id=524;
 					atlOffset=-0.45474243;
 				};
-				class Item45
+				class Item44
 				{
 					dataType="Layer";
 					name="Orino";
@@ -3412,7 +3396,7 @@ class Mission
 					id=527;
 					atlOffset=0.17700195;
 				};
-				class Item46
+				class Item45
 				{
 					dataType="Layer";
 					name="Galati";
@@ -3449,7 +3433,7 @@ class Mission
 					id=529;
 					atlOffset=-0.57640076;
 				};
-				class Item47
+				class Item46
 				{
 					dataType="Layer";
 					name="Abdera";
@@ -3486,7 +3470,7 @@ class Mission
 					id=532;
 					atlOffset=-14.425903;
 				};
-				class Item48
+				class Item47
 				{
 					dataType="Layer";
 					name="Airstrip";
@@ -3523,7 +3507,7 @@ class Mission
 					id=535;
 					atlOffset=-0.32745743;
 				};
-				class Item49
+				class Item48
 				{
 					dataType="Layer";
 					name="Oreokastro";
@@ -3582,7 +3566,7 @@ class Mission
 					id=538;
 					atlOffset=10.778473;
 				};
-				class Item50
+				class Item49
 				{
 					dataType="Layer";
 					name="Agios Konstantinos";
@@ -3629,7 +3613,7 @@ class Mission
 					id=543;
 					atlOffset=1.1721439;
 				};
-				class Item51
+				class Item50
 				{
 					dataType="Layer";
 					name="Koroni";
@@ -3654,7 +3638,7 @@ class Mission
 					id=547;
 					atlOffset=0.1780014;
 				};
-				class Item52
+				class Item51
 				{
 					dataType="Layer";
 					name="Stadium Road";
@@ -3691,7 +3675,7 @@ class Mission
 					id=635;
 					atlOffset=-0.019001007;
 				};
-				class Item53
+				class Item52
 				{
 					dataType="Layer";
 					name="Xirolimni dam";
@@ -3714,7 +3698,7 @@ class Mission
 					};
 					id=637;
 				};
-				class Item54
+				class Item53
 				{
 					dataType="Layer";
 					name="Dump";
@@ -3737,10 +3721,10 @@ class Mission
 					};
 					id=639;
 				};
-				class Item55
+				class Item54
 				{
 					dataType="Layer";
-					name="Dump2";
+					name="Dump Little";
 					class Entities
 					{
 						items=1;
@@ -3760,7 +3744,7 @@ class Mission
 					};
 					id=641;
 				};
-				class Item56
+				class Item55
 				{
 					dataType="Layer";
 					name="Sideras";
@@ -3785,7 +3769,7 @@ class Mission
 					id=643;
 					atlOffset=-4.7683716e-07;
 				};
-				class Item57
+				class Item56
 				{
 					dataType="Layer";
 					name="Agia Triada";
@@ -3810,7 +3794,7 @@ class Mission
 					id=645;
 					atlOffset=0.17799997;
 				};
-				class Item58
+				class Item57
 				{
 					dataType="Layer";
 					name="Vikos";
@@ -3833,7 +3817,7 @@ class Mission
 					};
 					id=647;
 				};
-				class Item59
+				class Item58
 				{
 					dataType="Layer";
 					name="Ekali";
@@ -3858,7 +3842,7 @@ class Mission
 					id=649;
 					atlOffset=0.17000198;
 				};
-				class Item60
+				class Item59
 				{
 					dataType="Layer";
 					name="Salt Lake";
@@ -3883,7 +3867,7 @@ class Mission
 					id=651;
 					atlOffset=0.17799997;
 				};
-				class Item61
+				class Item60
 				{
 					dataType="Layer";
 					name="Edessa";
@@ -3908,20 +3892,45 @@ class Mission
 					id=673;
 					atlOffset=0.17799997;
 				};
+				class Item61
+				{
+					dataType="Layer";
+					name="Kalithea";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={17864.527,2.2517011,18164.811};
+								angles[]={0,2.1863215,0.013334315};
+							};
+							name="Town21";
+							init="nullReturn = [this, ""Kalithea"", resistance, 10, 30, 400, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=448;
+							type="LocationArea_F";
+							atlOffset=0.17799997;
+						};
+					};
+					id=447;
+					atlOffset=0.17799997;
+				};
 			};
 			id=262;
-			atlOffset=-4.8166666;
+			atlOffset=-9.0712662;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=107;
+			nextID=108;
 		};
 		class Links
 		{
-			items=107;
+			items=108;
 			class Item0
 			{
 				linkID=0;
@@ -4987,6 +4996,16 @@ class Mission
 				linkID=106;
 				item0=672;
 				item1=522;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item107
+			{
+				linkID=107;
+				item0=1972;
+				item1=497;
 				class CustomData
 				{
 					type="Sync";

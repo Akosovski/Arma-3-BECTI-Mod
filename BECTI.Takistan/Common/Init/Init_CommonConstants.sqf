@@ -627,7 +627,7 @@ with missionNamespace do {
 	
 	if (CTI_ENVIRONMENT_WEATHER_FAST > 0) then {CTI_ENVIRONMENT_WEATHER_FAST = CTI_ENVIRONMENT_WEATHER_FAST_VALUES select CTI_ENVIRONMENT_WEATHER_FAST};
 	
-	CTI_GAMEPLAY_VOTE_TIME = if (CTI_Debug) then {8} else {15};
+	CTI_GAMEPLAY_VOTE_TIME = if (CTI_Debug) then {10} else {10};
 	
 	if (isNil 'CTI_GAMEPLAY_TEAMSTACK_DISABLE') then {CTI_GAMEPLAY_TEAMSTACK_DISABLE = 1}; //--- Teamstacking script. (0: Disabled, 1: +1 Player Advantage, 2: +2 Player Advantage, 3: +3 Player Advantage, 4: +4 Player Advantage, 5: +5 Player Advantage).
 	if (isNil 'CTI_GAMEPLAY_TEAMSWAP_DISABLE') then {CTI_GAMEPLAY_TEAMSTACK_DISABLE = 1}; //--- Teamswitch script. (0: Disabled, 1: Enabled).
